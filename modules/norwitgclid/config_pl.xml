@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>norwitgclid</name>
+    <displayName><![CDATA[Norwit Conversion Tracker]]></displayName>
+    <version><![CDATA[1.1.0]]></version>
+    <description><![CDATA[Server-side tracking for Google Ads offline conversions (gclid/wbraid/gbraid)]]></description>
+    <author><![CDATA[Norwit.pl]]></author>
+    <tab><![CDATA[analytics_stats]]></tab>
+    <is_configurable>0</is_configurable>
+    <need_instance>0</need_instance>
+</module>

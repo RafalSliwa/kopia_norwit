@@ -1,0 +1,65 @@
+/* ps_searchbar module css file */
+.ui-autocomplete.searchbar-autocomplete {
+  width: 100%;
+  min-height: 100%;
+  border-color: #ddd;
+}
+
+.ui-autocomplete.searchbar-autocomplete li.ui-menu-item {
+  border-bottom: 1px solid #ddd;
+}
+
+.ui-autocomplete.searchbar-autocomplete li a,
+.ui-autocomplete.searchbar-autocomplete li a.ui-state-focus {
+  padding: 8px 15px;
+  overflow: auto;
+  border: none;
+  background: none;
+  margin: auto;
+  border-radius: 0;
+}
+
+.ui-autocomplete.searchbar-autocomplete li a:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.ui-autocomplete.searchbar-autocomplete li a .autocomplete-thumbnail {
+  float: left;
+  width: 50px;
+  height: auto;
+  margin-right: 8px;
+}
+
+.ui-autocomplete.searchbar-autocomplete {
+  min-height: auto;
+  left: auto;
+  z-index: 8;
+}
+
+@media only screen and (min-width: 992px) {
+  .ui-autocomplete.searchbar-autocomplete {
+      width: 100%;
+      min-height: auto;
+      left: auto;
+      max-width: 750px;
+  }
+}
+
+@media (max-width :1529px) and (min-width: 992px) {
+  .ui-autocomplete.searchbar-autocomplete {
+      max-width: 470px;
+  }
+}
+
+@media (max-width :991px) and (min-width: 880px) {
+  .ui-autocomplete.searchbar-autocomplete {
+      max-width: 390px;
+  }
+}
+
+@media (max-width :879px) {
+  .ui-autocomplete.searchbar-autocomplete {
+      max-width: 849px;
+  }
+}

@@ -1,0 +1,1 @@
+<div class="alert alert-info"> <p><strong>{l s="This module allows you to accept secure payments by Leaselink." d='Modules.Leaselinkpayment.Admin'}</strong></p> </div>

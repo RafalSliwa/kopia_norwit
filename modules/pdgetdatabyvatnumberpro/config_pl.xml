@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>pdgetdatabyvatnumberpro</name>
+    <displayName><![CDATA[Autouzupełnianie danych adresowych po numerze VAT]]></displayName>
+    <version><![CDATA[1.1.7]]></version>
+    <description><![CDATA[Moduł pozwala na autouzupełnianie danych adresowych po numerze VAT podczas procesu rejestracji / zakup&oacute;w / dodawania adresu]]></description>
+    <author><![CDATA[PrestaDev.pl]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+</module>

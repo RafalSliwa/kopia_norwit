@@ -1,0 +1,27 @@
+{% if app.request.locale == 'pl-PL' %}
+   {% set title2 = 'Dostępność produktu w Ceneo' %}
+   {% set button = 'Aktualizuj' %}
+{% else %}
+   {% set title2 = 'Product availability on Ceneo' %}
+   {% set button = 'Update' %}
+{% endif %}
+
+{% embed '@PrestaShop/Admin/Helpers/bootstrap_popup.html.twig' with {
+   'id': 'changeAvailabilityStatusModal',
+   'title': title2,
+   'closable': true,
+   'actions': [{
+      'type': 'button',
+      'label': button,
+      'class': 'btn btn-primary btn-lg js-submit-modal-form-btn',
+   }],
+} %}
+   {% block content %}
+      <div class="modal-body">
+         {{ form_start(changeAvailabilityStatusForm, {
+            'action': path('ceneo_xml_products_availability_status')
+         }) }}
+         {{ form_end(changeAvailabilityStatusForm) }}
+      </div>
+   {% endblock %}
+{% endembed %}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test płynnego ładowania ceny wysyłki</title>
+    <style>
+        .test-container {
+            border: 2px solid #ddd;
+            padding: 20px;
+            margin: 10px 0;
+            border-radius: 8px;
+        }
+        .dynamic-shipping-price {
+            font-weight: bold;
+            color: #2196F3;
+            transition: opacity 0.3s ease, color 0.2s ease;
+        }
+        .loading {
+            opacity: 0.6 !important;
+            color: #999 !important;
+        }
+        .loaded {
+            opacity: 1 !important;
+            color: #4CAF50 !important;
+        }
+        button {
+            padding: 10px 15px;
+            margin: 5px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .btn-test { background: #2196F3; color: white; }
+        .btn-reset { background: #f44336; color: white; }
+        .btn-cache { background: #FF9800; color: white; }
+    </style>
+</head>
+<body>
+    <h1>Test płynnego ładowania ceny wysyłki</h1>
+    
+    <div class="test-container">
+        <h3>Symulacja modal.tpl (produkt 2681):</h3>
+        <p>
+            <span class="delivery-text">Dostawa 
+                <span class="dynamic-shipping-price" data-product-id="2681" id="price1">
+                    od 30,75 zł
+                </span>
+            </span>
+        </p>
+    </div>
+    
+    <div class="test-container">
+        <h3>Test różnych stanów:</h3>
+        <p>Stan początkowy: <span class="dynamic-shipping-price" id="price2">od 30,75 zł</span></p>
+        <p>Z cache: <span class="dynamic-shipping-price" id="price3">od 30,75 zł</span></p>
+        <p>Po AJAX: <span class="dynamic-shipping-price" id="price4">od 30,75 zł</span></p>
+    </div>
+    
+    <div>
+        <button class="btn-test" onclick="simulateAjaxLoad()">🔄 Symuluj ładowanie AJAX</button>
+        <button class="btn-cache" onclick="simulateCache()">💾 Symuluj cache (67,65 zł)</button>
+        <button class="btn-test" onclick="testRealAjax()">🌐 Test prawdziwego AJAX</button>
+        <button class="btn-reset" onclick="resetPrices()">🔄 Reset</button>
+    </div>
+    
+    <div id="log" style="background: #f5f5f5; padding: 10px; margin: 10px 0; font-family: monospace; max-height: 300px; overflow-y: auto;">
+        <strong>Log testów:</strong><br>
+    </div>
+
+    <script>
+        const logDiv = document.getElementById('log');
+        
+        function log(message) {
+            const timestamp = new Date().toLocaleTimeString();
+            logDiv.innerHTML += `[${timestamp}] ${message}<br>`;
+            logDiv.scrollTop = logDiv.scrollHeight;
+        }
+        
+        function simulateAjaxLoad() {
+            log('🔄 Symulacja ładowania AJAX...');
+            const elements = document.querySelectorAll('.dynamic-shipping-price');
+            
+            elements.forEach((el, index) => {
+                // Faza 1: Stan ładowania
+                el.style.opacity = '0.6';
+                el.style.color = '#999';
+                log(`  • Element ${index + 1}: Ustawiono stan ładowania`);
+                
+                // Faza 2: Po 150ms - aktualizacja ceny
+                setTimeout(() => {
+                    el.textContent = 'od 67,65 zł';
+                    el.style.opacity = '1';
+                    el.style.color = '#4CAF50';
+                    log(`  • Element ${index + 1}: Zaktualizowano na 67,65 zł`);
+                }, 150 + (index * 50)); // Stopniowo dla każdego elementu
+            });
+            
+            log('✅ Symulacja zakończona');
+        }
+        
+        function simulateCache() {
+            log('💾 Symulacja użycia cache...');
+            const elements = document.querySelectorAll('.dynamic-shipping-price');
+            
+            // Symuluj ustawienie cache
+            window.currentMaxShippingCost = 67.65;
+            log('💾 Ustawiono cache: 67.65');
+            
+            elements.forEach((el, index) => {
+                // Natychmiastowa aktualizacja z cache
+                const formattedCost = window.currentMaxShippingCost.toFixed(2).replace('.', ',');
+                el.textContent = `od ${formattedCost} zł`;
+                el.style.opacity = '1';
+                el.style.color = '#4CAF50';
+                log(`  • Element ${index + 1}: Natychmiast z cache: ${formattedCost} zł`);
+            });
+            
+            log('✅ Cache zastosowany - brak migania!');
+        }
+        
+        function testRealAjax() {
+            log('🌐 Test prawdziwego AJAX...');
+            const element = document.getElementById('price1');
+            
+            element.style.opacity = '0.6';
+            element.style.color = '#999';
+            log('🔄 Rozpoczynam prawdziwe zapytanie AJAX...');
+            
+            fetch('/kopia_norwit/modules/relatedproducts/ajax.php', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+                body: 'action=getShippingInfo&id_product=2681'
+            })
+            .then(response => response.json())
+            .then(data => {
+                log(`📦 Otrzymano odpowiedź: ${data.formatted_price}`);
+                
+                setTimeout(() => {
+                    element.textContent = data.formatted_price;
+                    element.style.opacity = '1';
+                    element.style.color = '#4CAF50';
+                    log(`✅ Zaktualizowano: ${data.formatted_price}`);
+                }, 150);
+            })
+            .catch(error => {
+                log(`❌ Błąd AJAX: ${error.message}`);
+                element.style.opacity = '1';
+                element.style.color = '#f44336';
+            });
+        }
+        
+        function resetPrices() {
+            log('🔄 Reset wszystkich cen...');
+            const elements = document.querySelectorAll('.dynamic-shipping-price');
+            
+            elements.forEach((el, index) => {
+                el.textContent = 'od 30,75 zł';
+                el.style.opacity = '1';
+                el.style.color = '#2196F3';
+            });
+            
+            // Wyczyść cache
+            window.currentMaxShippingCost = 0;
+            log('🗑️ Wyczyszczono cache');
+            log('✅ Reset zakończony');
+        }
+        
+        // Auto-demo po załadowaniu
+        window.onload = function() {
+            log('🚀 Strona załadowana');
+            log('ℹ️ Kliknij przyciski aby przetestować różne scenariusze');
+            
+            // Pokaz demo po 2 sekundach
+            setTimeout(() => {
+                log('🎬 Automatyczne demo...');
+                simulateAjaxLoad();
+            }, 2000);
+        };
+    </script>
+</body>
+</html>

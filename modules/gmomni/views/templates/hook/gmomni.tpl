@@ -1,0 +1,1 @@
+<div class="omni" style="color:{$gmOmniColor};">{l s='Lowest price within 30 days before promotion:' mod='gmomni'} <span style="color:{$gmOmniPriceColor};">{$gmOmniLowestPrice}</span></div>

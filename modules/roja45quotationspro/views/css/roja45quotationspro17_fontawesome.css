@@ -1,0 +1,409 @@
+/**
+    DisplayNav
+ */
+#header .quotation_cart .header:before {
+    font-family: "FontAwesome";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 1em;
+    height: 1em;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+    content: '\f03a';
+}
+
+#header .quotation_cart .header .arrow_drop_down:before {
+    font-family: FontAwesome;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 1em;
+    height: 1em;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+    content: '\f078';
+}
+
+#header .quotation_cart .header .arrow_drop_up:before {
+    font-family: FontAwesome;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 1em;
+    height: 1em;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+    content: '\f077';
+}
+
+#header .quotation_cart .dropdown-menu a.remove-from-cart:before {
+    font-family: FontAwesome;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 1em;
+    height: 1em;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+    content: '\f1f8';
+}
+
+.btn.add-to-quote:before {
+    font-family: FontAwesome;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 1em;
+    height: 1em;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+    content: '\f03a';
+}
+
+/*
+    DisplayCustomerAccount
+ */
+
+.page-my-account #content a#quotes-link span.link-item:before {
+    display: block;
+    color: #232323;
+    padding-bottom: 3.4rem;
+    font-family: FontAwesome;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.6rem;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    height: 1em;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+    content: '\f03a';
+}
+
+.page-my-account #content a#quote-history-link span.link-item:before {
+    display: block;
+    color: #232323;
+    padding-bottom: 3.4rem;
+    font-family: FontAwesome;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.6rem;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    height: 1em;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+    content: '\f03a';
+}
+
+/**
+    Customer Quotes
+ */
+
+.btn.btn-view-quote:before {
+    font-family: FontAwesome;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 1em;
+    height: 1em;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+    content: '\f03a';
+}
+
+.btn.btn-download-pdf:before {
+    font-family: FontAwesome;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 1em;
+    height: 1em;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+    content: '\f1c1';
+}
+
+.btn.btn-add-to-cart:before {
+    font-family: FontAwesome;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 1em;
+    height: 1em;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+    content: '\f217';
+}
+
+.btn.btn-add-to-order:before {
+    font-family: FontAwesome;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 1em;
+    height: 1em;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+    content: '\f217';
+}
+
+.btn.btn-please-wait:before {
+    font-family: FontAwesome;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 1em;
+    height: 1em;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+    content: '\f017';
+}
+
+.roja-account-link:before {
+    font-family: FontAwesome;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 1em;
+    height: 1em;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+    content: '\f053';
+}
+
+.btn-roja-continue-shopping:before {
+    font-family: FontAwesome;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 1em;
+    height: 1em;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+    content: '\f053';
+}
+
+.btn-roja-home:before {
+    font-family: FontAwesome;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 1em;
+    height: 1em;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+    content: '\f015';
+}
+
+#request-summary-content a.btn-roja-delete-item:before {
+    font-family: FontAwesome;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 1em;
+    height: 1em;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+    content: '\f1f8';
+}
+
+.bootstrap-touchspin .input-group-btn-vertical i.rojaquotationspro-icons {
+    font-size: 12px;
+    font-family: FontAwesome;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+    position: absolute;
+}
+
+.bootstrap-touchspin .input-group-btn-vertical i.rojaquotationspro-icons.touchspin-up:after {
+    content: '\f077';
+}
+.bootstrap-touchspin .input-group-btn-vertical i.rojaquotationspro-icons.touchspin-down:after {
+    content: '\f078';
+}

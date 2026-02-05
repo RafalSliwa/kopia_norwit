@@ -1,0 +1,74 @@
+{
+    "2.0.4": [
+        "Fix a problem to access to the license informations (error #47 - Maximum redirects followed)"
+    ],
+    "2.0.2": [
+        "Fix icons for PS 1.6"
+    ],
+    "2.0.1": [
+        "Fix compatibility with ps_mbo",
+        "Handle unexpected error 500 but with correct response body"
+    ],
+    "2.0.0": [
+        "Handle the migration of your old Page Cache Ultimate license to our all-in-one Speed Pack module license",
+        "Fix the upgrade of theme",
+        "Add missing translations",
+        "Fix an issue when a clone is detected (choice was not saved)"
+    ],
+    "1.5.1": [
+        "Make informations clearer",
+        "Translations in french, spanish and polish"
+    ],
+    "1.5.0": [
+        "Redirect 'Configure' to the controller",
+        "Display a notification when a new version is available",
+        "Add button 'Configure'"
+    ],
+    "1.4.2": [
+        "Better compatibility with PS1.6"
+    ],
+    "1.4.1": [
+        "Handle JPresta O'Deco edition"
+    ],
+    "1.4.0": [
+        "Handle new suffix -PS1.7-PS8",
+        "Compatibility with PS1.6"
+    ],
+    "1.3.1": [
+        "Compatibility with PS8"
+    ],
+    "1.3.0": [
+        "Detects when you clone Prestashop to avoid conflict with licenses"
+    ],
+    "1.2.1": [
+        "Remove the SSL certification check because it often fails"
+    ],
+    "1.2.0": [
+        "Improve the connection to the JPresta.com server"
+    ],
+    "1.1.2": [
+        "Improve the build"
+    ],
+    "1.1.1": [
+        "Handle exceptions in getLicenses()"
+    ],
+    "1.1.0": [
+        "Improve the error message when the licenses or zip files cannot be downloaded"
+    ],
+    "1.0.6": [
+        "Fix an issue when Prestashop token is not found",
+        "Use the new token key to avoid issue with cloned shops"
+    ],
+    "1.0.5": [
+        "Increase timeout and use fallbacks for better compatibility"
+    ],
+    "1.0.4": [
+        "Use Tools::file_get_contents() instead of fopen() for better compatibility"
+    ],
+    "1.0.3": [
+        "Disable cache clearing when upgrading a module, it is tool long and can be done manually"
+    ],
+    "1.0.2": [
+        "First public release"
+    ]
+}

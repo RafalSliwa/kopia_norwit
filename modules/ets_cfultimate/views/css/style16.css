@@ -1,0 +1,18 @@
+.custom_choosefile div.uploader span.filename {
+    width: 100%;
+}
+
+.custom_choosefile div.uploader span.action {
+    display: none !important;
+}
+.ets_cfu_col div.checker {
+    display: inline-block;
+}
+.ets_cfu_col .selector {
+    max-width: 300px;
+}
+.ets_cfu_col div.selector span{
+    max-width: 100%;
+}
+
+

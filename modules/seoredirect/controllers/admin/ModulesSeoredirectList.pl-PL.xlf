@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="padmin" source-language="pl-PL" target-language="pl-PL" datatype="plaintext">
+    <body>
+      <trans-unit id="d3b206d196cd6be3a2764c1fb90b200f">
+        <source>Delete selected</source>
+        <target>Usuń wybrane</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="e25f0ecd41211b01c83e5fec41df4fe7">
+        <source>Delete selected items?</source>
+        <target>Usunąć wybrane elementy?</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="b718adec73e04ce3ec720dd11a06a308">
+        <source>ID</source>
+        <target>ID</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="502996d9790340c5fd7b86a5b93b1c9f">
+        <source>Priority</source>
+        <target>Priorytet</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="6c9ab3bc2a9d5dd420201dd3093721fc">
+        <source>Old URL</source>
+        <target>Stary URL</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="79191cea6b9ff569b91282686209e190">
+        <source>New URL</source>
+        <target>Nowy URL</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="a1fa27779242b4902f7ae3bdd5c6d508">
+        <source>Type</source>
+        <target>Typ</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="4d3d769b812b6faa6b76e1a8abaece2d">
+        <source>Active</source>
+        <target>Aktywny</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="c2e2674e3d72303850db2268d7013497">
+        <source>Regexp</source>
+        <target>Wyrażenie regularne</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="c4a0dbaac3bd0f3bf581ad822f5fb4b4">
+        <source>Wildcard</source>
+        <target>Wildcard</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="b3007a674e4344e67a8bd6ddce86b8a6">
+        <source>duplicated</source>
+        <target>Duplikat</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="ef61fb324d729c341ea8ab9901e23566">
+        <source>Add new</source>
+        <target>Dodaj nowe</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="c33e404a441c6ba9648f88af3c68a1ca">
+        <source>Statistics</source>
+        <target>Statystyki</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="dc7add6f707db62af2226bcf905e07ef">
+        <source>Import redirections</source>
+        <target>Zaimportuj przekierowania</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="23b36d89bbafd1587c577cea0f92ce25">
+        <source>Regular expressions</source>
+        <target>Wyrażenia regularne</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="13216797f17ddab89254c23b156db643">
+        <source>You can use regular expressions to define redirections.</source>
+        <target>Możesz wykorzystać wyrażenia regularne do zdefiniowania przekierowań</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="b0bd0c28426e3c8d8016d912db670480">
+        <source>Wildcards</source>
+        <target>Wildcardy</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="542ac8e5104610dd08ce0c3dfa740c5a">
+        <source>301 Permanent</source>
+        <target>301 Permanent</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="ca4b13ed3f5a9ef2242684c4327522ad">
+        <source>302 Temporary</source>
+        <target>302 Temporary</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="8c3c08ed69e0420a2ccd6cc5fa6432e2">
+        <source>303 Redirection</source>
+        <target>303 Redirection</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="9cfa935d8c7fe1a7cf5df80abbdfdeb8">
+        <source>410 Gone</source>
+        <target>410 Gone</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="00d23a76e43b46dae9ec7aa9dcbebb32">
+        <source>Enabled</source>
+        <target>Włączone</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="b9f5c797ebbf55adccdd8539a65a0241">
+        <source>Disabled</source>
+        <target>Wyłączone</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="e85b568a3cbb0b6dd0cfdb585be3f4d4">
+        <source>New redirection</source>
+        <target>Nowe przekierowanie</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="b4bad9f925ef0d8d7d3563b517ec7725">
+        <source>Relative path</source>
+        <target>Ścieżka względna</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="86e80dd72cd75465d75be7cc89454093">
+        <source>Use this only if you want to create relative url for old URL. Option removes domain address from url so redirection will work even if you will change the domain of your shop.</source>
+        <target>Wykorzystaj tę opcję jeżeli chcesz utworzyć względną ścieżkę dla starego adresu URL. Opcja usuwa adres domeny z tego pola, więc przekierowanie będzie działać nawet gdy zmienisz domenę swojego sklepu</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="521c36a31c2762741cf0f8890cbe05e3">
+        <source>On</source>
+        <target>On</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="d15305d7a4e34e02489c74a5ef542f36">
+        <source>Off</source>
+        <target>Off</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="ac3400af694bde273b6ab243ceb4db1a">
+        <source>Type of URL</source>
+        <target>Typ URL:</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="3d091e856cb7615d1ccb96bc759b5a92">
+        <source>Active:</source>
+        <target>Aktywne:</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="fccbf75cf2822ab7980a78fd73684b92">
+        <source>Use this only if you want to create regular expression rediraction and if you know how to use regexp</source>
+        <target>Wykorzystaj tę opcję tylko jeżeli chcesz utworzyć przekierowanie bazujące na wyrażeniu regularnych i jeżeli wiesz jak z nich korzystać</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="06ae673f7e51a8fee097715631f9fda2">
+        <source>When you will use this option the "old url" field above must be a regular expression, it is very important to use correct regular expression syntax</source>
+        <target>Jak włączysz opcję wyrażeń regularnych wówczas "stary URL" musi być wyrażeniem regularnym. To bardzo ważne - w przeciwnym wypadku to przekierowanie nie będzie działać poprawnie</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="1bc8d82f1add48f74525681afa50c646">
+        <source>Use this only if you want to create wildcard rediraction and if you know how to use wildcards</source>
+        <target>Wykorzystaj tę opcję tylko jeżeli chcesz utworzyć przekierowanie typu wildcard i jeżeli wiesz jak z nich korzystać</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="b6d357e3fff2880eb2d79adbf567c092">
+        <source>Execution priority</source>
+        <target>Priorytet uruchamiania</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="6f107380b45c88033d1041f5860716eb">
+        <source>Module executes redirections one by one. The higher value you will enter here - the more important redirection is. Type here numbers only.</source>
+        <target>Moduł uruchamia przekierowania jedno po drugim. Im wyższa wartość priorytetu - tym wazniejsze jest przekierowanie i tym wcześniej zostanie uruchomione. Wprowadź tu tylko numery.</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="c9cc8cce247e49bae79f15173ce97354">
+        <source>Save</source>
+        <target>Zapisz</target>
+        <note>Line: </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

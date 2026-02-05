@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="padmin" source-language="pl-PL" target-language="pl-PL" datatype="plaintext">
+    <body>
+      <trans-unit id="21714ffa517dfcd0be11633240d5edaf">
+        <source>Disable and redirect to parent category (if exists, otherwise redirect to homepage)</source>
+        <target>Wyłącz i przekieruj do kategorii nadrzędniej (jeżeli taka jest, jeżeli nie ma - przekieruj do strony głównej)</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="83f1aa4b4b97511c2b5b2ddfa22e304e">
+        <source><![CDATA[Disable & hide automatically]]></source>
+        <target>Wyłącz i ukryj automatycznie</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="80896948747fe2c19aa8b6a9043e3335">
+        <source>Disable visibility in shop's catalog</source>
+        <target>Wyłącz widoczność w katalogu</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="442d303b3880750490e03d11286b4661">
+        <source>If you don't want to disable / hide or redirect some products you can define exclusions.</source>
+        <target>Jeżeli nie chcesz wyłączać / ukrywać przekierowań pewnych produktów - możesz zdefiniować wykluczenia</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="a75a04582f397e7f40a9b092b1717e6b">
+        <source>If you don't want to disable / hide or redirect products from categories you can define exclusions.</source>
+        <target>Jeżeli nie chcesz wyłączać / ukrywać produktów z kategorii możesz zdefiniować wykluczenia</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="6f1b3f67222c60e68eee829b799647c0">
+        <source>Do not hide "allowed to order" products</source>
+        <target>Nie ukrywaj produktów które można zamawiać</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="1c2515375ebb4bb3b5c2f9db7f37e46c">
+        <source>Turn this option if you do not want to hide out of stock products that are marked as "allowed to order when out of stock"</source>
+        <target>Włącz tę opcję, jeżeli nie chcesz ukrywać produktów out of stock które mają włączoną opcję "zamawiania gdy nie ma go na stanie"</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="608ae356750e7209d2e596a65b7205f7">
+        <source>Module enables and disables out of stock / in stock products when someone will try to access to product page. You can bulk enable / disable them with cron job. Details below</source>
+        <target>Moduł włącza i wyłącza produkty out of stock / in stock gdy ktoś spróbuje odwiedzić stronę takiego produktu. Możesz również automatycznie włączać / wyłączać produkty zdaniem cron. Szczegóły poniżej</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="49c6dc8bb24695be8c8faa13d7eb36e2">
+        <source>Add this url to your cron job table to disable and/or enable out of stock products automatically</source>
+        <target>Dodaj ten adres URL do zadania cron do włączania/wyłączania produktów out of stock autmatycznie</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="a294cdc4dfc3b8797d22cecdcf71d385">
+        <source>Module allows to create an unlimited number of 301, 302, 303 URL redirects to optimize the SEO of your shop.</source>
+        <target>Moduł pozwala na utworzenie nielimitowanej ilości przekierowań 301,302,303 które z całą pewnością wpłyną pozytywnie na pozycję sklepu w wyszukiwarkach</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="57206dc27305060c5c29150d3ad00401">
+        <source>MyPresta updates</source>
+        <target>Aktualizacje MyPresta</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="d7d90723c19e43735e731a36a2739c8b">
+        <source>Check updates</source>
+        <target>Sprawdź</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="2c872e677f8b5831f20a66c65e7f8966">
+        <source>Check now</source>
+        <target>Sprawdź</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="722eb8a4b2d0b1c305d6361bcc7564e7">
+        <source>Updates notifications</source>
+        <target>Notyfikacje</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="633703a658469b7fab7f42e04e59d27a">
+        <source>-- select --</source>
+        <target>-- wybierz --</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="2faec1f9f8cc7f8f40d521c4dd574f49">
+        <source>Enable</source>
+        <target>Włącz</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="bcfaccebf745acfd5e75351095a5394a">
+        <source>Disable</source>
+        <target>Wyłącz</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="cc6fc347e9fd233bddcb7895e307e9a9">
+        <source>Turn this option on if you want to check MyPresta.eu for module updates automatically. This option will display notification about new versions of this addon.</source>
+        <target>Włącz tę opcję jeżeli chcesz aby moduł sprawdzał dostępność aktualizacji. Opcja gdy włączona wyświetli notyfikacje o dostępności nowych wersji.</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="0d24168598880003b80f9e85b8e1d62a">
+        <source>Module page</source>
+        <target>Strona modułu</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="07ac9eab57de962a9518a7545fd475fe">
+        <source>This is direct link to official addon page, where you can read about changes in the module (changelog)</source>
+        <target>To jest bezpośredni link do oficjalnej strony modułu gdzie dostępna jest zakładka z changelogiem (listą zmian)</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="c9cc8cce247e49bae79f15173ce97354">
+        <source>Save</source>
+        <target>Zapisz</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="4c73ce9e52a25c69cf0dce126d548f98">
+        <source>New version available, check http://MyPresta.eu for more informations</source>
+        <target>Nowa wersja dostępna, sprawdź mypresta.eu</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="2b2972b182c459cca33e2ad5bc02ffa4">
+        <source>More details in changelog</source>
+        <target>Więcej w changelogu</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="af02b06496e83946e73e69d774782654">
+        <source>New version available!</source>
+        <target>Nowa wersja dostepna!</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="358a5fcb448d507b41d7c0a83485973a">
+        <source>Module is up to date!</source>
+        <target>Moduł jest aktualny!</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="dafc7de64df10ce2c6cffb25a407a451">
+        <source>Redirections log</source>
+        <target>Log przkierowań</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="f4cbfbf3d55d94e3f20047850df5d6f9">
+        <source>categories disabled</source>
+        <target>kategorie wyłączone</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="b3e07a3bbb99318e0725fd2149d2891e">
+        <source>categories re-enabled</source>
+        <target>kategorie włączone</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="3bfee924e65b8a14ba16b14feba59b6c">
+        <source>Example of regular expression:</source>
+        <target>Przykład wyrażenia regularnego:</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="59995ef555eabbd60d06ce0939239bd4">
+        <source>OLD URL:</source>
+        <target>STARY URL:</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="2342d2bfc33c0d51e4be6fc213aea908">
+        <source>NEW URL:</source>
+        <target>NOWY URL:</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="0190b31a614141782c7654883e14eec8">
+        <source>? (question mark)</source>
+        <target>? (znak zapytania)</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="cb7b83b103f009546014da316044e1a7">
+        <source>this can represent any single character. If you specified something at the command line like "hd?" - script would look for hda, hdb, hdc and every other letter/number between a-z, 0-9.</source>
+        <target>Wykorzystanie znaku zapytania w ciągu znaków oznacza, że za znak zapytania będzie podstawiony dowolny znak. Jeżeli wprowadzisz taki fragment url np: "hd?" to moduł za znak zapytania podstawi inną liczbę / literę np: "hda" "hdi" "hdd" "hd3</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="db2fed51b2adca2313353370ee29df90">
+        <source>* (asterisk)</source>
+        <target>* (gwiazdka)</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="170846cad9965467c1712ad637cf4b64">
+        <source>this can represent any number of characters (including zero, in other words, zero or more characters). If you specified a "cd*" it would use "cda", "cdrom", "cdrecord" and anything that starts with “cd” also including “cd” itself. "m*l" could by mill, mull, ml, and anything that starts with an m and ends with an l.</source>
+        <target>Gwiazdka, gdy wykorzystana w adresie url zostanie zastąpiona dowolną ilością znaków, cyfr i liter. Jeżeli wprowadzisz do url tagi ciąg "cd*Wykorzystanie znaku zapytania w ciągu znaków oznacza, że za znak zapytania będzie podstawiony dowolny znak. Jeżeli wprowadzisz taki fragment url np: \"hd?\" to moduł za znak zapytania podstawi inną liczbę / literę np: \"hda\" \"hdi\" \"hdd\" \"hd3\" wówczas moduł podstawi za gwiazdkę dowolny znak / znaki np, "cda" "cdrom" "cd-rom\. </target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="8adafbae7cabee461f1af52a1325495b">
+        <source>[ ] (square brackets)</source>
+        <target>[ ] (nawiasy kwadratowe)</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="9d329d66e7fe62f65d4f8e1012225782">
+        <source>specifies a range. If you did m[a,o,u]m it can become: mam, mum, mom if you did: m[a-d]m it can become anything that starts and ends with m and has any character a to d inbetween. For example, these would work: mam, mbm, mcm, mdm. This kind of wildcard specifies an “or” relationship (you only need one to match).</source>
+        <target>Gdy zostaną wykorzystane w adresie url - oznaczają zakres naków. np. [a,b,c] - wówczas moduł do takie frazy podstawi tylko te znaki które są umieszczone w nawiasie kwadratowym. np. M[a,o,u]m poskutkuje utworzeniem fraz Mam, Mom, Mum.</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="a8f803ea5f73c00c0193b94348380fac">
+        <source>{ } (curly brackets)</source>
+        <target>{ } (nawiasy klamrowe)</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="20b0fd95c2b5e1fc1aa58ab8a60d2e38">
+        <source>terms are separated by commas and each term must be the name of something or a wildcard. This wildcard will copy anything that matches either wildcard(s), or exact name(s) (an “or” relationship, one or the other). For example, this would be valid: {*printed*,*summer*} - this will check urls for "printed" or "summer" words</source>
+        <target>Gdy zostaną wykorzystane w adresie url - moduł spróbuje dopasować zdefiniowany wewnątrz ciąg do adresu url. np {*printed*,*summer*} - wówczas moduł sprawdzi url czy w adresie nie występuje słowo printer lub summer (zastosowanie gwiazdek to wildcard  - patrz "gwiazdka"</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="192735cffa56cf04e2815077d2e6baeb">
+        <source>[!] </source>
+        <target>[!]</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="d4b04f9c4e3fdc12607f23bac3fd9086">
+        <source>This construct is similar to the [ ] construct, except rather than matching any characters inside the brackets, it'll match any character, as long as it is not listed between the [ and ]. This is a logical NOT.</source>
+        <target>Gdy w adresie url wykorzystamy [!] - moduł potraktuje to jako negację. Oznacza to, że adres nie może zawierać określonego wyrazu / frazy.</target>
+        <note>Line: </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+  <name>zadarmacallback</name>
+  <displayName>Zadarma Callback</displayName>
+  <version>1.0.0</version>
+  <author>Norwit</author>
+  <description>Zadarma API callback form.</description>
+  <tab>front_office_features</tab>
+  <is_configurable>1</is_configurable>
+</module>

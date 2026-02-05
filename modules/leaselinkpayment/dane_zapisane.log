@@ -1,0 +1,87 @@
+[2025-01-24 15:31:44] 916aaasdfas RegisterPartnerSite czy zapisano:1   ----https://onlinetest.leaselink.pl
+[2025-01-24 15:32:01] 916aaasdfas RegisterPartnerSite czy zapisano:1   ----https://online.leaselink.pl
+[2025-01-24 15:32:03] 917a Array
+(
+    [SaveDataEmail] => d.szyszkiewicz@projekt-net.pl
+    [SaveDataPhone] => 794002102
+    [TypeOfDelivery] => 1
+    [CustomerExternalDocument] => 12
+    [Requestors] => Array
+        (
+            [0] => Array
+                (
+                    [IdentificationNumber1] => 9482221571
+                    [RequestorName] => mila
+                )
+
+        )
+
+    [RequestItems] => Array
+        (
+            [0] => Array
+                (
+                    [TaxCode] => 23
+                    [Tax] => 23
+                    [Quantity] => 13
+                    [Name] => Hummingbird+printed+sweater
+                    [CategoryLevel1] => Clothes
+                    [CategoryLevel2] => Women
+                    [CategoryLevel3] => 
+                    [NetPrice] => 28.72
+                    [NetValue] => 373.36
+                    [GrossPrice] => 459.23
+                    [GrossValue] => 459.23
+                    [TaxValue] => 85.87
+                )
+
+        )
+
+    [FullRecalculation] => true
+    [SaveInProcess] => false
+    [ClientGoBackUrl] => http://prest8.netmark.pl/index.php?control=12&status=OK&fc=module&module=leaselinkpayment&controller=order&id_lang=2
+    [Simulation] => true
+)
+
+[2025-01-24 15:32:22] 916aaasdfas RegisterPartnerSite czy zapisano:1   -====---https://online.leaselink.pl
+[2025-01-24 15:32:24] 917a Array
+(
+    [SaveDataEmail] => d.szyszkiewicz@projekt-net.pl
+    [SaveDataPhone] => 794002102
+    [TypeOfDelivery] => 1
+    [CustomerExternalDocument] => 12
+    [Requestors] => Array
+        (
+            [0] => Array
+                (
+                    [IdentificationNumber1] => 9482221571
+                    [RequestorName] => mila
+                )
+
+        )
+
+    [RequestItems] => Array
+        (
+            [0] => Array
+                (
+                    [TaxCode] => 23
+                    [Tax] => 23
+                    [Quantity] => 13
+                    [Name] => Hummingbird+printed+sweater
+                    [CategoryLevel1] => Clothes
+                    [CategoryLevel2] => Women
+                    [CategoryLevel3] => 
+                    [NetPrice] => 28.72
+                    [NetValue] => 373.36
+                    [GrossPrice] => 459.23
+                    [GrossValue] => 459.23
+                    [TaxValue] => 85.87
+                )
+
+        )
+
+    [FullRecalculation] => true
+    [SaveInProcess] => false
+    [ClientGoBackUrl] => http://prest8.netmark.pl/index.php?control=12&status=OK&fc=module&module=leaselinkpayment&controller=order&id_lang=2
+    [Simulation] => true
+)
+

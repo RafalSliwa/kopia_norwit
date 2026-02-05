@@ -1,0 +1,51 @@
+[:HOOK][INFO------][2025-10-29 13:11:04] ASSOCIATION-DELETE               [product: 1|5519|619] {"hook":"actionObjectCombinationDeleteAfter"}
+[:HOOK][INFO------][2025-10-29 13:11:05] ASSOCIATION-DELETE               [product: 1|5519|620] {"hook":"actionObjectCombinationDeleteAfter"}
+[:HOOK][INFO------][2025-10-29 13:11:05] ASSOCIATION-DELETE               [product: 1|5519|621] {"hook":"actionObjectCombinationDeleteAfter"}
+[:HOOK][INFO------][2025-10-29 13:12:33] ASSOCIATION-DELETE               [product: 1|5519|622] {"hook":"actionObjectCombinationDeleteAfter"}
+[:HOOK][INFO------][2025-10-29 13:12:33] ASSOCIATION-DELETE               [product: 1|5519|623] {"hook":"actionObjectCombinationDeleteAfter"}
+[:HOOK][INFO------][2025-10-29 13:12:33] ASSOCIATION-DELETE               [product: 1|5519|624] {"hook":"actionObjectCombinationDeleteAfter"}
+[:-BO-][INFO------][2025-10-29 16:44:46] AUTHORIZATION-REFRESH-TOKEN      [account: 1] [employee: 2] 
+[:-BO-][INFO------][2025-10-29 16:59:21] ASSOCIATION-CREATE               [account: 1] [employee: 2] [offer: 18038434170] [product: 1|5638|0] 
+[:-BO-][INFO------][2025-10-29 16:59:21] ASSOCIATION-MARKETPLACE-CREATE   [account: 1] [offer: 18038434170] allegro-cz
+[:-BO-][INFO------][2025-10-29 16:59:21] ASSOCIATION-MARKETPLACE-CREATE   [account: 1] [offer: 18038434170] allegro-sk
+[:-BO-][INFO------][2025-10-29 16:59:21] ASSOCIATION-MARKETPLACE-CREATE   [account: 1] [offer: 18038434170] allegro-hu
+[:-BO-][INFO------][2025-10-29 16:59:21] OFFER-CREATE                     [account: 1] [offer: 18038434170] [product: 1|5638|0] {"operationId":"740cf452-f43c-4b36-8454-8801f324a00f"}
+[:-BO-][EXCEPTION-][2025-10-29 17:15:50] -------------------------------- [employee: 2] [traceId: 5d0c99a93ff994c0] ResponseException[422]: Bledny tag "b", dozwolone sa: {h1, h2, p, ul, ol}
+#0 /home/lwogfwhjpj/domains/norwit.pl/public_html/modules/x13allegro/classes/php71/Api/AbstractResource.php(0): x13allegro\Api\AbstractResource->doRequest(sale/product-of..., PATCH, Array, Object(x13allegro\Api\Model\Offers\OfferUpdate), Array, Array)
+#1 /home/lwogfwhjpj/domains/norwit.pl/public_html/modules/x13allegro/classes/php71/Api/Resource/Sale/ProductOffers.php(0): x13allegro\Api\AbstractResource->patch(sale/product-of..., Array, Object(x13allegro\Api\Model\Offers\OfferUpdate))
+#2 /home/lwogfwhjpj/domains/norwit.pl/public_html/modules/x13allegro/classes/php71/Api/DataUpdater/Entity/Description.php(0): x13allegro\Api\Resource\Sale\ProductOffers->update(Object(x13allegro\Api\Model\Offers\OfferUpdate))
+#3 /home/lwogfwhjpj/domains/norwit.pl/public_html/modules/x13allegro/classes/php71/Api/DataUpdater/Updater.php(0): x13allegro\Api\DataUpdater\Entity\Description->run()
+#4 /home/lwogfwhjpj/domains/norwit.pl/public_html/modules/x13allegro/controllers/admin/AdminXAllegroAuctionsListController.php(1785): x13allegro\Api\DataUpdater\Updater->handle()
+#5 /home/lwogfwhjpj/domains/norwit.pl/public_html/classes/controller/AdminController.php(990): AdminXAllegroAuctionsListController->ajaxProcessAuctionUpdate()
+#6 /home/lwogfwhjpj/domains/norwit.pl/public_html/modules/x13allegro/classes/php71/XAllegroController.php(0): AdminControllerCore->postProcess()
+#7 /home/lwogfwhjpj/domains/norwit.pl/public_html/modules/x13allegro/controllers/admin/AdminXAllegroAuctionsListController.php(547): XAllegroController->postProcess()
+#8 /home/lwogfwhjpj/domains/norwit.pl/public_html/classes/controller/Controller.php(308): AdminXAllegroAuctionsListController->postProcess()
+#9 /home/lwogfwhjpj/domains/norwit.pl/public_html/classes/Dispatcher.php(510): ControllerCore->run()
+#10 /home/lwogfwhjpj/domains/norwit.pl/public_html/nkpdmyflvqhchs9c/index.php(95): DispatcherCore->dispatch()
+#11 {main}
+[:-BO-][EXCEPTION-][2025-10-29 18:03:11] -------------------------------- [employee: 2] [traceId: 6d3a49132f5ab433] ResponseException[422]: Brakuje taga zamykajacego dla "p
+#0 /home/lwogfwhjpj/domains/norwit.pl/public_html/modules/x13allegro/classes/php71/Api/AbstractResource.php(0): x13allegro\Api\AbstractResource->doRequest(sale/product-of..., PATCH, Array, Object(x13allegro\Api\Model\Offers\OfferUpdate), Array, Array)
+#1 /home/lwogfwhjpj/domains/norwit.pl/public_html/modules/x13allegro/classes/php71/Api/Resource/Sale/ProductOffers.php(0): x13allegro\Api\AbstractResource->patch(sale/product-of..., Array, Object(x13allegro\Api\Model\Offers\OfferUpdate))
+#2 /home/lwogfwhjpj/domains/norwit.pl/public_html/modules/x13allegro/classes/php71/Api/DataUpdater/Entity/Description.php(0): x13allegro\Api\Resource\Sale\ProductOffers->update(Object(x13allegro\Api\Model\Offers\OfferUpdate))
+#3 /home/lwogfwhjpj/domains/norwit.pl/public_html/modules/x13allegro/classes/php71/Api/DataUpdater/Updater.php(0): x13allegro\Api\DataUpdater\Entity\Description->run()
+#4 /home/lwogfwhjpj/domains/norwit.pl/public_html/modules/x13allegro/controllers/admin/AdminXAllegroAuctionsListController.php(1785): x13allegro\Api\DataUpdater\Updater->handle()
+#5 /home/lwogfwhjpj/domains/norwit.pl/public_html/classes/controller/AdminController.php(990): AdminXAllegroAuctionsListController->ajaxProcessAuctionUpdate()
+#6 /home/lwogfwhjpj/domains/norwit.pl/public_html/modules/x13allegro/classes/php71/XAllegroController.php(0): AdminControllerCore->postProcess()
+#7 /home/lwogfwhjpj/domains/norwit.pl/public_html/modules/x13allegro/controllers/admin/AdminXAllegroAuctionsListController.php(547): XAllegroController->postProcess()
+#8 /home/lwogfwhjpj/domains/norwit.pl/public_html/classes/controller/Controller.php(308): AdminXAllegroAuctionsListController->postProcess()
+#9 /home/lwogfwhjpj/domains/norwit.pl/public_html/classes/Dispatcher.php(510): ControllerCore->run()
+#10 /home/lwogfwhjpj/domains/norwit.pl/public_html/nkpdmyflvqhchs9c/index.php(95): DispatcherCore->dispatch()
+#11 {main}
+[:-BO-][EXCEPTION-][2025-10-29 18:06:05] -------------------------------- [employee: 2] [traceId: 8d7803feee74b9a3] ResponseException[422]: Bledny tag "h2", dozwolone sa: {b}
+#0 /home/lwogfwhjpj/domains/norwit.pl/public_html/modules/x13allegro/classes/php71/Api/AbstractResource.php(0): x13allegro\Api\AbstractResource->doRequest(sale/product-of..., PATCH, Array, Object(x13allegro\Api\Model\Offers\OfferUpdate), Array, Array)
+#1 /home/lwogfwhjpj/domains/norwit.pl/public_html/modules/x13allegro/classes/php71/Api/Resource/Sale/ProductOffers.php(0): x13allegro\Api\AbstractResource->patch(sale/product-of..., Array, Object(x13allegro\Api\Model\Offers\OfferUpdate))
+#2 /home/lwogfwhjpj/domains/norwit.pl/public_html/modules/x13allegro/classes/php71/Api/DataUpdater/Entity/Description.php(0): x13allegro\Api\Resource\Sale\ProductOffers->update(Object(x13allegro\Api\Model\Offers\OfferUpdate))
+#3 /home/lwogfwhjpj/domains/norwit.pl/public_html/modules/x13allegro/classes/php71/Api/DataUpdater/Updater.php(0): x13allegro\Api\DataUpdater\Entity\Description->run()
+#4 /home/lwogfwhjpj/domains/norwit.pl/public_html/modules/x13allegro/controllers/admin/AdminXAllegroAuctionsListController.php(1785): x13allegro\Api\DataUpdater\Updater->handle()
+#5 /home/lwogfwhjpj/domains/norwit.pl/public_html/classes/controller/AdminController.php(990): AdminXAllegroAuctionsListController->ajaxProcessAuctionUpdate()
+#6 /home/lwogfwhjpj/domains/norwit.pl/public_html/modules/x13allegro/classes/php71/XAllegroController.php(0): AdminControllerCore->postProcess()
+#7 /home/lwogfwhjpj/domains/norwit.pl/public_html/modules/x13allegro/controllers/admin/AdminXAllegroAuctionsListController.php(547): XAllegroController->postProcess()
+#8 /home/lwogfwhjpj/domains/norwit.pl/public_html/classes/controller/Controller.php(308): AdminXAllegroAuctionsListController->postProcess()
+#9 /home/lwogfwhjpj/domains/norwit.pl/public_html/classes/Dispatcher.php(510): ControllerCore->run()
+#10 /home/lwogfwhjpj/domains/norwit.pl/public_html/nkpdmyflvqhchs9c/index.php(95): DispatcherCore->dispatch()
+#11 {main}

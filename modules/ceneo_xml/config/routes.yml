@@ -1,0 +1,74 @@
+ceneo_xml_index:
+  path: ceneo-xml/index
+  methods: [ GET ]
+  defaults:
+    _controller: 'CeneoXml\Controller\Admin\CeneoXmlConfigController::indexAction'
+    _legacy_controller: CeneoXmlConfig
+    _legacy_link: CeneoXmlConfig
+
+ceneo_xml_category_mapping:
+  path: ceneo-xml/category-mapping
+  methods: [ GET ]
+  defaults:
+    _controller: 'CeneoXml\Controller\Admin\CeneoXmlCategoryMappingController::updateAction'
+    _legacy_controller: CeneoXmlCategoryMapping
+    _legacy_link: CeneoXmlCategoryMapping
+
+ceneo_xml_category_mapping_save:
+  path: ceneo-xml/category-mapping
+  methods: [ POST ]
+  defaults:
+    _controller: 'CeneoXml\Controller\Admin\CeneoXmlCategoryMappingController::updateActionSave'
+    _legacy_controller: CeneoXmlCategoryMapping
+    _legacy_link: CeneoXmlCategoryMapping
+
+
+ceneo_xml_products:
+  path: ceneo-xml/mass-edit
+  methods: [ GET ]
+  defaults:
+    _controller: 'CeneoXml\Controller\Admin\CeneoXmlEditProductsController::indexAction'
+    _legacy_controller: CeneoXmlEditProducts
+    _legacy_link: CeneoXmlEditProducts
+
+
+ceneo_xml_products_search:
+  path: ceneo-xml/mass-edit
+  methods: [ POST ]
+  defaults:
+    _controller: 'CeneoXml\Controller\Admin\CeneoXmlEditProductsController::searchAction'
+    _legacy_controller: CeneoXmlEditProducts
+    _legacy_link: CeneoXmlEditProducts
+
+
+ceneo_xml_products_enable_feed:
+  path: ceneo-xml/mass-edit/enable-feed
+  methods: [ POST ]
+  defaults:
+    _controller: 'CeneoXml\Controller\Admin\CeneoXmlEditProductsController::enableProductFeed'
+    _legacy_controller: CeneoXmlEditProducts
+    _legacy_link: CeneoXmlEditProducts
+
+ceneo_xml_products_disable_feed:
+  path: ceneo-xml/mass-edit/disable-feed
+  methods: [ POST ]
+  defaults:
+    _controller: 'CeneoXml\Controller\Admin\CeneoXmlEditProductsController::disableProductFeed'
+    _legacy_controller: CeneoXmlEditProducts
+    _legacy_link: CeneoXmlEditProducts
+
+ceneo_xml_products_visibility_on_buy_now:
+  path: ceneo-xml/mass-edit/visibility-on-buy-now
+  methods: [ POST ]
+  defaults:
+    _controller: 'CeneoXml\Controller\Admin\CeneoXmlEditProductsController::changeVisibilityProducts'
+    _legacy_controller: CeneoXmlEditProducts
+    _legacy_link: CeneoXmlEditProducts
+
+ceneo_xml_products_availability_status:
+  path: ceneo-xml/mass-edit/availability-status
+  methods: [ POST ]
+  defaults:
+    _controller: 'CeneoXml\Controller\Admin\CeneoXmlEditProductsController::changeAvailabilityStatusProducts'
+    _legacy_controller: CeneoXmlEditProducts
+    _legacy_link: CeneoXmlEditProducts

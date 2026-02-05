@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="padmin" source-language="pl-PL" target-language="pl-PL" datatype="plaintext">
+    <body>
+      <trans-unit id="d3b206d196cd6be3a2764c1fb90b200f">
+        <source>Delete selected</source>
+        <target>Usuń wybrane</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="e25f0ecd41211b01c83e5fec41df4fe7">
+        <source>Delete selected items?</source>
+        <target>Usunąć wybrane elementy?</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="b718adec73e04ce3ec720dd11a06a308">
+        <source>ID</source>
+        <target>ID</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="e6b391a8d2c4d45902a23a8b6585703d">
+        <source>URL</source>
+        <target>URL</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="c668ce944097af700b5c929864a35a2b">
+        <source>Redirected to</source>
+        <target>Przekierowane do</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="8cb06d7690b2d5dcff5c49169a7e9765">
+        <source>Redirection date</source>
+        <target>Data przekierowania</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="51527ed58f5930cd4d64872de6ceb04d">
+        <source>This section contain logs of all redirections executed by the module. Log by default is disabled. Module will start to store entries here when you will activate "Enable logs" option in the settings section of the module.</source>
+        <target>Ta sekcja zawiera logi wszystkich wykonanych przekierowań przez moduł. Logowanie przekierowanie standardowo jest wyłączone. Moduł zacznie zbierać tu informacje dopiero wtedy kiedy aktywujesz "zbieranie logów: w ustawieniach wtyczki</target>
+        <note>Line: </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

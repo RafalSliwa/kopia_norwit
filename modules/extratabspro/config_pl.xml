@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>extratabspro</name>
+    <displayName><![CDATA[Zakładki produktu pro]]></displayName>
+    <version><![CDATA[2.4.6]]></version>
+    <description><![CDATA[Moduł pozwala na utworzenie dowolnej ilości zakładek na stronie produktu]]></description>
+    <author><![CDATA[MyPresta.eu]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+</module>

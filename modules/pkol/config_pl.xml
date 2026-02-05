@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>pkol</name>
+    <displayName><![CDATA[PKO Leasing Online]]></displayName>
+    <version><![CDATA[1.1.2]]></version>
+    <description><![CDATA[Finansowanie PKO leasing - możliwość weryfikacji raty oraz wzięcie leasingu.]]></description>
+    <author><![CDATA[PKO Leasing]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+	<confirmUninstall><![CDATA[Odinstalować wtyczkę]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+</module>

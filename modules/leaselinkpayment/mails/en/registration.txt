@@ -1,0 +1,21 @@
+FIRMA
+Nazwa: {LEASELINK_KLIENT_NAZWA}  
+NIP: {LEASELINK_KLIENT_NIP} 
+Strona WWW sklepu: {LEASELINK_KLIENT_WWW}
+Adress callback sklepu: {LEASELINK_REG_CALLBACK_URL}
+
+ADRES DO DORĘCZEŃ DOKUMENTÓW Z LEASELINK
+Ulica: {LEASELINK_KLIENT_STREET}
+Numer domu: {LEASELINK_KLIENT_STREET_NR}
+Numer mieszkania: {LEASELINK_KLIENT_STREET_HOME_NR}
+Kod pocztowy: {LEASELINK_KLIENT_POST_CODE}
+Miasto: {LEASELINK_KLIENT_CITY}
+
+OSOBA DO KONTAKTU Z LEASELINK
+Imię: {LEASELINK_KLIENT_USER_NAME}
+Nazwisko: {LEASELINK_KLIENT_USER_SURNAME}
+Telefon Komórkowy: {LEASELINK_KLIENT_USER_PHONE}
+E-mail: {LEASELINK_KLIENT_USER_EMAIL}
+
+Katergirie sklepu:
+{SHOP_CATEGORIES}

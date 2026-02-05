@@ -1,0 +1,49 @@
+<?php
+/**
+ * Copyright since 2021 InPost S.A.
+ *
+ * NOTICE OF LICENSE
+ *
+ * Licensed under the EUPL-1.2 or later.
+ * You may not use this work except in compliance with the Licence.
+ *
+ * You may obtain a copy of the Licence at:
+ * https://joinup.ec.europa.eu/software/page/eupl
+ * It is also bundled with this package in the file LICENSE.txt
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the Licence is distributed on an AS IS basis,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the Licence for the specific language governing permissions
+ * and limitations under the Licence.
+ *
+ * @author    InPost S.A.
+ * @copyright Since 2021 InPost S.A.
+ * @license   https://joinup.ec.europa.eu/software/page/eupl
+ */
+
+declare(strict_types=1);
+
+namespace InPost\Shipping\Geocoding\GoogleMaps\Model;
+
+use InPost\Shipping\Api\Resource\ApiResource;
+
+/**
+ * @property string $status
+ * @property GeocodingResult[] $results
+ * @property string|null $error_message
+ */
+final class GeocodingResponse extends ApiResource
+{
+    public const STATUS_OK = 'OK';
+    public const STATUS_ZERO_RESULTS = 'ZERO_RESULTS';
+
+    protected static $casts = [
+        'results' => GeocodingResult::class . '[]',
+    ];
+
+    public function getFirstResult(): ?GeocodingResult
+    {
+        return $this->results[0] ?? null;
+    }
+}

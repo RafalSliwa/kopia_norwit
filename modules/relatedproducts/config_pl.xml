@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>relatedproducts</name>
+    <displayName><![CDATA[Powiązane produkty w szablonie modal.]]></displayName>
+    <version><![CDATA[1.0.6]]></version>
+    <description><![CDATA[Wyświetla zaawansowany moduł koszyka z informacjami o dostawie i powiązanych produktach.]]></description>
+    <author><![CDATA[Norwit]]></author>
+    <tab><![CDATA[]]></tab>
+    <is_configurable>0</is_configurable>
+    <need_instance>0</need_instance>
+</module>

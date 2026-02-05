@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test kosztu wysyłki - Produkt 2681</title>
+</head>
+<body>
+    <h1>Test wyświetlania kosztu wysyłki</h1>
+    
+    <div>
+        <h2>Symulacja modal.tpl:</h2>
+        <span class="delivery-text">Dostawa 
+            <span class="dynamic-shipping-price" data-product-id="2681" id="test-price">
+                od 25,00 zł
+            </span>
+        </span>
+    </div>
+    
+    <div style="margin-top: 20px;">
+        <button onclick="testShippingPrice()">Testuj nową logikę</button>
+        <button onclick="testOldLogic()">Testuj starą logikę (getShippingCost)</button>
+    </div>
+    
+    <div id="results" style="margin-top: 20px; background: #f0f0f0; padding: 10px;"></div>
+
+    <script>
+        function testShippingPrice() {
+            const element = document.getElementById('test-price');
+            const results = document.getElementById('results');
+            
+            results.innerHTML = '<p>Pobieranie przez getShippingInfo (NOWA LOGIKA)...</p>';
+            
+            fetch('/kopia_norwit/modules/relatedproducts/ajax.php', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+                body: 'action=getShippingInfo&id_product=2681'
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log('Odpowiedź getShippingInfo:', data);
+                
+                if (data.success && data.formatted_price) {
+                    element.textContent = data.formatted_price;
+                    results.innerHTML = `
+                        <h3>✅ NOWA LOGIKA (getShippingInfo)</h3>
+                        <p><strong>Wyświetlona cena:</strong> ${data.formatted_price}</p>
+                        <p><strong>Cena brutto:</strong> ${data.lowest_price} zł</p>
+                        <p><strong>Przewoźnik:</strong> ${data.carrier_name}</p>
+                        <p><strong>Podstawowy koszt:</strong> ${data.debug_carriers[0].price} zł</p>
+                        <p><strong>Additional shipping:</strong> ${data.lowest_price - data.debug_carriers[0].price} zł</p>
+                    `;
+                } else {
+                    element.textContent = 'Błąd';
+                    results.innerHTML = '<p style="color: red;">Błąd pobierania danych</p>';
+                }
+            })
+            .catch(error => {
+                console.error('Błąd:', error);
+                results.innerHTML = '<p style="color: red;">Błąd sieci</p>';
+            });
+        }
+        
+        function testOldLogic() {
+            const element = document.getElementById('test-price');
+            const results = document.getElementById('results');
+            
+            results.innerHTML = '<p>Pobieranie przez getShippingCost (STARA LOGIKA)...</p>';
+            
+            fetch('/kopia_norwit/modules/relatedproducts/ajax.php', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+                body: 'action=getShippingCost&id_product=2681'
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log('Odpowiedź getShippingCost:', data);
+                
+                if (data.success && data.formatted_cost) {
+                    element.textContent = `od ${data.formatted_cost}`;
+                    results.innerHTML = `
+                        <h3>❌ STARA LOGIKA (getShippingCost)</h3>
+                        <p><strong>Wyświetlona cena:</strong> od ${data.formatted_cost}</p>
+                        <p><strong>Cena netto:</strong> ${data.shipping_cost} zł</p>
+                        <p style="color: red;"><strong>Problem:</strong> Brakuje VAT i additional_shipping_cost w wyświetlanej cenie!</p>
+                    `;
+                } else {
+                    element.textContent = 'Błąd';
+                    results.innerHTML = '<p style="color: red;">Błąd pobierania danych</p>';
+                }
+            })
+            .catch(error => {
+                console.error('Błąd:', error);
+                results.innerHTML = '<p style="color: red;">Błąd sieci</p>';
+            });
+        }
+        
+        // Auto test przy ładowaniu
+        window.onload = function() {
+            setTimeout(testShippingPrice, 500);
+        };
+    </script>
+</body>
+</html>

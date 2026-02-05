@@ -1,0 +1,18 @@
+ #leaselinkSlideButton1.llSlideButton .content {width: 479px;height: 525px;} #leaselinkSlideButton1.llSlideButton .trigger{width: 479px;height: 525px;} .llSlideButton:not(.left) .trigger{margin-right: -478px;} .llSlideButton.left .trigger{margin-left: -479px;}    	
+.leaselink_return {text-align: center; }p.payment_module a.leaselink {background: url("../img/logo64.png") 15px 0px no-repeat #fbfbfb;background-size: 64px 64px;padding: 20px 40px 20px 99px;} 
+p.payment_module a:hover {background-color: #f6f6f6; }
+
+.leaselink.wrap {width: 500px;margin: 50px auto;font-family: 'Arial';font-size: 16px;}
+.leaselink #logo {display: block;margin-bottom: 15px;}
+.leaselink h1 { font-size: 12px;font-weight: 400;line-height: 13px;text-align: center;margin: 0;padding: 10px 0;}
+.leaselink .box-form { background: #e6e6e6;padding: 25px 30px; }
+.leaselink .form-group {  display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;-webkit-flex-direction: row;flex-direction: row;-webkit-align-items: center;align-items: center;margin-top: 15px;}
+.leaselink .form-group:first-child { margin-top: 0; }
+.leaselink .form-group label {    text-align: right;width: 160px;padding-right: 20px;} 
+.leaselink .form-group input[type='text'] {font-size: 16px;line-height: 16px;text-align: center;width: 105px;border: 0;padding: 6px 0;margin: 0;} 
+.leaselink .form-group_addition {margin-left: 10px;} 
+.leaselink .box-form--top {margin-bottom: 5px;} 
+.leaselink .box-form--top label {text-align: left;} 
+.leaselink .box-form--top input[type="text"] {width: 140px;font-size: 18px;border: 1px solid #b582b6;} 
+.leaselink .box-form--top .form-group_addition {font-size: 12px;} 
+.leaselink .footer {color: #c3c3c3;font-size: 8px;line-height: 10px;margin: 20px 0 0 0;}.payment_module.leaselinktext {width: 100%;color:#812b84;font-weight:600;float:left;display: inline-block;clear:both;}.payment_module.leaselinktext div{float:left;}.payment_module.leaselinktext div.imageLease{width:20%}.payment_module.leaselinktext div.textLease{width:80%;line-height: 30px;}.additionalInfoLeaseLink{float:left;margin-top:10px;}

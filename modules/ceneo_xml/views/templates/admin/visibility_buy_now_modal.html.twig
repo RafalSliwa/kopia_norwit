@@ -1,0 +1,29 @@
+
+{% if app.request.locale == 'pl-PL' %}
+   {% set title = 'Widoczność produktu w opcji Kup teraz' %}
+   {% set button = 'Aktualizuj' %}
+{% else %}
+   {% set title = 'Product visibility on Buy Now' %}
+   {% set button = 'Update' %}
+{% endif %}
+
+
+{% embed '@PrestaShop/Admin/Helpers/bootstrap_popup.html.twig' with {
+   'id': 'changeVisibilityBuyNowModal',
+   'title': title,
+   'closable': true,
+   'actions': [{
+      'type': 'button',
+      'label': button,
+      'class': 'btn btn-primary btn-lg js-submit-modal-form-btn',
+   }],
+} %}
+   {% block content %}
+      <div class="modal-body">
+         {{ form_start(changeVisibilityForm, {
+            'action': path('ceneo_xml_products_visibility_on_buy_now')
+         }) }}
+         {{ form_end(changeVisibilityForm) }}
+      </div>
+   {% endblock %}
+{% endembed %}

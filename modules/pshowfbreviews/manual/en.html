@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <title>PrestaShow Blog Manual</title>		
+        <meta name="description" content="">		
+        <meta name="keywords" content="">
+        <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link href='https://fonts.googleapis.com/css?family=Merriweather:300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="./media/fancybox/jquery.fancybox.css">
+        <link rel="stylesheet" href="./media/style.css">
+        <link rel="stylesheet" href="./media/prism.css">
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <header>
+                <div id="top" class="clearfix">
+                    <div class="pull-left">
+                        <h1><a href=""><img src="./media/ps-logo.png" alt="" /> <span>Documentation</span></a></h1>
+                    </div>
+                </div>
+
+                <div id="header-title" class="container" class="clearfix">
+                    <h2 class="lone-header">PrestaShow FB Reviews Manual</h2>
+                </div>
+            </header>
+
+            <section>
+                <div class="container">
+
+                    <!-- BEGIN MENU -->
+
+                    <ul class="docs-nav">
+                        <li class="subtitle"><strong>Menu</strong></li>
+                        <li><a href="#instruction" class="active">Instrukcja obsługi</a></li>
+                        <li class="separator"></li>
+                    </ul>
+
+                    <!-- END MENU -->
+					
+					<!-- BEGIN CONTENT -->
+                    <div class="docs-content">
+
+                        <div id="instruction">
+							<h2>To generate an Access Token:</h2>
+							<p>
+								I. Adding an application (if you have an application on Facebook, skip this point):<br>
+									1. Go to https://developers.facebook.com/docs/apps/.<br>
+									2. Click on "My Apps" in the upper right corner of the page.<br>
+									3. Click on "Create New App".<br>
+									4. Follow the instructions on the screen.<br>
+								II. Downloading the application ID: <br>
+									1. Select the newly added application. <br>
+									2. At the top, copy the number named "APP ID:" and paste it in the module settings. <br>
+								III. Downloading the secret application key: <br>
+									1. Select the newly added application. <br>
+									2. Select Settings-> Basic. From the menu on the left.<br>
+									3. In the "App Secret" field, click on the "Show" button and copy the code from this field into the module settings. <br>
+								IV. Creating a token for a page:<br>
+									1. Open graph Explorer: https://developers.facebook.com/tools/explorer/.<br>
+									2. Choose your application from the right corner dropdown.<br>
+									3. From "Get Token" dropdown choose your Fan Page.<br>
+									4. Click on submit button to generate token.<br>
+									5. From the left side on "Search for a field" enter access_token and click submit again. Copy this token from the main window.<br>
+									6. Open https://developers.facebook.com/tools/debug/accesstoken and paste token here. Click "Debug".<br>
+									7. Click the button "Extend Access Token". This will generate never expiring token.<br>
+								V. Getting the page ID: <br>
+									1. Go to https://developers.facebook.com/tools/explorer/?method=GET&path=me&version=v4.0. <br>
+									2. Then select your page on fb and enter only the word "me" in the input. <br>
+									3. At the end, click the submit button.
+							</p>
+							<p>
+								You will find an instlation guide and help at our helpdesk:<br/>
+								<a href="https://helpdesk.prestashow.pl/kb/faq.php?id=19&lang=en_US">https://helpdesk.prestashow.pl/kb/faq.php?id=19&lang=en_US</a><br/>
+								If you have any questions do not be hestitate to open new ticket at helpdesk.prestashow.pl
+							</p>
+                        </div>
+                        
+                    </div>
+					<!-- END CONTENT -->
+					<div id="instruction">
+						<h2>Video showing the correct configuration of events in fb pixel:</h2>
+					 	<video controls>
+						  	<source src="media/fb_pixel.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video> 
+					</div>
+					
+                </div>
+            </section>
+
+            <footer>
+                <p>Copyright &copy; PrestaShow.pl 2014-2016 All rights reserved.</p>
+            </footer>
+        </div>
+
+        <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="./media/fancybox/jquery.fancybox.js"></script>
+        <script src="./media/prism.js"></script> 
+        <script src="./media/layout.js"></script>
+        <script>
+            $('.image').fancybox({
+                openEffect: 'none',
+                closeEffect: 'none',
+                padding: 5,
+                autoSize: true,
+                autoWidth: true,
+                autoHeight: true,
+                fitToView: true
+            });
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,23 @@
+.pre-bx {
+	display: flex;
+	overflow: hidden;
+	position: relative;
+}
+.pre-bx .cb-item {
+	flex-shrink: 0;
+	width: 100%;
+}
+.sw-pgn .bx-pager-item {
+	display: inline-block;
+}
+/* the following elements can be visible for a few moments before classes are updated in /bx-adapter.js */
+.cb-wrapper .bx-prev,
+.cb-wrapper .bx-next,
+.cb-wrapper .bx-pager {
+	display: none;
+}
+/* fix for /bx_loader.gif 404 (Not Found) */
+.cb-wrapper .bx-wrapper .bx-loading  {
+	background: none;
+}
+/* since 3.0.0 */

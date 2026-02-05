@@ -1,0 +1,6 @@
+body {
+    min-height: 50px;
+    height: auto;
+    background: none;
+}
+/* since 2.6.0 */

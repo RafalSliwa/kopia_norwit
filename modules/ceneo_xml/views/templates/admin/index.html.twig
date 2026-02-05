@@ -1,0 +1,66 @@
+{# **
+ * Copyright since 2007 PrestaShop SA and Contributors
+ * PrestaShop is an International Registered Trademark & Property of PrestaShop SA
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License version 3.0
+ * that is bundled with this package in the file LICENSE.md.
+ * It is also available through the world-wide-web at this URL:
+ * https://opensource.org/licenses/AFL-3.0
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@prestashop.com so we can send you a copy immediately.
+ *
+ * @author    PrestaShop SA and Contributors <contact@prestashop.com>
+ * @copyright Since 2007 PrestaShop SA and Contributors
+ * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License version 3.0
+ * #}
+{% extends '@PrestaShop/Admin/layout.html.twig' %}
+{% block content %}
+      <div class="row js-grid-panel">
+         <div class="col">
+            {% include '@PrestaShop/Admin/Common/Grid/grid_panel.html.twig' with {'grid': quoteGrid} %}
+         </div>
+      </div>
+   {% include '@Modules/ceneo_xml/views/templates/admin/avialability_status_modal.html.twig' %}
+   {% include '@Modules/ceneo_xml/views/templates/admin/visibility_buy_now_modal.html.twig' %}
+{% endblock %}
+
+{% block javascripts %}
+   {{ parent() }}
+   <script src="{{ asset('../modules/ceneo_xml/views/js/pagination.js') }}"></script>
+
+   {% if ps8 %}
+      <script src="{{ asset('../modules/ceneo_xml/views/js/bundle.js') }}"></script>
+   {% else %}
+      <script src="{{ asset('../modules/ceneo_xml/views/js/main.js') }}"></script>
+      <script src="{{ asset('../modules/ceneo_xml/views/js/bundle.js') }}"></script>
+   {% endif %}
+
+   <script>
+		 $(document).ready(function () {
+			 $('.js-bulk-modal-form-submit-btn').on('click', function () {
+				 const elm = $(this).data('modal-id');
+				 const modal = $('#' + elm);
+				 let values = '';
+
+				 modal.modal({backdrop: 'static', keyboard: false, closable: false, show: true});
+
+				 $('input[name="product_bulk[]"]:checked').each(function () {
+					 values += $(this).val() + ', ';
+				 });
+
+				 values = values.slice(0, -2);
+				 modal.find('input[name="visibility_form[products]"]').val(values);
+				 modal.find('input[name="availability_status_form[products]"]').val(values);
+			 });
+			 $('.js-submit-modal-form-btn').on('click', function () {
+				 const parent = $(this).parents('.modal');
+				 parent.find('form').submit();
+			 });
+		 });
+   </script>
+{% endblock %}
+
+

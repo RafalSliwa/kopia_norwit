@@ -1,0 +1,1 @@
+ALTER TABLE `PREFIX_fpa_feeds` ADD `feed_is_default` int NOT NULL DEFAULT 1;

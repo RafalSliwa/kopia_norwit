@@ -1,0 +1,714 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+.bulk-actions .dropdown-item {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background: #fff none repeat scroll 0 0;
+  border-color: #ccc currentcolor currentcolor;
+  border-image: none;
+  border-style: solid none none;
+  border-width: 1px medium medium;
+  height: 27px;
+  text-align: left;
+  width: 100%;
+}
+
+
+
+
+#massedit_form > .panel {
+    padding-top: 0px!important;
+}
+
+#massedit_form > .panel .panel.ets_mp-panel > .panel-heading {
+    line-height: 40px!important;
+    height: 40px!important;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+
+span.delete_customer_search {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0;
+    height: 10px;
+    margin-left: 4px;
+    position: relative;
+    transform: rotate(45deg);
+    width: 10px;
+    vertical-align: middle;
+}
+span.delete_customer_search::before {
+  background: #fff none repeat scroll 0 0;
+  content: "";
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate3d(-50%, -50%, 0px);
+  width: 10px;
+}
+span.delete_customer_search::after {
+  background: #fff none repeat scroll 0 0;
+  content: "";
+  height: 10px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate3d(-50%, -50%, 0px);
+  width: 2px;
+}
+.id_ets_pmn_massedit_history input[type="text"] {
+    font-weight: normal;
+    max-width: 41px;
+}
+
+
+.panel-heading-action a.list-toolbar-btn.add_new_link {
+    font-size: 0;
+}
+#growls .growl-title{
+    display:none;
+}
+
+#list-pmn_logmassedit .btn-group-action a.btn.btn-default i svg {
+    width: 13px;
+    height: 13px;
+}
+
+
+.input-group-append {
+    min-width: 30px;
+    text-align: center;
+    background: #f5f8f9;
+    border: 1px solid #c7d6db;
+    display: table-cell;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.massedit-form-field.specific_prices fieldset.specific_price {
+    border-radius: 5px;
+    margin-bottom: 0;
+}
+.complete.list_massedit_products .module_error.alert.alert-danger {
+    position: relative;
+    left: auto;
+    top: auto;
+    right: auto;
+    width: 100%;
+    max-width: 100%;
+    z-index:1;
+}
+
+.massedit-form-field.specific_prices fieldset.specific_price label {
+    font-weight: normal;
+}
+.massedit-form-field.specific_prices fieldset.specific_price h4 {
+    font-family: 'Open Sans';
+}
+
+.filter.row_hover th.date_add fieldset.form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    max-width: 100px;
+}
+#catalog-actions .dropdown-menu button.dropdown-item svg {
+    vertical-align: -2px;
+}
+#catalog-actions .dropdown-menu button.dropdown-item {
+    border: none;
+    outline: none;
+    box-shadow: none!important;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+}
+
+
+.bootstrap .btn.btn-default[disabled]:hover i {
+    color: #555555;
+}
+.span_change_product.more{
+    padding: 0px 0 15px;
+}
+
+#catalog-actions .dropdown-menu button.dropdown-item:hover {
+    background: #2eacce;
+    color: #fff;
+}
+#catalog-actions .dropdown-menu button.dropdown-item:hover i.svg_fill_hover_white svg {
+    fill: #ffffff;
+}
+table.list-pmn_logmassedit .id_ets_pmn_massedit_history,
+table.list-pmn_logmassedit .date_add {
+    text-align: center;
+}
+
+#catalog-actions .dropdown-menu > .dropdown-divider:first-child {
+    display: none!important;
+}
+.filter.row_hover th.date_add fieldset.form-group:last-child{
+    margin-bottom: 0;
+}
+i.ets_svg_icon.svg_fill_gray svg {
+    fill: #666;
+    -webkit-fill: #666;
+}
+.btn:hover .ets_svg_fill_hover_white svg{
+    fill: #ffffff
+}
+.ets_fill_gray svg{
+    fill: #666666
+}
+.ets-pmn-delete i {
+    line-height: 14px;
+    height: 14px;
+    vertical-align: middle;
+}
+.ets_pm_viewmore {
+    position: absolute;
+    top: auto;
+    outline: none!important;
+    box-shadow: none!important;
+    bottom: 0;
+    font-size: 10px!important;
+    padding: 0!important;
+    margin-top: -5px;
+    display: none!important;
+    line-height: 14px!important;
+    min-height: 14px!important;
+    float: left;
+}
+.ets_pm_viewmore:hover{
+    color: #0077a4;
+}
+.btn-group-action .btn-group i svg {
+    vertical-align: -2px;
+}
+.btn-group-action .btn-group .dropdown-menu a.btn {
+    border: none;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+}
+.btn-group-action .btn-group ul.dropdown-menu {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.btn-group-action .btn-group .dropdown-menu li:last-child a.btn {
+    border-bottom: none;
+}
+tbody#list-pmn_massedit a {
+    text-decoration: none!important;
+    box-shadow: none!important;
+}
+
+
+.ets_pmn_massedit_preview td.action, .ets_pmn_massedit_preview td.lang_name {
+    min-width: 130px;
+}
+
+
+.ets_pmn_massedit_preview tr:hover> td {
+    background: transparent!important;
+}
+    
+.back_massive_list i svg {
+    vertical-align: -3px;
+}
+a.btn.btn-default.pull-left.back_massive_list {
+    margin-left: 10px;
+}
+a.btn.btn-default.back_massive_list {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+#preview_massedit_form > .panel {
+    margin-bottom: 0!important;
+}
+
+.ets_pmn_massedit_preview label >.color {
+    margin-top: 0;
+}
+.ets_pmn_massedit_preview .value p {
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+.ets_pmn_massedit_preview td, .ets_pmn_massedit_preview th {
+    padding: 10px;
+}
+#list-pmn_massedit i.fa.fa-play.icon-play {
+    font-size: 12px;
+    margin-right: 2px;
+}
+
+
+.dot-flashing {
+    position: relative;
+    width: 4px;
+    height: 4px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #555;
+    color: #555;
+    animation: dotFlashing 1s infinite linear alternate;
+    animation-delay: .5s;
+    margin-left: 15px;
+}
+
+.dot-flashing::before, .dot-flashing::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  top: 0;
+}
+
+.dot-flashing::before {
+    left: -10px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #4188b1;
+    color: #4188b1;
+    animation: dotFlashing 1s infinite alternate;
+    animation-delay: 0s;
+}
+
+.dot-flashing::after {
+    left: 10px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #4188b1;
+    color: #4188b1;
+    animation: dotFlashing 1s infinite alternate;
+    animation-delay: 1s;
+}
+
+@keyframes dotFlashing {
+  0% {
+    background-color: #4188b1;
+  }
+  50%,
+  100% {
+    background-color: #98ccda;
+  }
+}
+
+.panel.complete_massedit_form {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0!important;
+}
+.w_25{
+    width: 25px;
+}
+.h_25{
+    height: 25px;
+}
+.complete_massedit_form .alert-info {
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-size: 13px;
+}
+.massedit-form-field.related_products button#add-related-product-button {
+    margin-bottom: 10px;
+}
+.massedit-form-field .translatable-field {
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+}
+.massedit_operator_value select.operator_value_text_lang {
+    width: auto;
+    height: 31px;
+    padding: 0 8px 2px;
+}
+body .massedit-form-field .translatable-field .col-lg-11 {
+    max-width: calc(100% - 60px);
+    width: 100%;
+}
+.btn-group-action a.btn.btn-default {
+    white-space: nowrap;
+}
+.massedit-form-field .translatable-field .col-lg-1 {
+    width: 54px;
+    min-width: 0;
+}
+
+.massedit-form-field #related-content fieldset.form-group {
+    margin-bottom: 0;
+}
+.tokenfield.form-control .token {
+    display: inline-block;
+    background: #2eacce;
+    margin-right: 4px;
+    border-radius: 2px;
+    padding: 4px 6px;
+    color: #fff;
+    position: relative;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.tokenfield.form-control .token .ets_pmn_close_attribute:before {
+    content: "+";
+    color: #166e80;
+    transform: rotate(45deg);
+    display: inline-block;
+    font-size: 14px;
+    line-height: 10px;
+    padding: 2px 2px;
+    margin-left: 4px;
+}
+.form-group.list_filter_products, .form-group.list_action_edit {
+    margin-left: 0!important;
+    margin-right: 0!important;
+    margin-bottom: 0!important;
+}
+#preview_massedit_form .form-group.list_massedit_products {
+    margin-top: 0;
+}
+.ets_pmn_product_tab_content .panel-footer {
+    margin-left: -15px;
+    margin-bottom: -15px;
+    margin-right: -15px;
+    background: transparent;
+    border: none;
+}
+.list-pmn_massedit .filter.row_hover input {
+    width: 100%!important;
+}
+.list-pmn_massedit .id_ets_pmn_massedit {
+    width: 100px;
+}
+.ets_pmn-form-footer .btn.btn-secondary.bd.text-uppercase {
+    border: 1px solid #ddd;
+    color: #666;
+}
+.row_massedit .operator_value_text .col-lg-2 {
+    min-width: 60px;
+}
+.form-group.group_full_data.status_active::after {
+    background: #76a600;
+}
+.ets_pmn_tab_content .row.form-group .row.form-group{
+    background-color: transparent;
+    border: none;
+}
+
+.btn-group-action .btn-group .dropdown-menu a.btn i {
+    vertical-align: middle;
+}
+
+.bootstrap .btn.ets-pmn-delete, a.btn.ets-pmn-delete, #reset_related_product {
+    color: #666;
+    border: 1px solid #c7d6db;
+    display: inline-flex;
+    width: 31px;
+    position: relative;
+    padding: 0;
+    min-height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.bootstrap .btn.ets-pmn-delete:hover, a.btn.ets-pmn-delete:hover,
+#reset_related_product:hover {
+    background: #2eacce;
+    border-color: #2eacce;
+    color: #fff;
+}
+#ets-pmn-features-content .etm-pmn-product-feature label {
+    font-weight: normal;
+}
+#ets-pmn-features-content .form-group.etm-pmn-product-feature {
+    margin-bottom: 5px;
+}
+
+#list-pmn_massedit td.products a img {
+    width: 50px;
+    margin: 2px;
+}
+
+.ets_product_popup .process-icon-cancel::before,
+#module_form_submit_btn i.process-icon-save:before {
+    display: block!important;
+}
+
+button.form-control-submit.float-xs-right[name='submitSaveProduct'] {
+    float: right;
+}
+.ets_pmn-form-footer {
+    margin-top: 30px;
+}
+.row_massedit.all button.btn-default.btn-delete-filter {
+    display: none;
+}
+
+.ets_pmn_tab_content .row.form-group .form-group.row {
+    padding-left: 0px;
+    padding-right: 0px;
+    border-bottom: none;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-bottom: 15px;
+}
+
+
+.ets_pmn-form-content button.btn {
+    border: 1px solid #ddd;
+}
+
+fieldset.form-group.specific_price_leave_bprice {
+    margin-bottom: 0;
+}
+
+.btn-group-action ul.dropdown-menu a.btn {
+    border: none;
+    text-align: left;
+    border-radius: 0;
+}
+#list-pmn_logmassedit .btn-group-action a.btn.btn-default i {
+    vertical-align: middle;
+    height: auto;
+    display: inline-flex;
+    align-items: center;
+}
+.form-wrapper .form-group.row.row_massedit .form-group {
+    margin-bottom: 0;
+    display: flex;
+    display: -webkit-flex;
+}
+.operator_value_color.form_operator ul {
+    padding: 10px 0 0;
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    border-radius: 4px;
+    width: 100%;
+    max-height: 200px;
+    overflow: auto;
+}
+.form-wrapper label.control-label[for="massedit_name"] {
+    width: auto;
+}
+
+
+
+
+
+.form-group.list_massedit_products {
+    margin-top: 30px;
+}
+.operator_value_color.form_operator li.input-container {
+    list-style: none;
+    margin-bottom: 5px;
+    width: 33.33%;
+    display: inline-block;
+}
+
+.operator_value_color.form_operator li.input-container label {
+    cursor: pointer;
+    padding: 0 5px;
+}
+
+.massedit-form-field .translatable-field > div {
+    margin-bottom: 4px;
+    min-width: 70px
+}
+
+.massedit_operator_value.error input,.massedit_operator_value.error select.operator_value{
+    border-color: red!important;
+}
+.massedit_operator_value.error .operator_value_categories ,.massedit_operator_value.error .operator_value_color{
+    border:1px solid red;
+}
+
+.bootstrap .btn-group-action .btn-group a.btn.btn-default {
+    padding-left: 8px;
+}
+.bootstrap .btn-group-action .btn-group .btn.btn-default {
+    font-weight: normal;
+}
+#list-pmn_logmassedit .btn-group.pull-right {
+    display: inline-flex;
+}
+
+.list_action_edit .field {
+  width: 250px;
+}
+
+.field-error{
+    border: 1px solid red!important;
+}
+
+
+.old_value span, .new_value span{
+    display:inherit;
+}
+
+
+
+@media (max-width: 1600px){
+    ul.steps.nbr_steps_4.anchor li.list-massedit {
+        float: none;
+        position: static;
+        right: auto;
+        margin-bottom: 7px;
+        width: 100%;
+        border-top: 1px solid #ddd;
+    }
+    .massedit-form-field.customization .col-md-4.col-xs-10:not(:last-child),
+    .massedit-form-field.customization .col-md-3.col-xs-10 {
+        width: 100%;
+    }
+    .specific_price .row.form-group .col-lg-3 {
+        width: 50%;
+        margin-bottom: 4px;
+    }
+    .specific_price .row.form-group .col-md-2 {
+        width: 50%;
+    }
+    .massedit-form-field.combinations .ets_pmn_combination_left {
+        width: 100%;
+        padding-right: 5px;
+        margin-bottom: 15px;
+    }
+    .massedit-form-field.combinations .ets_pmn_combination_right {
+        width: 100%;
+    }
+    div#ets-pmn-features-content .col-lg-3.form-group {
+        width: 50%;
+    }
+    .ets_pmn_tab_content.relatedproducts .massedit-form-field.related_products .col-md-4 {
+        width: auto;
+    }
+    .specific_price .row.form-group .col-md-3 {
+        width: 50%;
+    }
+    .col-xs-10.option_custom {
+        width: 50%;
+    }
+    .bootstrap .ets_pmn_product_tab_left, .ets_pmn_product_tab_left {
+        width: 200px;
+    }
+    .bootstrap .ets_pmn_product_tab_right, .ets_pmn_product_tab_right {
+        width: calc(100% - 200px);
+        width: -webkit-calc(100% - 200px);
+    }
+}
+
+@media (max-width: 1199px){
+    .nbr_steps_4 li.list-massedit .form-group.massive_edit_head {
+        margin-top: 4px;
+    }
+    ul.steps.nbr_steps_4.anchor li.list-massedit {
+        float: right;
+        position: relative;
+        right: auto;
+    }
+}
+@media (max-width: 767px){
+    .ets_list_form_massedit .form-group.row.row_massedit_header.header {
+        display: none;
+    }
+    .nbr_steps_4 li.list-massedit .form-group.massive_edit_head {
+        margin-top: 2px;
+    }
+    .form-group.row.ets_row .list_edit_action {
+        border-right: none;
+        width: 100%;
+    }
+    .form-group.row.ets_row .list_massedit_products {
+        width: 100%;
+    }
+    .mce-container div {
+        white-space: normal;
+    }
+    .ets_list_form_massedit .row_massedit > div {
+        border-right: none;
+    }
+    .ets_list_form_massedit .form-group.row_massedit {
+        border: 1px solid #ddd;
+    }
+    .ets_list_form_massedit .row_massedit,
+    .form-group.row_massedit_header.header{
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+    }
+    .adminproductmanagermassiveedit .xs-hide {
+        display: none!important;
+    }
+    .adminproductmanagermassiveedit .required-custom-field .checkbox {
+        margin-top: 0;
+    }
+    .row_massedit .ets_pm_delete_action {
+        position: absolute;
+        right: 0px;
+    }
+    .form-group.row.row_massedit.all .ets_pm_operator_value {
+        padding: 0;
+    }
+    .ets_list_form_massedit .row_massedit > .ets_pm_operator_value {
+        padding-top: 0;
+        margin-top: -10px;
+    }
+    ul.steps.nbr_steps_4.anchor {
+        border: none;
+        background: transparent;
+    }
+    ul.steps.nbr_steps_4.anchor li {
+        width: 100%;
+        margin-bottom: 5px;
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        position: relative;
+    }
+    ul.steps.nbr_steps_4.anchor li a {
+        width: 100%;
+    }
+    ul.steps.nbr_steps_4.anchor li.selected:not(:last-child):before,
+    ul.steps.nbr_steps_4.anchor li.selected:not(:last-child):after,
+    ul.steps.nbr_steps_4.anchor li:not(:last-child):before {
+        opacity: 0!important;
+    }
+    .bootstrap .ets_pmn_product_tab_right, .ets_pmn_product_tab_right {
+        width: 100%;
+    }
+    .bootstrap .ets_pmn_product_tab_left, .ets_pmn_product_tab_left {
+        width: 100%;
+    }
+    .ets_pmn_tab_content .row.form-group label.form-control-label .from-group-actions {
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        margin-top: 10px;
+        float: left;
+        width: 100%;
+    }
+    .group-radio-edit-actions {
+        width: 100%;
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+    }
+    .from-group-actions > span.actions_title {
+        display: none;
+    }
+    .group-radio-edit-actions {
+        margin-left: 0;
+    }
+    .group-radio-edit-actions label {
+        margin-bottom: -1px;
+    }
+
+}
+
+
+
+

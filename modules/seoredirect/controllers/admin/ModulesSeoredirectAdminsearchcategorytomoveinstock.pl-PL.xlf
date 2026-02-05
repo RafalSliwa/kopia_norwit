@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="padmin" source-language="pl-PL" target-language="pl-PL" datatype="plaintext">
+    <body>
+      <trans-unit id="56a8a9eb05f9014da51a4f9b57322ac7">
+        <source>Category:</source>
+        <target>Kategoria:</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="867959e872c09b979a453bf69ffa223f">
+        <source>Search for category</source>
+        <target>Wyszukaj kategorię</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="b95aa9f1e2e9683ed64d1897b90064cc">
+        <source>Module will assign/unassign product to/from this category depending on selected option above</source>
+        <target>Moduł powiąże/usunie produkt z kategorią w zależności od wybranej powyżej opcji</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="41226d4d0164019b2afd85dcd30a3323">
+        <source>If selected category will be a default product category - module will not unassign product from this category. Product must have default category association.</source>
+        <target>Jeżeli wybrana kategoria będzie główną kategorią produktu wówczas moduł jej nie usunie. W PrestaShop produkty nie mogą być bez powiązania z kategorią główną .</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="0f6969d7052da9261e31ddb6e88c136e">
+        <source>remove</source>
+        <target>usuń</target>
+        <note>Line: </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

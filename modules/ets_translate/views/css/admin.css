@@ -1,0 +1,297 @@
+/**
+ * Copyright ETS Software Technology Co., Ltd
+ *
+ * NOTICE OF LICENSE
+ *
+ * This file is not open source! Each license that you purchased is only available for 1 website only.
+ * If you want to use this file on more websites (or projects), you need to purchase additional licenses.
+ * You are not allowed to redistribute, resell, lease, license, sub-license or offer our resources to any third party.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade PrestaShop to newer
+ * versions in the future.
+ *
+ * @author ETS Software Technology Co., Ltd
+ * @copyright  ETS Software Technology Co., Ltd
+ * @license    Valid for 1 website (or project) for each purchase of license
+ */
+.ets-trans-tree-web-page li a[data-toggle="collapse"]:not(.collapsed) i {
+    transform: rotate(-225deg);
+    -webkit-transform: rotate(-225deg);
+    vertical-align: 0;
+}
+html body:not(.adminstockmanagement):not(.adminpsthemecustoconfiguration):not(.adminpsthemecustoadvanced):not(.adminmodulesmanage):not(.adminaccess) .bootstrap [class*=col-] {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 0;
+    margin-right: 0;
+}
+html body:not(.adminstockmanagement):not(.adminpsthemecustoconfiguration):not(.adminpsthemecustoadvanced):not(.adminmodulesmanage):not(.adminaccess) .bootstrap .row {
+    margin: 0 -15px;
+}
+.form-group.translatable-field {
+    width: calc(100% + 30px);
+}
+svg {
+    fill: currentColor;
+}
+a.btn.btn-default.btn-sm.ets-trans-link-to-config-wd,#content.bootstrap .panel .panel-heading .btn.ets-trans-link-to-config-wd {
+    display: inline-flex;
+    padding: 5px 10px!important;
+}
+
+a.btn.btn-default.btn-sm.ets-trans-link-to-config-wd svg {
+    margin-right: 4px;
+}
+.growl.growl-error, html :is(body:not(.no-smb-reskin)) .growl.growl-error {
+    color: #fff;
+    background: rgba(224,143,149,.8);
+}
+.growl.growl-notice, html :is(body:not(.no-smb-reskin)) .growl.growl-notice {
+    color: #fff;
+    background: rgba(114,194,121,.8);
+}
+.growl.growl-warning, html :is(body:not(.no-smb-reskin)) .growl.growl-warning {
+    color: #fff;
+    background: rgba(251,187,34,.8);
+}
+.btn.loading:after{
+    content: "";
+    position: absolute;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    border-left: 1px solid transparent !important;
+    border-right: 1px solid transparent !important;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    left: 50%;
+    margin-left: -9px;
+    margin-top: -9px;
+    top: 50%;
+    animation: loading_translate 0.5s infinite linear;
+    -webkit-animation: loading_translate 0.5s infinite linear;
+}
+@-webkit-keyframes loading_translate {
+    from {
+        transform: rotate(0);
+        -webkit-transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes loading_translate {
+    from {
+        transform: rotate(0);
+        -webkit-transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+    }
+}
+button.btn.btn-default.loading, :is(body:not(.no-smb-reskin)) .bootstrap button.btn-default.loading {
+    background: #00aff0!important;
+    color: transparent!important;
+}
+.ets-trans-btn-check-api{
+    display: block !important;
+}
+.ets-trans-auto-setting-group button.btn {
+    font-weight: normal;
+}
+button:focus {
+    outline: none!important;
+    box-shadow: none!important;
+}
+.ets-trans-checkbox-dropdown .dropdown-menu li:hover,
+.ets-trans-checkbox-dropdown .dropdown-menu li:hover label,
+.ets-trans-checkbox-dropdown .checkbox-item:hover,
+.ets-trans-checkbox-dropdown .checkbox-item:hover label {
+    text-decoration: none;
+    color: #fff;
+    background-color: #25b9d7;
+}
+.ets_dropdown ul.dropdown-menu {
+    max-height: 300px;
+    overflow: auto;
+}
+.panel .form-group .help-block {
+    margin-bottom: 0;
+}
+.input-group-addon .input-suffix {
+    padding: 0!important;
+    background: transparent!important;
+    text-align: center;
+    display: block;
+}
+.mm_menu_form.mm_pop_up .panel {
+    margin-bottom: 0!important;
+}
+.trans-lang-options_dropdown_content button .text-html img {
+    vertical-align: -1px;
+}
+.help-block {
+    font-size: 12px;
+    color: #999;
+    font-style: italic;
+}
+.ets-trans-checkbox-dropdown input[type="checkbox"] {
+    position: absolute;
+    left: 6px;
+    top: 4px;
+}
+.bootstrap .table thead>tr>th span, .bootstrap .table thead>tr>th span.title_box, .bootstrap .table thead>tr>th {
+    font-weight: 600;
+}
+.ets-trans-checkbox-dropdown label {
+    font-weight: 400;
+    padding: 3px 10px;
+    display: block;
+    margin-bottom: 0;
+    color: #666;
+    width: 100%;
+    border-radius: 2px;
+    padding-left: 25px;
+    cursor: pointer;
+}
+.ets-trans-checkbox-dropdown .checkbox-item{
+    margin: 0;
+    padding: 1px 0px;
+    display: flex;
+    display: -webkit-flex;
+    position: relative;
+}
+.ets-trans-checkbox-dropdown ul.dropdown-menu li {
+    position: relative;
+    padding: 3px 5px;
+}
+.ets-trans-checkbox-dropdown .checkbox-all{
+    position: relative;
+}
+.ets-trans-checkbox-dropdown .checkbox-all i{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.ets-lang-target-hide{
+    display: none;
+}
+button.ets-ets-trans-btn-inter-trans-field-item.ml-2{
+    min-height: 35px;
+}
+.ets-trans-logs .pagination-box{
+    display: flex;
+}
+.ets-trans-logs .pagination-box .log-info{
+    display: flex;
+    align-items: center;
+    flex: 1 1 auto;
+}
+.ets-trans-target-lang-config label.control-label:before{
+    content: "*";
+    color: red;
+    margin-right: 5px;
+}
+input#ETS_TRANS_GOOGLE_API_KEY,
+#ETS_TRANS_LIBRE_API_KEY,
+#ETS_TRANS_LECTO_API_KEY,
+#ETS_TRANS_YANDEX_API_KEY,
+.ets-trans-rate-setting .input-group{
+    width: 100%;
+    max-width: 400px;
+    min-height:39px;
+}
+.ets-trans-btn-back i.process-icon-arrow-left:before {
+    content: "\f060";
+    font-size: 24px;
+    line-height: 24px;
+    display: inline-block;
+    vertical-align: top;
+}
+.ets-trans-rate-setting .input-group-addon{
+    padding: 0;
+}
+.ets-trans-rate-setting .input-suffix{
+    width: 50px !important;
+    border: none !important;
+    height: 28px !important;
+}
+body ul.ets-trans-tree-web-page > li {
+    padding-left: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+body ul.ets-trans-tree-web-page {
+    border: 1px solid #ddd;
+}
+body .ets-trans-tree-web-page ul.sub-tree {
+    border: none;
+}
+body .ets-trans-tree-web-page ul.sub-tree li {
+    padding-top: 5px;
+    width: 100%;
+    padding-bottom: 2px;
+}
+body .ets-trans-tree-web-page li li input {
+    margin-top: 2px!important;
+}
+#langTargetDropdownBo img,
+#langTargetDropdownBo + ul img,
+#etsTransFormTransPages .title_lang_target img{
+    max-height: 11px;
+}
+.ets_trans_key_phrase_to .form-group {
+    margin-bottom: 0;
+}
+.ets_button.ets-btn-add-phrase {
+    background: #25b9d7;
+    border: 1px solid #25b9d7;
+    color: #fff;
+    padding: 5px 10px;
+    min-width: 50px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-left: 0;
+    position: relative;
+}
+.ets_button.ets-btn-add-phrase:before {
+    content: "+";
+    margin-right: 4px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    vertical-align: 0px;
+    font-family: Arial;
+}
+.js-ets_trans_key_phrase_group + .js-ets_trans_key_phrase_group {
+    margin-top: 15px!important;
+}
+.ets_button.ets-btn-add-phrase:hover {
+    background: #07a9c9;
+}
+.ets_trans_key_phrase label {
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+i.icon-caret-down {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 5px;
+    vertical-align: middle;
+    border-top: 4px solid;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+a.list-toolbar-btn.btn-new-item .tooltip .tooltip-inner {
+    white-space: nowrap;
+}
+i.icon-caret-down:before {
+    display: none;
+}

@@ -1,0 +1,2953 @@
+[2025-01-23 14:40:32] {"order_id":21,"status":"paid","transaction_id":13}
+[2025-01-23 14:40:37] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => 
+        )
+
+    [1] => Array
+        (
+            [id_option] => 
+            [name] => 
+        )
+
+    [2] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [3] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [4] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [5] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [6] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [7] => Array
+        (
+            [id_option] => 53
+            [name] => Oczekiwanie na płatność LeaseLink
+        )
+
+    [8] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [9] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [10] => Array
+        (
+            [id_option] => 54
+            [name] => Płatność Leaselink przyjęta
+        )
+
+    [11] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [12] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [13] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [14] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [15] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [16] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-01-23 14:41:16] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => 
+        )
+
+    [1] => Array
+        (
+            [id_option] => 
+            [name] => 
+        )
+
+    [2] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [3] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [4] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [5] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [6] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [7] => Array
+        (
+            [id_option] => 53
+            [name] => Oczekiwanie na płatność LeaseLink
+        )
+
+    [8] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [9] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [10] => Array
+        (
+            [id_option] => 54
+            [name] => Płatność Leaselink przyjęta
+        )
+
+    [11] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [12] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [13] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [14] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [15] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [16] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-01-23 14:51:37] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => 
+        )
+
+    [1] => Array
+        (
+            [id_option] => 
+            [name] => 
+        )
+
+    [2] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [3] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [4] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [5] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [6] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [7] => Array
+        (
+            [id_option] => 53
+            [name] => Oczekiwanie na płatność LeaseLink
+        )
+
+    [8] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [9] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [10] => Array
+        (
+            [id_option] => 54
+            [name] => Płatność Leaselink przyjęta
+        )
+
+    [11] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [12] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [13] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [14] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [15] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [16] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-01-23 14:52:14] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => 
+        )
+
+    [1] => Array
+        (
+            [id_option] => 
+            [name] => 
+        )
+
+    [2] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [3] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [4] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [5] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [6] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [7] => Array
+        (
+            [id_option] => 53
+            [name] => Oczekiwanie na płatność LeaseLink
+        )
+
+    [8] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [9] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [10] => Array
+        (
+            [id_option] => 54
+            [name] => Płatność Leaselink przyjęta
+        )
+
+    [11] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [12] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [13] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [14] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [15] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [16] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-01-23 14:52:14] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => 
+        )
+
+    [1] => Array
+        (
+            [id_option] => 
+            [name] => 
+        )
+
+    [2] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [3] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [4] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [5] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [6] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [7] => Array
+        (
+            [id_option] => 53
+            [name] => Oczekiwanie na płatność LeaseLink
+        )
+
+    [8] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [9] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [10] => Array
+        (
+            [id_option] => 54
+            [name] => Płatność Leaselink przyjęta
+        )
+
+    [11] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [12] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [13] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [14] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [15] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [16] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-01-23 14:52:27] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => 
+        )
+
+    [1] => Array
+        (
+            [id_option] => 
+            [name] => 
+        )
+
+    [2] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [3] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [4] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [5] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [6] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [7] => Array
+        (
+            [id_option] => 53
+            [name] => Oczekiwanie na płatność LeaseLink
+        )
+
+    [8] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [9] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [10] => Array
+        (
+            [id_option] => 54
+            [name] => Płatność Leaselink przyjęta
+        )
+
+    [11] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [12] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [13] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [14] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [15] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [16] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-01-23 14:52:36] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => 
+        )
+
+    [1] => Array
+        (
+            [id_option] => 
+            [name] => 
+        )
+
+    [2] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [3] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [4] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [5] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [6] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [7] => Array
+        (
+            [id_option] => 53
+            [name] => Oczekiwanie na płatność LeaseLink
+        )
+
+    [8] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [9] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [10] => Array
+        (
+            [id_option] => 54
+            [name] => Płatność Leaselink przyjęta
+        )
+
+    [11] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [12] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [13] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [14] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [15] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [16] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-01-23 14:52:55] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => 
+        )
+
+    [1] => Array
+        (
+            [id_option] => 
+            [name] => 
+        )
+
+    [2] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [3] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [4] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [5] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [6] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [7] => Array
+        (
+            [id_option] => 53
+            [name] => Oczekiwanie na płatność LeaseLink
+        )
+
+    [8] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [9] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [10] => Array
+        (
+            [id_option] => 54
+            [name] => Płatność Leaselink przyjęta
+        )
+
+    [11] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [12] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [13] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [14] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [15] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [16] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-01-23 15:13:40] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => 
+        )
+
+    [1] => Array
+        (
+            [id_option] => 
+            [name] => 
+        )
+
+    [2] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [3] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [4] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [5] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [6] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [7] => Array
+        (
+            [id_option] => 53
+            [name] => Oczekiwanie na płatność LeaseLink
+        )
+
+    [8] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [9] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [10] => Array
+        (
+            [id_option] => 54
+            [name] => Płatność Leaselink przyjęta
+        )
+
+    [11] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [12] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [13] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [14] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [15] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [16] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-01-23 15:13:45] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => 
+        )
+
+    [1] => Array
+        (
+            [id_option] => 
+            [name] => 
+        )
+
+    [2] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [3] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [4] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [5] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [6] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [7] => Array
+        (
+            [id_option] => 53
+            [name] => Oczekiwanie na płatność LeaseLink
+        )
+
+    [8] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [9] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [10] => Array
+        (
+            [id_option] => 54
+            [name] => Płatność Leaselink przyjęta
+        )
+
+    [11] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [12] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [13] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [14] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [15] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [16] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-01-23 15:17:02] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => 
+        )
+
+    [1] => Array
+        (
+            [id_option] => 
+            [name] => 
+        )
+
+    [2] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [3] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [4] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [5] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [6] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [7] => Array
+        (
+            [id_option] => 53
+            [name] => Oczekiwanie na płatność LeaseLink
+        )
+
+    [8] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [9] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [10] => Array
+        (
+            [id_option] => 54
+            [name] => Płatność Leaselink przyjęta
+        )
+
+    [11] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [12] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [13] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [14] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [15] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [16] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-01-23 15:21:00] 
+[2025-01-23 15:21:03] 
+[2025-01-23 15:45:09] {"Status":-2,"StatusName":"UNKNOWN","TransactionId":"c5995c38db2e4f45a11ae874f46654ea","InvoiceVatCompanyName":null,"InvoiceVatIdentificationNumber":null,"InvoiceVatAddressCity":null,"InvoiceVatAddressZipCode":null,"InvoiceVatAddressStreetName":null,"InvoiceVatAddressStreetNumber":null,"InvoiceVatAddressLocationNumber":null,"PartnerId":"ADAMTEST","CustomerExternalDocument":"24","FinancialProductType":null,"ContractGrossValue":null,"NumberOfInstallments":null,"OperationDateTime":"2025-01-23T15:44:20.4010476Z","Guid":"a4bfbd85358d49ce953b9f5a48d33d70"}
+[2025-01-23 15:45:11] {"Status":-1,"StatusName":"CANCELLED","TransactionId":"c5995c38db2e4f45a11ae874f46654ea","InvoiceVatCompanyName":null,"InvoiceVatIdentificationNumber":null,"InvoiceVatAddressCity":null,"InvoiceVatAddressZipCode":null,"InvoiceVatAddressStreetName":null,"InvoiceVatAddressStreetNumber":null,"InvoiceVatAddressLocationNumber":null,"PartnerId":"ADAMTEST","CustomerExternalDocument":"24","FinancialProductType":null,"ContractGrossValue":null,"NumberOfInstallments":null,"OperationDateTime":"2025-01-23T15:44:44.8143576Z","Guid":"985b8ee9e9354c8cb4e7919444882839"}
+[2025-01-23 15:46:08] {"Status":2,"StatusName":"ACCEPTED","TransactionId":"c5995c38db2e4f45a11ae874f46654ea","InvoiceVatCompanyName":null,"InvoiceVatIdentificationNumber":null,"InvoiceVatAddressCity":null,"InvoiceVatAddressZipCode":null,"InvoiceVatAddressStreetName":null,"InvoiceVatAddressStreetNumber":null,"InvoiceVatAddressLocationNumber":null,"PartnerId":"ADAMTEST","CustomerExternalDocument":"24","FinancialProductType":null,"ContractGrossValue":null,"NumberOfInstallments":null,"OperationDateTime":"2025-01-23T15:45:51.6711018Z","Guid":"515be9eb6ec94969931a621cea82efb2"}
+[2025-01-23 15:47:09] {"Status":4,"StatusName":"SIGN_CONTRACT","TransactionId":"c5995c38db2e4f45a11ae874f46654ea","InvoiceVatCompanyName":"PROJEKT-NET Damian Szyszkiewicz","InvoiceVatIdentificationNumber":"9482221571","InvoiceVatAddressCity":"Radom","InvoiceVatAddressZipCode":"26-600","InvoiceVatAddressStreetName":"UL. Gnieźnieńska","InvoiceVatAddressStreetNumber":"13a","InvoiceVatAddressLocationNumber":"","PartnerId":"ADAMTEST","CustomerExternalDocument":"24","FinancialProductType":"Loan","ContractGrossValue":383.76,"NumberOfInstallments":24,"OperationDateTime":"2025-01-23T15:46:27.5781665Z","Guid":"c89fc646671a417ebc5bc9cd1bdf14ec"}
+[2025-01-23 15:55:14] {"Status":3,"StatusName":"SEND_ASSET","TransactionId":"c5995c38db2e4f45a11ae874f46654ea","InvoiceVatCompanyName":null,"InvoiceVatIdentificationNumber":null,"InvoiceVatAddressCity":null,"InvoiceVatAddressZipCode":null,"InvoiceVatAddressStreetName":null,"InvoiceVatAddressStreetNumber":null,"InvoiceVatAddressLocationNumber":null,"PartnerId":"ADAMTEST","CustomerExternalDocument":"24","FinancialProductType":null,"ContractGrossValue":null,"NumberOfInstallments":null,"OperationDateTime":"2025-01-23T15:54:49.2219014Z","Guid":"ab6951ac192b44969a6791f9b88f33e1"}
+[2025-01-24 08:06:12] {"order_id":21,"StatusName":"CANCELLED","TransactionId":"c5995c38db2e4f45a11ae874f46654ea","CustomerExternalDocument":24} -- [2025-01-24 08:08:03] {"order_id":21,"StatusName":"CANCELLED","TransactionId":"c5995c38db2e4f45a11ae874f46654ea","CustomerExternalDocument":24} -- 
+[2025-01-24 08:08:20] {"order_id":21,"StatusName":"CANCELLED","TransactionId":"c5995c38db2e4f45a11ae874f46654ea","CustomerExternalDocument":24} -- 
+[2025-01-24 08:11:06] {"order_id":21,"StatusName":"CANCELLED","TransactionId":"c5995c38db2e4f45a11ae874f46654ea","CustomerExternalDocument":24} -- 
+[2025-01-24 08:17:19] {"order_id":21,"StatusName":"CANCELLED","TransactionId":"c5995c38db2e4f45a11ae874f46654ea","CustomerExternalDocument":24} -- 
+[2025-01-24 08:19:04] {"order_id":21,"StatusName":"CANCELLED","TransactionId":"c5995c38db2e4f45a11ae874f46654ea","CustomerExternalDocument":24} -- 
+[2025-01-24 08:22:51] {"order_id":21,"StatusName":"CANCELLED","TransactionId":"c5995c38db2e4f45a11ae874f46654ea","CustomerExternalDocument":24} -- 
+[2025-01-24 09:32:52] {"order_id":21,"StatusName":"CANCELLED","TransactionId":"c5995c38db2e4f45a11ae874f46654ea","CustomerExternalDocument":24} -- 
+[2025-01-24 09:33:41] {"order_id":21,"StatusName":"PROCESSING","TransactionId":"c5995c38db2e4f45a11ae874f46654ea","CustomerExternalDocument":24} -- 
+[2025-01-24 09:35:33] {"order_id":21,"StatusName":"SEND_ASSET","TransactionId":"c5995c38db2e4f45a11ae874f46654ea","CustomerExternalDocument":24} -- 
+[2025-01-24 09:35:58] {"order_id":21,"StatusName":"SEND_ASSET","TransactionId":"c5995c38db2e4f45a11ae874f46654ea","CustomerExternalDocument":24} -- 
+[2025-01-24 09:37:49] {"order_id":21,"StatusName":"SIGN_CONTRACT","TransactionId":"c5995c38db2e4f45a11ae874f46654ea","CustomerExternalDocument":24} -- 
+[2025-01-24 09:47:19] {"order_id":21,"StatusName":"SIGN_CONTRACT","TransactionId":"c5995c38db2e4f45a11ae874f46654ea","CustomerExternalDocument":24} -- 
+[2025-01-24 09:51:00] {"order_id":21,"StatusName":"SIGN_CONTRACT","TransactionId":"c5995c38db2e4f45a11ae874f46654ea","CustomerExternalDocument":24} -- 
+[2025-01-24 09:56:08] {"order_id":21,"StatusName":"NEED_DATA","TransactionId":"c5995c38db2e4f45a11ae874f46654ea","CustomerExternalDocument":24} -- 
+[2025-01-24 09:56:42] {"order_id":21,"StatusName":"FINISHED","TransactionId":"c5995c38db2e4f45a11ae874f46654ea","CustomerExternalDocument":24} -- 
+[2025-01-24 09:56:46] {"order_id":21,"StatusName":"FINISHED","TransactionId":"c5995c38db2e4f45a11ae874f46654ea","CustomerExternalDocument":24} -- 
+[2025-01-24 09:57:53] {"order_id":21,"StatusName":"PROCESSING","TransactionId":"c5995c38db2e4f45a11ae874f46654ea","CustomerExternalDocument":24} -- 
+[2025-01-24 09:57:57] {"order_id":21,"StatusName":"PROCESSING","TransactionId":"c5995c38db2e4f45a11ae874f46654ea","CustomerExternalDocument":24} -- 
+[2025-01-24 10:12:38] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => 
+        )
+
+    [1] => Array
+        (
+            [id_option] => 
+            [name] => 
+        )
+
+    [2] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [3] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [4] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [5] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [6] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [7] => Array
+        (
+            [id_option] => 53
+            [name] => Oczekiwanie na płatność LeaseLink
+        )
+
+    [8] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [9] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [10] => Array
+        (
+            [id_option] => 54
+            [name] => Płatność Leaselink przyjęta
+        )
+
+    [11] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [12] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [13] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [14] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [15] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [16] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-01-24 10:12:58] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => 
+        )
+
+    [1] => Array
+        (
+            [id_option] => 
+            [name] => 
+        )
+
+    [2] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [3] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [4] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [5] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [6] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [7] => Array
+        (
+            [id_option] => 53
+            [name] => Oczekiwanie na płatność LeaseLink
+        )
+
+    [8] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [9] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [10] => Array
+        (
+            [id_option] => 54
+            [name] => Płatność Leaselink przyjęta
+        )
+
+    [11] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [12] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [13] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [14] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [15] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [16] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-01-24 10:14:15] {"order_id":21,"StatusName":"SEND_ASSET","TransactionId":"c5995c38db2e4f45a11ae874f46654ea","CustomerExternalDocument":24} -- 
+[2025-01-24 10:15:05] {"order_id":21,"StatusName":"PROCESSING","TransactionId":"c5995c38db2e4f45a11ae874f46654ea","CustomerExternalDocument":24} -- 
+[2025-01-24 10:59:44] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => 
+        )
+
+    [1] => Array
+        (
+            [id_option] => 
+            [name] => 
+        )
+
+    [2] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [3] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [4] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [5] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [6] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [7] => Array
+        (
+            [id_option] => 53
+            [name] => Oczekiwanie na płatność LeaseLink
+        )
+
+    [8] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [9] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [10] => Array
+        (
+            [id_option] => 54
+            [name] => Płatność Leaselink przyjęta
+        )
+
+    [11] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [12] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [13] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [14] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [15] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [16] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-01-24 11:23:52] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => 
+        )
+
+    [1] => Array
+        (
+            [id_option] => 
+            [name] => 
+        )
+
+    [2] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [3] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [4] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [5] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [6] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [7] => Array
+        (
+            [id_option] => 53
+            [name] => Oczekiwanie na płatność LeaseLink
+        )
+
+    [8] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [9] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [10] => Array
+        (
+            [id_option] => 54
+            [name] => Płatność Leaselink przyjęta
+        )
+
+    [11] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [12] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [13] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [14] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [15] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [16] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-01-24 11:23:55] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => 
+        )
+
+    [1] => Array
+        (
+            [id_option] => 
+            [name] => 
+        )
+
+    [2] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [3] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [4] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [5] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [6] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [7] => Array
+        (
+            [id_option] => 53
+            [name] => Oczekiwanie na płatność LeaseLink
+        )
+
+    [8] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [9] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [10] => Array
+        (
+            [id_option] => 54
+            [name] => Płatność Leaselink przyjęta
+        )
+
+    [11] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [12] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [13] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [14] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [15] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [16] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-01-24 11:27:44] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => 
+        )
+
+    [1] => Array
+        (
+            [id_option] => 
+            [name] => 
+        )
+
+    [2] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [3] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [4] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [5] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [6] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [7] => Array
+        (
+            [id_option] => 53
+            [name] => Oczekiwanie na płatność LeaseLink
+        )
+
+    [8] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [9] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [10] => Array
+        (
+            [id_option] => 54
+            [name] => Płatność Leaselink przyjęta
+        )
+
+    [11] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [12] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [13] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [14] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [15] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [16] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-01-24 11:51:31] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => 
+        )
+
+    [1] => Array
+        (
+            [id_option] => 
+            [name] => 
+        )
+
+    [2] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [3] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [4] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [5] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [6] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [7] => Array
+        (
+            [id_option] => 53
+            [name] => Oczekiwanie na płatność LeaseLink
+        )
+
+    [8] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [9] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [10] => Array
+        (
+            [id_option] => 54
+            [name] => Płatność Leaselink przyjęta
+        )
+
+    [11] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [12] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [13] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [14] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [15] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [16] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-01-24 11:51:36] {"order_id":21,"StatusName":"PROCESSING","TransactionId":"c5995c38db2e4f45a11ae874f46654ea","CustomerExternalDocument":24} -- 
+[2025-01-24 11:52:50] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => 
+        )
+
+    [1] => Array
+        (
+            [id_option] => 
+            [name] => 
+        )
+
+    [2] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [3] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [4] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [5] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [6] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [7] => Array
+        (
+            [id_option] => 53
+            [name] => Oczekiwanie na płatność LeaseLink
+        )
+
+    [8] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [9] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [10] => Array
+        (
+            [id_option] => 54
+            [name] => Płatność Leaselink przyjęta
+        )
+
+    [11] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [12] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [13] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [14] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [15] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [16] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-01-24 11:53:19] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => 
+        )
+
+    [1] => Array
+        (
+            [id_option] => 
+            [name] => 
+        )
+
+    [2] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [3] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [4] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [5] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [6] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [7] => Array
+        (
+            [id_option] => 53
+            [name] => Oczekiwanie na płatność LeaseLink
+        )
+
+    [8] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [9] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [10] => Array
+        (
+            [id_option] => 54
+            [name] => Płatność Leaselink przyjęta
+        )
+
+    [11] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [12] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [13] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [14] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [15] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [16] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-01-24 11:53:27] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => 
+        )
+
+    [1] => Array
+        (
+            [id_option] => 
+            [name] => 
+        )
+
+    [2] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [3] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [4] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [5] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [6] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [7] => Array
+        (
+            [id_option] => 53
+            [name] => Oczekiwanie na płatność LeaseLink
+        )
+
+    [8] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [9] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [10] => Array
+        (
+            [id_option] => 54
+            [name] => Płatność Leaselink przyjęta
+        )
+
+    [11] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [12] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [13] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [14] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [15] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [16] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-01-24 11:53:35] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => 
+        )
+
+    [1] => Array
+        (
+            [id_option] => 
+            [name] => 
+        )
+
+    [2] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [3] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [4] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [5] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [6] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [7] => Array
+        (
+            [id_option] => 53
+            [name] => Oczekiwanie na płatność LeaseLink
+        )
+
+    [8] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [9] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [10] => Array
+        (
+            [id_option] => 54
+            [name] => Płatność Leaselink przyjęta
+        )
+
+    [11] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [12] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [13] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [14] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [15] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [16] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-01-24 12:10:32] {"order_id":21,"StatusName":"CANCELLED","TransactionId":"c5995c38db2e4f45a11ae874f46654ea","CustomerExternalDocument":24} -- 
+[2025-01-24 14:38:32] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => Wybierz
+        )
+
+    [1] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [2] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [3] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [4] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [5] => Array
+        (
+            [id_option] => 30
+            [name] => Leaselink - etap skladania wniosku
+        )
+
+    [6] => Array
+        (
+            [id_option] => 27
+            [name] => LeaseLink - oczekiwanie na płatność
+        )
+
+    [7] => Array
+        (
+            [id_option] => 31
+            [name] => Leaselink - płatność anulowana
+        )
+
+    [8] => Array
+        (
+            [id_option] => 28
+            [name] => Leaselink - płatność przyjęta
+        )
+
+    [9] => Array
+        (
+            [id_option] => 29
+            [name] => Leaselink - umowa podpisana - wyślij FV
+        )
+
+    [10] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [11] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [12] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [13] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [14] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [15] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [16] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [17] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [18] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-01-24 14:39:23] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => Wybierz
+        )
+
+    [1] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [2] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [3] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [4] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [5] => Array
+        (
+            [id_option] => 30
+            [name] => Leaselink - etap skladania wniosku
+        )
+
+    [6] => Array
+        (
+            [id_option] => 27
+            [name] => LeaseLink - oczekiwanie na płatność
+        )
+
+    [7] => Array
+        (
+            [id_option] => 31
+            [name] => Leaselink - płatność anulowana
+        )
+
+    [8] => Array
+        (
+            [id_option] => 28
+            [name] => Leaselink - płatność przyjęta
+        )
+
+    [9] => Array
+        (
+            [id_option] => 29
+            [name] => Leaselink - umowa podpisana - wyślij FV
+        )
+
+    [10] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [11] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [12] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [13] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [14] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [15] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [16] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [17] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [18] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-01-24 14:41:49] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => Wybierz
+        )
+
+    [1] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [2] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [3] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [4] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [5] => Array
+        (
+            [id_option] => 30
+            [name] => Leaselink - etap skladania wniosku
+        )
+
+    [6] => Array
+        (
+            [id_option] => 27
+            [name] => LeaseLink - oczekiwanie na płatność
+        )
+
+    [7] => Array
+        (
+            [id_option] => 31
+            [name] => Leaselink - płatność anulowana
+        )
+
+    [8] => Array
+        (
+            [id_option] => 28
+            [name] => Leaselink - płatność przyjęta
+        )
+
+    [9] => Array
+        (
+            [id_option] => 29
+            [name] => Leaselink - umowa podpisana - wyślij FV
+        )
+
+    [10] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [11] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [12] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [13] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [14] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [15] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [16] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [17] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [18] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-01-24 14:46:34] {"order_id":21,"StatusName":"SIGN_CONTRACT","TransactionId":"c5995c38db2e4f45a11ae874f46654ea","CustomerExternalDocument":24} -- 
+[2025-01-24 14:47:07] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => Wybierz
+        )
+
+    [1] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [2] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [3] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [4] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [5] => Array
+        (
+            [id_option] => 30
+            [name] => Leaselink - etap skladania wniosku
+        )
+
+    [6] => Array
+        (
+            [id_option] => 27
+            [name] => LeaseLink - oczekiwanie na płatność
+        )
+
+    [7] => Array
+        (
+            [id_option] => 31
+            [name] => Leaselink - płatność anulowana
+        )
+
+    [8] => Array
+        (
+            [id_option] => 28
+            [name] => Leaselink - płatność przyjęta
+        )
+
+    [9] => Array
+        (
+            [id_option] => 29
+            [name] => Leaselink - umowa podpisana - wyślij FV
+        )
+
+    [10] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [11] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [12] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [13] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [14] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [15] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [16] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [17] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [18] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-01-24 14:47:31] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => Wybierz
+        )
+
+    [1] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [2] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [3] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [4] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [5] => Array
+        (
+            [id_option] => 30
+            [name] => Leaselink - etap skladania wniosku
+        )
+
+    [6] => Array
+        (
+            [id_option] => 27
+            [name] => LeaseLink - oczekiwanie na płatność
+        )
+
+    [7] => Array
+        (
+            [id_option] => 31
+            [name] => Leaselink - płatność anulowana
+        )
+
+    [8] => Array
+        (
+            [id_option] => 28
+            [name] => Leaselink - płatność przyjęta
+        )
+
+    [9] => Array
+        (
+            [id_option] => 29
+            [name] => Leaselink - umowa podpisana - wyślij FV
+        )
+
+    [10] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [11] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [12] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [13] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [14] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [15] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [16] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [17] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [18] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+

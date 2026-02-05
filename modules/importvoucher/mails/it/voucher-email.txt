@@ -1,0 +1,11 @@
+Hello,
+
+Thank you for choosing gift card from our store.
+Here is the voucher code.
+
+{voucher}
+
+
+You can use this voucher code in cart.
+
+{shop_url}

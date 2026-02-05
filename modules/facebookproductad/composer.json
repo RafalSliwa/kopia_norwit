@@ -1,0 +1,36 @@
+{    "name": "businesstech/facebookproductad",
+    "description": "Automatically promote relevant products from your entire catalog on Facebook across any device.",
+    "license": "see file: LICENSE.txt",
+    "authors": [
+        {
+            "name": "businesstech.fr.com",
+            "email": "support@businesstech.fr"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "FacebookProductAd\\Admin\\": "lib/admin",
+            "FacebookProductAd\\Common\\": "lib/common",
+            "FacebookProductAd\\Dao\\": "lib/dao",
+            "FacebookProductAd\\Exclusion\\": "lib/exclusion",
+            "FacebookProductAd\\FacebookApi\\": "lib/facebookApi",
+            "FacebookProductAd\\Hook\\": "lib/hook",
+            "FacebookProductAd\\Pixel\\": "lib/pixel",
+            "FacebookProductAd\\Xml\\": "lib/xml",
+            "FacebookProductAd\\Models\\": "models",
+            "FacebookProductAd\\Controllers\\": "controllers",
+            "FacebookProductAd\\Configuration\\": "conf",
+            "FacebookProductAd\\Install\\": "lib/install",
+            "FacebookProductAd\\ModuleLib\\": "lib"
+        },
+        "exclude-from-classmap": []
+    },
+    "config": {
+        "preferred-install": "dist",
+        "optimize-autoloader": true,
+        "prepend-autoloader": false
+      }
+}

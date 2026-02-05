@@ -1,0 +1,265 @@
+{**
+ * Kopia zapasowa szablonu cart-detailed-product-line.tpl
+ * Data utworzenia: 9 stycznia 2026
+ *}
+{**
+ * Copyright since 2007 PrestaShop SA and Contributors
+ * PrestaShop is an International Registered Trademark & Property of PrestaShop SA
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License 3.0 (AFL-3.0)
+ * that is bundled with this package in the file LICENSE.md.
+ * It is also available through the world-wide-web at this URL:
+ * https://opensource.org/licenses/AFL-3.0
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@prestashop.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade PrestaShop to newer
+ * versions in the future. If you wish to customize PrestaShop for your
+ * needs please refer to https://devdocs.prestashop.com/ for more information.
+ *
+ * @author    PrestaShop SA and Contributors <contact@prestashop.com>
+ * @copyright Since 2007 PrestaShop SA and Contributors
+ * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
+ *}
+<div class="product-line-grid">
+  <!--  product line left content: image -->
+  <div class="product-line-grid-left col-md-2 col-xs-3">
+    <span class="product-image media-middle">
+      <a href="{$product.url}">
+        {if $product.default_image}
+          <img src="{$product.default_image.bySize.cart_default.url}" alt="{$product.name|escape:'quotes'}" loading="lazy">
+        {else}
+          <img src="{$urls.no_picture_image.bySize.cart_default.url}" loading="lazy" />
+        {/if}
+      </a>
+    </span>
+  </div>
+
+  <!--  product line body: name, quantity, delivery message -->
+  <div class="product-line-grid-body col-md-7 col-xs-9">
+    {* Nazwa produktu + kosz mobilny *}
+    <div class="product-line-info product-name">
+      <a class="label" href="{$product.url}" data-id_customization="{$product.id_customization|intval}">{$product.name}</a>
+      {* Kosz mobilny - widoczny tylko na mobile *}
+      <div class="mobile-delete">
+        <a
+          rel="nofollow"
+          href="{$product.remove_from_cart_url}"
+          data-link-action="delete-from-cart"
+          data-id-product="{$product.id_product|escape:'javascript'}"
+          data-id-product-attribute="{$product.id_product_attribute|escape:'javascript'}"
+          data-id-customization="{$product.id_customization|default|escape:'javascript'}"
+        >
+          {if empty($product.is_gift)}
+            <svg xmlns="http://www.w3.org/2000/svg" height="22px" viewBox="0 -960 960 960" width="22px" fill="currentColor"><path d="M280-120q-33 0-56.5-23.5T200-200v-520h-40v-80h200v-40h240v40h200v80h-40v520q0 33-23.5 56.5T680-120H280Zm400-600H280v520h400v-520ZM360-280h80v-360h-80v360Zm160 0h80v-360h-80v360ZM280-720v520-520Z"/></svg>
+          {/if}
+        </a>
+      </div>
+    </div>
+
+    {* Atrybuty produktu *}
+    {if $product.attributes|count}
+      <div class="product-line-attributes">
+        {foreach from=$product.attributes key="attribute" item="value"}
+          <span class="product-attribute"><span class="attribute-label">{$attribute}:</span> <span class="attribute-value">{$value}</span></span>
+        {/foreach}
+      </div>
+    {/if}
+
+    {* Cena mobilna - pod atrybutami, widoczna tylko na mobile *}
+    <div class="mobile-price-under-name">
+      {if !empty($product.is_gift)}
+        <span class="mobile-price gift">{l s='Gift' d='Shop.Theme.Checkout'}</span>
+      {else}
+        <div class="mobile-price-wrapper">
+          <span class="price-gross"><strong>{$product.total}</strong></span>
+          {assign var="total_net_name" value=$product.price_tax_exc * $product.quantity}
+          <span class="price-net">{$total_net_name|number_format:2:',':" "} {$currency.sign} {l s='tax excl.' d='Shop.Theme.Catalog'}</span>
+        </div>
+      {/if}
+    </div>
+
+    {* Ilość i komunikat dostawy *}
+    <div class="product-line-quantity-delivery">
+      {if !empty($product.is_gift)}
+        <span class="gift-quantity">{$product.quantity}</span>
+      {else}
+        <div class="qty-wrapper">
+          <input
+            class="js-cart-line-product-quantity"
+            data-down-url="{$product.down_quantity_url}"
+            data-up-url="{$product.up_quantity_url}"
+            data-update-url="{$product.update_quantity_url}"
+            data-product-id="{$product.id_product}"
+            type="number"
+            inputmode="numeric"
+            pattern="[0-9]*"
+            value="{$product.quantity}"
+            name="product-quantity-spin"
+            min="1"
+            aria-label="{l s='%productName% product quantity field' sprintf=['%productName%' => $product.name] d='Shop.Theme.Checkout'}"
+          />
+        </div>
+      {/if}
+
+      {* Komunikat o dostawie *}
+      {block name='cart_delivery_message'}
+        <div class="delivery-message-wrapper">
+          {assign var="currentHour" value=$smarty.now|date_format:"%H"}
+          {assign var="currentDay" value=$smarty.now|date_format:"%w"}
+          {assign var="productQuantity" value=$product.quantity_available|default:1}
+
+          {if $productQuantity <= 0}
+            <span class="delivery-badge delivery-badge-outofstock">
+              <span class="delivery-message">{l s='Shipping from supplier warehouse' d='Shop.Theme.Global'}</span>
+            </span>
+          {else}
+            {* Ustalenie dnia dostawy *}
+            {* %w: 0=Niedziela, 1=Poniedziałek, 2=Wtorek, 3=Środa, 4=Czwartek, 5=Piątek, 6=Sobota *}
+            {* Przed 13:00: Pon-Czw → jutro, Pt → poniedziałek, Sob-Nd → wtorek *}
+            {* Po 13:00: Pon → środa, Wt → czwartek, Śr → piątek, Czw → poniedziałek, Pt-Nd → wtorek *}
+            {if $currentHour < 13}
+              {if $currentDay >= 1 && $currentDay <= 4}
+                {assign var="deliveryDay" value="tomorrow"}
+              {elseif $currentDay == 5}
+                {assign var="deliveryDay" value="monday"}
+              {else}
+                {assign var="deliveryDay" value="tuesday"}
+              {/if}
+            {else}
+              {if $currentDay == 1}
+                {assign var="deliveryDay" value="wednesday"}
+              {elseif $currentDay == 2}
+                {assign var="deliveryDay" value="thursday"}
+              {elseif $currentDay == 3}
+                {assign var="deliveryDay" value="friday"}
+              {elseif $currentDay == 4}
+                {assign var="deliveryDay" value="monday"}
+              {else}
+                {assign var="deliveryDay" value="tuesday"}
+              {/if}
+            {/if}
+
+            <span class="delivery-badge delivery-badge-fast">
+              <span class="delivery-message">
+                {if $deliveryDay == "tomorrow"}
+                  {l s='At your place tomorrow' d='Shop.Theme.Global'}
+                {elseif $deliveryDay == "monday"}
+                  {l s='At your place on Monday' d='Shop.Theme.Global'}
+                {elseif $deliveryDay == "tuesday"}
+                  {l s='At your place on Tuesday' d='Shop.Theme.Global'}
+                {elseif $deliveryDay == "wednesday"}
+                  {l s='At your place on Wednesday' d='Shop.Theme.Global'}
+                {elseif $deliveryDay == "thursday"}
+                  {l s='At your place on Thursday' d='Shop.Theme.Global'}
+                {elseif $deliveryDay == "friday"}
+                  {l s='At your place on Friday' d='Shop.Theme.Global'}
+                {/if}
+              </span>
+            </span>
+          {/if}
+        </div>
+      {/block}
+    </div>
+
+    {* Customizacje - modal *}
+    {if is_array($product.customizations) && $product.customizations|count}
+      {block name='cart_detailed_product_line_customization'}
+        {foreach from=$product.customizations item="customization"}
+          <a href="#" data-toggle="modal" data-target="#product-customizations-modal-{$customization.id_customization}" class="customization-link">{l s='Product customization' d='Shop.Theme.Catalog'}</a>
+          <div class="modal fade customization-modal js-customization-modal" id="product-customizations-modal-{$customization.id_customization}" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="{l s='Close' d='Shop.Theme.Global'}">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                  <h4 class="modal-title">{l s='Product customization' d='Shop.Theme.Catalog'}</h4>
+                </div>
+                <div class="modal-body">
+                  {foreach from=$customization.fields item="field"}
+                    <div class="product-customization-line row">
+                      <div class="col-sm-3 col-xs-4 label">
+                        {$field.label}
+                      </div>
+                      <div class="col-sm-9 col-xs-8 value">
+                        {if $field.type == 'text'}
+                          {if (int)$field.id_module}
+                            {$field.text nofilter}
+                          {else}
+                            {$field.text}
+                          {/if}
+                        {elseif $field.type == 'image'}
+                          <img src="{$field.image.small.url}" loading="lazy">
+                        {/if}
+                      </div>
+                    </div>
+                  {/foreach}
+                </div>
+              </div>
+            </div>
+          </div>
+        {/foreach}
+      {/block}
+    {/if}
+  </div>
+
+  <!--  product line right content: price and delete -->
+  <div class="product-line-grid-right product-line-actions col-md-3 col-xs-12">
+    <div class="price-delete-wrapper">
+      {* Ceny *}
+      <div class="product-line-price">
+        {if !empty($product.is_gift)}
+          <span class="gift">{l s='Gift' d='Shop.Theme.Checkout'}</span>
+        {else}
+          {* Cena brutto *}
+          <span class="product-price price-gross">
+            <strong>{$product.total}</strong>
+          </span>
+          {* Cena netto *}
+          {assign var="total_net" value=$product.price_tax_exc * $product.quantity}
+          <span class="product-price price-net">
+            {$total_net|number_format:2:',':" "} {$currency.sign} {l s='tax excl.' d='Shop.Theme.Catalog'}
+          </span>
+
+          {* Rabat *}
+          {if $product.has_discount}
+            <div class="product-discount-info">
+              <span class="regular-price">{$product.regular_price}</span>
+              {if $product.discount_type === 'percentage'}
+                <span class="discount discount-percentage">-{$product.discount_percentage_absolute}</span>
+              {else}
+                <span class="discount discount-amount">-{$product.discount_to_display}</span>
+              {/if}
+            </div>
+          {/if}
+        {/if}
+      </div>
+
+      {* Przycisk usuwania *}
+      <div class="cart-line-product-actions">
+        <a
+          class="remove-from-cart"
+          rel="nofollow"
+          href="{$product.remove_from_cart_url}"
+          data-link-action="delete-from-cart"
+          data-id-product="{$product.id_product|escape:'javascript'}"
+          data-id-product-attribute="{$product.id_product_attribute|escape:'javascript'}"
+          data-id-customization="{$product.id_customization|default|escape:'javascript'}"
+        >
+          {if empty($product.is_gift)}
+            <i class="material-icons">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M280-120q-33 0-56.5-23.5T200-200v-520h-40v-80h200v-40h240v40h200v80h-40v520q0 33-23.5 56.5T680-120H280Zm400-600H280v520h400v-520ZM360-280h80v-360h-80v360Zm160 0h80v-360h-80v360ZM280-720v520-520Z"/></svg></i>
+          {/if}
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="clearfix"></div>
+</div>

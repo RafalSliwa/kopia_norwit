@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+  <name>autocomplete_stock</name>
+  <displayName>Autocomplete by stock</displayName>
+  <version>1.0.0</version>
+  <author>Your Name</author>
+  <tab>front_office_features</tab>
+  <description>Provides autocomplete search suggestions sorted by stock quantity.</description>
+  <psVersion min="1.7.8.0" max="8.99.99"/>
+</module>

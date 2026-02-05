@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>ets_productmanager</name>
+    <displayName><![CDATA[Product Manager]]></displayName>
+    <version><![CDATA[1.5.0]]></version>
+    <description><![CDATA[Advanced product management tool: quick edit, mass edit, customizable product listing, instant product filter and more!]]></description>
+    <author><![CDATA[PrestaHero]]></author>
+    <tab><![CDATA[administration]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+</module>

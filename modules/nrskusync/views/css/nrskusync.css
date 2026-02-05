@@ -1,0 +1,6 @@
+span.product-variant-current {
+    span.control-value {
+    color: green;
+    font-weight: 400;
+    }
+}

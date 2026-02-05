@@ -1,0 +1,26 @@
+# Apache 2.2
+<IfModule !mod_authz_core.c>
+    <Files *.php>
+        order allow,deny
+        deny from all
+    </Files>
+    <FilesMatch ^(TypeSearch\.php)?$>
+        Allow from all
+    </FilesMatch>
+    <FilesMatch ^(search\.php)?$>
+        Allow from all
+   </FilesMatch>
+</IfModule>
+
+# Apache 2.4
+<IfModule mod_authz_core.c>
+   <Files *.php>
+       Require all denied
+   </Files>
+   <FilesMatch ^(TypeSearch\.php)?$>
+        Require all granted
+   </FilesMatch>
+   <FilesMatch ^(search\.php)?$>
+        Require all granted
+   </FilesMatch>
+</IfModule>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>roja45quotationspro</name>
+    <displayName><![CDATA[ToolE: Quotations Pro]]></displayName>
+    <version><![CDATA[1.5.57]]></version>
+    <description><![CDATA[Umożliwiaj wycenę produkt&oacute;w dla klient&oacute;w za pomocą niestandardowych formularzy i systemu odpowiedzi na oferty.]]></description>
+    <author><![CDATA[Inter-Soft]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+	<confirmUninstall><![CDATA[Czy na pewno chcesz usunąć wszystkie zapisane dane?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+</module>

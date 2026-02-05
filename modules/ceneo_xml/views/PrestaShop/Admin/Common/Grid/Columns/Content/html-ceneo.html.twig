@@ -1,0 +1,16 @@
+{% if app.request.locale == 'pl-PL' %}
+   {% set yes = 'Tak' %}
+   {% set no = 'Nie' %}
+{% else %}
+   {% set yes = 'Yes' %}
+   {% set no = 'No' %}
+{% endif %}
+{% if record[column.options.field] == 1 %}
+   <span class="badge rounded badge-success">
+    {{ yes }}
+  </span>
+{% else %}
+   <span class="badge rounded badge-danger">
+    {{ no }}
+  </span>
+{% endif %}

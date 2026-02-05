@@ -1,0 +1,4 @@
+[2025-12-22 13:00:33] doctrine.DEBUG: SELECT surcharge FROM drrk_tpay_transaction t WHERE t.order_id = :orderId {"orderId":787} []
+[2025-12-22 13:06:13] doctrine.DEBUG: SELECT surcharge FROM drrk_tpay_transaction t WHERE t.order_id = :orderId {"orderId":9} []
+[2025-12-22 13:06:27] doctrine.DEBUG: SELECT * FROM drrk_tpay_refund cc WHERE cc.order_id = :orderId {"orderId":10} []
+[2025-12-22 13:06:27] doctrine.DEBUG: SELECT surcharge FROM drrk_tpay_transaction t WHERE t.order_id = :orderId {"orderId":10} []

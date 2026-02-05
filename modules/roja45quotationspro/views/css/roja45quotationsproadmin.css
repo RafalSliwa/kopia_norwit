@@ -1,0 +1,725 @@
+.quotationspro_request_dialog_overlay {
+  background-color: #000;
+  display: none;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 98;
+}
+
+.header-panel {
+  min-height: 300px;
+}
+.quotationspro_dialog {
+  background-color: white;
+  display: none;
+  z-index: 5005;
+  width: 30%;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
+
+.quotationspro_quotation_dialog.quotationspro_dialog,
+.quotationspro_message_dialog.quotationspro_dialog {
+  width: 90%;
+  max-height: 100%;
+  margin: 0;
+}
+
+.quotationspro_message_dialog.quotationspro_dialog {
+  width: 90%;
+  max-height: 90%;
+}
+
+#quotationspro_quotation_dialog .modal-body,
+#quotationspro_message_dialog .modal-body {
+  height: 75vh;
+  overflow: scroll;
+}
+
+#quotationspro_quotation_dialog .modal-body #loaded-quotation-answer,
+#quotationspro_message_dialog .modal-body #loaded_customer_message {
+}
+
+.roja45quotationspro-darken-background {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.roja-kpi-container {
+  position: relative;
+  display: block;
+  padding-top: 0.9375rem;
+  padding-bottom: 0.9375rem;
+  text-align: center;
+  text-decoration: none;
+  background: #fff;
+  border-radius: 5px;
+}
+.roja-kpi-container .row.justify-content-around {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -0.9375rem;
+  margin-left: -0.9375rem;
+  justify-content: space-around !important;
+}
+.roja-kpi-container .roja-kpi-content {
+  position: relative;
+  padding-left: 40px;
+  text-align: left;
+}
+
+.roja-kpi-content > i {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 2.25rem;
+  color: #25b9d7;
+}
+.roja-kpi-content .title,
+.roja-kpi-content .subtitle,
+.roja-kpi-content .value {
+  padding-left: 0.125rem;
+  font-size: 0.75rem;
+  color: #363a41;
+}
+.roja-kpi-content .title {
+  display: inline-block;
+}
+
+.kpi-content .subtitle {
+  display: block;
+  color: #6c868e;
+  text-transform: uppercase;
+}
+
+.roja-kpi-content .value {
+  display: block;
+  font-size: 1rem;
+  color: #25b9d7;
+}
+
+.roja-kpi-content .messages-highlight {
+  color: #25b9d7 !important;
+  font-size: 0.75rem;
+}
+
+.roja-kpi-content .kpi-description .value {
+  padding-left: 0.125rem;
+  padding-right: 10px;
+  color: #363a41;
+}
+
+.roja-kpi-content .kpi-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.blink {
+  animation: blinker 1s step-start infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.quotationspro_dialog .cross {
+  position: absolute;
+  right: 7px;
+  top: 8px;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  color: #333333;
+  z-index: 999;
+}
+.quotationspro_dialog .cross:hover {
+  color: #b9b9b9;
+}
+.quotationspro_dialog .cross:before {
+  content: '\f057';
+  display: block;
+  font-family: 'FontAwesome';
+  font-size: 25px;
+  line-height: 25px;
+}
+
+#quotationspro_form .quotationspro_request_dialog_modal #modal-wait-icon {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -50%);
+}
+#quotationspro_form .quotationspro_request_dialog_modal #modal-wait-text {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, -50%);
+}
+
+#quotationspro_form .quotationspro_request_dialog_modal #modal-wait-icon i {
+  font-size: 50px;
+  width: 50px;
+  height: 50px;
+}
+
+#quotationspro_form .quotationspro_request_dialog_modal #modal-wait-text h2 {
+  color: white;
+}
+
+.adminquotationspro .bootstrap .ac_loading {
+  background: url('/img/loader.gif') no-repeat right center;
+}
+
+.adminquotationspro .ac_results li {
+  margin: 0px;
+  padding: 5px 5px;
+  cursor: default;
+  display: block;
+  font: menu;
+  font-size: 14px;
+  line-height: 19px;
+  overflow: hidden;
+}
+
+div.mce-edit-area {
+  max-height: none !important;
+}
+
+#quotation-pipeline li {
+  display: inline-block;
+}
+
+#quotationspro_addproduct_modal .modal-dialog {
+  width: 80%;
+}
+#quotationspro_addproduct_modal .modal-dialog .results {
+}
+#quotationspro_addproduct_modal .modal-dialog .results-container {
+  height: 60vh;
+  max-height: 60vh;
+  overflow-y: scroll;
+}
+
+#quotationProducts {
+}
+#quotationProducts .column-discount {
+}
+#quotationProducts .column-quantity {
+  min-width: 80px;
+}
+#quotationProducts .column-quantity .product_quotation_quantity {
+  padding-right: 0;
+}
+#quotationProducts .column-buttons {
+  width: 125px;
+}
+
+#quotationProducts .product-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkbox-container {
+  display: block;
+  position: relative;
+  padding-left: 0;
+  margin-bottom: 0;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkbox-container .checkbox-checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #fff;
+  border: 1px solid #9b9b9b;
+}
+
+/* On mouse-over, add a grey background color */
+.checkbox-container:hover input ~ .checkbox-checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkbox-container input:checked ~ .checkbox-checkmark {
+  background-color: #2196f3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkbox-container .checkbox-checkmark:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox-container input:checked ~ .checkbox-checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox-container .checkbox-checkmark:after {
+  left: 7px;
+  top: 3px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.quotation-content .column-select {
+  width: 2%;
+  position: relative;
+}
+
+.quotation-content .column-select .checkbox-container {
+  margin-bottom: 13px;
+}
+
+.quotation-content .column-image {
+  width: 6%;
+}
+
+.quotation-content .column-title {
+  width: 18%;
+}
+
+.quotation-content .column-comment {
+  width: 13%;
+}
+
+.quotation-content .column-wholesale {
+  width: 5%;
+}
+
+.quotation-content .column-unitprice {
+  width: 5%;
+}
+
+.quotation-content .column-discount {
+  width: 9%;
+}
+
+.quotation-content .column-quoteprice {
+  width: 9%;
+}
+.quotation-content .column-customizationprice {
+  width: 10%;
+}
+
+.quotation-content .column-quantity {
+  width: 5%;
+}
+
+.quotation-content .column-total {
+  width: 9%;
+}
+.quotation-content .column-shipping {
+  width: 1%;
+}
+.quotation-content .column-ecotaxrate {
+  width: 4%;
+}
+.quotation-content .column-profit {
+  width: 4%;
+}
+
+.quotation-content .column-deposit {
+  width: 6%;
+}
+.quotation-content .column-taxpaid {
+  width: 5%;
+}
+.quotation-content .column-buttons {
+}
+
+.btn.btn-add-charge,
+.btn.btn-add-discount {
+  position: relative !important;
+  top: 2px !important;
+}
+
+.btn.btn-delete-quotation {
+  background-color: #ae231a !important;
+  border-color: #ae231a !important;
+  margin: 0 !important;
+}
+
+.btn.btn-delete-quotation i,
+.btn.btn-save-quotation i,
+.btn.btn-save-selected-products i,
+.btn.btn-delete-selected-products i {
+  display: block !important;
+}
+
+.btn.btn-delete-quotation:hover {
+  background-color: #d32011 !important;
+  border-color: #d32011 !important;
+}
+
+.btn.btn-primary.btn-delete-quotation,
+.btn.btn-primary.btn-delete-quotation-product,
+.btn.btn-primary.btn-delete-selected-products,
+.btn.btn-primary.btn-delete-charge {
+  background-color: #ae231a !important;
+  border-color: #ae231a !important;
+}
+
+.btn.btn-primary.btn-delete-quotation i,
+.btn.btn-primary.btn-delete-quotation-product i,
+.btn.btn-primary.btn-delete-selected-products i,
+.btn.btn-primary.btn-delete-charge i {
+  color: white !important;
+}
+
+.btn.btn-primary.btn-delete-quotation:hover,
+.btn.btn-primary.btn-delete-quotation-product:hover,
+.btn.btn-primary.btn-delete-selected-products:hover,
+.btn.btn-primary.btn-delete-charge:hover {
+  background-color: #d32011 !important;
+  border-color: #d32011 !important;
+}
+
+#roja45_quotation_modal_dialog {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: black;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  opacity: 0.7;
+}
+
+#roja45_quotation_modal_dialog #modal_wait_icon {
+  position: absolute;
+  color: white;
+  width: 25%;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#roja45_quotation_modal_dialog #modal-wait-icon i {
+  font-size: 50px;
+}
+
+#roja45_quotation_modal_dialog p {
+  font-size: 40px;
+  margin: 0;
+}
+
+#roja45_quotation_modal_dialog .icon-refresh {
+  font-size: 40px;
+}
+
+.bootstrap .list-group-item {
+  padding: 0 !important;
+}
+
+.bootstrap .nav.list-group li a {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+li.list-group-item a {
+  color: #555;
+}
+
+li.list-group-item.active a {
+  color: white;
+}
+
+#quotationspro_message_dialog #template_preview {
+  text-align: center;
+}
+
+#quotationspro_message_dialog #template_preview #preview_iframe {
+  width: 30cm;
+  min-height: 29.7cm;
+  margin: 1cm auto;
+  border: 1px solid #000;
+  box-shadow: aliceblue;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+}
+
+#add_customer_address {
+  display: none;
+}
+
+.badge.saving-indicator {
+  background-color: #ffa500 !important;
+  color: white !important;
+}
+
+.hidden-dirty {
+  color: #bbbbbb !important;
+  font-style: italic;
+  text-decoration: line-through;
+}
+
+@keyframes saving {
+  0% {
+    background-position: 0;
+  }
+  50% {
+    background-position: -30%;
+  }
+  80% {
+    background-position: -100%;
+  }
+  100% {
+    background-position: -200%;
+  }
+}
+
+#quotationProducts tr.saving {
+  background-image: linear-gradient(
+    to right,
+    transparent 50%,
+    rgba(0, 0, 0, 0.05) 50%
+  );
+  background-size: 200% 100%;
+  animation: saving 2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+#quotationProducts tr.saving td {
+  opacity: 0.45;
+  pointer-events: none;
+}
+
+#quotationspro_select_customer .modal-body {
+  max-height: 600px;
+  overflow-y: scroll;
+}
+
+#quotationspro_addproduct_modal .productDiscount .input-group-addon.custom,
+#roja45quotation_form .productDiscount .input-group-addon.custom,
+#roja45quotation_form .column-customizationprice .input-group-addon.custom {
+  padding: 0;
+  border: 0;
+}
+
+#quotationspro_addproduct_modal
+  .productDiscount
+  .product_quotation_discount_type,
+#roja45quotation_form .productDiscount .product_quotation_discount_type,
+#roja45quotation_form
+  .column-customizationprice
+  .product_customization_cost_type {
+  padding: 0;
+  padding-left: 5px;
+  width: 42px;
+  background-color: #f5f8f9;
+  border-top: 1px solid #bbcdd2;
+  border-left: 0px solid #bbcdd2;
+  border-bottom: 1px solid #bbcdd2;
+  border-right: 1px solid #bbcdd2;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+#roja45quotation_form
+  .column-customizationprice
+  .product_customization_cost_type {
+  width: 55px;
+}
+
+body.dragging,
+body.dragging * {
+  cursor: move !important;
+}
+
+#quotationProducts .dragged {
+  position: absolute;
+  opacity: 0.5;
+  z-index: 2000;
+}
+
+#quotationProducts .placeholder {
+  position: relative;
+  height: 105px;
+  line-height: 1.2em;
+}
+
+#quotationProducts .placeholder td {
+  background: #f0f4f6;
+}
+
+#quotationProducts .placeholder:before {
+  position: absolute;
+  /** Define arrowhead **/
+}
+
+#quotationProducts tr td.column-select i {
+  position: absolute;
+  top: 49%;
+  left: -15px;
+}
+
+#quotationProducts tr.quotation-products .column {
+  position: relative;
+  text-align: center;
+}
+#quotationProducts tr.quotation-products .column .title_box {
+  position: relative;
+  display: unset;
+}
+#quotationProducts tr.quotation-products .column .text-muted {
+  display: block;
+}
+#quotationProducts tr.quotation-products .column .title_box .icon-help {
+  position: absolute;
+  right: -15px;
+  top: -5px;
+  color: #0d88c1;
+}
+
+#quotationProducts .product-image-container {
+  position: relative;
+}
+#quotationProducts .image-upload-container {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+#quotationProducts .column-image:hover .image-upload-container {
+  display: block;
+}
+#quotationProducts .image-upload-container .image-upload {
+  display: none;
+}
+#quotationProducts .image-upload-container label i {
+  font-size: 20px;
+  color: #666666;
+  cursor: pointer;
+}
+
+#quotationProducts .image-delete-container {
+  display: block;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+#quotationProducts .image-delete-container a i {
+  font-size: 16px;
+  color: #d22f2f;
+}
+#quotationProducts .image-download-container {
+  display: block;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+#quotationProducts .image-download-container a i {
+  font-size: 16px;
+}
+
+#roja45_quotationspro_answer_form .btn-reset-template {
+  background: #b90202;
+  border-color: #b90202;
+  margin-left: 20px;
+}
+
+#roja45_quotationspro_answer_form .btn-reset-template:hover {
+  background: red;
+  border-color: red;
+}
+
+#quotationspro_addproduct_modal #new_quotation_product td.product_unit_price {
+  position: relative;
+}
+.bulk-discount-indicator,
+.out-of-stock {
+  border-radius: 3px;
+  position: absolute;
+  margin-top: 2px;
+  padding: 3px;
+  background: #fbbb22;
+  color: black;
+}
+
+#quotationspro_addproduct_modal .select2-container {
+  width: 100% !important;
+}
+
+#quotationspro_addproduct_modal .select2-container--default .select2-results>.select2-results__options {
+  max-height: unset !important;
+  overflow-y: unset !important;
+}
+
+#quotationspro_addproduct_modal .select2-container .select2-selection--single {
+  height: 37px;
+  padding: 5px 0px;
+  font-size: 12px;
+  line-height: 1.42857;
+  border: 1px solid #bbcdd2;
+}
+
+#quotationspro_addproduct_modal .select2-container--default .select2-selection--single .select2-selection__arrow {
+  height: 37px;
+}
+
+#quote_request_details .form-horizontal {
+  max-height: 400px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>seoredirect</name>
+    <displayName><![CDATA[SEO Redirect]]></displayName>
+    <version><![CDATA[2.3.2]]></version>
+    <description><![CDATA[Module allows to create an unlimited number of 301, 302, 303 URL redirects to optimize the SEO of your shop.]]></description>
+    <author><![CDATA[MyPresta.eu]]></author>
+    <tab><![CDATA[seo]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+</module>

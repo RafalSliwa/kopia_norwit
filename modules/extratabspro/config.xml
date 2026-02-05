@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>extratabspro</name>
+    <displayName><![CDATA[Extra Tabs Pro]]></displayName>
+    <version><![CDATA[2.4.6]]></version>
+    <description><![CDATA[Display unlimited number of extra tabs for any product you want]]></description>
+    <author><![CDATA[MyPresta.eu]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+</module>

@@ -1,0 +1,8 @@
+#ets-pm-config-form #fieldset_form .panel-heading {
+  border-bottom: 1px solid #dbe6e9 !important;
+  display: flex;
+}
+#ets-pm-config-form .panel-heading span.panel-heading-action a.list-toolbar {
+  height: auto;
+  margin-top: 0;
+}

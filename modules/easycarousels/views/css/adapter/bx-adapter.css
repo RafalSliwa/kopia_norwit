@@ -1,0 +1,14 @@
+.c-wrapper .bx-viewport {
+    text-align: left;
+}
+.c-wrapper .bx-prev, .c-wrapper .bx-next, .c-wrapper .bx-pager {
+	display: none;
+}
+.sw-pgn .bx-pager-item {
+	display: inline-block;
+}
+/* fix for /bx_loader.gif 404 (Not Found) */
+.c-wrapper .bx-wrapper .bx-loading  {
+	background: none;
+}
+/* since 2.7.0 */

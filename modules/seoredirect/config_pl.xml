@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>seoredirect</name>
+    <displayName><![CDATA[Przekierowanie SEO]]></displayName>
+    <version><![CDATA[2.3.2]]></version>
+    <description><![CDATA[Moduł pozwala na utworzenie nielimitowanej ilości przekierowań 301,302,303 kt&oacute;re z całą pewnością wpłyną pozytywnie na pozycję sklepu w wyszukiwarkach]]></description>
+    <author><![CDATA[MyPresta.eu]]></author>
+    <tab><![CDATA[seo]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+</module>

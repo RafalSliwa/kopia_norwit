@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="padmin" source-language="pl-PL" target-language="pl-PL" datatype="plaintext">
+    <body>
+      <trans-unit id="57069a8487a07ec4360394382774aab7">
+        <source>Last week redirections - statistics</source>
+        <target>Ostatni tydzień - statystyki przekierowań</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="6bc703e22a9984590f8d694650c73c74">
+        <source>Last month redirections - statistics</source>
+        <target>Ostatni miesiąc - statystyki przekierowań</target>
+        <note>Line: </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

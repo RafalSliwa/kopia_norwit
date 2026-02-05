@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>purls</name>
+    <displayName><![CDATA[Pretty Clean URLs]]></displayName>
+    <version><![CDATA[2.9.6]]></version>
+    <description><![CDATA[This module generates clean and pretty looking urls in your online store. It increases SEO value of the store.]]></description>
+    <author><![CDATA[MyPresta.eu]]></author>
+    <tab><![CDATA[seo]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+</module>

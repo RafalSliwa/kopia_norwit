@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>roja45quotationspro</name>
+    <displayName><![CDATA[ToolE: Quotations Pro]]></displayName>
+    <version><![CDATA[@VERSION@]]></version>
+    <description><![CDATA[Enable product quotations for customers with custom forms and quotation response system.]]></description>
+    <author><![CDATA[Inter-Soft]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+	<confirmUninstall><![CDATA[Are you sure you want to delete all saved details?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+</module>

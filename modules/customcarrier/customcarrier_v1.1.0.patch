@@ -1,0 +1,60 @@
+--- customcarrier.php.orig
++++ customcarrier.php
+@@ -48,7 +48,7 @@
+     public function __construct()
+     {
+         $this->name = 'customcarrier';
+         $this->tab = 'shipping_logistics';
+-        $this->version = '1.0.2';
++        $this->version = '1.1.0';
+         $this->author = 'Norwit';
+@@ -470,11 +470,32 @@
+         }
+
+         $baseCost = (float) ($settings['base_shipping_cost'] ?? 0.0);
+
++        // NEW: Max quantity per package logic
++        $maxQuantityPerPackage = isset($settings['max_quantity_per_package']) ? (int) $settings['max_quantity_per_package'] : 0;
++
++        if ($maxQuantityPerPackage > 0) {
++            // Calculate number of packages needed
++            $packageCount = (int) ceil($quantity / $maxQuantityPerPackage);
++
++            // Check if there's a different cost for quantities above max
++            $packageCostAboveMax = isset($settings['package_cost_above_max']) ? (float) $settings['package_cost_above_max'] : null;
++
++            // If quantity exceeds max AND we have a special cost defined, use it
++            if ($quantity > $maxQuantityPerPackage && $packageCostAboveMax !== null && $packageCostAboveMax > 0) {
++                // Use special cost for large quantities (single package)
++                return $packageCostAboveMax;
++            }
++
++            // Otherwise multiply base cost by number of packages
++            return $baseCost * $packageCount;
++        }
++
+         // Multiply by quantity if enabled
+         if (!empty($settings['multiply_by_quantity'])) {
+             return $baseCost * $quantity;
+         }
+
+         return $baseCost;
+     }
+
+@@ -585,6 +606,8 @@
+             'apply_threshold' => !empty($data['apply_threshold']) ? 1 : 0,
+             'separate_package' => !empty($data['separate_package']) ? 1 : 0,
+             'exclude_from_free_shipping' => !empty($data['exclude_from_free_shipping']) ? 1 : 0,
++            'max_quantity_per_package' => isset($data['max_quantity_per_package']) ? (int) $data['max_quantity_per_package'] : null,
++            'package_cost_above_max' => isset($data['package_cost_above_max']) ? (float) $data['package_cost_above_max'] : null,
+             'date_upd' => date('Y-m-d H:i:s'),
+         ];
+
+@@ -683,6 +706,8 @@
+             'apply_threshold' => (int) Tools::getValue('customcarrier_apply_threshold'),
+             'separate_package' => (int) Tools::getValue('customcarrier_separate_package'),
+             'exclude_from_free_shipping' => (int) Tools::getValue('customcarrier_exclude_from_free_shipping'),
++            'max_quantity_per_package' => Tools::getValue('customcarrier_max_quantity_per_package') ? (int) Tools::getValue('customcarrier_max_quantity_per_package') : null,
++            'package_cost_above_max' => Tools::getValue('customcarrier_package_cost_above_max') ? (float) Tools::getValue('customcarrier_package_cost_above_max') : null,
+         ]);
+     }

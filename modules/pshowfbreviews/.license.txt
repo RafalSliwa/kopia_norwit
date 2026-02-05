@@ -1,0 +1,32 @@
+Expires: 23 Aug 2035
+Server restriction: norwit.pl,*.norwit.pl,*.local
+
+------ LICENSE FILE DATA -------
+54WXT83ThMGxJTJwoKGDwkPmsO/oGGnH
+e40C1fJhJKjXoAonRMst2ksk5FyR/JIG
+AyBZM0KZmagfsWMQ4DlQGyFsnX5+23qI
+CSBjr7dx28oOspnidEL0a//MdnNr9Clk
+V8gjgIWo6YAhW8umj5l0PLmyNaeXts0j
+0bqCTKNUU2ZQVdYI0LT0pujWwYlzYCAv
+oh/NrIJVpvSc93c9QhxWc8c1wbPsFuPo
+vnRvCAzHYvC2BBgq0gGU4aWy5CShNNNv
+BURa+vC7RuG/m7Or05z9586VwvspRRot
+mD8bo9Smua+NfmIjD8ObZK9muFPip+BD
+U+5imrcyHg8jSHNqg63W+sBeb3k1nf91
+XDv87CQw35Lu11dn96sZLSSjXnQoLnEt
+L1JFxtH7XlqR3q9hfRCkYVqn3O7TS3th
+F+qG6Dw6MR6G9p0mXfmQAjF+Ssw2xGOL
+LU2QOFAV1vXgor9xnZHsZnd2UVEnxa6R
+c8R/dq1ao1jaxH37F8k6Wk6RDhb1+UHu
+p0q4MEIV7GhYjBEGSiO+QG1VT9ut22iI
+wCyAzc264pOEbnUD0t/m7KTtXmrskZDA
+6d86ynrW5y6LrT1n4IziD9HloYpz65gA
+ALLi+g1u/BSq4Xjbr1CtvotX0stxLLFj
+BK66P6ogOLMIAvUj1Fxo/BE1fg/bz95R
+UKdascrKTHI/hB+HKlgeZ4voRZCbeOOJ
+Rxj1kCbqLwePrXNDgZz5hHHITe9sAADV
+0uqdC1ndpbTddqVEXmblDf+LtlmOZtja
+5zxkA8ezD0mGfCivY5kytkCJjDwEilF1
+Xw5TSbCutQCSJwo8JwlVINooBOId04LW
+bbt7iVZ=
+--------------------------------

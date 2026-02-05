@@ -1,0 +1,5 @@
+.ps-bo-rebrand #allegro_main_form #bulk_container.is-sticky > .panel .panel-heading {
+  color: var(--cdk-black);
+  font-size: var(--cdk-size-20);
+  background-color: transparent;
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>autocomplete_stock</name>
+    <displayName><![CDATA[Autocomplete by stock]]></displayName>
+    <version><![CDATA[2.0.0]]></version>
+    <description><![CDATA[Product search and sorting by stock. Displaying the product category and brand.]]></description>
+    <author><![CDATA[Norwit]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+</module>

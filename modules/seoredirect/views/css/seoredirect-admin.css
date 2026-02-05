@@ -1,0 +1,23 @@
+.icon-AdminSeoRedirect:before {
+	content: '\f0c1';
+}
+
+#table-seor .fa-exclamation-triangle::before {
+	font-family: 'fontawesome';
+	content: '\f071';
+	text-decoration: none;
+	font-style: normal;
+	padding-right: 5px;
+	color: #FF9800;
+	font-size: 20px;
+	position:relative;
+	top: 3px;
+}
+
+#table-seor .fa-exclamation-triangle strong {
+	color: #FF9800;
+	font-weight:bold;
+	margin-right:10px;
+	display:inline-block;
+	font-style:normal;
+}

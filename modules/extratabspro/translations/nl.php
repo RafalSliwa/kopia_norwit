@@ -1,0 +1,34 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{extratabspro}prestashop>extratabspro_e484057df15c784b0502e13e19463850'] = 'Extra Tabs Pro';
+$_MODULE['<{extratabspro}prestashop>extratabspro_dd44b85262dc9cfd95b466475bc7bdae'] = 'Deze module maakt het mogelijk om een onbeperkt aantal tabbladen te creëren op de productpagina';
+$_MODULE['<{extratabspro}prestashop>extratabspro_61093077b60bcb6882d14cb16b730312'] = 'Door wijzigingen in de module moet het opnieuw geïnstalleerd worden. Uw gegevens raakt u niet kwijt';
+$_MODULE['<{extratabspro}prestashop>extratabspro_daf455b3f7d72c5ffd0fb3cacb46b82e'] = 'Categorie niet gevonden';
+$_MODULE['<{extratabspro}prestashop>extratabspro_ec211f7c20af43e742bf2570c3cb84f9'] = 'toevoegen';
+$_MODULE['<{extratabspro}prestashop>extratabspro_4c73ce9e52a25c69cf0dce126d548f98'] = 'Nieuwe versie beschikbaar, consulteer http://MyPresta.eu voor meer informatie';
+$_MODULE['<{extratabspro}prestashop>extratabspro_f14b35c552aeffb7ecc027fe3dbff2d6'] = 'Deze module heeft geen configuratiepagina voor Prestashop v1.5';
+$_MODULE['<{extratabspro}prestashop>extratabspro_2e7554ef58d83dd862cbfa468ceb63bf'] = '-- selecteer --';
+$_MODULE['<{extratabspro}prestashop>extratabspro_5f4e520fd3e21095d3a25463c9f49d8e'] = 'Als u de standaard template standaard-bootstrap gebruikt om de bladwijzers op deze manier weer te geven, moet u de template product.tpl wijzigen';
+$_MODULE['<{extratabspro}prestashop>extratabspro_d4d52a944a2585f29e07ed75b6f6b90d'] = 'lees hoe te handelen';
+$_MODULE['<{extratabspro}prestashop>extratabspro_b4e629e228ced631849a827c9e208603'] = 'Als u de standaard bootstrap template in Prestashop gebruikt, dan is dit de standaard wijze waarop de tabs getoond worden in versie 1.6 ';
+$_MODULE['<{extratabspro}prestashop>extratabspro_d202de7c081617d7107232dd92cef415'] = 'Selecteer type tab';
+$_MODULE['<{extratabspro}prestashop>extratabspro_b3f8433144c73a8e366b08ccc319f15b'] = 'Standaard tabbladweergave tabs';
+$_MODULE['<{extratabspro}prestashop>extratabspro_c07decda569cbc5c10f9c9216ec1cf6d'] = 'Brede horizontale tab-balken als standaard';
+$_MODULE['<{extratabspro}prestashop>extratabspro_43781db5c40ecc39fd718685594f0956'] = 'opslaan';
+$_MODULE['<{extratabspro}prestashop>tabs_713b08aaddedf17b298ed4dc38732b40'] = 'Terug naar de lijst';
+$_MODULE['<{extratabspro}prestashop>tabs_68d802f77519e753216e3a71e73c2420'] = 'nieuw';
+$_MODULE['<{extratabspro}prestashop>tabs_8e753068ca410f0f695f0dd52a975c20'] = 'naam';
+$_MODULE['<{extratabspro}prestashop>tabs_11c3281e79cd77949ce67b3d878bff6f'] = 'verder';
+$_MODULE['<{extratabspro}prestashop>tabs_9185e6bd68ec9c97b182578dd77acaf0'] = 'globaal blok';
+$_MODULE['<{extratabspro}prestashop>tabs_3d0b7ce7d3ba5adc6237e51a9dfbf7b3'] = 'Deze optie laat dit blok bij alle productien zien die horen bij de hieronder te selecteren categorieën';
+$_MODULE['<{extratabspro}prestashop>tabs_867959e872c09b979a453bf69ffa223f'] = 'Zoeken naar categorie';
+$_MODULE['<{extratabspro}prestashop>tabs_996cf11c9c4f6d80527601e6db073deb'] = 'ID-nummer categorie';
+$_MODULE['<{extratabspro}prestashop>tabs_c9cc8cce247e49bae79f15173ce97354'] = 'opslaan';
+$_MODULE['<{extratabspro}prestashop>tabs_225ac1a5b3a2afa8f996d92f55940b79'] = 'Wijzig het blok';
+$_MODULE['<{extratabspro}prestashop>tabs_e1e4c8c9ccd9fc39c391da4bcd093fb2'] = 'Blok';
+$_MODULE['<{extratabspro}prestashop>tabs_c5c8d0787820626410a1d39b63bfbb01'] = 'verder';
+$_MODULE['<{extratabspro}prestashop>tabs_06933067aafd48425d67bcb01bba5cb6'] = 'bijwerken';
+$_MODULE['<{extratabspro}prestashop>tabs_75fa820aebc10bf31b310065b38447c7'] = 'Producttabs';
+$_MODULE['<{extratabspro}prestashop>tabs_67b04dba9808292a4b595294bfde43de'] = 'Creëer een nieuwe tab';

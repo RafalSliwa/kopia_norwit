@@ -1,0 +1,211 @@
+/* carousel navigation */
+.sw-nav, .n-hover:hover .sw-nav {
+	display: block;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	left: 20px;
+	top: 50%;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-top: -25px;
+	z-index: 10;
+	cursor: pointer;
+	text-align: center;
+	opacity: 1;
+	outline: none;
+	transition: all 0.1s ease-in-out;
+}
+.sw-nav.next, .n-hover:hover .sw-nav.next {
+	transform: rotate(180deg);
+	right: 20px;
+	left: auto;
+	opacity: 1;
+}
+.sw-nav:before {
+	content: '';
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border: 2px solid #FFF;
+	transform: rotate(45deg);
+	border-width: 0 0 2px 2px;
+	margin-top: 20px;
+	margin-left: 2px;
+}
+.sw-nav:hover, .n-hover:hover .sw-nav:hover {
+	background: rgba(0,0,0,0.7);
+}
+.n-hover .sw-nav {
+	left: 0;
+	right: auto;
+	opacity: 0;
+}
+.n-hover .sw-nav.next {
+	right: 0;
+	left: auto;
+	opacity: 0;
+}
+.sw-pgn {
+	margin-top: 15px;
+	min-height: 16px;
+	line-height: 1;
+	display: block;
+	text-align: center;
+	z-index: 10;
+	transition: all 0.1s ease-in-out;
+	opacity: 1;
+}
+.sw-pgn-bullet {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	background: #333;
+	border: 2px solid #FFF;
+	border-radius: 100%;
+	margin: 0 3px;
+	opacity: 0.2;
+	outline: none;
+	cursor: pointer;
+}
+.sw-pgn-bullet.active {
+	opacity: 1;
+}
+.p-hover .sw-pgn {
+	bottom: 0;
+	opacity: 0;
+}
+.p-hover:hover .sw-pgn {
+	opacity: 1;
+}
+.easycarousels .hidden {
+	display: none!important;
+}
+/*
+* The following styles are used to match the design of standard theme
+* Feel free to remove unused styles or adjust them for your theme
+*/
+.easycarousels {
+	margin-bottom: 10px;
+}
+.easycarousels .product-miniature .product-title {
+	margin-top: 5px;
+}
+.easycarousels .regular-price {
+	color: #ACAAA6;
+	text-decoration: line-through;
+	font-size: .875rem;
+}
+.easycarousels .product-miniature .product-thumbnail {
+	height: auto;
+}
+.easycarousels .product-miniature .product-description,
+.easycarousels .product-miniature .thumbnail-container {
+	background: #FFF;
+	height: auto;
+	width: auto;
+	margin: 0;
+	position: relative;
+}
+.easycarousels .product-miniature .product-description {
+	padding: 10px 0;
+}
+.easycarousels .product-miniature .thumbnail-container img {
+	position: relative;
+	margin: 0 auto;
+}
+.easycarousels .product-miniature .thumbnail-container:hover .product-description:after {
+	content: none;
+}
+.product-item-buttons .btn {
+	border-width: .15rem;
+	box-shadow: none;
+	margin-top: 10px;
+}
+.easycarousels .product-flags {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	display: block;
+}
+.easycarousels .product-flags li {
+	margin-top: 0.4rem;
+	float: left;
+	clear: left;
+	padding: .3125rem .4375rem;
+	color: #FFF;
+	background: #2FB5D2;
+	text-transform: uppercase;
+	font-size: 1rem;
+	box-shadow: 2px 2px 11px 0 rgba(0,0,0,.1);
+}
+.easycarousels .product-flags li.discount,
+.easycarousels .product-flags li.on-sale {
+	background: #F39D72;
+}
+.easycarousels .product-flags li.on-sale {
+	float: none;
+	margin-top: 0;
+}
+.c_item .prop-line {
+	font-size: 0.9em;
+	line-height: 1.3;
+}
+/* quick view */
+.easycarousels .product-miniature .highlighted-informations {
+	position: absolute;
+	background: #FFF;
+	top: auto;
+	bottom: auto;
+	height: 31px;
+	line-height: 28px;
+	padding: 0;
+	font-size: 0.9em;
+	width: 100%;
+	transition: all 0.1s;
+	z-index: 0;
+}
+.easycarousels .product-miniature .highlighted-informations:after {
+	content: '';
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	border-bottom: 1px solid #CCC;
+}
+.easycarousels .product-miniature .highlighted-informations a {
+	color: #999;
+}
+.easycarousels .product-miniature .thumbnail-container:hover .highlighted-informations {
+	margin-top: -31px;
+	bottom: auto;
+	top: auto;
+}
+/* availability */
+.c_item .product-availability span {
+	display: inline-block;
+	max-width: 100%;
+	padding: 2px 5px;
+	background: #4CBB6C;
+	color: #FFF;
+}
+.c_item .product-availability.unavailable span {
+	background: #FF9A52;
+}
+/* wishlist */
+.c_item .wishlist-button-add {
+	position: absolute;
+	top: 0.635rem;
+	right: 0.635rem;
+	box-sizing: border-box;
+}
+.easycarousel .btn-tertiary-outline {
+	color: #1d1d1a !important;
+	background-image: none;
+	background-color: transparent;
+	/* border-color: #6C868E; */
+	border: 1px solid #e5e5e5;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}

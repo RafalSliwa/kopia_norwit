@@ -1,0 +1,4 @@
+Store link: [{shop_name}]({shop_url})
+Link xml file: shop_generate_url
+
+The message was generated automatically by the Ceneo.pl Export XML plugin.

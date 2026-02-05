@@ -1,0 +1,29 @@
+.fmm_hinter { position: absolute; padding: 2%; border-radius: 4px; font-size: 12px; font-family: inherit; text-align: center;
+display:none !important; z-index: 1200 !important; padding-inline: .8rem; top: 100%;
+  transform: translateY(-50%); width: max-content;}
+
+.sticker-text {
+  position: relative;
+  display: inline-block;
+}
+
+.fmm_hinter_l {left: -190px;}
+
+.fmm_hinter_r {right: -190px;}
+
+.fmm_hinter_l_txt {right: calc(100% - 0rem); margin-right: .5rem}
+
+.fmm_hinter_r_txt {left: calc(100% - 0rem); margin-left: .5rem}
+
+.fmm_hinter b::before { display: inline-block; font-size: 21px; position: absolute;font-family: Material Icons; top: 4px; z-index: -1;}
+
+.fmm_hinter_l b::before {content: 'fast_forward';right: -10px;}
+
+.fmm_hinter_r b::before {content: 'fast_rewind';left: -10px;}
+
+.fmm_hinter_l_txt b::before {content: 'fast_forward';right: -10px;}
+
+.fmm_hinter_r_txt b::before {content: 'fast_rewind';left: -10px;}
+
+.fmm_sticker_base_span:hover > .fmm_hinter { display: inline-block !important;}
+.fmm_title_text_sticker:hover > .fmm_hinter { display: inline-block !important;}

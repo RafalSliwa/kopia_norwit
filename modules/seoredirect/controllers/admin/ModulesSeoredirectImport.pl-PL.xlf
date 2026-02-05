@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="padmin" source-language="pl-PL" target-language="pl-PL" datatype="plaintext">
+    <body>
+      <trans-unit id="0a0e317c0a792e2920c23a56d1408a4f">
+        <source>Usually comma (,) or semicolon (;)</source>
+        <target>Usually comma (,) or semicolon (;)</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="72d6d7a1885885bb55a565fd1070581a">
+        <source>Import</source>
+        <target>Import</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="4de453046d21f47253498f69fb82a895">
+        <source>Loaded to import</source>
+        <target>Załadowany do importu</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="97b899561596f36e3f377e738522775a">
+        <source>Old URL can be absolute path like: </source>
+        <target>Stary URL może być adresem absolutnym np:</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="e5a447f690ca0feffc568439afd5e25e">
+        <source>or relative path like: </source>
+        <target>lub ścieżka względna jak np:</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="b258ae978d27d770a6d659c4024be297">
+        <source>import file: </source>
+        <target>importuj plik:</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="7258031f99c1254c591a684d83b4d343">
+        <source>added to database</source>
+        <target>Dodaj do bazy danych</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="10bc117ea9bfab5ec769246f86cd17df">
+        <source>In a comma-separated values file (CSV) the data items are separated using special characters called delimiters. Delimiters are used to distinct new lines (row delimiter) and values inside dataset (column delimiter)</source>
+        <target>W plikach CSV dane są oddzielane specjalnymi znakami nazywane delimiterami. Pozwalają one oddzielać poszczególne wiersze (linie) z danymi, a wewnątrz linii poszczególne "komórki" danych.</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="caece1d303e3e6b60c6b719877ab46c4">
+        <source>ROW delimiter</source>
+        <target>Znak oddzielający linie</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="6225d898e3ea2368061b50340e67c15b">
+        <source>setup the char for row delimiter (line)</source>
+        <target>Ustaw znak oddzielający linie</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="61358c4a1c882a407500711e63ecc3c8">
+        <source>new line in windows</source>
+        <target>nowa linia w systemach windows</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="16bc33fd67cb2e22c578c107526cca75">
+        <source>new line in unix</source>
+        <target>nowa linia w systemach unix</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="5cc4f946799cf4af6fc427191d93fc4e">
+        <source>COLUMN delimiter</source>
+        <target>Znak oddzielający kolumny</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="5bd8ad39dfe06925ab0568ecb8623e33">
+        <source>setup the char for column delimiter (variables in line)</source>
+        <target>ustaw znak oddzialający kolumny w pliku csv (dane w linii)</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="2dec4fb586a90cdfb25546fc3cea819d">
+        <source>old URL</source>
+        <target>stary URL</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="74bd98ea487e23e08b32562667357caf">
+        <source>new URL</source>
+        <target>nowy URL</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="162fc165aed5dc76f19d687ffb497c63">
+        <source>redirect type</source>
+        <target>Typ przekierowania</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="c2e2674e3d72303850db2268d7013497">
+        <source>Regexp</source>
+        <target>Wyrażenie regularne</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="c4a0dbaac3bd0f3bf581ad822f5fb4b4">
+        <source>Wildcard</source>
+        <target>Wildcard</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="c7ba4ff6e84c21bc602f4ccaa0d6229d">
+        <source>Import to database</source>
+        <target>Zaimportuj do bazy danych</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="f2a6c498fb90ee345d997f888fce3b18">
+        <source>Delete</source>
+        <target>Usuń</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="29ec0f376347559b3351fa1f754afa04">
+        <source>No Files</source>
+        <target>Brak plików</target>
+        <note>Line: </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

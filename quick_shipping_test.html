@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Szybki test aktualizacji ceny wysyłki</title>
+</head>
+<body>
+    <h1>Test aktualizacji ceny wysyłki - Produkt 2681</h1>
+    
+    <div style="border: 2px solid #ccc; padding: 15px; margin: 10px 0;">
+        <h2>Symulacja elementu z modal.tpl:</h2>
+        <span class="delivery-text">Dostawa 
+            <span class="dynamic-shipping-price" data-product-id="2681" id="price-display" style="font-weight: bold; color: blue;">
+                ładowanie...
+            </span>
+        </span>
+    </div>
+    
+    <div>
+        <button onclick="testCurrentLogic()" style="padding: 10px; background: green; color: white; border: none; margin: 5px;">
+            ✅ Test NOWEJ logiki (powinno być 67,65 zł)
+        </button>
+        <button onclick="testOldLogic()" style="padding: 10px; background: red; color: white; border: none; margin: 5px;">
+            ❌ Test STAREJ logiki (było 55,00 zł)
+        </button>
+        <button onclick="clearCache()" style="padding: 10px; background: orange; color: white; border: none; margin: 5px;">
+            🔄 Wyczyść cache
+        </button>
+    </div>
+    
+    <div id="log" style="background: #f5f5f5; padding: 10px; margin: 10px 0; font-family: monospace; min-height: 200px; border: 1px solid #ddd;">
+        <strong>Log działania:</strong><br>
+    </div>
+
+    <script>
+        const logDiv = document.getElementById('log');
+        const priceDisplay = document.getElementById('price-display');
+        
+        function log(message) {
+            const timestamp = new Date().toLocaleTimeString();
+            logDiv.innerHTML += `[${timestamp}] ${message}<br>`;
+            logDiv.scrollTop = logDiv.scrollHeight;
+        }
+        
+        function clearCache() {
+            if (window.currentMaxShippingCost) {
+                log(`🗑️ Czyszczenie cache (było: ${window.currentMaxShippingCost})`);
+                window.currentMaxShippingCost = 0;
+            } else {
+                log('🗑️ Cache już wyczyszczony lub nie istnieje');
+            }
+        }
+        
+        function testCurrentLogic() {
+            log('🔄 Test NOWEJ logiki (getShippingInfo)...');
+            priceDisplay.textContent = 'ładowanie...';
+            priceDisplay.style.color = 'blue';
+            
+            fetch('/kopia_norwit/modules/relatedproducts/ajax.php', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+                body: 'action=getShippingInfo&id_product=2681'
+            })
+            .then(response => response.json())
+            .then(data => {
+                log(`📦 Odpowiedź: ${JSON.stringify(data, null, 2)}`);
+                
+                if (data.success && data.formatted_price) {
+                    priceDisplay.textContent = data.formatted_price;
+                    priceDisplay.style.color = 'green';
+                    log(`✅ SUKCES! Wyświetlono: ${data.formatted_price}`);
+                    log(`   • Cena brutto: ${data.lowest_price} zł`);
+                    log(`   • Przewoźnik: ${data.carrier_name}`);
+                    
+                    // Symuluj ustawienie cache (jak robi prawdziwy JavaScript)
+                    window.currentMaxShippingCost = data.lowest_price;
+                    log(`💾 Ustawiono cache: ${data.lowest_price}`);
+                } else {
+                    priceDisplay.textContent = 'BŁĄD';
+                    priceDisplay.style.color = 'red';
+                    log('❌ Błąd w odpowiedzi API');
+                }
+            })
+            .catch(error => {
+                log(`❌ Błąd sieci: ${error.message}`);
+                priceDisplay.textContent = 'BŁĄD SIECI';
+                priceDisplay.style.color = 'red';
+            });
+        }
+        
+        function testOldLogic() {
+            log('🔄 Test STAREJ logiki (getShippingCost)...');
+            priceDisplay.textContent = 'ładowanie...';
+            priceDisplay.style.color = 'blue';
+            
+            fetch('/kopia_norwit/modules/relatedproducts/ajax.php', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+                body: 'action=getShippingCost&id_product=2681'
+            })
+            .then(response => response.json())
+            .then(data => {
+                log(`📦 Odpowiedź: ${JSON.stringify(data, null, 2)}`);
+                
+                if (data.success && data.formatted_cost) {
+                    priceDisplay.textContent = `od ${data.formatted_cost}`;
+                    priceDisplay.style.color = 'red';
+                    log(`❌ STARA LOGIKA: od ${data.formatted_cost}`);
+                    log(`   • Problem: To tylko ${data.shipping_cost} zł netto!`);
+                    log(`   • Brakuje: VAT + additional_shipping_cost`);
+                } else {
+                    priceDisplay.textContent = 'BŁĄD';
+                    priceDisplay.style.color = 'red';
+                    log('❌ Błąd w odpowiedzi API');
+                }
+            })
+            .catch(error => {
+                log(`❌ Błąd sieci: ${error.message}`);
+                priceDisplay.textContent = 'BŁĄD SIECI';
+                priceDisplay.style.color = 'red';
+            });
+        }
+        
+        // Auto-test przy ładowaniu
+        window.onload = function() {
+            log('🚀 Strona załadowana - uruchamiam test...');
+            setTimeout(testCurrentLogic, 500);
+        };
+    </script>
+</body>
+</html>

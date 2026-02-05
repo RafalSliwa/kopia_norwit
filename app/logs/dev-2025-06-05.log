@@ -1,0 +1,1 @@
+[2025-06-05 14:44:13] doctrine.DEBUG: SELECT alias FROM mvg2_tpay_blik t WHERE t.user_id = :userId {"userId":0} []

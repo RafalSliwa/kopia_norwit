@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS `_DB_PREFIX_ceneo_bs`;
+DROP TABLE IF EXISTS `_DB_PREFIX_ceneo_bs_carriers`;

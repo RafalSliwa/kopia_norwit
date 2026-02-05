@@ -1,0 +1,87 @@
+.panel-heading-action a.list-toolbar-btn {
+    text-align: center;
+}
+.specific_price_leave_bprice .checkbox {
+    margin-bottom: 0!important;
+}
+.panel-heading-action a.list-toolbar-btn:not(:hover) {
+    color: #777!important;
+}
+.panel-heading-action a.list-toolbar {
+    color: #999;
+    margin-left: 0px;
+    padding: 9px 15px;
+    display: inline-block;
+    text-decoration: none!important;
+    border-left: 1px solid #eee;
+    margin-top: -2px;
+    line-height: 1;
+    text-transform: capitalize;
+    font-family: 'OPEN SANS';
+    font-size: 12px;
+}
+body .bootstrap .form-horizontal .form-wrapper {
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+.panel-heading-action a.list-toolbar:hover {
+    color:#00aff0;
+}
+.panel-heading-action a.list-toolbar:hover i.pmn_icon_hover {
+    opacity: 1;
+}
+.panel-heading {
+    position: relative;
+}
+.panel-heading-action a.list-toolbar i.pmn_icon_hover {
+    position: absolute;
+    top: 6px;
+    font-size: 12px!important;
+    opacity: 0;
+    right: 0;
+}
+.panel-heading span.panel-heading-action a.list-toolbar {
+    height: auto;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+}
+#content.bootstrap #configuration_form .panel .panel-heading span.panel-heading-action {
+    position: absolute;
+    top: 0!important;
+    bottom: 0!important;
+    display: flex;
+}
+#ets-pm-config-form #fieldset_form .panel-heading span.panel-heading-action {
+    position: absolute;
+    top: 0!important;
+    bottom: 0!important;
+    display: flex;
+}
+#content.bootstrap #configuration_form .panel .panel-heading {
+    display: flex!important;
+    border-bottom: 1px solid #ddd!important;
+}
+select {
+    cursor: pointer;
+}
+.panel-heading span.panel-heading-action a.list-toolbar i.icon:first-child {
+    margin-right: 4px;
+}
+body .panel-heading span.panel-heading-action {
+    top: 0!important;
+}
+.bootstrap .btn-default.active,
+.bootstrap .btn-default:active,
+.bootstrap .btn-default:focus,
+.bootstrap .btn-default:hover,
+.open>.bootstrap .btn-default.dropdown-toggle {
+    background-color: #ffffff;
+    border-color: #dedede;
+    color: #363a41;
+    outline: none!important;
+    box-shadow: none!important;
+}
+
+
+

@@ -1,0 +1,77 @@
+options:
+  max-time: 10 # 10 minutes timeout
+
+definitions:
+  steps:
+    - step: &lint-php
+        name: 'Lint - PHP 5.6+'
+        image:
+          name: rg.nl-ams.scw.cloud/phpstan-modules-ams/prestamodule/php:8.1
+          username: $DOCKER_REPO_USERNAME
+          password: $DOCKER_REPO_PASSWORD
+        caches:
+          - composer
+        script:
+          - mkdir ./test-reports && TEST_REPORTS_DIR=`pwd`/test-reports
+          - curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+          - cd $BUILD_DIR/.. && composer require --dev phpcompatibility/php-compatibility
+          - cd $BUILD_DIR/.. && ./vendor/bin/phpcs --config-set installed_paths `pwd`/vendor/phpcompatibility/php-compatibility/PHPCompatibility
+          - cd $BUILD_DIR/.. && ./vendor/bin/phpcs -p $BITBUCKET_CLONE_DIR --ignore=*/vendor/* --colors --report-full --report-junit="$TEST_REPORTS_DIR/phpcs.junit.xml" --standard=PHPCompatibility --runtime-set testVersion 5.6- --extensions=php
+
+    - step: &phpstan-ps82
+        name: 'PS 8.2.X'
+        image:
+          name: rg.nl-ams.scw.cloud/phpstan-modules-ams/prestamodule/php:8.1
+          username: $DOCKER_REPO_USERNAME
+          password: $DOCKER_REPO_PASSWORD
+        caches:
+          - composer
+        script:
+          - cd $BITBUCKET_CLONE_DIR && git submodule update --init --recursive
+          - curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+          - cd $BUILD_DIR/.. && composer create-project prestashop/prestashop:~8.2.0 prestashop
+          - cd $BITBUCKET_CLONE_DIR && composer config repositories.phpstan-bitbucket vcs https://github.com/prestamodule/phpstan-bitbucket && composer config repositories.bitbucket-reports vcs https://github.com/prestamodule/bitbucket-reports && composer config minimum-stability dev
+          - cd $BITBUCKET_CLONE_DIR && composer require --dev phpstan/phpstan swisnl/phpstan-bitbucket prestashop/php-dev-tools
+          - cd $BITBUCKET_CLONE_DIR && _PS_ROOT_DIR_=$BUILD_DIR/../prestashop php vendor/bin/phpstan analyse --memory-limit=2G --configuration=tests/phpstan-81.neon --error-format=bitbucket
+
+    - step: &phpstan-ps81
+          name: 'PS 8.1.X'
+          image:
+            name: rg.nl-ams.scw.cloud/phpstan-modules-ams/prestamodule/php:8.0
+            username: $DOCKER_REPO_USERNAME
+            password: $DOCKER_REPO_PASSWORD
+          caches:
+            - composer
+          script:
+            - cd $BITBUCKET_CLONE_DIR && git submodule update --init --recursive
+            - curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+            - cd $BUILD_DIR/.. && composer create-project prestashop/prestashop:^8.1 prestashop
+            - cd $BITBUCKET_CLONE_DIR && composer config repositories.phpstan-bitbucket vcs https://github.com/prestamodule/phpstan-bitbucket && composer config repositories.bitbucket-reports vcs https://github.com/prestamodule/bitbucket-reports && composer config minimum-stability dev
+            - cd $BITBUCKET_CLONE_DIR && composer require --dev phpstan/phpstan swisnl/phpstan-bitbucket prestashop/php-dev-tools
+            - cd $BITBUCKET_CLONE_DIR && _PS_ROOT_DIR_=$BUILD_DIR/../prestashop php vendor/bin/phpstan analyse --memory-limit=2G --configuration=tests/phpstan-81.neon --error-format=bitbucket
+
+    - step: &phpstan-ps177
+          name: 'PS 1.7.7.X'
+          image:
+            name: rg.nl-ams.scw.cloud/phpstan-modules-ams/prestamodule/php:7.2
+            username: $DOCKER_REPO_USERNAME
+            password: $DOCKER_REPO_PASSWORD
+          caches:
+            - composer
+          script:
+            - cd $BITBUCKET_CLONE_DIR && git submodule update --init --recursive
+            - curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+            - composer self-update --1
+            - cd $BUILD_DIR/.. && composer create-project prestashop/prestashop:~1.7.7 prestashop
+            - composer self-update --2
+            - cd $BITBUCKET_CLONE_DIR && composer config repositories.phpstan-bitbucket vcs https://github.com/prestamodule/phpstan-bitbucket && composer config repositories.bitbucket-reports vcs https://github.com/prestamodule/bitbucket-reports && composer config minimum-stability dev
+            - cd $BITBUCKET_CLONE_DIR && composer require --dev phpstan/phpstan swisnl/phpstan-bitbucket prestashop/php-dev-tools
+            - cd $BITBUCKET_CLONE_DIR && _PS_ROOT_DIR_=$BUILD_DIR/../prestashop php vendor/bin/phpstan analyse --memory-limit=2G --configuration=tests/phpstan-17.neon --error-format=bitbucket
+
+pipelines:
+  default:
+    - parallel:
+      - step: *lint-php
+      - step: *phpstan-ps82
+      - step: *phpstan-ps81
+      - step: *phpstan-ps177

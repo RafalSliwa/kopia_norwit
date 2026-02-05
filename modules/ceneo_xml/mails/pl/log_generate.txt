@@ -1,0 +1,4 @@
+Adres sklepu: [{shop_name}]({shop_url})
+Adres pliku xml: shop_generate_url
+
+Wiadomość została wygenerowana automatycznie przez wtyczkę Ceneo.pl Eksport XML.

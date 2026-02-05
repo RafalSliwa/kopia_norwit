@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>jprestaupgrade</name>
+    <displayName><![CDATA[JPresta - Easy upgrade]]></displayName>
+    <version><![CDATA[2.0.4]]></version>
+    <description><![CDATA[Easily upgrade your theme and modules developped by JPresta.com]]></description>
+    <author><![CDATA[JPresta]]></author>
+    <tab><![CDATA[administration]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+</module>

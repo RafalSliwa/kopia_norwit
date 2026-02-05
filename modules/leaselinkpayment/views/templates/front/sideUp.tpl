@@ -1,0 +1,1 @@
+<!-- LeaseLink Slide Button Start-->  {if $LEASELINK_KLIENTID eq '1' || $LEASELINK_SIDEUP_SWITCH eq 1}    	<script src="https://rep.leaselink.pl/plugin/slide-button.js" async defer data-external-id='{$LEASELINK_KLIENTID}' data-offset=120  ></script>    {/if} <!-- LeaseLink Slide Button End data-left=true data-offset-top=true data-offset=10 -->   

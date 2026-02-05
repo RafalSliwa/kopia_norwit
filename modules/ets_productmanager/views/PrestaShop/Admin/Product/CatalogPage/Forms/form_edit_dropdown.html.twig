@@ -1,0 +1,70 @@
+{#**
+ /**
+ * Copyright ETS Software Technology Co., Ltd
+ *
+ * NOTICE OF LICENSE
+ *
+ * This file is not open source! Each license that you purchased is only available for 1 website only.
+ * If you want to use this file on more websites (or projects), you need to purchase additional licenses.
+ * You are not allowed to redistribute, resell, lease, license, sub-license or offer our resources to any third party.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade PrestaShop to newer
+ * versions in the future.
+ *
+ * @author ETS Software Technology Co., Ltd
+ * @copyright  ETS Software Technology Co., Ltd
+ * @license    Valid for 1 website (or project) for each purchase of license
+ */
+ *#}
+<div class="span_change_product" style="display: inline;">
+    {% set buttonType = buttonType|default('primary') %}
+    {% set right = right|default(false) %}
+    
+    <div class="{{ div_style|default("btn-group") }}">
+    
+      {% if default_item is defined %}
+        <a onclick="etsEditInlineProductAction($(this));return false;"
+          href="{{ default_item.href|default("#") }}"
+          title="{{'Quick edit'|trans({}, 'Modules.Etsproductmanager.Admin')}}"
+          class="btn tooltip-link product-edit ets-inline-product-edit-btn"
+          {% if disabled is defined and disabled == true %}disabled="disabled"{% endif %}
+        >
+
+            <svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M888 1184l116-116-152-152-116 116v56h96v96h56zm440-720q-16-16-33 1l-350 350q-17 17-1 33t33-1l350-350q17-17 1-33zm80 594v190q0 119-84.5 203.5t-203.5 84.5h-832q-119 0-203.5-84.5t-84.5-203.5v-832q0-119 84.5-203.5t203.5-84.5h832q63 0 117 25 15 7 18 23 3 17-9 29l-49 49q-14 14-32 8-23-6-45-6h-832q-66 0-113 47t-47 113v832q0 66 47 113t113 47h832q66 0 113-47t47-113v-126q0-13 9-22l64-64q15-15 35-7t20 29zm-96-738l288 288-672 672h-288v-288zm444 132l-92 92-288-288 92-92q28-28 68-28t68 28l152 152q28 28 28 68t-28 68z"/></svg>
+
+          {{ default_item.label|default('') }}
+        </a>
+      {% endif %}
+    
+      <button class="btn btn-link dropdown-toggle dropdown-toggle-split product-edit" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        {{ menu_label|default('') }}
+      </button>
+    
+      <div class="dropdown-menu{% if right %} dropdown-menu-right{% endif %}" x-placement="bottom-start" >
+        {% for entry in items %}
+          {% if entry.divider is defined and entry.divider==true %}
+            <div class="dropdown-divider"></div>
+          {% else %}
+            <a
+              class="dropdown-item product-edit" href="{{ entry.href|default("#") }}"
+              {% if entry.onclick is defined %}onclick="{{ entry.onclick }}"{% endif %}
+              {% if entry.target is defined %}target="{{ entry.target }}"{% endif %}
+            >
+              {% if entry.icon %}
+                <i class="material-icons">{{ entry.icon }}</i>
+              {% endif %}
+              {{ entry.label|default('') }}
+            </a>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+</div>
+{% if ets_pmg_product_fileds is defined %}
+<div class="group-action-update-product" style="display:none">
+    <button class="btn btn-default" type="button" name="submitProductChangeInLine"><i class="icon-ok"></i> Update</button>
+    <button class="btn btn-default cancel_product_change_link" type="button"><i class="icon-remove"></i> Cancel</button>
+</div>
+{% endif %}

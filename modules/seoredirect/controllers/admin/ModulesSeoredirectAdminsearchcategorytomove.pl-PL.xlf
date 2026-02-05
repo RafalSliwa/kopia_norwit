@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="padmin" source-language="pl-PL" target-language="pl-PL" datatype="plaintext">
+    <body>
+      <trans-unit id="56a8a9eb05f9014da51a4f9b57322ac7">
+        <source>Category:</source>
+        <target>Kategoria</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="867959e872c09b979a453bf69ffa223f">
+        <source>Search for category</source>
+        <target>Wyszukaj kategorię</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="8619ed4e85f1243827ac4c7b5b525f5c">
+        <source>Module will assign / unassign product to / from this category</source>
+        <target>Kategoria do której zostanie zapisany / z której zostanie usunięty produkt (w zależności od wybranej opcji)</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="0f6969d7052da9261e31ddb6e88c136e">
+        <source>remove</source>
+        <target>usuń</target>
+        <note>Line: </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Porzucony koszyk</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body style="margin: 0; padding: 0; font-family: 'Lato', sans-serif; background-color: #ffffff;"><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background-color:#ffffff;box-sizing: border-box;font-size:16px;width:700px;border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; border-radius: 4px;" bgcolor="#ffffff" class="pse-table">
+    <tbody>
+        <tr class="pse-tr">
+            <td class="fs_0 p_0_0_30 tc pse-td pse-align-center" style="box-sizing: border-box;border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; direction: ltr; vertical-align: top;padding:50pt 0;">
+                <img style="width:100%;display:block;max-width:100%;" src="https://www.norwit.pl/img/ets_abandonedcart/mails/template_67fe72e78d22c/images/bg.jpg" class="pse-img"><br>
+                [logo]<br><br>
+                Drogi&nbsp;<span style="color:#00aff0" class="pse-span">[firstname] [lastname]</span>,<br>
+                Chyba czegoś zapomniałeś w koszyku.&nbsp;<br>Potrzebujesz pomocy lub nie jesteś pewien to skontaktuj się z Nami.<br><br>Lista twoich produktów:<br>
+                [product_list]<br><br><br>
+
+                <!--%--comment0--%-->
+                
+                    
+                        
+                            <a href="[checkout_url]" target="_blank" style="font-size: 16px; font-family: sans-serif; color: #ffffff; text-decoration: none; padding: 12px 24px; display: inline-block; font-weight: bold;" class="pse-a">
+                                Dokończ zakupy
+                            </a>
+                        <br>
+                    <br>
+                <br><br>
+
+                <br>(zanim ktoś kupi to przed tobą)<br><br>
+                Jeśli nie chcesz otrzymywać maili od nas kliknij ten przycisk&nbsp;<span style="color:#00aff0" class="pse-span">[unsubscribe]</span>.
+                <br><br><br><br><br><br><br><br><br>
+                &nbsp;<br>
+                Copyright <a href="{shop_url}" class="pse-a">{shop_name}</a>. All rights reserved.
+                <br><br>
+                &nbsp;<br><br><br><br><br><br>
+            </td>
+        </tr>
+    </tbody>
+</table></body>
+</html>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>pm_advancedsearch4</name>
+    <displayName><![CDATA[Advanced Search 5 Pro]]></displayName>
+    <version><![CDATA[5.1.1]]></version>
+    <description><![CDATA[Install one or more search engines by filters, wherever you want on your store. Improve the customer experience with ultra-customizable multi-criteria filters. The pro version also allows you to generate bulk SEO pages (faceted search) and offer a step-by-step search.]]></description>
+    <author><![CDATA[Presta-Module]]></author>
+    <tab><![CDATA[search_filter]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+</module>

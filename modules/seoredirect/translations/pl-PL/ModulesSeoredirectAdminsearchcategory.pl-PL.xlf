@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="padmin" source-language="pl-PL" target-language="pl-PL" datatype="plaintext">
+    <body>
+      <trans-unit id="9716e2834d6f3ab7f302e78f475bc853">
+        <source>Module will work for products from selected categories only</source>
+        <target>Moduł będzie uruchamiany wyłącznie dla produktów z wybranych kategorii</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="ee536f519ca4a6e53d4223a7735f7572">
+        <source>Type the name of category and select it from the list, it will be added to list of categories.</source>
+        <target>Wprowadź nazwę kategorii i wybierz ją z listy, zostanie ona dodana do listy kategorii</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="acc29adf99fe74458b0f58a2cf92aed7">
+        <source>Module will not disable / redirect products from these categories when product will be out of stock</source>
+        <target>Moduł nie wyłączy / przekieruje produktów z tych kategorii (gdy produkt bedzie out of stock)</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="36f50171232c691319ef96b9e59d2995">
+        <source>This option checks only main product category (it does not check other associations)</source>
+        <target>Ta opcja sprawdza główne kategorie produktu (nie sprawdza pozostałych powiązań z kategoriami)</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="d6e6cb38fce4acc2c5a22f4596c0858c">
+        <source>Type the name of category and select it from the list, it will be added to list of exclusions.</source>
+        <target>Wprowadź nazwę kategorii i wybierz jąz listy, zostanie ona dodana do wykluczeń</target>
+        <note>Line: </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

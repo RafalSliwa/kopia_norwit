@@ -1,0 +1,324 @@
+{% extends '@PrestaShop/Admin/layout.html.twig' %}
+
+{% if app.request.locale == 'pl-PL' %}
+   {% set mapping_title = 'Mapowanie kategorii i atrybutów' %}
+   {% set mapping_description = 'Mapowanie kategorii umożliwia połączenie kategorii Twojego sklepu z kategorią w Ceneo.
+          Dzięki temu Twoje oferty pojawią się w odpowiedniej kategorii, a sam proces ich włączenia
+          w Ceneo przebiegnie szybciej.' %}
+   {% set button_suggest = 'Zasugeruj mapowanie kategorii' %}
+   {% set button_clear = 'Zresetuj mapowanie kategorii' %}
+{% else %}
+   {% set mapping_title = 'Mapping categories and attributes' %}
+   {% set mapping_description = 'Category mapping allows you to connect your store\'s category with a category in Ceneo.
+Thanks to this, your offers will appear in the appropriate category, as will the process of including them in Ceneo
+it will be faster.' %}
+   {% set button_suggest = 'Suggest category mapping' %}
+   {% set button_clear = 'Reset category mapping' %}
+{% endif %}
+
+{% block content %}
+    <div class="alert alert-info">
+       <p>{{ mapping_title }}</p>
+       <p>{{ mapping_description }}</p>
+    </div>
+    <div class="alert alert-info">
+       <p>
+          <button onclick="suggest()" id="suggest-mapping" class="btn btn-primary">
+             {{ button_suggest }}
+          </button>
+          <button onclick="clearmapping()" id="clear-mapping" class="btn btn-danger">
+             {{ button_clear }}
+          </button>
+       </p>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-block" id="ceneo-mapping-form">
+                    {{ form(mappingForm) }}
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
+
+
+{% block javascripts %}
+
+   {% if app.request.locale == 'pl-PL' %}
+      <script>
+				var ceneo_choose = '-- Wybierz --';
+      </script>
+   {% else %}
+      <script>
+				var ceneo_choose = '-- Choose --';
+      </script>
+   {% endif %}
+
+    {{ parent() }}
+    <script>
+        shop_attributes = JSON.parse(shop_attributes);
+
+        var path_select = (ceneo_xml_ajax.indexOf('?') === -1) ? (ceneo_xml_ajax + '?action=list') : (ceneo_xml_ajax + '&action=list');
+        $('#ceneo-mapping-form form .custom-select[name^="mapping_form"]').select2({
+
+
+           {% if app.request.locale == 'pl-PL' %}
+	        placeholder: 'Wybierz opcję',
+	        language: {
+		        noResults: function() {
+			        return 'Brak wyników';
+		        },
+		        searching: function() {
+			        return 'Szukanie...';
+		        },
+		         errorLoading: function () {
+				         return 'Brak wyników';
+		         }
+	        },
+           {% endif %}
+
+            ajax: {
+                url: path_select,
+                dataType: 'json',
+                type: "GET",
+                quietMillis: 50,
+                data: function (term) {
+                    return {
+                        term: term
+                    };
+                },
+                processResults: function (data) {
+                    return {
+                        results: $.map(data, function (item) {
+                            return {
+                                text: item.text,
+                                id: item.id
+                            }
+                        })
+                    };
+                }
+            }
+        });
+
+        function clearmapping() {
+            $('#ceneo-mapping-form form .custom-select[name^="mapping_form"]').each(function (index, value) {
+                var current = $(this);
+                if (current.val() == 0) {
+                    return;
+                } else {
+                    current.append('<option value="0" selected>' + ceneo_choose + '</option>');
+                }
+
+                current.val(0);
+                current.trigger('change');
+            });
+            $('.category-attributes').remove();
+        }
+
+        function suggest() {
+            $('#ceneo-mapping-form form .custom-select[name^="mapping_form"]').each(function (index, value) {
+                var current = $(this);
+                if (current.val() > 0) {
+                    return;
+                }
+                var path_select = (ceneo_xml_ajax.indexOf('?') === -1) ? (ceneo_xml_ajax + '?action=suggest') : (ceneo_xml_ajax + '&action=suggest');
+                var id = current.attr('id').replace('mapping_form_category_', '');
+                $.ajax({
+                    url: path_select,
+                    type: "post",
+                    dataType: 'json',
+                    data: {id_category: id},
+                    success: function (data) {
+                        if (!data) return false;
+                        console.log(data);
+                        current.append($('<option>', {
+                            value: data.id_ceneo_category,
+                            text: data.name,
+                        }));
+                        current.val(data.id_ceneo_category);
+                        current.trigger("change");
+                        response = data.attributes;
+                        //current.parent().find('.category-attributes').remove();
+                        var attr_list = $('<div class="category-attributes">');
+                        current.parent().append(attr_list);
+                        $.each(response, function (index, value) {
+                            console.log(value);
+                            var el = $('<div class="category-attribute">');
+                            el.append('<label class="form-control-label d-block">' + value.name + '</label>');
+                            if (value.required) {
+                                var select = $('<select name="attribute-' + id + '-' + current.val() + '-' + value.name + '" class="form-control" required>');
+                            } else {
+                                var select = $('<select name="attribute-' + id + '-' + current.val() + '-' + value.name + '" class="form-control">');
+                                select.append($('<option>', {
+                                    value: 0,
+                                    text: ceneo_choose
+                                }));
+                            }
+                            $.each(shop_attributes, function (index, item) {
+                                if (value.selected && value.selected === item.id) {
+                                    select.append($('<option>', {
+                                        value: item.id,
+                                        text: item.name,
+                                        selected: 'selected'
+                                    }));
+                                } else {
+                                    select.append($('<option>', {
+                                        value: item.id,
+                                        text: item.name
+                                    }));
+                                }
+                            });
+                            el.append(select);
+                            select.select2();
+                            attr_list.append(el);
+                        });
+                    },
+                    error: function (jqXHR, textStatus, errorThrown) {
+                        console.log(textStatus, errorThrown);
+                    }
+                });
+            });
+        }
+
+        $('#ceneo-mapping-form form .custom-select[name^="mapping_form"]').each(function (index, value) {
+            var current = $(this);
+            if(!current.val()) {
+                return;
+            }
+            var id = current.attr('id').replace('mapping_form_category_', '');
+            $.ajax({
+                url: ceneo_xml_ajax,
+                type: "post",
+                dataType: 'json',
+                data: {id_ceneo_category: $(this).val(), id_category: id} ,
+                success: function (response) {
+                    var attr_list = $('<div class="category-attributes">');
+                    current.parent().append(attr_list);
+                    $.each(response, function(index, value) {
+                        console.log(value);
+                        var el = $('<div class="category-attribute">');
+                        el.append('<label class="form-control-label d-block">'+value.name+'</label>');
+                        if(value.required) {
+                            var select = $('<select name="attribute-'+id+'-'+current.val()+'-'+value.name+'" class="form-control" required>');
+                        } else {
+                            var select = $('<select name="attribute-'+id+'-'+current.val()+'-'+value.name+'" class="form-control">');
+                            select.append($('<option>', {
+                                value: 0,
+                                text : ceneo_choose
+                            }));
+                        }
+                        $.each(shop_attributes, function(index, item) {
+                            if(value.selected && value.selected === item.id) {
+                                select.append($('<option>', {
+                                    value: item.id,
+                                    text : item.name,
+                                    selected: 'selected'
+                                }));
+                            } else {
+                                select.append($('<option>', {
+                                    value: item.id,
+                                    text : item.name
+                                }));
+                            }
+                        });
+                        el.append(select);
+                        select.select2();
+                        attr_list.append(el);
+                    });
+                },
+                error: function(jqXHR, textStatus, errorThrown) {
+                    console.log(textStatus, errorThrown);
+                }
+            });
+        });
+
+        $('#ceneo-mapping-form form .custom-select[name^="mapping_form"]').on('select2:select', function (e) {
+            var current = $(this);
+            var id = current.attr('id').replace('mapping_form_category_', '');
+            $.ajax({
+                url: ceneo_xml_ajax,
+                type: "post",
+                dataType: 'json',
+                data: {id_ceneo_category: $(this).val(), id_category: id} ,
+                success: function (response) {
+                    current.parent().find('.category-attributes').remove();
+                    var attr_list = $('<div class="category-attributes">');
+                    current.parent().append(attr_list);
+                    $.each(response, function(index, value) {
+                        var el = $('<div class="category-attribute">');
+                        el.append('<label class="form-control-label d-block">'+value.name+'</label>');
+                        if(value.required) {
+                            var select = $('<select name="attribute-'+id+'-'+current.val()+'-'+value.name+'" class="form-control" required>');
+                        } else {
+                            var select = $('<select name="attribute-'+id+'-'+current.val()+'-'+value.name+'" class="form-control">');
+                            select.append($('<option>', {
+                                value: 0,
+                                text : ceneo_choose
+                            }));
+                        }
+                        $.each(shop_attributes, function(index, item) {
+                            console.log(item);
+                            select.append($('<option>', {
+                                value: item.id,
+                                text : item.name
+                            }));
+                        });
+                        el.append(select);
+                        attr_list.append(el);
+                    });
+                },
+                error: function(jqXHR, textStatus, errorThrown) {
+                    console.log(textStatus, errorThrown);
+                }
+            });
+        });
+    </script>
+{% endblock %}
+
+{% if app.request.locale == 'pl-PL' %}
+   {% set js_translatable = {
+      "Czy na pewno chcesz wyłączyć warianty? Wszystkie zostaną usunięte": "To spowoduje usunięcie wszystkich kombinacji. Czy na pewno chcesz kontynuować?",
+      "Sukces aktualizacji formularza": "Ustawienia zaktualizowane.",
+      "Błąd aktualizacji formularza": "Nie można zaktualizować ustawień.",
+      "Usuń": "Usuń",
+      "Za duży plik": "Plik jest zbyt duży. Maksymalny dozwolony rozmiar to: [1]. Plik, który próbujesz przesłać, ma [2]."|replace({ '[1]': '{{maxFilesize}}', '[2]': '{{filesize}}' }),
+      "Upuść obrazy tutaj": "Upuść obrazy tutaj",
+      "lub wybierz pliki": "lub wybierz pliki",
+      "zalecenia dotyczące plików": "Zalecany rozmiar 800 x 800px dla domyślnego motywu.",
+      "zalecenia dotyczące plików2": "Format JPG, GIF lub PNG.",
+      "Okładka": "Okładka",
+      "Czy na pewno chcesz to usunąć?": "Czy na pewno chcesz to usunąć?",
+      "Spowoduje to usunięcie określonej ceny. Czy na pewno chcesz kontynuować?": "Spowoduje to usunięcie określonej ceny. Czy na pewno chcesz kontynuować?",
+      "Ilości": "Ilości",
+      "Kombinacje": "Kombinacje",
+      "Produkt wirtualny": "Produkt wirtualny",
+      "cena brutto": "cena brutto",
+      "cena netto": "cena netto",
+      "Nie można utworzyć produktu zbiorczego z wariantami. Czy na pewno chcesz wyłączyć warianty? Wszystkie zostaną usunięte.": "Zestaw produktów nie może mieć kombinacji.",
+      "Nie można utworzyć produktu wirtualnego z wariantami. Czy na pewno chcesz wyłączyć warianty? Wszystkie zostaną usunięte.": "Produkt wirtualny nie może mieć kombinacji."
+   }|merge(js_translatable) %}
+{% else %}
+   {% set js_translatable = {
+      "Are you sure to disable variations ? they will all be deleted": "This will delete all the combinations. Do you wish to proceed?",
+      "Form update success": "Settings updated.",
+      "Form update errors": "Unable to update settings.",
+      "Delete": "Delete",
+      "ToLargeFile": "The file is too large. Maximum size allowed is: [1]. The file you are trying to upload is [2]."|replace({ '[1]': '{{maxFilesize}}', '[2]': '{{filesize}}' }),
+      "Drop images here": "Drop images here",
+      "or select files": "or select files",
+      "files recommandations": "Recommended size 800 x 800px for default theme.",
+      "files recommandations2": "JPG, GIF or PNG format.",
+      "Cover": "Cover",
+      "Are you sure to delete this?": "Are you sure to delete this?",
+      "This will delete the specific price. Do you wish to proceed?": "This will delete the specific price. Do you wish to proceed?",
+      "Quantities": "Quantities",
+      "Combinations": "Combinations",
+      "Virtual product": "Virtual product",
+      "tax incl.": "tax incl.",
+      "tax excl.": "tax excl.",
+      "You can't create pack product with variations. Are you sure to disable variations ? they will all be deleted.": "A pack of products can't have combinations.",
+      "You can't create virtual product with variations. Are you sure to disable variations ? they will all be deleted.": "A virtual product can't have combinations."
+   }|merge(js_translatable) %}
+{% endif %}

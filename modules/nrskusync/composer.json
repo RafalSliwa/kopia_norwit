@@ -1,0 +1,14 @@
+{
+  "name": "andres/nrskusync",
+  "description": "Updates product reference (SKU) after combination change (PrestaShop 8).",
+  "type": "prestashop-module",
+  "license": "AFL-3.0",
+  "autoload": {
+    "psr-4": {
+      "PrestaShop\\Module\\NrSkuSync\\": "src/"
+    }
+  },
+  "config": {
+    "prepend-autoloader": false
+  }
+}

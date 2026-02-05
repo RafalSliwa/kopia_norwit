@@ -1,0 +1,26 @@
+{
+    "ApplicationData": [
+        {
+            "AgreementDate": null,
+            "AgreementNumber": null,
+            "ApplicationNumber": "7474094",
+            "ChangeDate": "2023-11-20T20:03:20.08",
+            "CreditState": "Bank",
+            "Downpayment": 0,
+            "ShopApplicationNumber": "YUYVJOGNY",
+            "ShopNumber": "99995",
+            "TotalPrice": 634.98000000000001818989403545856475830078125
+        },
+        {
+            "AgreementDate": null,
+            "AgreementNumber": null,
+            "ApplicationNumber": "6599089",
+            "ChangeDate": "2023-11-20T20:03:20.093",
+            "CreditState": "Klient (-100)",
+            "Downpayment": 0,
+            "ShopApplicationNumber": "1019945",
+            "ShopNumber": "99995",
+            "TotalPrice": 0
+        }
+    ]
+}

@@ -1,0 +1,132 @@
+/* MODAL – cała osłona */
+.zadarma-modal {
+  display: none; /* ukryty domyślnie */
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+/* MODAL – kontener formularza */
+.zadarma-modal-content {
+  background: #fff;
+  margin: 5% auto;
+  padding: 30px;
+  width: 90%;
+  max-width: 500px;
+  border-radius: 6px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  font-family: 'Arial', sans-serif;
+  position: relative;
+}
+
+/* Zamknięcie (X) */
+.zadarma-close {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  font-size: 28px;
+  cursor: pointer;
+  color: #888;
+  transition: color 0.3s;
+}
+
+.zadarma-close:hover {
+  color: #000;
+}
+
+/* Nagłówki */
+.zadarma-modal-content h3 {
+  margin-top: 0;
+  font-size: 22px;
+  color: #333;
+}
+
+.zadarma-modal-content p {
+  color: #777;
+  font-size: 14px;
+}
+
+/* Pola formularza */
+.zadarma-modal-content label {
+  margin-bottom: 6px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #333;
+}
+
+.zadarma-modal-content input[type="text"],
+.zadarma-modal-content input[type="tel"],
+.zadarma-modal-content textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  box-sizing: border-box;
+  background: #fafafa;
+  transition: border-color 0.3s;
+}
+
+.zadarma-modal-content input:focus,
+.zadarma-modal-content textarea:focus {
+  border-color: #888;
+  outline: none;
+}
+
+/* Przycisk */
+.zadarma-modal-content button {
+  width: 100%;
+  display: flex;
+  background-color: #009703;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-transform: uppercase;
+  justify-content: center;
+}
+
+.zadarma-modal-content button i.fa.fa-phone{
+  padding-right: 10px;
+  font-size: 25px;
+}
+
+.zadarma-modal-content button:hover {
+  background-color: #016e02;
+}
+
+/* Komunikat po wysłaniu */
+#zadarma-success {
+  line-height: normal;
+  font-size: 22px;
+  font-weight: normal;
+  color: green;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Header z ikoną */
+.zadarma-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.zadarma-icon {
+  max-width: 80px;
+  max-height: 80px;
+  width: auto;
+  height: auto;
+}
+#zadarma-error {
+  color: red;
+  margin-top: 10px;
+}

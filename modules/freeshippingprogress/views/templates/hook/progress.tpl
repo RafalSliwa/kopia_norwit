@@ -1,0 +1,60 @@
+{**
+ * Free Shipping Progress Module
+ * Template for cart summary delivery progress bar
+ *
+ * @author Norwit
+ * @copyright 2026
+ *}
+
+<div class="cart-delivery-section"
+     data-cart-total="{$cart_total}"
+     data-free-threshold="{$free_shipping_threshold}"
+     data-shipping-cost="{$shipping_cost}"
+     data-base-shipping-cost="{$base_shipping_cost}"
+     data-has-additional-shipping="{if $has_additional_shipping_cost}1{else}0{/if}"
+     data-free-text="{l s='Free!' mod='freeshippingprogress'}">
+
+    {* Delivery cost row *}
+    <div class="delivery-cost-row">
+        <span class="delivery-label">
+            <svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="0 -960 960 960" width="35px" fill="#009703">
+                <path d="M273.33-160q-50 0-83-35.67-33-35.66-29.66-85h-59q-14.17 0-23.75-9.61-9.59-9.62-9.59-23.84 0-14.21 9.59-23.71 9.58-9.5 23.75-9.5h86q15.66-18.34 37.66-28.84 22-10.5 48-10.5t48 10.5q22 10.5 37.67 28.84h187.67l89.33-386H224.67q-14.34 0-23.5-9.62-9.17-9.62-9.17-23.83 0-14.22 9.58-23.72 9.59-9.5 23.75-9.5h452q16 0 26.34 12.67Q714-774.67 710.33-759L681-633.33h89q15.83 0 30 7.08t23.33 19.58l78.34 104.34q9 12 11.66 25.16 2.67 13.17.34 27.5L885.33-308q-2.54 11.96-11.84 19.65-9.31 7.68-21.16 7.68H800q3.33 49.34-30 85Q736.67-160 686.67-160t-83-35.67q-33-35.66-29.67-85H386.67q3.33 49.34-30 85Q323.33-160 273.33-160ZM635-433.33h207.67l5.33-29-78-104.34H665.73L635-433.33Zm-82.33 59.66 6.5-27q6.5-27 15.16-66.33 3.67-15 6.67-28.33 3-13.34 5.67-24.34l6.5-27q6.5-27 15.16-66.33 8.67-39.33 14.84-66.33l6.16-27 6.67-27-89.33 386 6-26.34Zm-490-60q-14.34 0-23.5-9.58Q30-452.83 30-467t9.5-23.75q9.5-9.58 23.83-9.58h153.34q14.16 0 23.75 9.61 9.58 9.62 9.58 23.84 0 14.21-9.58 23.71-9.59 9.5-23.75 9.5h-154Zm80-146q-14.17 0-23.75-9.61-9.59-9.62-9.59-23.84 0-14.21 9.59-23.71 9.58-9.5 23.75-9.5h194q14.16 0 23.75 9.61 9.58 9.62 9.58 23.84 0 14.21-9.58 23.71-9.59 9.5-23.75 9.5h-194Zm131 353q19.33 0 32.83-13.83t13.5-33.17q0-19.33-13.42-32.83-13.41-13.5-33.25-13.5-19 0-32.83 13.42-13.83 13.41-13.83 33.25 0 19 13.83 32.83 13.83 13.83 33.17 13.83Zm413.33 0q19.33 0 32.83-13.83t13.5-33.17q0-19.33-13.41-32.83Q706.5-320 686.67-320q-19 0-32.84 13.42Q640-293.17 640-273.33q0 19 13.83 32.83 13.84 13.83 33.17 13.83Z"/>
+            </svg>
+            {l s='Delivery from' mod='freeshippingprogress'}
+        </span>
+        <span class="delivery-value" data-shipping-price="{$shipping_cost_formatted}">
+            {if $is_free_shipping}
+                <span class="free-shipping-badge">{l s='Free!' mod='freeshippingprogress'}</span>
+            {else}
+                {$shipping_cost_formatted}
+            {/if}
+        </span>
+    </div>
+
+    {* Progress bar - always render, control visibility with CSS *}
+    {if $free_shipping_threshold > 0 && !$has_additional_shipping_cost}
+        <div class="free-delivery-progress-wrapper" style="{if $is_free_shipping}display:none;{/if}">
+            <p class="free-delivery-message">
+                {l s='To free delivery you need' mod='freeshippingprogress'}
+                <span class="amount-needed">{$amount_needed|number_format:2:",":"."}</span> {$currency_sign}
+            </p>
+
+            <div class="delivery-progress-container">
+                <span class="progress-label-start">0 {$currency_sign}</span>
+                <div class="delivery-progress-bar">
+                    <div class="delivery-progress-fill" style="width: {$progress_percentage|string_format:"%.1f"}%;"></div>
+                </div>
+                <span class="progress-label-end">{$free_shipping_threshold|number_format:0:",":"."} {$currency_sign}</span>
+            </div>
+        </div>
+
+        {* Message when free shipping achieved *}
+        <div class="free-shipping-achieved" style="{if !$is_free_shipping}display:none;{/if}">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            {l s='Congratulations! You have free shipping!' mod='freeshippingprogress'}
+        </div>
+    {/if}
+
+</div>

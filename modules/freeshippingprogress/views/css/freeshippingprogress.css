@@ -1,0 +1,146 @@
+/**
+ * Free Shipping Progress Module
+ * Styles for cart summary delivery progress bar
+ */
+
+/* Hide in left column (AJAX refresh area) - show only in right summary */
+.cart-grid-body .cart-delivery-section {
+    display: none !important;
+}
+
+.cart-delivery-section {
+    padding: 15px 10px;
+    text-align: left;
+}
+
+/* Delivery cost row */
+.delivery-cost-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.delivery-cost-row .delivery-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: #333;
+}
+
+.delivery-cost-row .delivery-label svg {
+    fill: #009703;
+    flex-shrink: 0;
+}
+
+.delivery-cost-row .delivery-value {
+    font-size: 14px;
+    font-weight: 600;
+    color: #009703;
+}
+
+.delivery-cost-row .free-shipping-badge {
+    color: #009703;
+    font-weight: 700;
+}
+
+/* Progress bar wrapper */
+.free-delivery-progress-wrapper {
+    margin-top: 12px;
+    padding-top: 12px;
+}
+
+.free-delivery-message {
+    font-size: 13px;
+    color: #666;
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+.free-delivery-message .amount-needed {
+    font-weight: 700;
+    color: #009703;
+}
+
+/* Progress bar container */
+.delivery-progress-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.progress-label-start,
+.progress-label-end {
+    font-size: 11px;
+    color: #888;
+    white-space: nowrap;
+    min-width: 45px;
+}
+
+.progress-label-start {
+    text-align: left;
+}
+
+.progress-label-end {
+    text-align: right;
+}
+
+/* Progress bar */
+.delivery-progress-bar {
+    flex: 1;
+    height: 8px;
+    background-color: #e5e5e5;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+}
+
+.delivery-progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #009703 0%, #00c853 100%);
+    border-radius: 4px;
+    transition: width 0.5s ease-in-out;
+    min-width: 0;
+}
+
+/* Free shipping achieved message */
+.free-shipping-achieved {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 6px;
+    margin-top: 8px;
+    padding: 8px 12px;
+    background-color: #e8f5e9;
+    border-radius: 4px;
+    font-size: 13px;
+    color: #009703;
+    font-weight: 500;
+}
+
+.free-shipping-achieved svg {
+    color: #009703;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .cart-delivery-section {
+        padding: 12px 10px;
+    }
+
+    .delivery-progress-container {
+        gap: 8px;
+    }
+
+    .progress-label-start,
+    .progress-label-end {
+        font-size: 10px;
+        min-width: 40px;
+    }
+
+    .delivery-progress-bar {
+        height: 6px;
+    }
+}

@@ -1,0 +1,108 @@
+/* carets */
+[class^="caret-"] {
+	position: absolute;
+	z-index: 1;
+	z-index: 999;
+}
+[class^="caret-"]:before, [class^="caret-"]:after{
+	content: '';
+	position: absolute;
+	display: block;
+	height: 0px;
+	border: 5px solid transparent;
+}
+.caret-t {
+	top: -11px;
+	left: 50%;
+	margin-left: -5px;
+}
+.caret-t:before{
+	border-color: transparent transparent #DDD transparent;
+}
+.caret-t:after {
+	top: 1px;
+	border-color: transparent transparent #FFF transparent;
+}
+.caret-l {
+	top: 50%;
+	margin-top: -5px;
+	left: -11px;
+}
+.caret-l:before {
+	border-color: transparent #DDD transparent transparent;
+}
+.caret-l:after {
+	left: 1px;
+	border-color: transparent #FFF transparent transparent;
+}
+/* 1.7.8+ */
+#cb input[type="text"],
+#cb select,
+#cb .btn {
+	padding: 5px 7px;
+	height: 32px;
+	line-height: 1.5;
+}
+#cb input[type="text"],
+#cb select {
+	padding-top: 4px;
+	padding-bottom: 6px;
+}
+#cb .btn.saveBanner,
+#cb .btn.saveCarouselSettings,
+#cb .btn.saveHookSettings {
+	height: auto;
+}
+#cb .btn i::before {
+	vertical-align: middle;
+	line-height: 20px;
+}
+#cb .btn-group .btn-default i {
+	display: inline-block;
+	width: auto;
+	font-size: 16px;
+	margin: -2px 2px 0 0;
+}
+#cb .btn-group .dropdown-toggle i {
+	margin-right: 0;
+}
+.bootstrap label.control-label span.label-tooltip {
+	background: #EDF7FB;
+	border-radius: 3px;
+	color: #3586AE;
+	border-bottom: 1px solid #D8EDF7;
+}
+.bootstrap .input-group-addon {
+	padding: 6px 8px;
+	line-height: 1;
+}
+.bootstrap .cb .control-label {
+	padding: 5px;
+}
+/* switch-select */
+.bootstrap .switch-select {
+	font-weight: bold;
+	color: #E99B9B;
+}
+.bootstrap .switch-select.yes {
+	color: #70B580;
+}
+/* general */
+.cb a, .cb a:hover, .cb a:focus {text-decoration: none; outline: none;}
+.cb .inline-block {display: inline-block;vertical-align: middle;}
+.bootstrap .cb .btn:focus {outline: none; box-shadow: none;}
+.bootstrap .tooltip-inner {padding: 7px 10px; max-width: none;}
+.bootstrap .weight-normal {font-weight: normal;}
+.grey-note {color: #6C868E;}
+.uppercase {text-transform: uppercase;}
+.round-border {background: #FFF;border: 1px solid #DDD;border-radius: 5px;padding: 15px;}
+.cb .act {color: #BBCDD2;cursor: pointer;vertical-align: middle;}
+.cb .act:hover {color: #999;}
+.cb .monospace {font-family: monospace;}
+.cursor-pointer {cursor: pointer;}
+.green, .on {color: #72C279;}
+.red, .off {color: #E27C79;}
+.b {font-weight:bold;}
+.i {font-style:italic;}
+.u {text-decoration:underline;}
+/* since 3.0.1 */

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>leaselinkpayment</name>
+    <displayName><![CDATA[Płatności LEASELINK]]></displayName>
+    <version><![CDATA[3.3.1c]]></version>
+    <description><![CDATA[Płatności w formie leasingu.]]></description>
+    <author><![CDATA[Projekt-Net]]></author>
+    <tab><![CDATA[payments_gateways]]></tab>
+	<confirmUninstall><![CDATA[Czy chcesz usunąć ten moduł?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+</module>

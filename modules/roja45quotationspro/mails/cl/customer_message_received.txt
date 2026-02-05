@@ -1,0 +1,7 @@
+Estimado/a {firstname} {lastname},
+
+Muchas gracias por su mensaje, le responderemos tan pronto como sea posible.
+
+Si tiene alguna pregunta, por favor no dude en ponerse en contacto con nosotros.
+
+{shop_name} hecho por https://toolecommerce.com/

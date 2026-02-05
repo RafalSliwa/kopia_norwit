@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="padmin" source-language="pl-PL" target-language="pl-PL" datatype="plaintext">
+    <body>
+      <trans-unit id="23b36d89bbafd1587c577cea0f92ce25">
+        <source>Regular expressions</source>
+        <target>Wyrażenia regularne</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="13216797f17ddab89254c23b156db643">
+        <source>You can use regular expressions to define redirections.</source>
+        <target>Możesz wykorzystać wyrażenia regularne do definiowania przekierowań</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="0190b31a614141782c7654883e14eec8">
+        <source>? (question mark)</source>
+        <target>? (znak zapytania)</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="cb7b83b103f009546014da316044e1a7">
+        <source>this can represent any single character. If you specified something at the command line like "hd?" - script would look for hda, hdb, hdc and every other letter/number between a-z, 0-9.</source>
+        <target>Wykorzystanie znaku zapytania w ciągu znaków oznacza, że za znak zapytania będzie podstawiony dowolny znak. Jeżeli wprowadzisz taki fragment url np: "hd?" to moduł za znak zapytania podstawi inną liczbę / literę np: "hda" "hdi" "hdd" "hd3"</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="db2fed51b2adca2313353370ee29df90">
+        <source>* (asterisk)</source>
+        <target>* (gwiazdka)</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="170846cad9965467c1712ad637cf4b64">
+        <source>this can represent any number of characters (including zero, in other words, zero or more characters). If you specified a "cd*" it would use "cda", "cdrom", "cdrecord" and anything that starts with “cd” also including “cd” itself. "m*l" could by mill, mull, ml, and anything that starts with an m and ends with an l.</source>
+        <target>Gwiazdka, gdy wykorzystana w adresie url zostanie zastąpiona dowolną ilością znaków, cyfr i liter. Jeżeli wprowadzisz do url tagi ciąg "cd*" wówczas moduł podstawi za gwiazdkę dowolny znak / znaki np, "cda" "cdrom"  "cd-rom"</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="8adafbae7cabee461f1af52a1325495b">
+        <source>[ ] (square brackets)</source>
+        <target>[ ] [nawiasy kwadratowe]</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="9d329d66e7fe62f65d4f8e1012225782">
+        <source>specifies a range. If you did m[a,o,u]m it can become: mam, mum, mom if you did: m[a-d]m it can become anything that starts and ends with m and has any character a to d inbetween. For example, these would work: mam, mbm, mcm, mdm. This kind of wildcard specifies an “or” relationship (you only need one to match).</source>
+        <target>Gdy zostaną wykorzystane w adresie url - oznaczają zakres naków. np. [a,b,c] - wówczas moduł do takie frazy podstawi tylko te znaki które są umieszczone w nawiasie kwadratowym. np. M[a,o,u]m poskutkuje utworzeniem fraz Mam, Mom, Mum.</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="a8f803ea5f73c00c0193b94348380fac">
+        <source>{ } (curly brackets)</source>
+        <target>{ } (nawiasy klamrowe}</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="20b0fd95c2b5e1fc1aa58ab8a60d2e38">
+        <source>terms are separated by commas and each term must be the name of something or a wildcard. This wildcard will copy anything that matches either wildcard(s), or exact name(s) (an “or” relationship, one or the other). For example, this would be valid: {*printed*,*summer*} - this will check urls for "printed" or "summer" words</source>
+        <target>Gdy zostaną wykorzystane w adresie url - moduł spróbuje dopasować zdefiniowany wewnątrz ciąg do adresu url. np {*printed*,*summer*} - wówczas moduł sprawdzi url czy w adresie nie występuje słowo printer lub summer (zastosowanie gwiazdek to wildcard  - patrz "gwiazdka"</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="192735cffa56cf04e2815077d2e6baeb">
+        <source>[!] </source>
+        <target>[!]</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="d4b04f9c4e3fdc12607f23bac3fd9086">
+        <source>This construct is similar to the [ ] construct, except rather than matching any characters inside the brackets, it'll match any character, as long as it is not listed between the [ and ]. This is a logical NOT.</source>
+        <target>To jest konstruktor podobny do nawiasów kwadratowych, lecz sprawdza on, czy dany ciąg znaków NIE MA wskazanych znaków w nawiasach. Jest to logiczne "NOT"</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="f0363cda780466ad3c0eec1a01b0ea56">
+        <source>Do not activate module for "preview" mode</source>
+        <target>Nie aktywuj przekierowań dla "podglądu" strony frontu sklepu przez admina</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="bef1d51bd7a164fbcf37c140a41bead9">
+        <source>Module can be disabled when you use a "preview" product feature:</source>
+        <target>Moduł może być wyłączony dla trybu "podglądu" wykonanego przez admina</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="1f5c7280e261389f1ab4f796213c7456">
+        <source>see screenshot</source>
+        <target>zobacz screenshot</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="bafd7322c6e97d25b6299b5d6fe8920b">
+        <source>No</source>
+        <target>Nie</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="93cba07454f06a4a960172bbd6e2a435">
+        <source>Yes</source>
+        <target>Tak</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="dee1109c3361962c68ea5d3e13a3960b">
+        <source>Enable wildcards</source>
+        <target>Włącz wildcardy</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="bd3bd19ed30c0bcd1e93079a19073c10">
+        <source>Module can work with wildcards, this means that you can generate bulk redirections based on url patterns</source>
+        <target>Moduł może działać z tzw. wildcardami, oznacza to, że możesz generować masowe przekierowanie wykorzystując patterny w urlach</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="5ec8e14b1562843a41724f2b43614b87">
+        <source>Enable statistics</source>
+        <target>Włącz statystyki</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="821d5a2a2536332d8a285368ff88ea64">
+        <source>Enable or disable statistics feature. If enabled - module will store informations about redirected customers.</source>
+        <target>Włącz lub wyłącz statystyki. Ta opcja gdy włączona sprawi, że moduł będzie zbierał ilościowe informacje o wykonanych przekierowaniach w danych dniach</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="a11f4833156155211bd7b37e4d5e529c">
+        <source>Enable logs</source>
+        <target>Włącz logowanie</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="0777dbb47ea9d69260166de8258cff43">
+        <source>Option when active will log all redirections initiated by module.</source>
+        <target>Opcja gdy aktywna sprawi, że wszystkie przekierowania będą "logowane" w historii przekierowań</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="15bbf0f0c5bdb3a669ddd61dbd777ee4">
+        <source>Empty categories</source>
+        <target>Puste kategorie</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="4aebfbe757199fcfad9e39848c619deb">
+        <source>Select what you want to do with categories that are empty (without products)</source>
+        <target>Wybierz co chcesz zrobić z kategoriami które są puste (bez produktów)</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="f80a4ad87fee7c9fdc19b7769495fdb5">
+        <source>Nothing</source>
+        <target>Nic</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="83f1aa4b4b97511c2b5b2ddfa22e304e">
+        <source><![CDATA[Disable & hide automatically]]></source>
+        <target>Wyłącz i ukryj automatycznie</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="02c54aa497dfe57957a4851b07247d7e">
+        <source>Disable and redirect to shop homepage</source>
+        <target>Wyłącz i przekieruj na główną stornę sklepu</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="bca23b6d7645cf0f290d55b8a0307000">
+        <source>Out of stock categories</source>
+        <target>Kategorie out of stock</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="e0f8d847e62ae4e8c6f69387aacff558">
+        <source>Select what you want to do with categories that are out of stock (products are active, but all of these products are out of stock)</source>
+        <target>Wybierz co chcesz zrobić z kategoriami które są out of stock (produkty są aktywne, ale wszystkie nie są dostępne na magazynie)</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="21714ffa517dfcd0be11633240d5edaf">
+        <source>Disable and redirect to parent category (if exists, otherwise redirect to homepage)</source>
+        <target>Wyłącz i przekieruj do kategorii-rodzica (jeżeli istnieje, jeżeli nie - przekieruj do głównej strony sklepu)</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="2a17f9ceb2bf52e19b757cd9ae73e4b5">
+        <source>Empty categories redirect type</source>
+        <target>Puste kategorie - Typ przekierowania</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="adc2d8c872592a4caf3d779dcecdb61a">
+        <source>If you will enable redirection of empty categories you can define type of redirection</source>
+        <target>Jeżeli włączysz opcję przekierowania pustych kategorii możesz zdecydować o typie przekierowania</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="5111af84d73c75b05b93a5ee43be63a0">
+        <source>301 Permanent redirection</source>
+        <target>301 Permanentne</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="4b8e0eeb5d741ab36db95787524e2633">
+        <source>302 Moved Temporarily</source>
+        <target>302 Tymczasowe</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="818eb0f6ac2362c3d12ae0fdd95093a4">
+        <source>303 See Other</source>
+        <target>303 Przekierowanie "zobacz inne"</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="15a0d4659a7e2cad6f4d8436b08e4c06">
+        <source>Exlcude not active products</source>
+        <target>Wyklucz nieaktywne produkty</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="7a42ce1de7732cc7e7d0de70652060e5">
+        <source>When you want to hide empty categories you can exclude disabled products from function that checks how many products category has</source>
+        <target>Kiedy chcesz ukryć puste kategorie możesz wykluczyć wyłączone produkty z funkcji, która sprawdza ile produktów ma kategoria</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="455919c270f6d5a10d87eb86c0ea0bb3">
+        <source>Exlcude selected categories</source>
+        <target>Wyklucz wybrane kategorie</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="ab19c53847455c731c3bbdeab9556345">
+        <source>Select categories that will be excluded from "Out of stock categories" and "Empty categories" disable/hide features</source>
+        <target>Wybierz kategorie które będą wykluczone procesu ukrywania "kategorii z produktami out of stock" oraz "pustych kategorii"</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="6772cc6aef5cefe4645765926f66c019">
+        <source>Automatic redirect 404 page</source>
+        <target>Automatyczne przekierowanie stron 404</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="aa9d783291093d1cfb05554c66396820">
+        <source>-- no --</source>
+        <target>-- nie --</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="af8217b46ee4c383c03950b4f4e1f6cd">
+        <source>Redirect to shop homepage</source>
+        <target>Przekieruj na główną sklepu</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="a0484d4a5906fe432228f74a8239b57f">
+        <source>In stock products</source>
+        <target>Produkty na magazynie (in stock)</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="85dfc5551d5e43b22e30973e194b9b76">
+        <source>Select what you want to do with products that are in stock</source>
+        <target>Wybierz co chcesz zrobić z produktami które są in stock</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="c1be9c4dddc0136a002047fd6070161b">
+        <source>Assign to selected category</source>
+        <target>Powiąż z wybraną kategorią</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="29064d35497bdf1c8590eba603896af1">
+        <source>Unassign from selected category</source>
+        <target>Usuń powiązanie z wybraną kategorią</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="74191ad339a696ee13cf7d563c600456">
+        <source>Out of stock products</source>
+        <target>Produkty out of stock</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="38d817383c04b776b03ced103c23baa0">
+        <source>Select what you want to do with products that are out of stock</source>
+        <target>Wybierz co zrobić z produktami które są out of stock</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="e46af64e1cf3695ff280af575629e641">
+        <source>Make product unavailable to order</source>
+        <target>Oznacz produkt jako niemożliwy do zakupu</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="2218d9e01824102b3e06fc6f90ca5baf">
+        <source>Unassign from all categories and move to new category</source>
+        <target>Usuń powiązania z kategoriami i przenieś do nowej kategorii</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="77cd68153b2dd2f4886b6af258c29ae6">
+        <source>Disable and redirect to main category of product</source>
+        <target>Wyłącz i przekieruj do strony głównej produktu</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="d745d8128207fa64725fc20038e950df">
+        <source>Limit feature to selected category(ies)</source>
+        <target>Ogranicz działanie funkcji do wybranych kategorii</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="8f78bfbb3ef5cd7db7bf605a71f80b8b">
+        <source>If you want feature to disable out of stock products can work in selected category(ies) only</source>
+        <target>Jeżeli chcesz, to funkcja wyłączająca produkty out of stock może działać wyłącznie w wybranych kategoriach</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="cfa96f3b1d52bbfd4eca4b8a465dc5ce">
+        <source>Exclude some products</source>
+        <target>Wyklucz wybrane produkty</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="070c895fda9e1de1e866f2c5bb484b1c">
+        <source>Exclude products from categories</source>
+        <target>Wyklucz produkty z wybranych kategorii</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="ddb10ffb7dc5998a8fef6c77dc5ebe4c">
+        <source>Out of stock products redirect type</source>
+        <target>Produkty out of stock - Typ przekierowania</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="35fd32d54606faddd206c487f865af7e">
+        <source>If you will enable redirection of out of stock products you can define type of redirection</source>
+        <target>Jeżeli włączysz opcję przekierowywania pustych produktów możesz zdefiniować typ przekierowania</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="e6da203e96dc48cf1495310200424272">
+        <source>Enable when in stock</source>
+        <target>Włącz gdy będzie na magazynie (in stock)</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="874394552dbbc00bb6298db6e0841675">
+        <source>Turn this on if you want to re-enable product if it will be in stock again</source>
+        <target>Włącz tę opcję jeżeli chcesz ponownie włączyć produkt, jeżeli ponownie będzie in-stock</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="26edd873b1410dfd2fe9cb3644fe6a26">
+        <source>Option enables product page once someone will try to reach product page.</source>
+        <target>Opcja włącza produkt gdy ktoś spróbuje odwiedzić stronę tego produktu</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="4817d3afb390b924a5f55c4a5c7549fe">
+        <source>Disabled products</source>
+        <target>Wyłączone produkty</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="eb23e087ae6f5badcc4421e3ab359e91">
+        <source>Select what you want to do with products that are disabled (not active)</source>
+        <target>Co zrobić z produktami które są wyłączone (nie aktywne)</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="a0549e57037d8b2cae7df42d7beb3d2b">
+        <source>Redirect to main category of product</source>
+        <target>Przekieruj do głównej kategorii produktu</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="35fc9c2adf4793c3b554ab8b080bd9fd">
+        <source>Disabled products redirect type</source>
+        <target>Wyłączone produkty - Typ przekierowania</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="ed31ff6d3d9cc4d0f3c81b6787130f3b">
+        <source>If you will enable redirection of disabled products pages you can define type of redirection</source>
+        <target>Jeżeli włączysz opcję przekierowania wyłączonych stron produktów możesz zdecydować o typie przekierowania</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="7328fcb33cc01bdf90029c00a730f5aa">
+        <source>Removed products</source>
+        <target>Usunięte produkty</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="ae980f3f4790c4d2d77f4993ebedf314">
+        <source>What to do if someone will try to reach removed product page</source>
+        <target>Co z robić gdy ktoś spróbuje odwiedzić stronę usuniętego produktu</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="9e3f86fbd26babc6f43e45d1e6e42017">
+        <source>Removed products redirect type</source>
+        <target>Usunięte produkty - typ przekierowania</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="fea70a4ceb14a0802f4e9583359cf16f">
+        <source>If you will enable redirection of removed products pages you can define type of redirection</source>
+        <target>Jeżeli włączysz opcję przekierowań usuniętych stron produktów, możesz zadecydować o typie przekierowania</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="1afae63c400c385221f687135fd5065c">
+        <source>Disabled manufacturers</source>
+        <target>Wyłączeni producenci</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="0bc226eec607b6fea2795865b604ad99">
+        <source>Select what you want to do with manufacturers that are disabled (not active)</source>
+        <target>Wybierz co chcesz zrobić z producentami którzy są wyłączeni (nie aktywni)</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="a9ff781f14879dfd312801d1ad25a237">
+        <source>Disabled manufacturer redirect type</source>
+        <target>Wyłączeni producenci - Typ przekierowania</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="bb399c0e6784a027d568677cb8e17277">
+        <source>If you will enable redirection of disabled manufacturer pages you can define type of redirection</source>
+        <target>Jeżeli właczysz przekierowania stron producentów (wyłączonych) możesz zdecydować o typie przekierowania</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="bdf0b3259c33491979ff8a80d0acb863">
+        <source>General settings of Seo Redirect module</source>
+        <target>Ustawienia generalne wtyczki Seo Redirect</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="c9cc8cce247e49bae79f15173ce97354">
+        <source>Save</source>
+        <target>Zapisz</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="4d3d769b812b6faa6b76e1a8abaece2d">
+        <source>Active</source>
+        <target>Aktywuł</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="bcfaccebf745acfd5e75351095a5394a">
+        <source>Disable</source>
+        <target>Wyłącz</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="a91267c489217dac8acb9acb9460c2dc">
+        <source>This feature will mark product as product unavailable to order</source>
+        <target>Ta funkcjonalność oznaczy produkty jako produkty niemożliwe do zamówienia</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="afab23b8a7e6da2a58cf3e214acfbe50">
+        <source>Module disables categories when someone will try to open category page that has no products. You can also automatically disable empty categories with cron job task. Details below.</source>
+        <target>Moduł wyłącza kategorie gdy ktoś spróbuje odwiedzić stronę kategorii bez produktów w sklepie. Mozesz również zautomatyzować proces i wyłączać te kategorie z zdaniem cron. Szczegóły poniżej</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="087b09f1fa72b4c17d5195d8546efcec">
+        <source>Add this url to your cron job table to disable empty categories automatically</source>
+        <target>Dodaj ten url do tabeli zadań cron aby wyłączać puste kategorie automatycznie</target>
+        <note>Line: </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

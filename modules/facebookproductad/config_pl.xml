@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>facebookproductad</name>
+    <displayName><![CDATA[Facebook Dynamic Ads + Pixel &amp; Conversions API]]></displayName>
+    <version><![CDATA[1.5.18]]></version>
+    <description><![CDATA[Automatically promote relevant products from your entire catalog on Facebook across any device.]]></description>
+    <author><![CDATA[Business Tech]]></author>
+    <tab><![CDATA[seo]]></tab>
+	<confirmUninstall><![CDATA[Are you sure you want to uninstall the module (your configuration will be lost)?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+</module>

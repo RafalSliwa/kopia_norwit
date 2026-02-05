@@ -1,0 +1,61 @@
+{#**
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License version 3.0
+ * that is bundled with this package in the file LICENSE.md.
+ * It is also available through the world-wide-web at this URL:
+ * https://opensource.org/licenses/AFL-3.0
+ * 
+ * @author    Roja45
+ * @copyright Since 2016 Roja45
+ * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License version 3.0
+ *
+ * Copyright since 2016 ROJA45 - All rights reserved.
+ *
+ * DISCLAIMER
+ * Modification of this file may void any support provided.
+ *#}
+ 
+{% set buttonType = buttonType|default('primary') %}
+{% set right = right|default(false) %}
+
+<div class="{{ div_style|default("btn-group") }}">
+
+  {% if default_item is defined %}
+    <a
+      href="{{ default_item.href|default("#") }}"
+      title="{{ default_item.title|default(default_item.label|default("")) }}"
+      class="btn tooltip-link product-edit"
+      {% if disabled is defined and disabled == true %}disabled="disabled"{% endif %}
+    >
+      {% if default_item.icon %}
+        <i class="material-icons">{{ default_item.icon }}</i>
+      {% endif %}
+      {{ default_item.label|default('') }}
+    </a>
+  {% endif %}
+
+  <button class="btn btn-link dropdown-toggle dropdown-toggle-split product-edit no-rotate" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    {{ menu_label|default('') }}
+  </button>
+
+  <div class="dropdown-menu{% if right %} dropdown-menu-right{% endif %}" x-placement="bottom-start" >
+    {% for entry in items %}
+      {% if entry.divider is defined and entry.divider==true %}
+        <div class="dropdown-divider"></div>
+      {% else %}
+        <a
+          class="dropdown-item product-edit" href="{{ entry.href|default("#") }}"
+          {% if entry.onclick is defined %}onclick="{{ entry.onclick }}"{% endif %}
+          {% if entry.target is defined %}target="{{ entry.target }}"{% endif %}
+        >
+          {% if entry.icon %}
+            <i class="material-icons">{{ entry.icon }}</i>
+          {% endif %}
+          {{ entry.label|default('') }}
+        </a>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+</div>

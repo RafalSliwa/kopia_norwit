@@ -1,0 +1,161 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+i.material-icons.mi-icon.icon-envelope-o,
+i.material-icons.mi-icon.icon-comments,
+i.material-icons.mi-icon.icon-exchange,
+i.material-icons.mi-icon.icon-file-text-o,
+i.material-icons.mi-icon.icon-cogs,
+#subtab-AdminContactFormUltimateSetting .icon-cog,
+i.material-icons.mi-icon.icon-line-chart,
+#subtab-AdminContactFormUltimateIpBlacklist .icon-user-times,
+#subtab-AdminContactFormUltimateDashboard .icon-home,
+i.material-icons.mi-icon.icon-question-circle {
+    width: 19px;
+    font-size: 0!important;
+    height: 16px;
+}
+#subtab-AdminContactFormUltimateDashboard i.material-icons.mi-icon.icon-home:before,
+i.material-icons.mi-icon.icon-home:before {
+    font-size: 16px;
+    font-family: Fontawesome;
+    content: "\f108";
+}
+#subtab-AdminContactFormUltimateSetting i.material-icons.mi-icon.icon-cog:before {
+    content: "\f013";
+    font-size: 16px;
+    font-family: Fontawesome;
+}
+i.icon-AdminContactFormUltimate:before {
+    content: "\F003";
+    font-family: Fontawesome;
+}
+i.icon-AdminContactForm:before {
+    content: "\f003";
+    display: inline-block;
+    font-family: Fontawesome;
+}
+span.count_messages {
+    background: #fa5f93;
+    color: #fff;
+    text-align: center;
+    padding: 1px 4px 0!important;
+    margin: 0;
+    line-height: 16px;
+    min-width: 18px!important;
+    display: inline-block;
+    height: 18px;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+i.material-icons.mi-icon.icon-line-chart:before {
+    content: "\F1FE";
+    font-size: 17px;
+    font-family: Fontawesome;
+    line-height: 16px;
+    vertical-align: top;
+}
+#subtab-AdminContactFormUltimateIpBlacklist .icon-user-times:before {
+    content: "\f235";
+    font-size: 16px;
+    font-family: Fontawesome;
+    line-height: 1;
+    vertical-align: top;
+}
+.count_messages.hide {
+    display: none !important;
+}
+
+i.material-icons.mi-icon.icon-envelope-o:before {
+    content: "\f003";
+    font-size: 17px;
+    font-family: Fontawesome;
+    line-height: 16px;
+    vertical-align: top;
+}
+
+i.material-icons.mi-icon.icon-comments:before {
+    content: "\f086";
+    font-size: 17px;
+    font-family: Fontawesome;
+    line-height: 16px;
+    vertical-align: top;
+}
+
+#subtab-AdminContactFormMessage .count_messages,
+#content .cfu-top-menu .count_messages {
+    background-color: #fff;
+    border-radius: 50px;
+    display: inline-block;
+    font-size: 11px;
+    height: 18px;
+    padding: 0 4px!important;
+    line-height: 18px;
+    margin-left: 3px;
+    padding-left: 0;
+    text-align: center;
+    vertical-align: middle;
+    color: #fa5f93;
+    min-width: 18px;
+}
+i.material-icons.mi-icon.icon-cogs:before {
+    content: "\f085";
+    font-size: 17px;
+    font-family: Fontawesome;
+    line-height: 16px;
+    vertical-align: top;
+}
+
+i.material-icons.mi-icon.icon-question-circle:before {
+    content: "\f059";
+    font-size: 17px;
+    line-height: 16px;
+    vertical-align: top;
+    font-family: Fontawesome;
+}
+
+i.material-icons.mi-icon.icon-exchange:before {
+    content: "\f0ec";
+    line-height: 16px;
+    vertical-align: top;
+    font-size: 17px;
+    font-family: Fontawesome;
+}
+
+i.material-icons.mi-icon.icon-file-text-o:before {
+    content: "\f0f6";
+    line-height: 16px;
+    vertical-align: top;
+    font-size: 17px;
+    font-family: Fontawesome;
+}
+
+.count_messages.hide {
+    display: none;
+}
+
+
+.mobile li#tab-AdminContactFormUltimate > span.title:after {
+    content: "";
+    border-top: 2px solid #6c868e;
+    border-right: 2px solid #6c868e;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    float: right;
+    margin-right: 32px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.mobile .main-menu > li[id^="subtab-AdminContactFormUltimate"] {
+    display: none!important;
+}
+.mobile .main-menu > li[id^="subtab-AdminContactFormUltimate"].show_mobile {
+    display: block!important;
+}
+.mobile li#tab-AdminContactFormUltimate.mn_active:before {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    top: 20px;
+}
+
+

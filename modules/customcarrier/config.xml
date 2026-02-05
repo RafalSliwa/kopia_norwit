@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>customcarrier</name>
+    <displayName><![CDATA[Custom Carrier]]></displayName>
+    <version><![CDATA[1.2.1]]></version>
+    <description><![CDATA[Dynamiczne obliczanie kosztów wysyłki na podstawie reguł produktowych.]]></description>
+    <author><![CDATA[Norwit]]></author>
+    <tab><![CDATA[shipping_logistics]]></tab>
+    <confirmUninstall><![CDATA[Czy na pewno chcesz odinstalować ten moduł?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+    <limited_countries></limited_countries>
+</module>

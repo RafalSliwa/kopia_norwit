@@ -1,0 +1,12 @@
+DROP TABLE IF EXISTS `PREFIX_fpa_categories`;
+DROP TABLE IF EXISTS `PREFIX_fpa_taxonomy_categories`;
+DROP TABLE IF EXISTS `PREFIX_fpa_taxonomy`;
+DROP TABLE IF EXISTS `PREFIX_fpa_brands`;
+DROP TABLE IF EXISTS `PREFIX_fpa_tags`;
+DROP TABLE IF EXISTS `PREFIX_fpa_tags_brands`;
+DROP TABLE IF EXISTS `PREFIX_fpa_tags_cats`;
+DROP TABLE IF EXISTS `PREFIX_fpa_tags_suppliers`;
+DROP TABLE IF EXISTS `PREFIX_fpa_features_by_cat`;
+DROP TABLE IF EXISTS `PREFIX_fpa_advanced_exclusion`;
+DROP TABLE IF EXISTS `PREFIX_fpa_product_excluded`;
+DROP TABLE IF EXISTS `PREFIX_fpa_tmp_rules`;

@@ -1,0 +1,34 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{extratabspro}prestashop>extratabspro_e484057df15c784b0502e13e19463850'] = 'Linguette delle pagine di prodotto';
+$_MODULE['<{extratabspro}prestashop>extratabspro_dd44b85262dc9cfd95b466475bc7bdae'] = 'Visualizzare un numero illimitato di schede supplementari per qualsiasi prodotto che si desidera';
+$_MODULE['<{extratabspro}prestashop>extratabspro_61093077b60bcb6882d14cb16b730312'] = 'A causa dei cambiamenti nel nucleo -, questo modulo deve reinstallazione';
+$_MODULE['<{extratabspro}prestashop>extratabspro_daf455b3f7d72c5ffd0fb3cacb46b82e'] = 'Nessun categorie presenti';
+$_MODULE['<{extratabspro}prestashop>extratabspro_ec211f7c20af43e742bf2570c3cb84f9'] = 'Aggiungi';
+$_MODULE['<{extratabspro}prestashop>extratabspro_4c73ce9e52a25c69cf0dce126d548f98'] = 'Nuova versione disponibile, verificare http://MyPresta.eu per maggiori informazioni';
+$_MODULE['<{extratabspro}prestashop>extratabspro_f14b35c552aeffb7ecc027fe3dbff2d6'] = 'Il modulo non ha la pagina di configurazione per prestashop in v1.5';
+$_MODULE['<{extratabspro}prestashop>extratabspro_2e7554ef58d83dd862cbfa468ceb63bf'] = '-- selezionare --';
+$_MODULE['<{extratabspro}prestashop>extratabspro_5f4e520fd3e21095d3a25463c9f49d8e'] = 'Se si utilizza template di default-bootstrap per visualizzare le schede in che modo si deve modificare il file product.tpl tema';
+$_MODULE['<{extratabspro}prestashop>extratabspro_d4d52a944a2585f29e07ed75b6f6b90d'] = 'leggi come fare';
+$_MODULE['<{extratabspro}prestashop>extratabspro_b4e629e228ced631849a827c9e208603'] = 'Se si utilizza modello predefinito-bootstrap in PrestaShop in versione 1.6 questo è il modo di default di come appaiono le schede';
+$_MODULE['<{extratabspro}prestashop>extratabspro_d202de7c081617d7107232dd92cef415'] = 'Seleziona il tipo di schede';
+$_MODULE['<{extratabspro}prestashop>extratabspro_b3f8433144c73a8e366b08ccc319f15b'] = 'Visualizzazione a schede come schede predefinite in';
+$_MODULE['<{extratabspro}prestashop>extratabspro_c07decda569cbc5c10f9c9216ec1cf6d'] = 'Ampie barre orizzontali come schede predefinite in';
+$_MODULE['<{extratabspro}prestashop>extratabspro_43781db5c40ecc39fd718685594f0956'] = 'salvare';
+$_MODULE['<{extratabspro}prestashop>tabs_713b08aaddedf17b298ed4dc38732b40'] = 'torna alla lista';
+$_MODULE['<{extratabspro}prestashop>tabs_68d802f77519e753216e3a71e73c2420'] = 'nuova scheda';
+$_MODULE['<{extratabspro}prestashop>tabs_8e753068ca410f0f695f0dd52a975c20'] = 'scheda nome ';
+$_MODULE['<{extratabspro}prestashop>tabs_11c3281e79cd77949ce67b3d878bff6f'] = 'scheda contenuti';
+$_MODULE['<{extratabspro}prestashop>tabs_9185e6bd68ec9c97b182578dd77acaf0'] = 'scheda globale';
+$_MODULE['<{extratabspro}prestashop>tabs_3d0b7ce7d3ba5adc6237e51a9dfbf7b3'] = 'Questa opzione permetterà di visualizzare questo blocco su altri prodotti che sono associati con le categorie selezionate (è possibile selezionare le categorie sotto)';
+$_MODULE['<{extratabspro}prestashop>tabs_867959e872c09b979a453bf69ffa223f'] = 'Ricerca per categoria';
+$_MODULE['<{extratabspro}prestashop>tabs_996cf11c9c4f6d80527601e6db073deb'] = 'Numeri identificativi delle categorie';
+$_MODULE['<{extratabspro}prestashop>tabs_c9cc8cce247e49bae79f15173ce97354'] = 'Salvare';
+$_MODULE['<{extratabspro}prestashop>tabs_225ac1a5b3a2afa8f996d92f55940b79'] = 'Modifica scheda';
+$_MODULE['<{extratabspro}prestashop>tabs_e1e4c8c9ccd9fc39c391da4bcd093fb2'] = 'scheda';
+$_MODULE['<{extratabspro}prestashop>tabs_c5c8d0787820626410a1d39b63bfbb01'] = 'scheda contenuti';
+$_MODULE['<{extratabspro}prestashop>tabs_06933067aafd48425d67bcb01bba5cb6'] = 'aggiornare';
+$_MODULE['<{extratabspro}prestashop>tabs_75fa820aebc10bf31b310065b38447c7'] = 'schede prodotto';
+$_MODULE['<{extratabspro}prestashop>tabs_67b04dba9808292a4b595294bfde43de'] = 'Creare una nuova scheda';

@@ -1,0 +1,112 @@
+/**
+ * Shipping Countdown Module - CSS
+ */
+
+.shipping-countdown {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    background-color: #f0fdf4;
+    font-size: 18px;
+    color: #166534;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.shipping-countdown-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.shipping-countdown-icon svg {
+    fill: #16a34a;
+}
+
+.shipping-countdown-text {
+    display: inline;
+    line-height: 1.4;
+}
+
+.shipping-countdown-timer {
+    font-weight: 600;
+    color: #15803d;
+}
+
+/* Tomorrow variant - same green colors */
+.shipping-countdown--tomorrow {
+    background-color: #f0fdf4;
+    color: #166534;
+}
+
+.shipping-countdown--tomorrow .shipping-countdown-icon svg {
+    fill: #16a34a;
+}
+
+.shipping-countdown--tomorrow .shipping-countdown-timer {
+    color: #15803d;
+    font-weight: 600;
+}
+
+/* Weekend variant - same green colors */
+.shipping-countdown--weekend {
+    background-color: #f0fdf4;
+    color: #166534;
+    margin: 10px 0;
+}
+
+.shipping-countdown--weekend .shipping-countdown-icon svg {
+    fill: #16a34a;
+}
+
+.shipping-countdown--weekend .shipping-countdown-timer {
+    color: #15803d;
+    font-weight: 600;
+}
+
+/* Cart page specific styles */
+.product-line-grid .shipping-countdown {
+    margin: 5px 0 0 0;
+    padding: 6px 10px;
+    font-size: 12px;
+}
+
+/* Shipping countdown as cart item (between in-stock and out-of-stock) */
+.cart-item--shipping-countdown {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    border: none !important;
+}
+
+.cart-item--shipping-countdown .shipping-countdown {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Product page specific styles */
+.product-additional-info .shipping-countdown {
+    margin: 15px 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .shipping-countdown {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+
+    /* Full width on mobile - override cart-item padding */
+    .cart-item--shipping-countdown {
+        padding: 0 !important;
+        margin: 10px 0 !important;
+        background: transparent !important;
+    }
+
+    .cart-item--shipping-countdown .shipping-countdown {
+        margin: 0;
+        width: 100%;
+    }
+}

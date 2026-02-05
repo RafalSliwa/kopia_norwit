@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>disable_cod_limit</name>
+    <displayName><![CDATA[Ogranicz płatność przy odbiorze według łącznej kwoty zam&oacute;wienia]]></displayName>
+    <version><![CDATA[1.0.3]]></version>
+    <description><![CDATA[Wyłącza opcję płatności przy odbiorze dla zam&oacute;wień powyżej 15 000 zł]]></description>
+    <author><![CDATA[Norwit]]></author>
+    <tab><![CDATA[checkout]]></tab>
+    <is_configurable>0</is_configurable>
+    <need_instance>0</need_instance>
+</module>

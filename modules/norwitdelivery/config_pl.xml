@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>norwitdelivery</name>
+    <displayName><![CDATA[Norwit Delivery - Czas dostawy]]></displayName>
+    <version><![CDATA[1.2.0]]></version>
+    <description><![CDATA[Wyświetla tekst z pola &quot;Etykieta gdy brak w magazynie&quot; dla produkt&oacute;w niedostępnych.]]></description>
+    <author><![CDATA[Norwit]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>0</is_configurable>
+    <need_instance>0</need_instance>
+</module>

@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;400;500;600;700&display=swap);:root {
+
+    --edition-lightblue-500: #dddddd;
+    --edition-success-500: #21834d;
+}
+
+:is(body:not(.ps-bo-rebrand)):is(body:not(.no-smb-reskin)) .prestashop-switch input:last-of-type:checked~.slide-button {
+    background-color: var(--edition-lightblue-500)!important
+}
+
+:is(body:not(.ps-bo-rebrand)):is(body:not(.no-smb-reskin)) .prestashop-switch input:first-of-type:checked~.slide-button {
+    background-color: var(--edition-success-500)!important
+}
+
+
+
+#autocomplete-results {
+  border: 1px solid #ccc;
+  max-height: 200px;
+  overflow-y: auto;
+  position: absolute;
+  background: #fff;
+  z-index: 9999;
+  width: 100%;
+  margin-top: 0;
+  padding-left: 0;
+}
+
+#autocomplete-results li {
+  list-style: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+#autocomplete-results li:hover {
+  background-color: #eee9e9;
+}
+
+.form-group .col-lg-9 {
+  padding: 0;
+}
+
+p.help-block {
+    margin-top: 20px;
+}

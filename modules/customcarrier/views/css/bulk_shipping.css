@@ -1,0 +1,146 @@
+/* Custom Carrier - Bulk Shipping Settings */
+
+.bulk-filter-form {
+    margin-bottom: 15px;
+}
+
+.bulk-filter-form .form-group {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.bulk-filter-form .form-group .form-control {
+    width: 100%;
+    min-width: 0;
+}
+
+.bulk-filter-form label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 4px;
+    font-size: 12px;
+}
+
+/* Autocomplete dropdown */
+.autocomplete-wrapper {
+    position: relative;
+}
+
+.autocomplete-suggestions {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 1050;
+    max-height: 250px;
+    overflow-y: auto;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.autocomplete-suggestions .autocomplete-item {
+    padding: 7px 12px;
+    cursor: pointer;
+    font-size: 13px;
+    border-bottom: 1px solid #f0f0f0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.autocomplete-suggestions .autocomplete-item:last-child {
+    border-bottom: none;
+}
+
+.autocomplete-suggestions .autocomplete-item:hover,
+.autocomplete-suggestions .autocomplete-item.active {
+    background: #f0f4fa;
+    color: #25b9d7;
+}
+
+.autocomplete-suggestions .autocomplete-item strong {
+    color: #363a41;
+    font-weight: 700;
+}
+
+/* Bulk settings panel */
+#bulk-settings-panel {
+    margin-bottom: 15px;
+}
+
+#bulk-settings-panel .panel-heading {
+    background: #f5f8fc;
+}
+
+.bulk-field-row {
+    padding: 6px 0;
+    border-bottom: 1px solid #f0f0f0;
+    display: flex;
+    align-items: center;
+}
+
+.bulk-field-row:last-child {
+    border-bottom: none;
+}
+
+.bulk-field-row label {
+    margin-bottom: 0;
+    font-weight: normal;
+}
+
+.bulk-field-row input[type="checkbox"] {
+    margin-top: 2px;
+}
+
+.bulk-field-row input:disabled,
+.bulk-field-row select:disabled {
+    opacity: 0.4;
+}
+
+/* Action bar */
+.bulk-action-bar {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+}
+
+.bulk-count-info {
+    margin-left: 15px;
+    font-size: 13px;
+}
+
+/* Product table */
+#bulkProductTable {
+    font-size: 12px;
+}
+
+#bulkProductTable th {
+    background: #f5f8fc;
+    white-space: nowrap;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+#bulkProductTable td {
+    vertical-align: middle;
+}
+
+#bulkProductTable .label {
+    font-size: 10px;
+}
+
+/* Pagination */
+.pagination {
+    margin: 10px 0;
+}
+
+.panel-footer.text-muted {
+    font-size: 12px;
+    padding: 10px 15px;
+}

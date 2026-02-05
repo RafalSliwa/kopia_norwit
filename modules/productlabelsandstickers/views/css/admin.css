@@ -1,0 +1,28 @@
+.icon-AdminFmmStickers:before { content: " \f02c"; }
+
+/*------ New Position Selector CSS -------*/
+#psl_wrapper div.psl_unit { width: 30px;height: 30px; border: 1px solid #c7d6db; margin: 3px; float: left; cursor: pointer}
+
+#psl_wrapper div.psl_unit:hover { background: #EFDC5F; border-color: #FCF400}
+
+#psl_wrapper div.psl_unit.selected { background: #f1b746}
+
+#psl_wrapper div.psl_break { width: 100%; clear: both;}
+
+.pls_help_block { clear: both; width: 100%; padding-top: 6px}
+
+.axis_distance_top { display: none}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

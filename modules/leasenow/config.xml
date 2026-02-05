@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>leasenow</name>
+    <displayName><![CDATA[ING Lease Now]]></displayName>
+    <version><![CDATA[1.1.0]]></version>
+    <description><![CDATA[Customer can calculate lease installments and sign a lease contract. An item will be purchased by ING.]]></description>
+    <author><![CDATA[ING Lease Now]]></author>
+    <tab><![CDATA[payments_gateways]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+</module>

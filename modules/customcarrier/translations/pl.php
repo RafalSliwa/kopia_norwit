@@ -1,0 +1,132 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{customcarrier}prestashop>product_tab_7366b8b9d084c2939c2bc5301d05eb53'] = 'Niestandardowe ustawienia operatora';
+$_MODULE['<{customcarrier}prestashop>product_tab_73fb7e9c18e352c677f249cbe53fb394'] = 'Skonfiguruj zasady dotyczące kosztów wysyłki dla tego produktu. Te ustawienia zostaną wykorzystane przez moduł Custom Carrier do obliczenia kosztów wysyłki.';
+$_MODULE['<{customcarrier}prestashop>product_tab_29aa46cc3d2677c7e0f216910df600ff'] = 'Bezpłatna wysyłka';
+$_MODULE['<{customcarrier}prestashop>product_tab_bafd7322c6e97d25b6299b5d6fe8920b'] = 'Od';
+$_MODULE['<{customcarrier}prestashop>product_tab_93cba07454f06a4a960172bbd6e2a435'] = 'Tak';
+$_MODULE['<{customcarrier}prestashop>product_tab_f258099bbf15ffe11c7a2f5f329a484e'] = 'Jeśli opcja jest włączona, ten produkt będzie zawsze objęty bezpłatną wysyłką (najwyższy priorytet).';
+$_MODULE['<{customcarrier}prestashop>product_tab_03334947eae6089b86d68756e7410312'] = 'Podstawowy koszt wysyłki';
+$_MODULE['<{customcarrier}prestashop>product_tab_5c8e4e3b0f9d87a6c2e1f4d3b2a19c8e'] = 'Bazowy koszt wysyłki (brutto)';
+$_MODULE['<{customcarrier}prestashop>product_tab_0e460d0edd4cfec4c2d0f2c000466b8a'] = 'Podstawowy koszt wysyłki tego produktu.';
+$_MODULE['<{customcarrier}prestashop>product_tab_7f8e9d0c1b2a3456789abcdef0123456'] = 'Bazowy koszt wysyłki tego produktu (cena brutto z VAT).';
+$_MODULE['<{customcarrier}prestashop>product_tab_86069e740c36aab3dbe8f1d852640a90'] = 'Pomnóż przez ilość';
+$_MODULE['<{customcarrier}prestashop>product_tab_30fccc1e3057a07ed7874011a2b2aacf'] = 'Jeśli opcja jest włączona, koszt wysyłki = koszt podstawowy × ilość.';
+$_MODULE['<{customcarrier}prestashop>product_tab_0f5ebdb24911c3d558481af49718bf18'] = 'Bezpłatna wysyłka od ilości';
+$_MODULE['<{customcarrier}prestashop>product_tab_3ecf2642759a04bd3616642bd56bed59'] = 'szt.';
+$_MODULE['<{customcarrier}prestashop>product_tab_615d2279c9a975a6e4af7165dd21fa66'] = 'Bezpłatna wysyłka, gdy klient zamówi co najmniej określoną liczbę produktów. Aby wyłączyć tę opcję, ustaw wartość 0.';
+$_MODULE['<{customcarrier}prestashop>product_tab_a0d37c6ce4b8e432011586501219a930'] = 'Darmowa wysyłka od kwoty produktu';
+$_MODULE['<{customcarrier}prestashop>product_tab_5054bb6e88126012431f12a9b5b985f8'] = 'Darmowa wysyłka gdy cena brutto produktu jest równa lub większa od tej kwoty. Zostaw puste aby wyłączyć.';
+$_MODULE['<{customcarrier}prestashop>product_tab_659467766e358e4b525c38def4e4f7bf'] = 'Ustawienie 3500 zł → produkty kosztujące 3500 zł i więcej mają darmową wysyłkę.';
+$_MODULE['<{customcarrier}prestashop>product_tab_6e79ab43c811a1dab281a7289407c0e0'] = 'Zastosuj próg wartości koszyka';
+$_MODULE['<{customcarrier}prestashop>product_tab_bf5fbaaeaea69e2f738b6947e56d8de6'] = 'Jeśli opcja jest włączona, wysyłka jest bezpłatna, gdy wartość koszyka przekracza próg darmowej wysyłki (skonfigurowany w wizardzie przewoźnika: Wysyłka → Przewoźnicy → Edytuj → Koszty wysyłki).';
+$_MODULE['<{customcarrier}prestashop>product_tab_da9ed88c2d71a5fc367eb21a354e956c'] = 'Osobna paczka';
+$_MODULE['<{customcarrier}prestashop>product_tab_504da8961d453f5d28a6acfb2104f2b2'] = 'Jeśli opcja jest włączona, produkt ten jest zawsze wysyłany osobno (np. przedmioty ponadgabarytowe). Koszt obliczany jest niezależnie.';
+$_MODULE['<{customcarrier}prestashop>product_tab_ac66024fe3cf3c7104645796d2edcf45'] = 'Wyłącz z darmowej wysyłki';
+$_MODULE['<{customcarrier}prestashop>product_tab_37712e2e318040010918ce58c9570466'] = 'Wyłącz z darmowej wysyłki';
+$_MODULE['<{customcarrier}prestashop>product_tab_7f97d8bf974f36f38c0f04f41187ad92'] = 'Jeśli włączone, ten produkt nigdy nie otrzyma darmowej wysyłki (ignoruje wszystkie reguły darmowej wysyłki).';
+$_MODULE['<{customcarrier}prestashop>product_tab_f37dceb88e6cbf5c05e657a72e01c55f'] = 'Jeśli włączone, ten produkt nigdy nie otrzyma darmowej wysyłki (ignoruje wszystkie reguły darmowej wysyłki).';
+$_MODULE['<{customcarrier}prestashop>product_tab_892879fdb3b9a4fc71060d0a8c73ac95'] = 'Maks. ilość na paczkę';
+$_MODULE['<{customcarrier}prestashop>product_tab_c784e8e8fff770c3fb551a0c320c5159'] = 'Maksymalna ilość produktu, która mieści się w jednej paczce. Po przekroczeniu naliczane są kolejne paczki. Ustaw 0 aby wyłączyć (bez limitu).';
+$_MODULE['<{customcarrier}prestashop>product_tab_81eeab9506186e2dca8faefa78d54067'] = 'Przykład:';
+$_MODULE['<{customcarrier}prestashop>product_tab_2117395717235563203efa77102d123d'] = 'Maks. 2 szt. na paczkę po 60 zł → 4 szt. = 2 paczki = 120 zł';
+$_MODULE['<{customcarrier}prestashop>product_tab_f13fb066fc9606078ffc3d0e7ba30c89'] = 'Maks. waga na paczkę';
+$_MODULE['<{customcarrier}prestashop>product_tab_2ac6c1b1fcd550255ea0e49594cde2b5'] = 'Maksymalna waga produktu, która mieści się w jednej paczce. Używa wagi produktu z PrestaShop. Ustaw 0 aby wyłączyć (użyj ilości zamiast wagi).';
+$_MODULE['<{customcarrier}prestashop>product_tab_34b46d226fc38085693c1aeb8338af98'] = 'Maks. 30 kg na paczkę → 3 łopatki (12 kg każda = 36 kg) = 2 paczki';
+$_MODULE['<{customcarrier}prestashop>product_tab_eac587d5bf8ab30335f854a4b3a729db'] = 'Maks. liczba paczek';
+$_MODULE['<{customcarrier}prestashop>product_tab_2fc9e51174a78dd5bfc57e8e368590b3'] = 'paczek';
+$_MODULE['<{customcarrier}prestashop>product_tab_9da1276dbb87901acd1dba166120d335'] = 'Maksymalna liczba paczek, po której stosowany jest alternatywny koszt. Ustaw 0 aby wyłączyć (bez limitu paczek).';
+$_MODULE['<{customcarrier}prestashop>product_tab_426d19d8de25ad6fdc6b22f5d396bd46'] = 'Maks. 2 paczki → 5 szt. przekracza limit (potrzeba 3 paczek)';
+$_MODULE['<{customcarrier}prestashop>product_tab_ec3f6ace220cd51369337c0bbc29b3c3'] = 'Koszt po przekroczeniu maks. paczek (brutto)';
+$_MODULE['<{customcarrier}prestashop>product_tab_58980ff1f89e460866d78f7c44c5f19a'] = 'Alternatywny koszt wysyłki gdy liczba paczek przekracza limit (cena brutto z VAT). Zostaw puste aby kontynuować mnożenie kosztu bazowego.';
+$_MODULE['<{customcarrier}prestashop>product_tab_543c89567abba1177fa728b181fb7683'] = 'Maks. 2 szt./paczkę, maks. 2 paczki po 60 zł, ale 5+ szt. (3 paczki) = 140 zł łącznie';
+
+// Conflicting options warnings (product_tab.tpl)
+$_MODULE['<{customcarrier}prestashop>product_tab_c3e4bf9fd3c47bf2764c34d9a06df65d'] = 'Uwaga: "Darmowa wysyłka" jest zablokowana przez "Wyłącz z darmowej wysyłki". Produkt NIE będzie miał darmowej wysyłki.';
+$_MODULE['<{customcarrier}prestashop>product_tab_2f1f03f29ebfa8695fcda8a33f90c8d7'] = 'Uwaga: "Darmowa wysyłka od ilości" jest zablokowana przez "Wyłącz z darmowej wysyłki". Próg ilościowy nie zadziała.';
+$_MODULE['<{customcarrier}prestashop>product_tab_8d73ebf4ff3c6c5c3cb81f0dfa8af5e7'] = 'Uwaga: "Zastosuj próg wartości koszyka" jest zablokowany przez "Wyłącz z darmowej wysyłki". Próg nie da darmowej wysyłki.';
+$_MODULE['<{customcarrier}prestashop>product_tab_6a0a174e7d2f8dfba7b193c8f3a1fbf8'] = 'Uwaga: "Zastosuj próg wartości koszyka" jest ignorowany gdy włączona jest "Osobna paczka". Produkt zawsze będzie płatny.';
+$_MODULE['<{customcarrier}prestashop>product_tab_4c4e8e6fdc7c47f5cf889cf8e0bff7e3'] = 'Info: "Pomnóż przez ilość" jest ignorowane gdy ustawiono "Maks. ilość na paczkę". System liczy paczki zamiast sztuk.';
+$_MODULE['<{customcarrier}prestashop>product_tab_a1b2c3d4e5f6789012345678901234ab'] = 'BŁĄD: "Maks. ilość na paczkę" wymaga ustawienia "Bazowy koszt wysyłki" > 0. Bez tego koszt będzie nieprzewidywalny!';
+$_MODULE['<{customcarrier}prestashop>product_tab_b2c3d4e5f6789012345678901234abcd'] = 'BŁĄD: "Pomnóż przez ilość" wymaga ustawienia "Bazowy koszt wysyłki" > 0. Bez tego koszt będzie zawsze 0 zł!';
+
+// Bulk Shipping Settings page (bulk_shipping.tpl)
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_87f059362c91caffd312e6aa87d0c644'] = 'Masowe ustawienia wysyłki';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_c0bd7654d5b278e65f21cf4e9153fdb4'] = 'Producent';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_bf24faeb13210b5a703f3ccef792b000'] = 'Wszyscy producenci';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_3adbdb3ac060038aa0e6e6c138ef9873'] = 'Kategoria';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_62f5d708d6ad1fa1ddd9429a65cccbea'] = 'Wszystkie kategorie';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_3537ab82f293d660eb1c551d1e804bbe'] = 'Ustawienia wysyłki';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_40dec546414c1ebdfde8d9858f0938c3'] = 'Wszystkie produkty';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_ca698181ca3e972a9e17c6ba55b8d910'] = 'Z ustawieniami';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_b12ea06dc1bc371022feee7e65409d65'] = 'Bez ustawień';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_13348442cc6a27032d2b4aa28b75a5d3'] = 'Szukaj';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_826abf2ac6ebf22971142e57f37705c8'] = 'Nazwa lub indeks';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_d7778d0c64b6ba21494c97f77a86d3c3'] = 'Filtruj';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_526d688f37a86d3c3f27d0c5016eb71d'] = 'Resetuj';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_10dd24b9fdfb406274eb7e643f1a49da'] = 'Masowe wartości wysyłki';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_dbf2f91daedb283d75cb7fc5099894d8'] = 'Zaznacz które pola zastosować, następnie ustaw ich wartości';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_29aa46cc3d2677c7e0f216910df600ff'] = 'Bezpłatna wysyłka';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_bafd7322c6e97d25b6299b5d6fe8920b'] = 'Nie';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_93cba07454f06a4a960172bbd6e2a435'] = 'Tak';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_03334947eae6089b86d68756e7410312'] = 'Bazowy koszt wysyłki';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_86069e740c36aab3dbe8f1d852640a90'] = 'Pomnóż przez ilość';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_4bb172f8f5e237242733cccd19b9e911'] = 'Darmowa wysyłka od ilości';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_3ecf2642759a04bd3616642bd56bed59'] = 'szt.';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_a0d37c6ce4b8e432011586501219a930'] = 'Darmowa wysyłka od kwoty produktu';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_6e79ab43c811a1dab281a7289407c0e0'] = 'Zastosuj próg wartości koszyka';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_da9ed88c2d71a5fc367eb21a354e956c'] = 'Osobna paczka';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_37712e2e318040010918ce58c9570466'] = 'Wyłącz z darmowej wysyłki';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_7729bde24b6614da813161b1e3d84f48'] = 'Maks. szt. na paczkę';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_f13fb066fc9606078ffc3d0e7ba30c89'] = 'Maks. waga na paczkę';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_eac587d5bf8ab30335f854a4b3a729db'] = 'Maks. liczba paczek';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_2fc9e51174a78dd5bfc57e8e368590b3'] = 'paczek';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_da67276f59c94bbe9ea763ca8908634e'] = 'Koszt po przekroczeniu maks. paczek';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_4c41e0bd957698b58100a5c687d757d9'] = 'Zaznacz wszystkie';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_52e3ce2bc983012661c3c11fe8b0f8ce'] = 'Odznacz wszystkie';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_ef7de3f485174ff47f061ad27d83d0ee'] = 'zaznaczonych';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_bbed4375ef0868bbfd901983861dcbc6'] = 'Zastosuj do wybranych produktów';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_deb10517653c255364175796ace3553f'] = 'Produkt';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_3601146c4e948c32b6424d2c0a7f0118'] = 'Cena brutto';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_63d5049791d9d79d86e9a108b0a999ca'] = 'Indeks';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_20b4f77bd00b4f63a49ec8e08f3bf6a6'] = 'Koszt';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_b9af8635591dc44009ccd8e5389722ec'] = 'Nie znaleziono produktów';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_b4e6101378d2a08d80df7e5da0625128'] = 'Wyświetlam';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_8bf8854bebe108183caeb845c7676ae4'] = 'z';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_86024cad1e83101d97359d7351051156'] = 'produktów';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_193cfc9be3b995831c6af2fea6650e60'] = 'Strona';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_9425f2d4eabaadec831d7ebf4041b74f'] = 'Nie wybrano żadnych produktów.';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_c3c474d7402ae99529a00e8ed19a437f'] = 'Nie zaznaczono żadnych pól wysyłki do zastosowania.';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_fc99faee800d2d77a1be625f9721384c'] = 'Czy na pewno chcesz zaktualizować ustawienia wysyłki dla';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_bcfb13068be705ba9a9cad192b3fba77'] = '×Ilość';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_2a63f555989152ba866b43a1faacd680'] = 'Próg';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_8244cf379b2a4a11d4706e53f510a5f6'] = 'Osobna';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_843f2812f595e7ec7c5036e89fde02d6'] = 'Wyklucz';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_759892e4fd5da7b789eee82dcca9df45'] = 'Produktów na stronę:';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_b1c94ca2fbc3e78fc30069c8d0f01680'] = 'Wszystkie';
+
+// New translations for product_tab.tpl - base shipping cost labels
+$_MODULE['<{customcarrier}prestashop>product_tab_ab926337078f8c9fe424fc8e32ac0fcf'] = 'Bazowy koszt wysyłki (brutto)';
+$_MODULE['<{customcarrier}prestashop>product_tab_58d949771b2a49016259a9fb4fa7499e'] = 'brutto';
+$_MODULE['<{customcarrier}prestashop>product_tab_0905cd8833de75e2dd52fe24dfe84e75'] = 'Bazowy koszt wysyłki tego produktu (cena brutto z VAT).';
+
+// JavaScript warning messages - product_tab.tpl
+$_MODULE['<{customcarrier}prestashop>product_tab_85b181cee0939e3eba79ccdb5ccea0da'] = 'Uwaga: "Darmowa wysyłka" jest zablokowana przez "Wyłącz z darmowej wysyłki". Produkt NIE będzie miał darmowej wysyłki.';
+$_MODULE['<{customcarrier}prestashop>product_tab_63a77500e95c97cc81c02563c9216b19'] = 'Uwaga: "Darmowa wysyłka od ilości" jest zablokowana przez "Wyłącz z darmowej wysyłki". Próg ilościowy nie zadziała.';
+$_MODULE['<{customcarrier}prestashop>product_tab_aa585f7a186bdd85c5ca7ee974b5392c'] = 'Uwaga: "Zastosuj próg wartości koszyka" jest zablokowany przez "Wyłącz z darmowej wysyłki". Próg nie da darmowej wysyłki.';
+$_MODULE['<{customcarrier}prestashop>product_tab_04e7e85ad452baf4911b26d1aa7f2bbd'] = 'Uwaga: "Zastosuj próg wartości koszyka" jest ignorowany gdy włączona jest "Osobna paczka". Produkt zawsze będzie płatny.';
+$_MODULE['<{customcarrier}prestashop>product_tab_9efdc3dae3d9f7bca0cfda548e417b13'] = 'Info: "Pomnóż przez ilość" jest ignorowane gdy ustawiono "Maks. ilość na paczkę". System liczy paczki zamiast sztuk.';
+$_MODULE['<{customcarrier}prestashop>product_tab_4f9e2d778d89da3bcd7d98a63173cda7'] = 'BŁĄD: "Pomnóż przez ilość" wymaga ustawienia "Bazowy koszt wysyłki" > 0. Bez tego koszt będzie zawsze 0 zł!';
+$_MODULE['<{customcarrier}prestashop>product_tab_330e9495444ff1f4c329720a175f01a0'] = 'BŁĄD: "Maks. ilość na paczkę" wymaga ustawienia "Bazowy koszt wysyłki" > 0. Bez tego koszt będzie nieprzewidywalny!';
+
+// JavaScript warning messages - bulk_shipping.tpl
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_48b732330331b5fe72cc454e0f64c21e'] = 'Uwaga: "Darmowa wysyłka" jest zablokowana przez "Wyłącz z darmowej wysyłki". Produkty NIE będą miały darmowej wysyłki.';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_63a77500e95c97cc81c02563c9216b19'] = 'Uwaga: "Darmowa wysyłka od ilości" jest zablokowana przez "Wyłącz z darmowej wysyłki". Próg ilościowy nie zadziała.';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_360b29176b066548c2eeb7a2d47b0141'] = 'Uwaga: "Darmowa wysyłka od kwoty produktu" jest zablokowana przez "Wyłącz z darmowej wysyłki". Próg cenowy nie zadziała.';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_aa585f7a186bdd85c5ca7ee974b5392c'] = 'Uwaga: "Zastosuj próg wartości koszyka" jest zablokowany przez "Wyłącz z darmowej wysyłki". Próg nie da darmowej wysyłki.';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_1a7ab58c1b2492b053944e761f114951'] = 'Uwaga: "Zastosuj próg wartości koszyka" jest ignorowany gdy włączona jest "Osobna paczka". Produkty zawsze będą płatne.';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_56608ec97d0b8198513c8528b581aa9e'] = 'Info: "Pomnóż przez ilość" jest ignorowane gdy ustawiono "Maks. szt. na paczkę". System liczy paczki zamiast sztuk.';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_4f9e2d778d89da3bcd7d98a63173cda7'] = 'BŁĄD: "Pomnóż przez ilość" wymaga ustawienia "Bazowy koszt wysyłki" > 0. Bez tego koszt będzie zawsze 0 zł!';
+$_MODULE['<{customcarrier}prestashop>bulk_shipping_058566e1a25188cfab92cccc34ccb392'] = 'BŁĄD: "Maks. szt. na paczkę" wymaga ustawienia "Bazowy koszt wysyłki" > 0. Bez tego koszt będzie nieprzewidywalny!';

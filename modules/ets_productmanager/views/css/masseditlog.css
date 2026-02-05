@@ -1,0 +1,397 @@
+.ets_pmn_paggination .limit.results {
+    margin-right: 10px;
+}
+.ets_pmn_paggination {
+    text-align: left;
+    display: flex;
+    margin-bottom: -5px;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.ets_pmn_paggination .links b, .ets_pmn_paggination .links a {
+    width: 24px;
+    height: 24px;
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    margin: 0 2px;
+    justify-content: center;
+    color: #333;
+}
+.ets_pmn-panel .bulk-catalog .dropdown-menu button.dropdown-item {
+    border: none;
+    background: transparent;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding: 4px 12px;
+}
+.ets_pmn_paggination .links b {
+    background: #555;
+    color: #fff;
+    border-color: #555;
+}
+.panel.ets_pmn-panel .panel-heading a.list-toolbar-btn {
+    margin-top: 8px;
+    margin-right: 6px;
+}
+.panel.ets_pmn-panel .panel-heading a.list-toolbar-btn .tooltip {
+    white-space: nowrap;
+    left: auto!important;
+    right: 0;
+}
+
+.panel.ets_pmn-panel .panel-heading a.list-toolbar-btn .tooltip .tooltip-arrow {
+    left: auto;
+    right: 8px;
+}
+.ets_pmn_paggination .links a:hover {
+    background: #eee;
+    text-decoration: none!important;
+    outline: none;
+}
+.ets_pmn_paggination .results:not(.limit) {
+    float: left;
+    text-align: left;
+}
+
+.ets_pmn_paggination > div {
+    margin-bottom: 5px;
+}
+.bootstrap .form-control, .bootstrap input[type="password"], .bootstrap input[type="search"], .bootstrap input[type="text"], .bootstrap select, .bootstrap textarea {
+    height: 32px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#list-pmn_logmassedit .btn-group-action a.btn.btn-default i svg {
+    width: 13px;
+    height: 13px;
+}
+.popup_change_product.more.show_less .content,
+.span_change_product.more.show_less .content {
+    height: auto!important;
+    min-height: 60px!important;
+    max-height: none!important;
+}
+#list-pmn_logmassedit td.new_value {
+    width: 25%;
+}
+a.btn.btn-default svg {
+    margin-right: 4px;
+    fill: currentColor;
+}
+.popup_change_product.more.show_less .content:before,
+.span_change_product.more.show_less .content:before {
+    display:none!important;
+}
+.bootstrap .table tbody>tr>td {
+    word-break: break-word;
+}
+.input-group-append {
+    min-width: 30px;
+    text-align: center;
+    background: #f5f8f9;
+    border: 1px solid #c7d6db;
+    display: table-cell;
+    padding: 0;
+    vertical-align: middle;
+}
+.filter.row_hover th.date_add fieldset.form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    max-width: 100px;
+}
+.span_change_product.more {
+    padding: 0px 0 15px;
+}
+
+.span_change_product {
+    position: relative;
+    padding: 0px;
+}
+table.list-pmn_logmassedit .id_ets_pmn_massedit_history, table.list-pmn_logmassedit .date_add {
+    text-align: center;
+}
+
+.ets_pm_viewmore:hover {
+    color: #0077a4;
+}
+.filter.row_hover th.date_add fieldset.form-group:last-child {
+    margin-bottom: 0;
+}
+
+i.ets_svg_icon.svg_fill_gray svg {
+    fill: #666;
+    -webkit-fill: #666;
+}
+.ets_pm_viewmore {
+    position: absolute;
+    top: auto;
+    outline: none!important;
+    box-shadow: none!important;
+    bottom: 0;
+    font-size: 10px!important;
+    padding: 0!important;
+    margin-top: -5px;
+    display: none!important;
+    line-height: 14px!important;
+    min-height: 14px!important;
+    float: left;
+}
+
+.btn-group-action .btn-group i svg {
+    vertical-align: -2px;
+}
+
+.btn-group-action .btn-group .dropdown-menu a.btn {
+    border: none;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+}
+
+.btn-group-action .btn-group ul.dropdown-menu {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.btn-group-action .btn-group .dropdown-menu li:last-child a.btn {
+    border-bottom: none;
+}
+.toggle_form button.btn-default.dropdown-toggle .icon-caret-down, button.btn-default.dropdown-toggle .icon-caret-down {
+    margin-left: 3px;
+}
+
+.bootstrap .btn-default.active, .bootstrap .btn-default:active, .bootstrap .btn-default:focus {
+    background-color: #fff;
+    border-color: #bfbfbf;
+    color: #363a41;
+    outline: none!important;
+    box-shadow: none!important;
+}
+.bootstrap .table tbody>tr:hover>td {
+    background-color: transparent!important;
+}
+.btn .svg_fill_gray svg, .btn .fill_gray svg {
+    fill: #777777
+}
+
+.btn:hover .svg_fill_hover_white svg, .btn:hover .fill_hover_white svg {
+    fill: #ffffff;
+    -webkit-fill: #ffffff;
+}
+select {
+    cursor: pointer;
+}
+
+.btn-group-action a.btn.btn-default {
+    white-space: nowrap;
+}
+.ets_pmn_paggination .results {
+    line-height: 26px;
+}
+.btn-group-action .btn-group .dropdown-menu a.btn i {
+    vertical-align: middle;
+}
+.bootstrap fieldset.form-group, fieldset.form-group {
+    margin-bottom: 0;
+}
+.btn-group-action ul.dropdown-menu a.btn {
+    border: none;
+    text-align: left;
+    border-radius: 0;
+}
+#list-pmn_logmassedit .btn-group-action a.btn.btn-default i {
+    vertical-align: middle;
+    height: auto;
+    display: inline-flex;
+    align-items: center;
+}
+
+body .bootstrap .table thead>tr>th span.title_box {
+    white-space: normal;
+}
+input[type=checkbox] {
+    cursor: pointer;
+}
+.bootstrap .btn-group-action .btn-group a.btn.btn-default {
+    padding-left: 8px;
+}
+
+.bootstrap .btn-group-action .btn-group .btn.btn-default {
+    font-weight: normal;
+}
+
+#list-pmn_logmassedit .btn-group.pull-right {
+    display: inline-flex;
+}
+.span_change_product .ets_pm_viewmore {
+    position: absolute;
+    font-size: 11px;
+    padding: 0;
+    display: none;
+    margin-top: 0;
+    bottom: 0;
+    line-height: 1;
+    top: auto;
+    color: #00aff0!important;
+    background: transparent!important;
+    box-shadow: none!important;
+    outline: none!important;
+}
+
+.span_change_product .ets_pm_viewmore:hover {
+    color: #0077a4!important;
+}
+
+.span_change_product.more:hover .ets_pm_viewmore {
+    display: block;
+}
+
+.old_value span, .new_value span {
+    display: inherit;
+}
+
+select.paginator_select_limit {
+    width: auto;
+}
+
+.ets_pmn_paggination .results div, .ets_pmn_paggination .results select {
+    display: inline-block;
+}
+
+.ets_pmn_paggination .results {
+    display: inline-block;
+}
+.md-checkbox.bulk_action_select_all_etsp_manage {
+    margin-top: 15px;
+}
+.panel-heading-action a.list-toolbar-btn {
+    text-align: center;
+}
+.panel-heading-action a.list-toolbar-btn:not(:hover) {
+    color: #777!important;
+}
+
+body .table .form-group {
+    text-align: left;
+}
+.panel-heading a.list-toolbar-btn {
+    text-align: center;
+}
+button.btn {
+    position: relative;
+}
+.popup_change_product.more:hover .ets_pm_viewmore, .span_change_product.more:hover .ets_pm_viewmore {
+    display: block!important;
+}
+.span_change_product.more, .span_change_product {
+    position: relative;
+}
+
+select {
+    cursor: pointer;
+}
+.span_change_product .content, .popup_change_product .content {
+    max-height: 60px;
+    overflow: hidden;
+}
+.clearfix {
+    width: 100%;
+}
+.ets_svg_icon svg {
+    width: 15px;
+    vertical-align: -2px;
+    fill: #555;
+}
+.md-checkbox label {
+    min-height: 18px;
+}
+.ets_svg_icon {
+    font-size: 0;
+}
+.input-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+.ets_svg_icon svg.w_14 {
+    width: 14px;
+}
+
+.ets_svg_icon svg.h_14 {
+    height: 14px;
+}
+.pull-right {
+    float: right;
+}
+.wapper-change-product .translatable-field input[type="text"], .wapper-change-product, .span_change_product {
+    min-width: 80px;
+}
+.column.combinations .popup_change_product.more .content, .column.features .popup_change_product.more .content, .span_change_product.more .content, .column.categories .popup_change_product.more .content, .column.description .span_change_product.more .content, .column.description_short .span_change_product.more .content, .column[class*="extra_product_tab_"] .popup_change_product.more .content {
+    height: 60px;
+    overflow: hidden;
+    position: relative;
+}
+
+.column.combinations .popup_change_product.more .content:before, .column.features .popup_change_product.more .content:before, .column.categories .popup_change_product.more .content:before, .column.description .span_change_product.more .content:before, .span_change_product.more .content:before, .popup_change_product.more .content:before, .column.description_short .span_change_product.more .content:before, .column[class*="extra_product_tab_"] .popup_change_product.more .content:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 23px;
+    pointer-events: none;
+    width: 100%;
+    background: linear-gradient(bottom, #ffffff, rgba(255,255,255,0.7), rgba(255,255,255,0));
+    background: -webkit-linear-gradient(bottom, #ffffff, rgba(255,255,255,0.7), rgba(255,255,255,0));
+}
+.ets_svg_icon svg, .open_close_list svg {
+    width: 14px;
+    margin: 3px 0;
+    fill: #777;
+}
+div#ui-datepicker-div {
+    z-index: 7777 !important;
+}
+div#ui-datepicker-div, .ui-datepicker table {
+    font-size: 13px;
+}
+
+.ets_td {
+    display: inline-block;
+    vertical-align: middle;
+}
+.ets_svg_icon svg {
+    vertical-align: -3px;
+    margin-right: 3px;
+    fill: inherit;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #c1d3d7;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #25b9d7;
+}
+.content_info {
+    text-align: left;
+}

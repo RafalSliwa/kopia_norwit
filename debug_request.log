@@ -1,0 +1,1070 @@
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Krzysztof
+    [lastname] => Jarzyna
+    [phone] => +48 999 999 999
+    [question] => 
+    [id_lang] => 2
+    [email] => jarzyna@wp.pl
+    [id_product] => 1173
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => remek
+    [lastname] => predki
+    [phone] => +48 609 499 984
+    [question] => pytam o produkt
+    [id_lang] => 2
+    [email] => remek@norwit.pl
+    [id_product] => 1173
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => remek
+    [lastname] => predki
+    [phone] => +48 609 499 984
+    [question] => pytam o produkt
+    [id_lang] => 2
+    [email] => remek@norwit.plo
+    [id_product] => 1173
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => r
+    [lastname] => r
+    [phone] => +48 609 499 984
+    [question] => 
+    [id_lang] => 2
+    [email] => remek@norwit.pl
+    [id_product] => 1173
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => r
+    [lastname] => r
+    [phone] => +48 609 499 984
+    [question] => 
+    [id_lang] => 2
+    [email] => remek@norwit.pl
+    [id_product] => 1173
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => r
+    [lastname] => r
+    [phone] => +48 609 499 984
+    [question] => 
+    [id_lang] => 2
+    [email] => remek@norwit.pl
+    [id_product] => 1173
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Norwit
+    [lastname] => Predki
+    [phone] => +48 609 499 984
+    [question] => 
+    [id_lang] => 2
+    [email] => remek@norwit.pl
+    [id_product] => 594
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => sssss
+    [lastname] => sssss
+    [phone] => +48 999 999 999
+    [question] => 
+    [id_lang] => 2
+    [email] => rafal@norwit.pl
+    [id_product] => 4162
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => sssss
+    [lastname] => sssss
+    [phone] => +48 999 999 999
+    [question] => 
+    [id_lang] => 2
+    [email] => rafal@norwit.pl
+    [id_product] => 4162
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => sssss
+    [lastname] => sssss
+    [phone] => +48 999 999 999
+    [question] => 
+    [id_lang] => 2
+    [email] => rafal@norwit.pl
+    [id_product] => 4162
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => rafal
+    [lastname] => reg
+    [phone] => +48 999 999 999
+    [question] => 
+    [id_lang] => 2
+    [email] => rafal@norwit.pl
+    [id_product] => 4970
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => ggerg
+    [lastname] => reg
+    [phone] => +48 999 999 999
+    [question] => 
+    [id_lang] => 2
+    [email] => rafal@norwit.pl
+    [id_product] => 4576
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => ggerg
+    [lastname] => reg
+    [phone] => +48 999 999 999
+    [question] => 
+    [id_lang] => 2
+    [email] => rafal1@norwit.pl
+    [id_product] => 4576
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => ggerg
+    [lastname] => reg
+    [phone] => +48 999 999 995
+    [question] => 
+    [id_lang] => 2
+    [email] => rafal1@norwit.pl
+    [id_product] => 4576
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => ggerg
+    [lastname] => reg
+    [phone] => +48 999 999 995
+    [question] => 
+    [id_lang] => 2
+    [email] => rafal1@norwit.pl
+    [id_product] => 4576
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => ggerg
+    [lastname] => reg
+    [phone] => +48 999 999 995
+    [question] => 
+    [id_lang] => 2
+    [email] => rafal1@norwit.pl
+    [id_product] => 4576
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => ee
+    [lastname] => eee
+    [phone] => +48 111 111 111
+    [question] => 
+    [id_lang] => 2
+    [email] => rafal@norwit.pl
+    [id_product] => 4162
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => ee
+    [lastname] => eee
+    [phone] => +48 111 111 111
+    [question] => 
+    [id_lang] => 2
+    [email] => rafal3@norwit.pl
+    [id_product] => 4162
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Rafal
+    [lastname] => Śliwa
+    [phone] => +48 788 888 888
+    [question] => 
+    [id_lang] => 2
+    [email] => rafal@norwit.pl
+    [id_product] => 4970
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Rafal
+    [lastname] => Śliwa
+    [phone] => +48 788 888 888
+    [question] => 
+    [id_lang] => 2
+    [email] => rafal11@norwit.pl
+    [id_product] => 4970
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Rafal
+    [lastname] => Śliwa
+    [phone] => +48 788 888 888
+    [question] => 
+    [id_lang] => 2
+    [email] => rafal@norwit.pl
+    [id_product] => 4970
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Rafal
+    [lastname] => Śliwa
+    [phone] => +48 788 888 888
+    [question] => 
+    [id_lang] => 2
+    [email] => rafal56@norwit.pl
+    [id_product] => 4970
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Rafal
+    [lastname] => Śliwa
+    [phone] => +48 788 888 888
+    [question] => 
+    [id_lang] => 2
+    [email] => rafal1234@norwit.pl
+    [id_product] => 4576
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Rafal
+    [lastname] => Śliwa
+    [phone] => +48 788 888 888
+    [question] => 
+    [id_lang] => 2
+    [email] => rafal1234@norwit.pl
+    [id_product] => 4576
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Rafa
+    [lastname] => Śliwa
+    [phone] => +48 788 888 888
+    [question] => 
+    [id_lang] => 2
+    [email] => rafal1234@norwit.pl
+    [id_product] => 4576
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Rafal
+    [lastname] => Śliwa
+    [phone] => +48 788 888 888
+    [question] => test
+    [id_lang] => 2
+    [email] => rafal@norwit.pl
+    [id_product] => 74
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Rafal
+    [lastname] => Śliwa
+    [phone] => +48 788 888 888
+    [question] => test
+    [id_lang] => 2
+    [email] => rafal1234@norwit.pl
+    [id_product] => 74
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Monika
+    [lastname] => Monika
+    [phone] => +48 788 888 888
+    [question] => test
+    [id_lang] => 2
+    [email] => monika@wp.pl
+    [id_product] => 74
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Monika
+    [lastname] => Monika
+    [phone] => +48 788 888 888
+    [question] => test
+    [id_lang] => 2
+    [email] => monika@wp.pl
+    [id_product] => 74
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Monika
+    [lastname] => Monika
+    [phone] => +48 788 888 888
+    [question] => test
+    [id_lang] => 2
+    [email] => monika@wp.pl
+    [id_product] => 74
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Monika
+    [lastname] => Monika
+    [phone] => +48 788 888 888
+    [question] => test
+    [id_lang] => 2
+    [email] => monika@op.pl
+    [id_product] => 74
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Monika
+    [lastname] => Monika
+    [phone] => +48 788 888 122
+    [question] => test
+    [id_lang] => 2
+    [email] => monika@op.pl
+    [id_product] => 74
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Monika
+    [lastname] => Monika
+    [phone] => +48 788 888 122
+    [question] => test
+    [id_lang] => 2
+    [email] => monika@op.pl
+    [id_product] => 74
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Monika
+    [lastname] => Monika
+    [phone] => +48 788 888 000
+    [question] => test
+    [id_lang] => 2
+    [email] => monika@norwit.pl
+    [id_product] => 74
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Monika
+    [lastname] => Monika
+    [phone] => +48 788 888 123
+    [question] => test
+    [id_lang] => 2
+    [email] => monika@wp.pl
+    [id_product] => 74
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Monika
+    [lastname] => Monika
+    [phone] => +48 788 888 123
+    [question] => test
+    [id_lang] => 2
+    [email] => monika@wp.pl
+    [id_product] => 74
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => r
+    [lastname] => r
+    [phone] => +48 609 499 984
+    [question] => 
+    [id_lang] => 2
+    [email] => remek@norwit.pl
+    [id_product] => 4162
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Rafał
+    [lastname] => Śliwa
+    [phone] => +48 999 999 999
+    [question] => What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    [id_lang] => 2
+    [email] => rafal12@wp.pl
+    [id_product] => 1465
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Krzysztof
+    [lastname] => Jarzyna
+    [phone] => +48 700 000 000
+    [question] => 
+    [id_lang] => 2
+    [email] => rafal@se.pl
+    [id_product] => 4576
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Krzysztof
+    [lastname] => Jarzyna
+    [phone] => +48 700 000 000
+    [question] => 
+    [id_lang] => 2
+    [email] => rafal@se.pl
+    [id_product] => 4576
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Krzysztof
+    [lastname] => Jarzyna
+    [phone] => +48 700 000 000
+    [question] => 
+    [id_lang] => 2
+    [email] => rafal@se.pl
+    [id_product] => 4576
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Krzysztof
+    [lastname] => Jarzyna
+    [phone] => +48 700 000 000
+    [question] => 
+    [id_lang] => 2
+    [email] => rafal@norwit.pl
+    [id_product] => 4576
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Krzysztof
+    [lastname] => Jarzyna
+    [phone] => +48 700 458 888
+    [question] => 
+    [id_lang] => 2
+    [email] => rafal@norwit.pl
+    [id_product] => 4576
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Krzysztof
+    [lastname] => Jarzyna
+    [phone] => +48 700 458 888
+    [question] => 
+    [id_lang] => 2
+    [email] => rafal@op.pl
+    [id_product] => 4576
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Krzysztof
+    [lastname] => Jarzyna
+    [phone] => +48 700 000 369
+    [question] => 
+    [id_lang] => 2
+    [email] => rafal@norwit.pl
+    [id_product] => 4576
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Krzysztof
+    [lastname] => Jarzyna
+    [phone] => +48 700 000 369
+    [question] => 
+    [id_lang] => 2
+    [email] => rafal@n.pl
+    [id_product] => 4576
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Krzysztof
+    [lastname] => Jarzyna
+    [phone] => +48 700 000 369
+    [question] => 
+    [id_lang] => 2
+    [email] => rafal@n.pl
+    [id_product] => 4576
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Krzysztof
+    [lastname] => Jarzyna
+    [phone] => +48 700 000 369
+    [question] => 
+    [id_lang] => 2
+    [email] => rafal@n.pl
+    [id_product] => 4576
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Krzysztof
+    [lastname] => Jarzyna
+    [phone] => +48 700 000 369
+    [question] => 
+    [id_lang] => 2
+    [email] => rafal@n.pl
+    [id_product] => 4576
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Krzysztof
+    [lastname] => Jarzyna
+    [phone] => +48 700 000 369
+    [question] => 
+    [id_lang] => 2
+    [email] => rafal@n.pl
+    [id_product] => 4576
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Krzysztof
+    [lastname] => Jarzyna
+    [phone] => +48 700 000 000
+    [question] => Test
+    [id_lang] => 2
+    [email] => rafal@n.pl
+    [id_product] => 4576
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Krzysztof
+    [lastname] => Jarzyna
+    [phone] => +48 111 111 111
+    [question] => 
+    [id_lang] => 2
+    [email] => rafal@n.pl
+    [id_product] => 4576
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Krzysztof
+    [lastname] => Jarzyna
+    [phone] => +48 111 111 111
+    [question] => 
+    [id_lang] => 2
+    [email] => rafal@norwit.pl
+    [id_product] => 4576
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Krzysztof
+    [lastname] => Jarzyna
+    [phone] => +48 111 111 111
+    [question] => 
+    [id_lang] => 2
+    [email] => rafal@nop.pl
+    [id_product] => 4576
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Krzysztof
+    [lastname] => Jarzyna
+    [phone] => +48 111 111 111
+    [question] => 
+    [id_lang] => 2
+    [email] => rafal@norwit.pl
+    [id_product] => 4576
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Krzysztof
+    [lastname] => Jarzyna
+    [phone] => +48 111 111 111
+    [question] => 
+    [id_lang] => 2
+    [email] => rafal@se.pl
+    [id_product] => 4576
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Krzysztof
+    [lastname] => Jarzyna
+    [phone] => +48 700 000 000
+    [question] => l/kjbilnbgukvvkydcv 
+    [id_lang] => 2
+    [email] => rafal@norwit.pl
+    [id_product] => 4576
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Krzysztof
+    [lastname] => Jarzyna
+    [phone] => +48 700 000 000
+    [question] => l/kjbilnbgukvvkydcv 
+    [id_lang] => 2
+    [email] => rafal@se.pl
+    [id_product] => 4576
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Krzysztof
+    [lastname] => Jarzyna
+    [phone] => +48 700 000 000
+    [question] => l/kjbilnbgukvvkydcv 
+    [id_lang] => 2
+    [email] => rafal@se.pl
+    [id_product] => 4576
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Krzysztof
+    [lastname] => Jarzyna
+    [phone] => +48 700 000 000
+    [question] => l/kjbilnbgukvvkydcv 
+    [id_lang] => 2
+    [email] => rafal@se.pl
+    [id_product] => 4576
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Krzysztof
+    [lastname] => Jarzyna
+    [phone] => +48 700 000 000
+    [question] => l/kjbilnbgukvvkydcv 
+    [id_lang] => 2
+    [email] => rafal@se.pl
+    [id_product] => 4576
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Rafał
+    [lastname] => Śliwa
+    [phone] => +48 788 954 495
+    [question] => l/kjbilnbgukvvkydcv 
+    [id_lang] => 2
+    [email] => rafal@norwit.pl
+    [id_product] => 4576
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Rafał
+    [lastname] => Śliwa
+    [phone] => +48 788 954 495
+    [question] => l/kjbilnbgukvvkydcv 
+    [id_lang] => 2
+    [email] => rafal@norwit.pl
+    [id_product] => 4576
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Rafał
+    [lastname] => Śliwa
+    [phone] => +48 788 954 495
+    [question] => l/kjbilnbgukvvkydcv 
+    [id_lang] => 2
+    [email] => rafal@norwit.pl
+    [id_product] => 4576
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Rafał
+    [lastname] => Śliwa
+    [phone] => +48 788 954 495
+    [question] => l/kjbilnbgukvvkydcv 
+    [id_lang] => 2
+    [email] => rafal@norwit.pl
+    [id_product] => 4576
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Monika
+    [lastname] => Monika
+    [phone] => +48 788 954 495
+    [question] => l/kjbilnbgukvvkydcv 
+    [id_lang] => 2
+    [email] => monika@norwit.pl
+    [id_product] => 4576
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Monika
+    [lastname] => Monika
+    [phone] => +48 788 954 495
+    [question] => l/kjbilnbgukvvkydcv 
+    [id_lang] => 2
+    [email] => monika@norwit.pl
+    [id_product] => 4576
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => rafal@norwit.pl
+    [lastname] => Rafał
+    [phone] => +48 148 148 133
+    [question] => 
+    [id_lang] => 2
+    [email] => rafal4@norwit.pl
+    [id_product] => 4576
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Zdzislaw
+    [lastname] => Zdzisław
+    [phone] => +48 777 777 777
+    [question] => 
+    [id_lang] => 2
+    [email] => z@wpl.pl
+    [id_product] => 4576
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Zdzislaw
+    [lastname] => Zdzisław
+    [phone] => +48 777 777 777
+    [question] => 
+    [id_lang] => 2
+    [email] => z@wpl.pl
+    [id_product] => 4576
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Zdzislaw
+    [lastname] => Zdzisław
+    [phone] => +48 777 777 777
+    [question] => 
+    [id_lang] => 2
+    [email] => z@norwit.pl
+    [id_product] => 4576
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Zdzislaw
+    [lastname] => Zdzisław
+    [phone] => +48 777 777 772
+    [question] => 
+    [id_lang] => 2
+    [email] => z@norwit.pl
+    [id_product] => 4576
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Zdzislaw
+    [lastname] => Zdzisław
+    [phone] => +48 777 777 772
+    [question] => 
+    [id_lang] => 2
+    [email] => z@se.pl
+    [id_product] => 4576
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Zdzislaw
+    [lastname] => Zdzisław
+    [phone] => +48 777 777 774
+    [question] => 
+    [id_lang] => 2
+    [email] => z@se.pl
+    [id_product] => 4576
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Zdzislaw
+    [lastname] => Zdzisław
+    [phone] => +48 777 777 774
+    [question] => 
+    [id_lang] => 2
+    [email] => z@se.pl
+    [id_product] => 4576
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Zdzislaw
+    [lastname] => Zdzisław
+    [phone] => +48 777 777 774
+    [question] => 
+    [id_lang] => 2
+    [email] => z@se.pl
+    [id_product] => 4576
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Zdzislaw
+    [lastname] => Zdzisław
+    [phone] => +48 777 777 777
+    [question] => 
+    [id_lang] => 2
+    [email] => rafal@norwit.pl
+    [id_product] => 4656
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Zdzislaw
+    [lastname] => Zdzisław
+    [phone] => +48 777 777 878
+    [question] => 
+    [id_lang] => 2
+    [email] => rafal@norwit.pl
+    [id_product] => 4656
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Zdzislaw
+    [lastname] => Zdzisław
+    [phone] => +48 777 777 878
+    [question] => 
+    [id_lang] => 2
+    [email] => rafal@norwit.pl
+    [id_product] => 4656
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Zdzislaw
+    [lastname] => Zdzisław
+    [phone] => +48 777 777 122
+    [question] => 
+    [id_lang] => 2
+    [email] => rafal@norwit.pl
+    [id_product] => 4656
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Zdzislaw
+    [lastname] => Zdzisław
+    [phone] => +48 777 777 122
+    [question] => 
+    [id_lang] => 2
+    [email] => rafal@norwit.pl
+    [id_product] => 4656
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Zdzislaw
+    [lastname] => Zdzisław
+    [phone] => +48 777 777 122
+    [question] => 
+    [id_lang] => 2
+    [email] => sddddd@norwit.pl
+    [id_product] => 4656
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Zdzislaw
+    [lastname] => Zdzisław
+    [phone] => +48 777 777 122
+    [question] => 
+    [id_lang] => 2
+    [email] => sddddd@norwit.pl
+    [id_product] => 4656
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Zdzislaw
+    [lastname] => Zdzisław
+    [phone] => +48 777 777 122
+    [question] => 
+    [id_lang] => 2
+    [email] => sddddd@norwit.pl
+    [id_product] => 4656
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Zdzislaw
+    [lastname] => Zdzisław
+    [phone] => +48 777 777 122
+    [question] => 
+    [id_lang] => 2
+    [email] => sddddd@norwit.pl
+    [id_product] => 4656
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Zdzislaw
+    [lastname] => Zdzisław
+    [phone] => +48 777 777 122
+    [question] => 
+    [id_lang] => 2
+    [email] => sddddd@se.pl
+    [id_product] => 4656
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Zdzislaw
+    [lastname] => Zdzisław
+    [phone] => +48 777 777 233
+    [question] => 
+    [id_lang] => 2
+    [email] => sddddd@se.pl
+    [id_product] => 4656
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Zdzislaw
+    [lastname] => Zdzisław
+    [phone] => +48 777 777 122
+    [question] => What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    [id_lang] => 2
+    [email] => z@se.pl
+    [id_product] => 4970
+)
+Array
+(
+    [action] => sendQuestion
+    [secure_key] => fae5f9ccdcd294de1dbf8da748358c43
+    [author] => Rafal
+    [lastname] => Sliwa
+    [phone] => +48 999 999 999
+    [question] => bgefgeeg
+    [id_lang] => 2
+    [email] => rafal1221@norwit.pl
+    [id_product] => 4162
+)

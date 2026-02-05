@@ -1,0 +1,156 @@
+{
+    "jprestacontentanywhere": {
+        "status": "<span class=\"badge badge-danger\" title=\"\">Expired<\/span> since 791 days",
+        "is_valid": false,
+        "download": {
+            "version": "1.0.5",
+            "link": "http:\/\/localhost\/jpresta.com\/fr\/module\/jprestacrm\/download?token=eyJkYXRlIjoxNjUzNzM4ODg4LCJpZCI6IjE1NSIsImphayI6IkpQUkVTVEEtNzY2RTE1N0JYWFgxIn0%3D",
+            "changelogs": {
+                "1.0.5": [
+                    "Page Cache: Improve the purge",
+                    "Page Cache: Optimize the table jm_pagecache_mods (less datas)"
+                ],
+                "1.0.4": [
+                    "Page Cache: Add a button to purge the cache"
+                ],
+                "1.0.3": [
+                    "Page Cache: Compatibility with module 'smartseo'",
+                    "Page Cache: Check for stadvancedcache before installing"
+                ],
+                "1.0.2": [
+                    "Page Cache: Display language flag in statistics"
+                ]
+            },
+            "dependencies": []
+        },
+        "link_renew": "http:\/\/localhost\/jpresta.com\/fr\/accueil\/10-extension-du-support-et-des-mises-a-jour-pour-speed-pack.html"
+    },
+    "jprestalistanywhere": {
+        "status": "<span class=\"badge badge-success\" title=\"\">Valid<\/span> for 125 days",
+        "is_valid": true,
+        "download": {
+            "version": "1.0.3",
+            "link": "http:\/\/localhost\/jpresta.com\/fr\/module\/jprestacrm\/download?token=eyJkYXRlIjoxNjUzNzM4ODg4LCJpZCI6IjE1NSIsImphayI6IkpQUkVTVEEtNzY2RTE1N0JYWFgxIn0%3D",
+            "changelogs": {
+                "1.0.3": [
+                    "Page Cache: Improve the purge",
+                    "Page Cache: Optimize the table jm_pagecache_mods (less datas)"
+                ],
+                "1.0.2": [
+                    "Page Cache: Add a button to purge the cache"
+                ],
+                "1.0.1": [
+                    "Page Cache: Compatibility with module 'smartseo'",
+                    "Page Cache: Check for stadvancedcache before installing"
+                ],
+                "1.0.0": [
+                    "Page Cache: Display language flag in statistics"
+                ]
+            },
+            "dependencies": []
+        }
+    },
+    "jprestamainmenu": {
+        "status": "<span class=\"badge badge-danger\" title=\"\">Expired<\/span> since 791 days",
+        "is_valid": false,
+        "download": {
+            "version": "1.0.3",
+            "link": "http:\/\/localhost\/jpresta.com\/fr\/module\/jprestacrm\/download?token=eyJkYXRlIjoxNjUzNzM4ODg4LCJpZCI6IjE1NSIsImphayI6IkpQUkVTVEEtNzY2RTE1N0JYWFgxIn0%3D",
+            "changelogs": {
+                "1.0.3": [
+                    "Page Cache: Improve the purge",
+                    "Page Cache: Optimize the table jm_pagecache_mods (less datas)"
+                ],
+                "1.0.2": [
+                    "Page Cache: Add a button to purge the cache"
+                ],
+                "1.0.1": [
+                    "Page Cache: Compatibility with module 'smartseo'",
+                    "Page Cache: Check for stadvancedcache before installing"
+                ],
+                "1.0.0": [
+                    "Page Cache: Display language flag in statistics"
+                ]
+            },
+            "dependencies": []
+        },
+        "latest": {
+            "version": "2.1.1",
+            "changelogs": {
+                "2.1.1": [
+                    "Page Cache: Improve the purge",
+                    "Page Cache: Optimize the table jm_pagecache_mods (less datas)"
+                ],
+                "2.0.5": [
+                    "Page Cache: Add a button to purge the cache"
+                ],
+                "1.0.1": [
+                    "Page Cache: Compatibility with module 'smartseo'",
+                    "Page Cache: Check for stadvancedcache before installing"
+                ],
+                "1.0.0": [
+                    "Page Cache: Display language flag in statistics"
+                ]
+            },
+            "dependencies": []
+        },
+        "link_renew": "http:\/\/localhost\/jpresta.com\/fr\/accueil\/10-extension-du-support-et-des-mises-a-jour-pour-speed-pack.html"
+    },
+    "jprestalogo": {
+        "status": "<span class=\"badge badge-success\">Valid<\/span> for 30 days",
+        "is_valid": true,
+        "download": {
+            "version": "1.0.3",
+            "link": "http:\/\/localhost\/jpresta.com\/fr\/module\/jprestacrm\/download?token=eyJkYXRlIjoxNjUzNzM4ODg4LCJpZCI6IjE1NSIsImphayI6IkpQUkVTVEEtNzY2RTE1N0JYWFgxIn0%3D",
+            "changelogs": {
+                "1.0.3": [
+                    "Page Cache: Compatibility with module 'smartseo'",
+                    "Page Cache: Check for stadvancedcache before installing"
+                ],
+                "1.0.2": [
+                    "Page Cache: Display language flag in statistics"
+                ]
+            },
+            "dependencies": {
+                "jprestamainmenu" : "1.0.3"
+            }
+        }
+    },
+    "jprestaupgrade": {
+        "status": "<span class=\"badge badge-success\">Valid<\/span> for 30 days",
+        "is_valid": true,
+        "download": {
+            "version": "1.0.3",
+            "link": "http:\/\/localhost\/jpresta.com\/fr\/module\/jprestacrm\/download?token=eyJkYXRlIjoxNjUzNzM4ODg4LCJpZCI6IjE1NSIsImphayI6IkpQUkVTVEEtNzY2RTE1N0JYWFgxIn0%3D",
+            "changelogs": {
+                "1.0.3": [
+                    "Page Cache: Compatibility with module 'smartseo'",
+                    "Page Cache: Check for stadvancedcache before installing"
+                ],
+                "1.0.2": [
+                    "Page Cache: Display language flag in statistics"
+                ]
+            }
+        }
+    },
+    "jprestathemeorigin": {
+        "status": "<span class=\"badge badge-success\">Valid<\/span> for 30 days",
+        "is_valid": true,
+        "download": {
+            "version": "1.0.3",
+            "link": "http:\/\/localhost\/jpresta.com\/fr\/module\/jprestacrm\/download?token=eyJkYXRlIjoxNjUzNzM4ODg4LCJpZCI6IjE1NSIsImphayI6IkpQUkVTVEEtNzY2RTE1N0JYWFgxIn0%3D",
+            "changelogs": {
+                "1.0.3": [
+                    "Page Cache: Compatibility with module 'smartseo'",
+                    "Page Cache: Check for stadvancedcache before installing"
+                ],
+                "1.0.2": [
+                    "Page Cache: Display language flag in statistics"
+                ]
+            },
+            "dependencies": {
+                "jprestathemeconfigurator" : "1.0.0"
+            }
+        }
+    }
+}

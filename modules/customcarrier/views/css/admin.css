@@ -1,0 +1,56 @@
+/**
+ * Custom Carrier - Admin Styles
+ */
+
+.customcarrier-product-settings {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.customcarrier-product-settings .card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+}
+
+.customcarrier-product-settings .card-header-title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.customcarrier-product-settings .card-header-title .material-icons {
+    font-size: 1.25rem;
+    color: #25b9d7;
+}
+
+.customcarrier-product-settings .card-body {
+    padding: 1.5rem;
+}
+
+.customcarrier-product-settings .form-group {
+    margin-bottom: 1.5rem;
+}
+
+.customcarrier-product-settings .form-group:last-child {
+    margin-bottom: 0;
+}
+
+.customcarrier-product-settings .form-control-label {
+    font-weight: 500;
+    padding-top: 0.5rem;
+}
+
+.customcarrier-product-settings .input-group {
+    max-width: 300px;
+}
+
+.customcarrier-product-settings .money-type .form-control {
+    text-align: right;
+}
+
+.customcarrier-product-settings .form-text {
+    margin-top: 0.5rem;
+}

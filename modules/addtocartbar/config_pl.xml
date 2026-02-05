@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>addtocartbar</name>
+    <displayName><![CDATA[Lepki dodaj do koszyka]]></displayName>
+    <version><![CDATA[1.3.0]]></version>
+    <description><![CDATA[Ten moduł pokazuje przycisk Dodaj do koszyka przez cały czas na stronie produktu, gdy użytkownik przewija w d&oacute;ł. Dostosuj także wygląd lepkiego dodatku do paska w&oacute;zka i pom&oacute;ż zwiększyć wygodę użytkownik&oacute;w.]]></description>
+    <author><![CDATA[FMM Modules]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+</module>

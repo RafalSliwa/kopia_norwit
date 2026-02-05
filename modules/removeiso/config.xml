@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>removeiso</name>
+    <displayName><![CDATA[Remove Iso Code]]></displayName>
+    <version><![CDATA[1.4.4]]></version>
+    <description><![CDATA[With this plugin you can easily change the format of URL address. Module allows to remove language ISO code from URLs from shop&#039;s  default language pages]]></description>
+    <author><![CDATA[MyPresta.eu]]></author>
+    <tab><![CDATA[checkout]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+</module>

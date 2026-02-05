@@ -1,0 +1,17 @@
+{
+  "name": "prestashow-module/pshowfbreviews-fb-sdk",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "PrestaShow.pl",
+      "email": "kontakt@prestashow.pl",
+      "homepage": "https://prestashow.pl"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "facebook/php-business-sdk": "14.0.*",
+    "psr/log": "^1.1",
+    "monolog/monolog": "^2.9"
+  }
+}

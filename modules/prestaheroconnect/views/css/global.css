@@ -1,0 +1,613 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+.mi-ph-con-sidebar-icon-list-module,
+li#subtab-AdminPhConListModules a.link i:first-child,
+.subtab .icon-AdminPhConRoot,
+#subtab-AdminPhConListModules-my-account i.mi-ph-con-icon-my-account,
+#subtab-AdminPhConListModules-contact i.mi-ph-con-icon-contact{
+    font-size: 0 !important;
+    display: inline-block!important;
+    width: 16px;
+    height: 16px;
+}
+button.btn.btn-primary.js-ph-con-submit-account-addons.loading, :is(body:not(.no-smb-reskin)) .btn-primary.loading:not([data-id-modal=homepageModal]):not([data-id-modal=categoryModal]):not([data-id-modal=productModal]) {
+    color: transparent!important;
+}
+.growl.growl-error, html :is(body:not(.no-smb-reskin)) .growl.growl-error {
+    color: #fff;
+    background: rgba(224,143,149,.8);
+}
+.growl.growl-notice, html :is(body:not(.no-smb-reskin)) .growl.growl-notice {
+    color: #fff;
+    background: rgba(114,194,121,.8);
+}
+.growl.growl-warning, html :is(body:not(.no-smb-reskin)) .growl.growl-warning {
+    color: #fff;
+    background: rgba(251,187,34,.8);
+}
+li#subtab-AdminPhConListModules a.link i:first-child:before,
+#maintab-AdminPhConRoot i.icon-AdminPhConRoot:before,
+.subtab .icon-AdminPhConRoot:before,
+#subtab-AdminPhConListModules-my-account i.mi-ph-con-icon-my-account:before,
+#subtab-AdminPhConListModules-contact i.mi-ph-con-icon-contact:before{
+    font-family: Fontawesome;
+    font-size: 16px;
+    display: inline-block!important;
+    line-height: 1;
+}
+#maintab-AdminPhConRoot i.icon-AdminPhConRoot:before,
+.subtab .icon-AdminPhConRoot:before {
+    content: "\f233";
+    font-size: 14px;
+}
+#subtab-AdminPhConListModules-contact i.mi-ph-con-icon-contact:before {
+    content: "\f003";
+}
+#subtab-AdminPhConListModules a.link i:first-child:before {
+    content: "\f1b2";
+}
+#subtab-AdminPhConListModules-my-account i.mi-ph-con-icon-my-account:before {
+    content: "\f2be";
+}
+#subtab-AdminPhConListModules i.material-icons.sub-tabs-arrow {
+    display: none;
+}
+li.js-ph-con-connect-preshero {
+    display: none!important;
+}
+a.toolbar_btn.js-ph-con-login-addons i.process-icon-plus {
+    display: inline-block;
+    height: auto;
+    width: auto;
+    line-height: inherit;
+}
+span.header-top-btn.ph-con-login-addons.js-ph-con-login-addons {
+    margin-top: 9px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+span.ph-con-total-module-upgrade > img {
+    opacity: 0;
+}
+.page-bar.toolbarBox .btn-toolbar a.toolbar_btn.js-ph-con-login-addons {
+    margin-top: 20px;
+}
+.page-bar.toolbarBox .btn-toolbar .ph-con-on-1778 a.toolbar_btn.js-ph-con-login-addons {
+    margin-top: 2px;
+}
+a.toolbar_btn.js-ph-con-login-addons i.process-icon-plus:before {
+    content: "\f067"!important;
+    font-family: Fontawesome;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    vertical-align: 3px;
+    margin-right: 5px;
+    line-height: 36px;
+    color: #fff;
+}
+.ph-con-total-module-upgrade {
+    background-image: url(../img/prestahero-logo.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    color: transparent;
+    background-size: unset;
+}
+span.header-top-btn.ph-con-login-addons.js-ph-con-login-addons.loading {
+    background: transparent;
+}
+a.module_action_menu_upgrade.js-ph-con-btn-upgrade-module i:before{
+    color: transparent!important;
+    opacity: 0;
+}
+#maintab-AdminPhConRoot.maintab ul.submenu li, 
+#maintab-AdminPhConRoot.maintab ul.submenu li span, 
+#maintab-AdminPhConRoot.maintab ul.submenu li a {
+    transition: none!important;
+}
+a.module_action_menu_upgrade.js-ph-con-btn-upgrade-module i
+{
+    color: transparent!important;
+    background-image: url(../img/prestahero-logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 64px;
+    margin-right: 2px;
+    min-width: 26px;
+    min-height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.ph-con-account-info svg {
+    width: 12px;
+    vertical-align: -2px;
+    margin-right: 3px;
+    display: inline-block;
+}
+svg {
+    fill: currentColor!important;
+}
+.ph-con-account-info {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+}
+span.ph-con-total-module-upgrade {
+    width: 33px;
+    position: relative;
+    height: 22px;
+    display: inline-block;
+    margin-right: 5px;
+}
+.ph-con-account-info > span.ph-con-total-module-upgrade{
+    margin-right: 2px;
+}
+.ph-con-total-module-upgrade span {
+    position: absolute;
+    text-align: center;
+    right: -11px;
+    top: -5px;
+    color: #fff;
+    background: #eb0d0d;
+    font-size: 10px;
+    font-size: .625rem;
+    line-height: 12px;
+    line-height: .75rem;
+    padding: 0 3px;
+    padding: 0 .1875rem;
+    border-radius: 1rem;
+    border: 2px solid #fff;
+    border: .125rem solid #fff;
+}
+a.toolbar_btn.js-ph-con-login-addons:hover {
+    color: #fff;
+    background-color: #3ed2f0;
+    border-color: #3ed2f0;
+}
+a.header-top-btn.ph-con-login-addons.js-ph-con-login-addons {
+    background-image: url(../img/prestahero-logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: transparent;
+    background-size: unset;
+    max-width: 44px;
+    margin-right: 4px;
+        width: 44px;
+    height: 40px;
+    display: inline-block;
+    padding: 0!important;
+}
+#header_employee_box .header-top-btn.ph-con-login-addons.js-ph-con-login-addons {
+    margin-right: 20px;
+}
+a.toolbar_btn.js-ph-con-login-addons i::before {
+    color: transparent!important;
+}
+.ph-con-account-info button#btnPhAccount {
+    border: none;
+    font-size: 13px!important;
+    color: #4e6167!important;
+    font-weight: normal;
+    padding: 6px 8px;
+    outline: none!important;
+    box-shadow: none!important;
+    background-color: transparent!important;
+}
+#header_infos #header_employee_box,
+#header_employee_box li{
+    list-style: none!important;
+    margin-left: 0;
+}
+.ph-con-account-info button#btnPhAccount span.caret {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid;
+    display: inline-block;
+    height: 0;
+    margin-left: 0;
+    vertical-align: middle;
+    width: 0;
+    border-top-color: #4e6167!important;
+}
+.ph-con-parent-module-upgrade .js-ph-con-btn-upgrade-module {
+    margin-right: 0;
+    position: relative;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+.ph-con-parent-module-upgrade .js-ph-con-btn-upgrade-module + .btn-group.module-actions {
+    margin-left: 6px;
+}
+.ph-con-parent-module-upgrade .js-ph-con-btn-upgrade-module:hover,
+.ph-con-parent-module-upgrade .js-ph-con-btn-upgrade-module.loading:hover,
+.js-ph-con-submit-account-addons.loading:hover {
+    background-color: #3ed2f0;
+    border-color: #3ed2f0;
+    color: #ffffff;
+}
+.ph-con-parent-module-upgrade .js-ph-con-btn-upgrade-module:focus {
+    color: #25b9d7;
+    background-color: transparent;
+    background-image: none;
+    border-color: #25b9d7;
+}
+.ph-con-parent-module-upgrade .js-ph-con-btn-upgrade-module.loading,
+.ph-con-parent-module-upgrade .js-ph-con-btn-upgrade-module.loading:hover,
+.js-ph-con-submit-account-addons.loading:hover,
+:is(body:not(.no-smb-reskin)) .btn-outline-primary.loading:focus,
+.js-ph-con-submit-account-addons.loading {
+    color: transparent!important;
+    background: #ffffff!important;
+}
+.js-ph-con-submit-account-addons.loading:hover{
+    color: rgba(255,255,255,0.1)!important;
+}
+.ph-con-parent-module-upgrade .js-ph-con-btn-upgrade-module.loading i{
+    opacity: 0!important;
+}
+#phConLoginAddons .alert.alert-info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+button.loading:after,
+a.loading:after,
+span.header-top-btn.ph-con-login-addons.js-ph-con-login-addons.loading:after,
+.ph-con-parent-module-upgrade .js-ph-con-btn-upgrade-module.loading:after{
+    content: "";
+    position: absolute;
+    border-top: 1px solid #25b9d7;
+    border-bottom: 1px solid #25b9d7;
+    border-left: 1px solid transparent!important;
+    border-right: 1px solid transparent!important;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    left: 50%;
+    margin-left: -10px;
+    margin-top: -9px;
+    top: 50%;
+    animation: loading_etsconnect_global 0.5s infinite linear;
+    -webkit-animation: loading_etsconnect_global 0.5s infinite linear;
+}
+
+.js-ph-con-submit-account-addons.loading:after {
+    content: "";
+    position: absolute;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    border-left: 1px solid transparent!important;
+    border-right: 1px solid transparent!important;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    left: 50%;
+    margin-left: -10px;
+    margin-top: -9px;
+    top: 50%;
+    animation: loading_etsconnect_global 0.5s infinite linear;
+    -webkit-animation: loading_etsconnect_global 0.5s infinite linear;
+}
+@keyframes loading_etsconnect_global {
+    0% {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes loading {
+    0% {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+    }
+}
+#phConLoginAddons .modal-dialog {
+    max-width: 600px;
+}
+span.ph-api-num-upgrade-sidebar {
+    background: #ce0505;
+    border-radius: 50%;
+    min-width: 18px;
+    display: inline-block!important;
+    width: auto!important;
+    text-align: center;
+    font-weight: normal;
+    padding: 0!important;
+    height: 18px;
+    font-size: 11px;
+    color: #fff!important;
+    line-height: 18px;
+    vertical-align: middle;
+    margin-left: 6px;
+}
+#phConLoginAddons h4.modal-title {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: Open sans;
+    margin: 0;
+}
+#phConLoginAddons label {
+    font-weight: normal;
+    font-size: 13px;
+}
+#phConLoginAddons {
+    font-size: 13px;
+}
+#phConLoginAddons input.form-control {
+    height: 36px;
+    font-size: 13px;
+}
+#phConLoginAddons button.close {
+    font-size: 28px;
+    margin: 0;
+    margin-top: -7px;
+    -webkit-appearance: none;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    padding: 0;
+    position: relative;
+}
+button.btn.btn-primary.js-ph-con-submit-account-addons,
+html :is(body:not(.no-smb-reskin)) .btn-primary.js-ph-con-submit-account-addons:not([data-id-modal=homepageModal]):not([data-id-modal=categoryModal]):not([data-id-modal=productModal]) {
+    font-size: 14px;
+    text-transform: none;
+    font-weight: 600;
+    position: relative;
+    min-width: 150px;
+    background: #03b3f6!important;
+    border-color: #03b3f6!important;
+    padding: 9px;
+    border-radius: 6px!important;
+}
+button.btn.btn-primary.js-ph-con-submit-account-addons:hover,
+html :is(body:not(.no-smb-reskin)) .btn-primary.js-ph-con-submit-account-addons:hover:not([data-id-modal=homepageModal]):not([data-id-modal=categoryModal]):not([data-id-modal=productModal]){
+    background-color: #008abd;
+    border-color: #008abd;
+    color: #ffffff;
+    box-shadow: none;
+}
+.form-group.form-group_action_pass_acc.text-center {
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 0;
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: space-between;
+}
+.form-group_action_pass_acc a {
+    color: #25b9d7;
+}
+#phConLoginAddons .modal-header {
+    border-bottom: 1px solid #e5e5e5;
+    min-height: 16.42857px;
+    padding: 15px;
+    display: block;
+}
+#phConLoginAddons .modal-body {
+    padding: 16px;
+    position: relative;
+}
+#phConLoginAddons .modal-content {
+    padding: 0;
+    border-radius: 4px;
+}
+.ph-con-account-info .dropdown-menu {
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    background-clip: padding-box;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 3px;
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    display: none;
+    float: left;
+    font-size: 12px;
+    left: -35px;
+    list-style: none;
+    margin: 2px 0 0;
+    min-width: 160px;
+    padding: 5px 0;
+    position: absolute;
+    top: 100%;
+    z-index: 1000;
+}
+.ph-con-account-info .dropdown-menu.show {
+    display: block;
+}
+.ph-con-account-info .dropdown-menu a {
+    clear: both;
+    color: #333;
+    display: block;
+    font-weight: 400;
+    line-height: 1.42857;
+    padding: 5px 10px;
+    white-space: nowrap;
+    text-decoration: none!important;
+}
+.ph-con-account-info .dropdown-menu a:hover{
+    background-color: #00aff0;
+    color: #fff;
+    text-decoration: none;
+}
+.js-ph-con-btn-upgrade-module i {
+    margin-right: 4px;
+}
+.header_employee_box li {
+    list-style: none;
+}
+.ph-con-account-info .dropdown-menu i {
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-width: 14px;
+    margin-right: 2px;
+}
+.ph-con-account-info .dropdown-menu i:before,
+.ph-con-account-info .dropdown-menu i:after{
+    opacity: 0!important;
+}
+.ph-con-account-info .dropdown-menu i.fa.fa-envelope{
+    background-image: url('../img/envelope.svg');
+}
+.ph-con-account-info .dropdown-menu i.fa.fa-sign-out{
+    background-image: url('../img/sign-out-alt.svg');
+}
+.ph-con-account-info .dropdown-menu i.fa.fa-user{
+    background-image: url('../img/user.svg');
+}
+.opc_solo_or {
+    text-align: center;
+    margin: 18px 0 15px;
+    position: relative;
+    text-transform: none;
+    display: inline-block;
+    width: 350px;
+    max-width: 100%;
+    font-size: 12px;
+}
+.opc_solo_or::before {
+    background-color: #eeeeee;
+    content: "";
+    height: 1px;
+    left: 25px;
+    position: absolute;
+    right: 25px;
+    top: 50%;
+}
+.opc_solo_or span {
+    display: inline-block;
+    background: #fff;
+    position: relative;
+    padding: 0 5px;
+    line-height: 1;
+}
+ul.opc_social {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    margin-bottom: 20px;
+    padding-left: 0;
+}
+.opc_social .opc_social_item {
+    background-image: none;
+    border-radius: 3px;
+    overflow: hidden;
+    display: inline-block;
+    list-style: outside none none;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    min-width: 94px;
+    margin: 2px;
+}
+.opc_social_item.paypal {
+    background-color: #0098db;
+    color: #fff;
+}
+.opc_social_item.facebook {
+    background-color: #4064ac;
+    color: #fff;
+}
+.opc_social_item.google {
+    background-color: #4285f4;
+    color: #fff;
+}
+.opc_social_item span.opc_social_btn {
+    padding: 0;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    font-size: 13px;
+    border-radius: 0;
+    cursor: pointer;
+    line-height: 28px;
+    position: relative;
+}
+.opc_social_btn .ets_svg_icon::before {
+    display: none;
+}
+.opc_social .opc_social_item {
+    min-width: 115px;
+}
+.opc_social_item i {
+    font-size: 12px;
+    line-height: 16px;
+    background-color: rgba(0,0,0,0.3);
+    display: inline-flex;
+    float: left;
+    margin-right: 5px;
+    padding: 6px 2px;
+    height: 100% !important;
+    width: 24px;
+    align-items: center;
+    justify-content: center;
+}
+.opc_social_item.google i {
+    margin-top: 0px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background: #fff;
+    border: 1.5px solid #4285f4;
+    padding-top: 5px;
+    padding-bottom: 4px;
+}
+#iframePopup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
+    border: none;
+    z-index: 9999;
+}
+/* CSS cho overlay */
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9998;
+}
+
+@media (min-width: 768px) {
+    body #phConLoginAddons .modal-dialog {
+        max-width: 620px;
+        top: 50%;
+        width: 90%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+    }
+}
+.btn-later {
+    /* width: 100%; */
+    display: block;
+}
+.li-email {
+    border-bottom: 1px solid #ccc;
+}
+.connect-info {
+    margin: 0 auto;
+    text-align: center;
+}

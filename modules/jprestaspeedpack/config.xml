@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>jprestaspeedpack</name>
+    <displayName><![CDATA[JPresta - Speed Pack]]></displayName>
+    <version><![CDATA[9.6.2]]></version>
+    <description><![CDATA[Includes the famous and so efficient Page Cache Ultimate module, lazy loading of images, image compression with WEBP and database optimisation]]></description>
+    <author><![CDATA[JPresta.com]]></author>
+    <tab><![CDATA[administration]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+</module>

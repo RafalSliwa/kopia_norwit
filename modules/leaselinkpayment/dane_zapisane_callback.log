@@ -1,0 +1,5149 @@
+[2025-01-24 14:49:13] {"Status":2,"StatusName":"ACCEPTED","TransactionId":"bb1ce4423b5441bcb7e18ca4dec3311f","InvoiceVatCompanyName":null,"InvoiceVatIdentificationNumber":null,"InvoiceVatAddressCity":null,"InvoiceVatAddressZipCode":null,"InvoiceVatAddressStreetName":null,"InvoiceVatAddressStreetNumber":null,"InvoiceVatAddressLocationNumber":null,"PartnerId":"ADAMTEST","CustomerExternalDocument":"6","FinancialProductType":null,"ContractGrossValue":null,"NumberOfInstallments":null,"OperationDateTime":"2025-01-24T14:48:18.9869645Z","Guid":"1439dc0f68824f879ea280fd66a0e271"} -- 
+[2025-01-24 14:49:14] {"Status":4,"StatusName":"SIGN_CONTRACT","TransactionId":"bb1ce4423b5441bcb7e18ca4dec3311f","InvoiceVatCompanyName":"PROJEKT-NET Damian Szyszkiewicz","InvoiceVatIdentificationNumber":"9482221571","InvoiceVatAddressCity":"Radom","InvoiceVatAddressZipCode":"26-600","InvoiceVatAddressStreetName":"UL. Gnieźnieńska","InvoiceVatAddressStreetNumber":"13a","InvoiceVatAddressLocationNumber":"","PartnerId":"ADAMTEST","CustomerExternalDocument":"6","FinancialProductType":"Loan","ContractGrossValue":509.10,"NumberOfInstallments":24,"OperationDateTime":"2025-01-24T14:48:40.9484384Z","Guid":"197f2b927210478f816f88e639e8a873"} -- 
+[2025-01-24 14:49:14] Array
+(
+    [PATH] => /usr/local/bin:/bin:/usr/bin
+    [HTTP_CONNECTION] => Keep-Alive
+    [CONTENT_TYPE] => text/json; charset=UTF-8
+    [CONTENT_LENGTH] => 621
+    [HTTP_HOST] => prest8.netmark.pl
+    [HTTP_X_AUTH_LEASELINK] => 465172281e1443fe8168f34519cd2c95
+    [HTTP_REQUEST_CONTEXT] => appId=cid-v1:cc534d4a-1383-48a9-9149-f26b02ac466d
+    [HTTP_REQUEST_ID] => |6c37d2539852c434743af6dd78f0712c.74d444821823b62a.
+    [HTTP_TRACEPARENT] => 00-6c37d2539852c434743af6dd78f0712c-74d444821823b62a-01
+    [HTTP_CORRELATION_CONTEXT] => messaging.message.conversation_id=01000000-2142-ca05-18fe-08dd3c864453
+    [HTTP_X_HTTPS] => 1
+    [DOCUMENT_ROOT] => /home/pronetn1/prest8.netmark.pl
+    [REMOTE_ADDR] => 52.142.127.42
+    [REMOTE_PORT] => 8321
+    [SERVER_ADDR] => 195.167.159.139
+    [SERVER_NAME] => prest8.netmark.pl
+    [SERVER_ADMIN] => webmaster@prest8.pronet.nsfera.pl
+    [SERVER_PORT] => 443
+    [REQUEST_SCHEME] => https
+    [REQUEST_URI] => /index.php?ajax=1&fc=module&module=leaselinkpayment&controller=callback&id_lang=1
+    [HTTPS] => on
+    [HTTP_MOD_REWRITE] => On
+    [REWRITEBASE] => /
+    [SSL_PROTOCOL] => TLSv1.2
+    [SSL_SESSION_ID] => cb4bdb30f13bc861acdbd428f4f429be1b83960db9d5edf79d58f34ef188afc5
+    [SSL_CIPHER] => ECDHE-RSA-AES128-GCM-SHA256
+    [SSL_CIPHER_USEKEYSIZE] => 128
+    [SSL_CIPHER_ALGKEYSIZE] => 128
+    [SCRIPT_FILENAME] => /home/pronetn1/prest8.netmark.pl/index.php
+    [QUERY_STRING] => ajax=1&fc=module&module=leaselinkpayment&controller=callback&id_lang=1
+    [SCRIPT_URI] => https://prest8.netmark.pl/index.php
+    [SCRIPT_URL] => /index.php
+    [SCRIPT_NAME] => /index.php
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_SOFTWARE] => LiteSpeed
+    [REQUEST_METHOD] => POST
+    [X-LSCACHE] => on
+    [PHP_SELF] => /index.php
+    [REQUEST_TIME_FLOAT] => 1737730154.5336
+    [REQUEST_TIME] => 1737730154
+)
+ -- 
+[2025-01-24 14:49:15] {"Status":3,"StatusName":"SEND_ASSET","TransactionId":"bb1ce4423b5441bcb7e18ca4dec3311f","InvoiceVatCompanyName":null,"InvoiceVatIdentificationNumber":null,"InvoiceVatAddressCity":null,"InvoiceVatAddressZipCode":null,"InvoiceVatAddressStreetName":null,"InvoiceVatAddressStreetNumber":null,"InvoiceVatAddressLocationNumber":null,"PartnerId":"ADAMTEST","CustomerExternalDocument":"6","FinancialProductType":null,"ContractGrossValue":null,"NumberOfInstallments":null,"OperationDateTime":"2025-01-24T14:48:55.8471974Z","Guid":"ba62ea66ba394b8a919cfe8c95bc16f5"} -- 
+[2025-01-24 14:49:15] Array
+(
+    [PATH] => /usr/local/bin:/bin:/usr/bin
+    [HTTP_CONNECTION] => Keep-Alive
+    [CONTENT_TYPE] => text/json; charset=UTF-8
+    [CONTENT_LENGTH] => 557
+    [HTTP_HOST] => prest8.netmark.pl
+    [HTTP_X_AUTH_LEASELINK] => 465172281e1443fe8168f34519cd2c95
+    [HTTP_REQUEST_CONTEXT] => appId=cid-v1:cc534d4a-1383-48a9-9149-f26b02ac466d
+    [HTTP_REQUEST_ID] => |6c37d2539852c434743af6dd78f0712c.4a0dd769afcfa431.
+    [HTTP_TRACEPARENT] => 00-6c37d2539852c434743af6dd78f0712c-4a0dd769afcfa431-01
+    [HTTP_CORRELATION_CONTEXT] => messaging.message.conversation_id=01000000-2142-ca05-18fe-08dd3c864453
+    [HTTP_X_HTTPS] => 1
+    [DOCUMENT_ROOT] => /home/pronetn1/prest8.netmark.pl
+    [REMOTE_ADDR] => 52.142.127.42
+    [REMOTE_PORT] => 8322
+    [SERVER_ADDR] => 195.167.159.139
+    [SERVER_NAME] => prest8.netmark.pl
+    [SERVER_ADMIN] => webmaster@prest8.pronet.nsfera.pl
+    [SERVER_PORT] => 443
+    [REQUEST_SCHEME] => https
+    [REQUEST_URI] => /index.php?ajax=1&fc=module&module=leaselinkpayment&controller=callback&id_lang=1
+    [HTTPS] => on
+    [HTTP_MOD_REWRITE] => On
+    [REWRITEBASE] => /
+    [SSL_PROTOCOL] => TLSv1.2
+    [SSL_SESSION_ID] => cb4bdb30f13bc861acdbd428f4f429be1b83960db9d5edf79d58f34ef188afc5
+    [SSL_CIPHER] => ECDHE-RSA-AES128-GCM-SHA256
+    [SSL_CIPHER_USEKEYSIZE] => 128
+    [SSL_CIPHER_ALGKEYSIZE] => 128
+    [SCRIPT_FILENAME] => /home/pronetn1/prest8.netmark.pl/index.php
+    [QUERY_STRING] => ajax=1&fc=module&module=leaselinkpayment&controller=callback&id_lang=1
+    [SCRIPT_URI] => https://prest8.netmark.pl/index.php
+    [SCRIPT_URL] => /index.php
+    [SCRIPT_NAME] => /index.php
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_SOFTWARE] => LiteSpeed
+    [REQUEST_METHOD] => POST
+    [X-LSCACHE] => on
+    [PHP_SELF] => /index.php
+    [REQUEST_TIME_FLOAT] => 1737730154.9234
+    [REQUEST_TIME] => 1737730154
+)
+ -- 
+[2025-01-24 14:51:18] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => Wybierz
+        )
+
+    [1] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [2] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [3] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [4] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [5] => Array
+        (
+            [id_option] => 30
+            [name] => Leaselink - etap skladania wniosku
+        )
+
+    [6] => Array
+        (
+            [id_option] => 27
+            [name] => LeaseLink - oczekiwanie na płatność
+        )
+
+    [7] => Array
+        (
+            [id_option] => 31
+            [name] => Leaselink - płatność anulowana
+        )
+
+    [8] => Array
+        (
+            [id_option] => 28
+            [name] => Leaselink - płatność przyjęta
+        )
+
+    [9] => Array
+        (
+            [id_option] => 29
+            [name] => Leaselink - umowa podpisana - wyślij FV
+        )
+
+    [10] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [11] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [12] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [13] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [14] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [15] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [16] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [17] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [18] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-01-24 14:59:51] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => Wybierz
+        )
+
+    [1] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [2] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [3] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [4] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [5] => Array
+        (
+            [id_option] => 30
+            [name] => Leaselink - etap skladania wniosku
+        )
+
+    [6] => Array
+        (
+            [id_option] => 27
+            [name] => LeaseLink - oczekiwanie na płatność
+        )
+
+    [7] => Array
+        (
+            [id_option] => 31
+            [name] => Leaselink - płatność anulowana
+        )
+
+    [8] => Array
+        (
+            [id_option] => 28
+            [name] => Leaselink - płatność przyjęta
+        )
+
+    [9] => Array
+        (
+            [id_option] => 29
+            [name] => Leaselink - umowa podpisana - wyślij FV
+        )
+
+    [10] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [11] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [12] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [13] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [14] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [15] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [16] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [17] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [18] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-01-24 15:26:04] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => Wybierz
+        )
+
+    [1] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [2] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [3] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [4] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [5] => Array
+        (
+            [id_option] => 30
+            [name] => Leaselink - etap skladania wniosku
+        )
+
+    [6] => Array
+        (
+            [id_option] => 27
+            [name] => LeaseLink - oczekiwanie na płatność
+        )
+
+    [7] => Array
+        (
+            [id_option] => 31
+            [name] => Leaselink - płatność anulowana
+        )
+
+    [8] => Array
+        (
+            [id_option] => 28
+            [name] => Leaselink - płatność przyjęta
+        )
+
+    [9] => Array
+        (
+            [id_option] => 29
+            [name] => Leaselink - umowa podpisana - wyślij FV
+        )
+
+    [10] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [11] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [12] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [13] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [14] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [15] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [16] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [17] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [18] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-01-24 15:31:59] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => Wybierz
+        )
+
+    [1] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [2] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [3] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [4] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [5] => Array
+        (
+            [id_option] => 30
+            [name] => Leaselink - etap skladania wniosku
+        )
+
+    [6] => Array
+        (
+            [id_option] => 27
+            [name] => LeaseLink - oczekiwanie na płatność
+        )
+
+    [7] => Array
+        (
+            [id_option] => 31
+            [name] => Leaselink - płatność anulowana
+        )
+
+    [8] => Array
+        (
+            [id_option] => 28
+            [name] => Leaselink - płatność przyjęta
+        )
+
+    [9] => Array
+        (
+            [id_option] => 29
+            [name] => Leaselink - umowa podpisana - wyślij FV
+        )
+
+    [10] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [11] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [12] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [13] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [14] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [15] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [16] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [17] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [18] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-01-24 15:32:39] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => Wybierz
+        )
+
+    [1] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [2] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [3] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [4] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [5] => Array
+        (
+            [id_option] => 30
+            [name] => Leaselink - etap skladania wniosku
+        )
+
+    [6] => Array
+        (
+            [id_option] => 27
+            [name] => LeaseLink - oczekiwanie na płatność
+        )
+
+    [7] => Array
+        (
+            [id_option] => 31
+            [name] => Leaselink - płatność anulowana
+        )
+
+    [8] => Array
+        (
+            [id_option] => 28
+            [name] => Leaselink - płatność przyjęta
+        )
+
+    [9] => Array
+        (
+            [id_option] => 29
+            [name] => Leaselink - umowa podpisana - wyślij FV
+        )
+
+    [10] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [11] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [12] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [13] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [14] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [15] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [16] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [17] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [18] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-01-24 15:33:27] {"order_id":21,"StatusName":"SIGN_CONTRACT","TransactionId":"c5995c38db2e4f45a11ae874f46654ea","CustomerExternalDocument":24} -- 
+[2025-01-24 15:34:03] {"Status":-1,"StatusName":"CANCELLED","TransactionId":"9d4925433a1f4e8588f66fbb07541f41","InvoiceVatCompanyName":null,"InvoiceVatIdentificationNumber":null,"InvoiceVatAddressCity":null,"InvoiceVatAddressZipCode":null,"InvoiceVatAddressStreetName":null,"InvoiceVatAddressStreetNumber":null,"InvoiceVatAddressLocationNumber":null,"PartnerId":"ADAMTEST","CustomerExternalDocument":"23","FinancialProductType":null,"ContractGrossValue":null,"NumberOfInstallments":null,"OperationDateTime":"2025-01-24T15:33:44.1655768Z","Guid":"c62efd33a21b4d859a46d3888d2339ba"} -- 
+[2025-02-06 21:11:09] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => Wybierz
+        )
+
+    [1] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [2] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [3] => Array
+        (
+            [id_option] => 16
+            [name] => Częściowa płatność
+        )
+
+    [4] => Array
+        (
+            [id_option] => 15
+            [name] => Częściowy zwrot
+        )
+
+    [5] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [6] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [7] => Array
+        (
+            [id_option] => 19
+            [name] => EHP 01: Wybrano finansowanie kredytem
+        )
+
+    [8] => Array
+        (
+            [id_option] => 20
+            [name] => EHP 02: oczekiwanie na decyzję Banku
+        )
+
+    [9] => Array
+        (
+            [id_option] => 21
+            [name] => EHP 03: Porzucono wniosek kredytowy
+        )
+
+    [10] => Array
+        (
+            [id_option] => 22
+            [name] => EHP 04: Udzielono kredytu
+        )
+
+    [11] => Array
+        (
+            [id_option] => 23
+            [name] => EHP 05: Bank odmówił udzielenia kredytu
+        )
+
+    [12] => Array
+        (
+            [id_option] => 24
+            [name] => EHP 06: Anulowano wniosek kredytowy
+        )
+
+    [13] => Array
+        (
+            [id_option] => 25
+            [name] => EHP 07: Potwierdź dostępność towaru
+        )
+
+    [14] => Array
+        (
+            [id_option] => 29
+            [name] => Leaselink - etap skladania wniosku
+        )
+
+    [15] => Array
+        (
+            [id_option] => 26
+            [name] => LeaseLink - oczekiwanie na płatność
+        )
+
+    [16] => Array
+        (
+            [id_option] => 30
+            [name] => Leaselink - płatność anulowana
+        )
+
+    [17] => Array
+        (
+            [id_option] => 27
+            [name] => Leaselink - płatność przyjęta
+        )
+
+    [18] => Array
+        (
+            [id_option] => 28
+            [name] => Leaselink - umowa podpisana - wyślij FV
+        )
+
+    [19] => Array
+        (
+            [id_option] => 14
+            [name] => Oczekiwanie na płatność
+        )
+
+    [20] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [21] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [22] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [23] => Array
+        (
+            [id_option] => 18
+            [name] => Płatność ING Lease Now: oczekuje na leasing
+        )
+
+    [24] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [25] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [26] => Array
+        (
+            [id_option] => 17
+            [name] => Pomyślna autoryzacja. Transfer do przeprowadzenia przez sklep
+        )
+
+    [27] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [28] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [29] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [30] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-02-06 21:11:11] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => Wybierz
+        )
+
+    [1] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [2] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [3] => Array
+        (
+            [id_option] => 16
+            [name] => Częściowa płatność
+        )
+
+    [4] => Array
+        (
+            [id_option] => 15
+            [name] => Częściowy zwrot
+        )
+
+    [5] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [6] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [7] => Array
+        (
+            [id_option] => 19
+            [name] => EHP 01: Wybrano finansowanie kredytem
+        )
+
+    [8] => Array
+        (
+            [id_option] => 20
+            [name] => EHP 02: oczekiwanie na decyzję Banku
+        )
+
+    [9] => Array
+        (
+            [id_option] => 21
+            [name] => EHP 03: Porzucono wniosek kredytowy
+        )
+
+    [10] => Array
+        (
+            [id_option] => 22
+            [name] => EHP 04: Udzielono kredytu
+        )
+
+    [11] => Array
+        (
+            [id_option] => 23
+            [name] => EHP 05: Bank odmówił udzielenia kredytu
+        )
+
+    [12] => Array
+        (
+            [id_option] => 24
+            [name] => EHP 06: Anulowano wniosek kredytowy
+        )
+
+    [13] => Array
+        (
+            [id_option] => 25
+            [name] => EHP 07: Potwierdź dostępność towaru
+        )
+
+    [14] => Array
+        (
+            [id_option] => 29
+            [name] => Leaselink - etap skladania wniosku
+        )
+
+    [15] => Array
+        (
+            [id_option] => 26
+            [name] => LeaseLink - oczekiwanie na płatność
+        )
+
+    [16] => Array
+        (
+            [id_option] => 30
+            [name] => Leaselink - płatność anulowana
+        )
+
+    [17] => Array
+        (
+            [id_option] => 27
+            [name] => Leaselink - płatność przyjęta
+        )
+
+    [18] => Array
+        (
+            [id_option] => 28
+            [name] => Leaselink - umowa podpisana - wyślij FV
+        )
+
+    [19] => Array
+        (
+            [id_option] => 14
+            [name] => Oczekiwanie na płatność
+        )
+
+    [20] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [21] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [22] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [23] => Array
+        (
+            [id_option] => 18
+            [name] => Płatność ING Lease Now: oczekuje na leasing
+        )
+
+    [24] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [25] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [26] => Array
+        (
+            [id_option] => 17
+            [name] => Pomyślna autoryzacja. Transfer do przeprowadzenia przez sklep
+        )
+
+    [27] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [28] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [29] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [30] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-02-12 09:54:41] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => Wybierz
+        )
+
+    [1] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [2] => Array
+        (
+            [id_option] => 15
+            [name] => Awaiting Revolut payment
+        )
+
+    [3] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [4] => Array
+        (
+            [id_option] => 18
+            [name] => Błąd płatności (Tpay)
+        )
+
+    [5] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [6] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [7] => Array
+        (
+            [id_option] => 24
+            [name] => EHP 01: Wybrano finansowanie kredytem
+        )
+
+    [8] => Array
+        (
+            [id_option] => 25
+            [name] => EHP 02: oczekiwanie na decyzję Banku
+        )
+
+    [9] => Array
+        (
+            [id_option] => 26
+            [name] => EHP 03: Porzucono wniosek kredytowy
+        )
+
+    [10] => Array
+        (
+            [id_option] => 27
+            [name] => EHP 04: Udzielono kredytu
+        )
+
+    [11] => Array
+        (
+            [id_option] => 28
+            [name] => EHP 05: Bank odmówił udzielenia kredytu
+        )
+
+    [12] => Array
+        (
+            [id_option] => 29
+            [name] => EHP 06: Anulowano wniosek kredytowy
+        )
+
+    [13] => Array
+        (
+            [id_option] => 30
+            [name] => EHP 07: Potwierdź dostępność towaru
+        )
+
+    [14] => Array
+        (
+            [id_option] => 39
+            [name] => Leaselink - etap skladania wniosku
+        )
+
+    [15] => Array
+        (
+            [id_option] => 36
+            [name] => LeaseLink - oczekiwanie na płatność
+        )
+
+    [16] => Array
+        (
+            [id_option] => 40
+            [name] => Leaselink - płatność anulowana
+        )
+
+    [17] => Array
+        (
+            [id_option] => 37
+            [name] => Leaselink - płatność przyjęta
+        )
+
+    [18] => Array
+        (
+            [id_option] => 38
+            [name] => Leaselink - umowa podpisana - wyślij FV
+        )
+
+    [19] => Array
+        (
+            [id_option] => 16
+            [name] => Oczekiwanie na płatność (Tpay)
+        )
+
+    [20] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [21] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [22] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [23] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [24] => Array
+        (
+            [id_option] => 14
+            [name] => Płatność ING Lease Now: oczekuje na leasing
+        )
+
+    [25] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [26] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [27] => Array
+        (
+            [id_option] => 17
+            [name] => Płatność zaakceptowana (Tpay)
+        )
+
+    [28] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [29] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [30] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-02-12 09:55:30] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => Wybierz
+        )
+
+    [1] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [2] => Array
+        (
+            [id_option] => 15
+            [name] => Awaiting Revolut payment
+        )
+
+    [3] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [4] => Array
+        (
+            [id_option] => 18
+            [name] => Błąd płatności (Tpay)
+        )
+
+    [5] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [6] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [7] => Array
+        (
+            [id_option] => 24
+            [name] => EHP 01: Wybrano finansowanie kredytem
+        )
+
+    [8] => Array
+        (
+            [id_option] => 25
+            [name] => EHP 02: oczekiwanie na decyzję Banku
+        )
+
+    [9] => Array
+        (
+            [id_option] => 26
+            [name] => EHP 03: Porzucono wniosek kredytowy
+        )
+
+    [10] => Array
+        (
+            [id_option] => 27
+            [name] => EHP 04: Udzielono kredytu
+        )
+
+    [11] => Array
+        (
+            [id_option] => 28
+            [name] => EHP 05: Bank odmówił udzielenia kredytu
+        )
+
+    [12] => Array
+        (
+            [id_option] => 29
+            [name] => EHP 06: Anulowano wniosek kredytowy
+        )
+
+    [13] => Array
+        (
+            [id_option] => 30
+            [name] => EHP 07: Potwierdź dostępność towaru
+        )
+
+    [14] => Array
+        (
+            [id_option] => 39
+            [name] => Leaselink - etap skladania wniosku
+        )
+
+    [15] => Array
+        (
+            [id_option] => 36
+            [name] => LeaseLink - oczekiwanie na płatność
+        )
+
+    [16] => Array
+        (
+            [id_option] => 40
+            [name] => Leaselink - płatność anulowana
+        )
+
+    [17] => Array
+        (
+            [id_option] => 37
+            [name] => Leaselink - płatność przyjęta
+        )
+
+    [18] => Array
+        (
+            [id_option] => 38
+            [name] => Leaselink - umowa podpisana - wyślij FV
+        )
+
+    [19] => Array
+        (
+            [id_option] => 16
+            [name] => Oczekiwanie na płatność (Tpay)
+        )
+
+    [20] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [21] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [22] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [23] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [24] => Array
+        (
+            [id_option] => 14
+            [name] => Płatność ING Lease Now: oczekuje na leasing
+        )
+
+    [25] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [26] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [27] => Array
+        (
+            [id_option] => 17
+            [name] => Płatność zaakceptowana (Tpay)
+        )
+
+    [28] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [29] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [30] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-02-12 09:55:33] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => Wybierz
+        )
+
+    [1] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [2] => Array
+        (
+            [id_option] => 15
+            [name] => Awaiting Revolut payment
+        )
+
+    [3] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [4] => Array
+        (
+            [id_option] => 18
+            [name] => Błąd płatności (Tpay)
+        )
+
+    [5] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [6] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [7] => Array
+        (
+            [id_option] => 24
+            [name] => EHP 01: Wybrano finansowanie kredytem
+        )
+
+    [8] => Array
+        (
+            [id_option] => 25
+            [name] => EHP 02: oczekiwanie na decyzję Banku
+        )
+
+    [9] => Array
+        (
+            [id_option] => 26
+            [name] => EHP 03: Porzucono wniosek kredytowy
+        )
+
+    [10] => Array
+        (
+            [id_option] => 27
+            [name] => EHP 04: Udzielono kredytu
+        )
+
+    [11] => Array
+        (
+            [id_option] => 28
+            [name] => EHP 05: Bank odmówił udzielenia kredytu
+        )
+
+    [12] => Array
+        (
+            [id_option] => 29
+            [name] => EHP 06: Anulowano wniosek kredytowy
+        )
+
+    [13] => Array
+        (
+            [id_option] => 30
+            [name] => EHP 07: Potwierdź dostępność towaru
+        )
+
+    [14] => Array
+        (
+            [id_option] => 39
+            [name] => Leaselink - etap skladania wniosku
+        )
+
+    [15] => Array
+        (
+            [id_option] => 36
+            [name] => LeaseLink - oczekiwanie na płatność
+        )
+
+    [16] => Array
+        (
+            [id_option] => 40
+            [name] => Leaselink - płatność anulowana
+        )
+
+    [17] => Array
+        (
+            [id_option] => 37
+            [name] => Leaselink - płatność przyjęta
+        )
+
+    [18] => Array
+        (
+            [id_option] => 38
+            [name] => Leaselink - umowa podpisana - wyślij FV
+        )
+
+    [19] => Array
+        (
+            [id_option] => 16
+            [name] => Oczekiwanie na płatność (Tpay)
+        )
+
+    [20] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [21] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [22] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [23] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [24] => Array
+        (
+            [id_option] => 14
+            [name] => Płatność ING Lease Now: oczekuje na leasing
+        )
+
+    [25] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [26] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [27] => Array
+        (
+            [id_option] => 17
+            [name] => Płatność zaakceptowana (Tpay)
+        )
+
+    [28] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [29] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [30] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-02-12 09:55:46] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => Wybierz
+        )
+
+    [1] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [2] => Array
+        (
+            [id_option] => 15
+            [name] => Awaiting Revolut payment
+        )
+
+    [3] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [4] => Array
+        (
+            [id_option] => 18
+            [name] => Błąd płatności (Tpay)
+        )
+
+    [5] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [6] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [7] => Array
+        (
+            [id_option] => 24
+            [name] => EHP 01: Wybrano finansowanie kredytem
+        )
+
+    [8] => Array
+        (
+            [id_option] => 25
+            [name] => EHP 02: oczekiwanie na decyzję Banku
+        )
+
+    [9] => Array
+        (
+            [id_option] => 26
+            [name] => EHP 03: Porzucono wniosek kredytowy
+        )
+
+    [10] => Array
+        (
+            [id_option] => 27
+            [name] => EHP 04: Udzielono kredytu
+        )
+
+    [11] => Array
+        (
+            [id_option] => 28
+            [name] => EHP 05: Bank odmówił udzielenia kredytu
+        )
+
+    [12] => Array
+        (
+            [id_option] => 29
+            [name] => EHP 06: Anulowano wniosek kredytowy
+        )
+
+    [13] => Array
+        (
+            [id_option] => 30
+            [name] => EHP 07: Potwierdź dostępność towaru
+        )
+
+    [14] => Array
+        (
+            [id_option] => 39
+            [name] => Leaselink - etap skladania wniosku
+        )
+
+    [15] => Array
+        (
+            [id_option] => 36
+            [name] => LeaseLink - oczekiwanie na płatność
+        )
+
+    [16] => Array
+        (
+            [id_option] => 40
+            [name] => Leaselink - płatność anulowana
+        )
+
+    [17] => Array
+        (
+            [id_option] => 37
+            [name] => Leaselink - płatność przyjęta
+        )
+
+    [18] => Array
+        (
+            [id_option] => 38
+            [name] => Leaselink - umowa podpisana - wyślij FV
+        )
+
+    [19] => Array
+        (
+            [id_option] => 16
+            [name] => Oczekiwanie na płatność (Tpay)
+        )
+
+    [20] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [21] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [22] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [23] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [24] => Array
+        (
+            [id_option] => 14
+            [name] => Płatność ING Lease Now: oczekuje na leasing
+        )
+
+    [25] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [26] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [27] => Array
+        (
+            [id_option] => 17
+            [name] => Płatność zaakceptowana (Tpay)
+        )
+
+    [28] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [29] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [30] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-02-12 09:55:58] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => Wybierz
+        )
+
+    [1] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [2] => Array
+        (
+            [id_option] => 15
+            [name] => Awaiting Revolut payment
+        )
+
+    [3] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [4] => Array
+        (
+            [id_option] => 18
+            [name] => Błąd płatności (Tpay)
+        )
+
+    [5] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [6] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [7] => Array
+        (
+            [id_option] => 24
+            [name] => EHP 01: Wybrano finansowanie kredytem
+        )
+
+    [8] => Array
+        (
+            [id_option] => 25
+            [name] => EHP 02: oczekiwanie na decyzję Banku
+        )
+
+    [9] => Array
+        (
+            [id_option] => 26
+            [name] => EHP 03: Porzucono wniosek kredytowy
+        )
+
+    [10] => Array
+        (
+            [id_option] => 27
+            [name] => EHP 04: Udzielono kredytu
+        )
+
+    [11] => Array
+        (
+            [id_option] => 28
+            [name] => EHP 05: Bank odmówił udzielenia kredytu
+        )
+
+    [12] => Array
+        (
+            [id_option] => 29
+            [name] => EHP 06: Anulowano wniosek kredytowy
+        )
+
+    [13] => Array
+        (
+            [id_option] => 30
+            [name] => EHP 07: Potwierdź dostępność towaru
+        )
+
+    [14] => Array
+        (
+            [id_option] => 39
+            [name] => Leaselink - etap skladania wniosku
+        )
+
+    [15] => Array
+        (
+            [id_option] => 36
+            [name] => LeaseLink - oczekiwanie na płatność
+        )
+
+    [16] => Array
+        (
+            [id_option] => 40
+            [name] => Leaselink - płatność anulowana
+        )
+
+    [17] => Array
+        (
+            [id_option] => 37
+            [name] => Leaselink - płatność przyjęta
+        )
+
+    [18] => Array
+        (
+            [id_option] => 38
+            [name] => Leaselink - umowa podpisana - wyślij FV
+        )
+
+    [19] => Array
+        (
+            [id_option] => 16
+            [name] => Oczekiwanie na płatność (Tpay)
+        )
+
+    [20] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [21] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [22] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [23] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [24] => Array
+        (
+            [id_option] => 14
+            [name] => Płatność ING Lease Now: oczekuje na leasing
+        )
+
+    [25] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [26] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [27] => Array
+        (
+            [id_option] => 17
+            [name] => Płatność zaakceptowana (Tpay)
+        )
+
+    [28] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [29] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [30] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-02-12 09:56:48] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => Wybierz
+        )
+
+    [1] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [2] => Array
+        (
+            [id_option] => 15
+            [name] => Awaiting Revolut payment
+        )
+
+    [3] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [4] => Array
+        (
+            [id_option] => 18
+            [name] => Błąd płatności (Tpay)
+        )
+
+    [5] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [6] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [7] => Array
+        (
+            [id_option] => 24
+            [name] => EHP 01: Wybrano finansowanie kredytem
+        )
+
+    [8] => Array
+        (
+            [id_option] => 25
+            [name] => EHP 02: oczekiwanie na decyzję Banku
+        )
+
+    [9] => Array
+        (
+            [id_option] => 26
+            [name] => EHP 03: Porzucono wniosek kredytowy
+        )
+
+    [10] => Array
+        (
+            [id_option] => 27
+            [name] => EHP 04: Udzielono kredytu
+        )
+
+    [11] => Array
+        (
+            [id_option] => 28
+            [name] => EHP 05: Bank odmówił udzielenia kredytu
+        )
+
+    [12] => Array
+        (
+            [id_option] => 29
+            [name] => EHP 06: Anulowano wniosek kredytowy
+        )
+
+    [13] => Array
+        (
+            [id_option] => 30
+            [name] => EHP 07: Potwierdź dostępność towaru
+        )
+
+    [14] => Array
+        (
+            [id_option] => 39
+            [name] => Leaselink - etap skladania wniosku
+        )
+
+    [15] => Array
+        (
+            [id_option] => 36
+            [name] => LeaseLink - oczekiwanie na płatność
+        )
+
+    [16] => Array
+        (
+            [id_option] => 40
+            [name] => Leaselink - płatność anulowana
+        )
+
+    [17] => Array
+        (
+            [id_option] => 37
+            [name] => Leaselink - płatność przyjęta
+        )
+
+    [18] => Array
+        (
+            [id_option] => 38
+            [name] => Leaselink - umowa podpisana - wyślij FV
+        )
+
+    [19] => Array
+        (
+            [id_option] => 16
+            [name] => Oczekiwanie na płatność (Tpay)
+        )
+
+    [20] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [21] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [22] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [23] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [24] => Array
+        (
+            [id_option] => 14
+            [name] => Płatność ING Lease Now: oczekuje na leasing
+        )
+
+    [25] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [26] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [27] => Array
+        (
+            [id_option] => 17
+            [name] => Płatność zaakceptowana (Tpay)
+        )
+
+    [28] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [29] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [30] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-03-04 13:44:41] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => Wybierz
+        )
+
+    [1] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [2] => Array
+        (
+            [id_option] => 15
+            [name] => Awaiting Revolut payment
+        )
+
+    [3] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [4] => Array
+        (
+            [id_option] => 18
+            [name] => Błąd płatności (Tpay)
+        )
+
+    [5] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [6] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [7] => Array
+        (
+            [id_option] => 24
+            [name] => EHP 01: Wybrano finansowanie kredytem
+        )
+
+    [8] => Array
+        (
+            [id_option] => 25
+            [name] => EHP 02: oczekiwanie na decyzję Banku
+        )
+
+    [9] => Array
+        (
+            [id_option] => 26
+            [name] => EHP 03: Porzucono wniosek kredytowy
+        )
+
+    [10] => Array
+        (
+            [id_option] => 27
+            [name] => EHP 04: Udzielono kredytu
+        )
+
+    [11] => Array
+        (
+            [id_option] => 28
+            [name] => EHP 05: Bank odmówił udzielenia kredytu
+        )
+
+    [12] => Array
+        (
+            [id_option] => 29
+            [name] => EHP 06: Anulowano wniosek kredytowy
+        )
+
+    [13] => Array
+        (
+            [id_option] => 30
+            [name] => EHP 07: Potwierdź dostępność towaru
+        )
+
+    [14] => Array
+        (
+            [id_option] => 39
+            [name] => Leaselink - etap skladania wniosku
+        )
+
+    [15] => Array
+        (
+            [id_option] => 36
+            [name] => LeaseLink - oczekiwanie na płatność
+        )
+
+    [16] => Array
+        (
+            [id_option] => 40
+            [name] => Leaselink - płatność anulowana
+        )
+
+    [17] => Array
+        (
+            [id_option] => 37
+            [name] => Leaselink - płatność przyjęta
+        )
+
+    [18] => Array
+        (
+            [id_option] => 38
+            [name] => Leaselink - umowa podpisana - wyślij FV
+        )
+
+    [19] => Array
+        (
+            [id_option] => 16
+            [name] => Oczekiwanie na płatność (Tpay)
+        )
+
+    [20] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [21] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [22] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [23] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [24] => Array
+        (
+            [id_option] => 14
+            [name] => Płatność ING Lease Now: oczekuje na leasing
+        )
+
+    [25] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [26] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [27] => Array
+        (
+            [id_option] => 17
+            [name] => Płatność zaakceptowana (Tpay)
+        )
+
+    [28] => Array
+        (
+            [id_option] => 41
+            [name] => Wycofane z DHL
+        )
+
+    [29] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [30] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [31] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-03-04 13:47:59] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => Wybierz
+        )
+
+    [1] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [2] => Array
+        (
+            [id_option] => 15
+            [name] => Awaiting Revolut payment
+        )
+
+    [3] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [4] => Array
+        (
+            [id_option] => 18
+            [name] => Błąd płatności (Tpay)
+        )
+
+    [5] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [6] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [7] => Array
+        (
+            [id_option] => 24
+            [name] => EHP 01: Wybrano finansowanie kredytem
+        )
+
+    [8] => Array
+        (
+            [id_option] => 25
+            [name] => EHP 02: oczekiwanie na decyzję Banku
+        )
+
+    [9] => Array
+        (
+            [id_option] => 26
+            [name] => EHP 03: Porzucono wniosek kredytowy
+        )
+
+    [10] => Array
+        (
+            [id_option] => 27
+            [name] => EHP 04: Udzielono kredytu
+        )
+
+    [11] => Array
+        (
+            [id_option] => 28
+            [name] => EHP 05: Bank odmówił udzielenia kredytu
+        )
+
+    [12] => Array
+        (
+            [id_option] => 29
+            [name] => EHP 06: Anulowano wniosek kredytowy
+        )
+
+    [13] => Array
+        (
+            [id_option] => 30
+            [name] => EHP 07: Potwierdź dostępność towaru
+        )
+
+    [14] => Array
+        (
+            [id_option] => 39
+            [name] => Leaselink - etap skladania wniosku
+        )
+
+    [15] => Array
+        (
+            [id_option] => 36
+            [name] => LeaseLink - oczekiwanie na płatność
+        )
+
+    [16] => Array
+        (
+            [id_option] => 40
+            [name] => Leaselink - płatność anulowana
+        )
+
+    [17] => Array
+        (
+            [id_option] => 37
+            [name] => Leaselink - płatność przyjęta
+        )
+
+    [18] => Array
+        (
+            [id_option] => 38
+            [name] => Leaselink - umowa podpisana - wyślij FV
+        )
+
+    [19] => Array
+        (
+            [id_option] => 16
+            [name] => Oczekiwanie na płatność (Tpay)
+        )
+
+    [20] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [21] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [22] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [23] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [24] => Array
+        (
+            [id_option] => 14
+            [name] => Płatność ING Lease Now: oczekuje na leasing
+        )
+
+    [25] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [26] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [27] => Array
+        (
+            [id_option] => 17
+            [name] => Płatność zaakceptowana (Tpay)
+        )
+
+    [28] => Array
+        (
+            [id_option] => 41
+            [name] => Wycofane z DHL
+        )
+
+    [29] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [30] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [31] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-03-09 16:46:39] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => Wybierz
+        )
+
+    [1] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [2] => Array
+        (
+            [id_option] => 15
+            [name] => Awaiting Revolut payment
+        )
+
+    [3] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [4] => Array
+        (
+            [id_option] => 18
+            [name] => Błąd płatności (Tpay)
+        )
+
+    [5] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [6] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [7] => Array
+        (
+            [id_option] => 24
+            [name] => EHP 01: Wybrano finansowanie kredytem
+        )
+
+    [8] => Array
+        (
+            [id_option] => 25
+            [name] => EHP 02: oczekiwanie na decyzję Banku
+        )
+
+    [9] => Array
+        (
+            [id_option] => 26
+            [name] => EHP 03: Porzucono wniosek kredytowy
+        )
+
+    [10] => Array
+        (
+            [id_option] => 27
+            [name] => EHP 04: Udzielono kredytu
+        )
+
+    [11] => Array
+        (
+            [id_option] => 28
+            [name] => EHP 05: Bank odmówił udzielenia kredytu
+        )
+
+    [12] => Array
+        (
+            [id_option] => 29
+            [name] => EHP 06: Anulowano wniosek kredytowy
+        )
+
+    [13] => Array
+        (
+            [id_option] => 30
+            [name] => EHP 07: Potwierdź dostępność towaru
+        )
+
+    [14] => Array
+        (
+            [id_option] => 39
+            [name] => Leaselink - etap skladania wniosku
+        )
+
+    [15] => Array
+        (
+            [id_option] => 36
+            [name] => LeaseLink - oczekiwanie na płatność
+        )
+
+    [16] => Array
+        (
+            [id_option] => 40
+            [name] => Leaselink - płatność anulowana
+        )
+
+    [17] => Array
+        (
+            [id_option] => 37
+            [name] => Leaselink - płatność przyjęta
+        )
+
+    [18] => Array
+        (
+            [id_option] => 38
+            [name] => Leaselink - umowa podpisana - wyślij FV
+        )
+
+    [19] => Array
+        (
+            [id_option] => 16
+            [name] => Oczekiwanie na płatność (Tpay)
+        )
+
+    [20] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [21] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [22] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [23] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [24] => Array
+        (
+            [id_option] => 14
+            [name] => Płatność ING Lease Now: oczekuje na leasing
+        )
+
+    [25] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [26] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [27] => Array
+        (
+            [id_option] => 17
+            [name] => Płatność zaakceptowana (Tpay)
+        )
+
+    [28] => Array
+        (
+            [id_option] => 41
+            [name] => Wycofane z DHL
+        )
+
+    [29] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [30] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [31] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-03-09 16:47:35] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => Wybierz
+        )
+
+    [1] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [2] => Array
+        (
+            [id_option] => 15
+            [name] => Awaiting Revolut payment
+        )
+
+    [3] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [4] => Array
+        (
+            [id_option] => 18
+            [name] => Błąd płatności (Tpay)
+        )
+
+    [5] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [6] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [7] => Array
+        (
+            [id_option] => 24
+            [name] => EHP 01: Wybrano finansowanie kredytem
+        )
+
+    [8] => Array
+        (
+            [id_option] => 25
+            [name] => EHP 02: oczekiwanie na decyzję Banku
+        )
+
+    [9] => Array
+        (
+            [id_option] => 26
+            [name] => EHP 03: Porzucono wniosek kredytowy
+        )
+
+    [10] => Array
+        (
+            [id_option] => 27
+            [name] => EHP 04: Udzielono kredytu
+        )
+
+    [11] => Array
+        (
+            [id_option] => 28
+            [name] => EHP 05: Bank odmówił udzielenia kredytu
+        )
+
+    [12] => Array
+        (
+            [id_option] => 29
+            [name] => EHP 06: Anulowano wniosek kredytowy
+        )
+
+    [13] => Array
+        (
+            [id_option] => 30
+            [name] => EHP 07: Potwierdź dostępność towaru
+        )
+
+    [14] => Array
+        (
+            [id_option] => 39
+            [name] => Leaselink - etap skladania wniosku
+        )
+
+    [15] => Array
+        (
+            [id_option] => 36
+            [name] => LeaseLink - oczekiwanie na płatność
+        )
+
+    [16] => Array
+        (
+            [id_option] => 40
+            [name] => Leaselink - płatność anulowana
+        )
+
+    [17] => Array
+        (
+            [id_option] => 37
+            [name] => Leaselink - płatność przyjęta
+        )
+
+    [18] => Array
+        (
+            [id_option] => 38
+            [name] => Leaselink - umowa podpisana - wyślij FV
+        )
+
+    [19] => Array
+        (
+            [id_option] => 16
+            [name] => Oczekiwanie na płatność (Tpay)
+        )
+
+    [20] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [21] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [22] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [23] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [24] => Array
+        (
+            [id_option] => 14
+            [name] => Płatność ING Lease Now: oczekuje na leasing
+        )
+
+    [25] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [26] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [27] => Array
+        (
+            [id_option] => 17
+            [name] => Płatność zaakceptowana (Tpay)
+        )
+
+    [28] => Array
+        (
+            [id_option] => 41
+            [name] => Wycofane z DHL
+        )
+
+    [29] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [30] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [31] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-03-09 16:48:18] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => Wybierz
+        )
+
+    [1] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [2] => Array
+        (
+            [id_option] => 15
+            [name] => Awaiting Revolut payment
+        )
+
+    [3] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [4] => Array
+        (
+            [id_option] => 18
+            [name] => Błąd płatności (Tpay)
+        )
+
+    [5] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [6] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [7] => Array
+        (
+            [id_option] => 24
+            [name] => EHP 01: Wybrano finansowanie kredytem
+        )
+
+    [8] => Array
+        (
+            [id_option] => 25
+            [name] => EHP 02: oczekiwanie na decyzję Banku
+        )
+
+    [9] => Array
+        (
+            [id_option] => 26
+            [name] => EHP 03: Porzucono wniosek kredytowy
+        )
+
+    [10] => Array
+        (
+            [id_option] => 27
+            [name] => EHP 04: Udzielono kredytu
+        )
+
+    [11] => Array
+        (
+            [id_option] => 28
+            [name] => EHP 05: Bank odmówił udzielenia kredytu
+        )
+
+    [12] => Array
+        (
+            [id_option] => 29
+            [name] => EHP 06: Anulowano wniosek kredytowy
+        )
+
+    [13] => Array
+        (
+            [id_option] => 30
+            [name] => EHP 07: Potwierdź dostępność towaru
+        )
+
+    [14] => Array
+        (
+            [id_option] => 39
+            [name] => Leaselink - etap skladania wniosku
+        )
+
+    [15] => Array
+        (
+            [id_option] => 36
+            [name] => LeaseLink - oczekiwanie na płatność
+        )
+
+    [16] => Array
+        (
+            [id_option] => 40
+            [name] => Leaselink - płatność anulowana
+        )
+
+    [17] => Array
+        (
+            [id_option] => 37
+            [name] => Leaselink - płatność przyjęta
+        )
+
+    [18] => Array
+        (
+            [id_option] => 38
+            [name] => Leaselink - umowa podpisana - wyślij FV
+        )
+
+    [19] => Array
+        (
+            [id_option] => 16
+            [name] => Oczekiwanie na płatność (Tpay)
+        )
+
+    [20] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [21] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [22] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [23] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [24] => Array
+        (
+            [id_option] => 14
+            [name] => Płatność ING Lease Now: oczekuje na leasing
+        )
+
+    [25] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [26] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [27] => Array
+        (
+            [id_option] => 17
+            [name] => Płatność zaakceptowana (Tpay)
+        )
+
+    [28] => Array
+        (
+            [id_option] => 41
+            [name] => Wycofane z DHL
+        )
+
+    [29] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [30] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [31] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-03-09 16:50:03] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => Wybierz
+        )
+
+    [1] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [2] => Array
+        (
+            [id_option] => 15
+            [name] => Awaiting Revolut payment
+        )
+
+    [3] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [4] => Array
+        (
+            [id_option] => 18
+            [name] => Błąd płatności (Tpay)
+        )
+
+    [5] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [6] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [7] => Array
+        (
+            [id_option] => 24
+            [name] => EHP 01: Wybrano finansowanie kredytem
+        )
+
+    [8] => Array
+        (
+            [id_option] => 25
+            [name] => EHP 02: oczekiwanie na decyzję Banku
+        )
+
+    [9] => Array
+        (
+            [id_option] => 26
+            [name] => EHP 03: Porzucono wniosek kredytowy
+        )
+
+    [10] => Array
+        (
+            [id_option] => 27
+            [name] => EHP 04: Udzielono kredytu
+        )
+
+    [11] => Array
+        (
+            [id_option] => 28
+            [name] => EHP 05: Bank odmówił udzielenia kredytu
+        )
+
+    [12] => Array
+        (
+            [id_option] => 29
+            [name] => EHP 06: Anulowano wniosek kredytowy
+        )
+
+    [13] => Array
+        (
+            [id_option] => 30
+            [name] => EHP 07: Potwierdź dostępność towaru
+        )
+
+    [14] => Array
+        (
+            [id_option] => 39
+            [name] => Leaselink - etap skladania wniosku
+        )
+
+    [15] => Array
+        (
+            [id_option] => 36
+            [name] => LeaseLink - oczekiwanie na płatność
+        )
+
+    [16] => Array
+        (
+            [id_option] => 40
+            [name] => Leaselink - płatność anulowana
+        )
+
+    [17] => Array
+        (
+            [id_option] => 37
+            [name] => Leaselink - płatność przyjęta
+        )
+
+    [18] => Array
+        (
+            [id_option] => 38
+            [name] => Leaselink - umowa podpisana - wyślij FV
+        )
+
+    [19] => Array
+        (
+            [id_option] => 16
+            [name] => Oczekiwanie na płatność (Tpay)
+        )
+
+    [20] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [21] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [22] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [23] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [24] => Array
+        (
+            [id_option] => 14
+            [name] => Płatność ING Lease Now: oczekuje na leasing
+        )
+
+    [25] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [26] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [27] => Array
+        (
+            [id_option] => 17
+            [name] => Płatność zaakceptowana (Tpay)
+        )
+
+    [28] => Array
+        (
+            [id_option] => 41
+            [name] => Wycofane z DHL
+        )
+
+    [29] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [30] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [31] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-03-09 16:50:20] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => Wybierz
+        )
+
+    [1] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [2] => Array
+        (
+            [id_option] => 15
+            [name] => Awaiting Revolut payment
+        )
+
+    [3] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [4] => Array
+        (
+            [id_option] => 18
+            [name] => Błąd płatności (Tpay)
+        )
+
+    [5] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [6] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [7] => Array
+        (
+            [id_option] => 24
+            [name] => EHP 01: Wybrano finansowanie kredytem
+        )
+
+    [8] => Array
+        (
+            [id_option] => 25
+            [name] => EHP 02: oczekiwanie na decyzję Banku
+        )
+
+    [9] => Array
+        (
+            [id_option] => 26
+            [name] => EHP 03: Porzucono wniosek kredytowy
+        )
+
+    [10] => Array
+        (
+            [id_option] => 27
+            [name] => EHP 04: Udzielono kredytu
+        )
+
+    [11] => Array
+        (
+            [id_option] => 28
+            [name] => EHP 05: Bank odmówił udzielenia kredytu
+        )
+
+    [12] => Array
+        (
+            [id_option] => 29
+            [name] => EHP 06: Anulowano wniosek kredytowy
+        )
+
+    [13] => Array
+        (
+            [id_option] => 30
+            [name] => EHP 07: Potwierdź dostępność towaru
+        )
+
+    [14] => Array
+        (
+            [id_option] => 39
+            [name] => Leaselink - etap skladania wniosku
+        )
+
+    [15] => Array
+        (
+            [id_option] => 36
+            [name] => LeaseLink - oczekiwanie na płatność
+        )
+
+    [16] => Array
+        (
+            [id_option] => 40
+            [name] => Leaselink - płatność anulowana
+        )
+
+    [17] => Array
+        (
+            [id_option] => 37
+            [name] => Leaselink - płatność przyjęta
+        )
+
+    [18] => Array
+        (
+            [id_option] => 38
+            [name] => Leaselink - umowa podpisana - wyślij FV
+        )
+
+    [19] => Array
+        (
+            [id_option] => 16
+            [name] => Oczekiwanie na płatność (Tpay)
+        )
+
+    [20] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [21] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [22] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [23] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [24] => Array
+        (
+            [id_option] => 14
+            [name] => Płatność ING Lease Now: oczekuje na leasing
+        )
+
+    [25] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [26] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [27] => Array
+        (
+            [id_option] => 17
+            [name] => Płatność zaakceptowana (Tpay)
+        )
+
+    [28] => Array
+        (
+            [id_option] => 41
+            [name] => Wycofane z DHL
+        )
+
+    [29] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [30] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [31] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-03-09 16:55:58] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => Wybierz
+        )
+
+    [1] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [2] => Array
+        (
+            [id_option] => 15
+            [name] => Awaiting Revolut payment
+        )
+
+    [3] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [4] => Array
+        (
+            [id_option] => 18
+            [name] => Błąd płatności (Tpay)
+        )
+
+    [5] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [6] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [7] => Array
+        (
+            [id_option] => 24
+            [name] => EHP 01: Wybrano finansowanie kredytem
+        )
+
+    [8] => Array
+        (
+            [id_option] => 25
+            [name] => EHP 02: oczekiwanie na decyzję Banku
+        )
+
+    [9] => Array
+        (
+            [id_option] => 26
+            [name] => EHP 03: Porzucono wniosek kredytowy
+        )
+
+    [10] => Array
+        (
+            [id_option] => 27
+            [name] => EHP 04: Udzielono kredytu
+        )
+
+    [11] => Array
+        (
+            [id_option] => 28
+            [name] => EHP 05: Bank odmówił udzielenia kredytu
+        )
+
+    [12] => Array
+        (
+            [id_option] => 29
+            [name] => EHP 06: Anulowano wniosek kredytowy
+        )
+
+    [13] => Array
+        (
+            [id_option] => 30
+            [name] => EHP 07: Potwierdź dostępność towaru
+        )
+
+    [14] => Array
+        (
+            [id_option] => 39
+            [name] => Leaselink - etap skladania wniosku
+        )
+
+    [15] => Array
+        (
+            [id_option] => 36
+            [name] => LeaseLink - oczekiwanie na płatność
+        )
+
+    [16] => Array
+        (
+            [id_option] => 40
+            [name] => Leaselink - płatność anulowana
+        )
+
+    [17] => Array
+        (
+            [id_option] => 37
+            [name] => Leaselink - płatność przyjęta
+        )
+
+    [18] => Array
+        (
+            [id_option] => 38
+            [name] => Leaselink - umowa podpisana - wyślij FV
+        )
+
+    [19] => Array
+        (
+            [id_option] => 16
+            [name] => Oczekiwanie na płatność (Tpay)
+        )
+
+    [20] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [21] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [22] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [23] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [24] => Array
+        (
+            [id_option] => 14
+            [name] => Płatność ING Lease Now: oczekuje na leasing
+        )
+
+    [25] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [26] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [27] => Array
+        (
+            [id_option] => 17
+            [name] => Płatność zaakceptowana (Tpay)
+        )
+
+    [28] => Array
+        (
+            [id_option] => 41
+            [name] => Wycofane z DHL
+        )
+
+    [29] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [30] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [31] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-03-09 16:56:10] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => Wybierz
+        )
+
+    [1] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [2] => Array
+        (
+            [id_option] => 15
+            [name] => Awaiting Revolut payment
+        )
+
+    [3] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [4] => Array
+        (
+            [id_option] => 18
+            [name] => Błąd płatności (Tpay)
+        )
+
+    [5] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [6] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [7] => Array
+        (
+            [id_option] => 24
+            [name] => EHP 01: Wybrano finansowanie kredytem
+        )
+
+    [8] => Array
+        (
+            [id_option] => 25
+            [name] => EHP 02: oczekiwanie na decyzję Banku
+        )
+
+    [9] => Array
+        (
+            [id_option] => 26
+            [name] => EHP 03: Porzucono wniosek kredytowy
+        )
+
+    [10] => Array
+        (
+            [id_option] => 27
+            [name] => EHP 04: Udzielono kredytu
+        )
+
+    [11] => Array
+        (
+            [id_option] => 28
+            [name] => EHP 05: Bank odmówił udzielenia kredytu
+        )
+
+    [12] => Array
+        (
+            [id_option] => 29
+            [name] => EHP 06: Anulowano wniosek kredytowy
+        )
+
+    [13] => Array
+        (
+            [id_option] => 30
+            [name] => EHP 07: Potwierdź dostępność towaru
+        )
+
+    [14] => Array
+        (
+            [id_option] => 39
+            [name] => Leaselink - etap skladania wniosku
+        )
+
+    [15] => Array
+        (
+            [id_option] => 36
+            [name] => LeaseLink - oczekiwanie na płatność
+        )
+
+    [16] => Array
+        (
+            [id_option] => 40
+            [name] => Leaselink - płatność anulowana
+        )
+
+    [17] => Array
+        (
+            [id_option] => 37
+            [name] => Leaselink - płatność przyjęta
+        )
+
+    [18] => Array
+        (
+            [id_option] => 38
+            [name] => Leaselink - umowa podpisana - wyślij FV
+        )
+
+    [19] => Array
+        (
+            [id_option] => 16
+            [name] => Oczekiwanie na płatność (Tpay)
+        )
+
+    [20] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [21] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [22] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [23] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [24] => Array
+        (
+            [id_option] => 14
+            [name] => Płatność ING Lease Now: oczekuje na leasing
+        )
+
+    [25] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [26] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [27] => Array
+        (
+            [id_option] => 17
+            [name] => Płatność zaakceptowana (Tpay)
+        )
+
+    [28] => Array
+        (
+            [id_option] => 41
+            [name] => Wycofane z DHL
+        )
+
+    [29] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [30] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [31] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-03-13 08:46:38] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => Wybierz
+        )
+
+    [1] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [2] => Array
+        (
+            [id_option] => 15
+            [name] => Awaiting Revolut payment
+        )
+
+    [3] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [4] => Array
+        (
+            [id_option] => 18
+            [name] => Błąd płatności (Tpay)
+        )
+
+    [5] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [6] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [7] => Array
+        (
+            [id_option] => 24
+            [name] => EHP 01: Wybrano finansowanie kredytem
+        )
+
+    [8] => Array
+        (
+            [id_option] => 25
+            [name] => EHP 02: oczekiwanie na decyzję Banku
+        )
+
+    [9] => Array
+        (
+            [id_option] => 26
+            [name] => EHP 03: Porzucono wniosek kredytowy
+        )
+
+    [10] => Array
+        (
+            [id_option] => 27
+            [name] => EHP 04: Udzielono kredytu
+        )
+
+    [11] => Array
+        (
+            [id_option] => 28
+            [name] => EHP 05: Bank odmówił udzielenia kredytu
+        )
+
+    [12] => Array
+        (
+            [id_option] => 29
+            [name] => EHP 06: Anulowano wniosek kredytowy
+        )
+
+    [13] => Array
+        (
+            [id_option] => 30
+            [name] => EHP 07: Potwierdź dostępność towaru
+        )
+
+    [14] => Array
+        (
+            [id_option] => 39
+            [name] => Leaselink - etap skladania wniosku
+        )
+
+    [15] => Array
+        (
+            [id_option] => 36
+            [name] => LeaseLink - oczekiwanie na płatność
+        )
+
+    [16] => Array
+        (
+            [id_option] => 40
+            [name] => Leaselink - płatność anulowana
+        )
+
+    [17] => Array
+        (
+            [id_option] => 37
+            [name] => Leaselink - płatność przyjęta
+        )
+
+    [18] => Array
+        (
+            [id_option] => 38
+            [name] => Leaselink - umowa podpisana - wyślij FV
+        )
+
+    [19] => Array
+        (
+            [id_option] => 16
+            [name] => Oczekiwanie na płatność (Tpay)
+        )
+
+    [20] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [21] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [22] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [23] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [24] => Array
+        (
+            [id_option] => 14
+            [name] => Płatność ING Lease Now: oczekuje na leasing
+        )
+
+    [25] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [26] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [27] => Array
+        (
+            [id_option] => 17
+            [name] => Płatność zaakceptowana (Tpay)
+        )
+
+    [28] => Array
+        (
+            [id_option] => 41
+            [name] => Wycofane z DHL
+        )
+
+    [29] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [30] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [31] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-03-13 08:46:59] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => Wybierz
+        )
+
+    [1] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [2] => Array
+        (
+            [id_option] => 15
+            [name] => Awaiting Revolut payment
+        )
+
+    [3] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [4] => Array
+        (
+            [id_option] => 18
+            [name] => Błąd płatności (Tpay)
+        )
+
+    [5] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [6] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [7] => Array
+        (
+            [id_option] => 24
+            [name] => EHP 01: Wybrano finansowanie kredytem
+        )
+
+    [8] => Array
+        (
+            [id_option] => 25
+            [name] => EHP 02: oczekiwanie na decyzję Banku
+        )
+
+    [9] => Array
+        (
+            [id_option] => 26
+            [name] => EHP 03: Porzucono wniosek kredytowy
+        )
+
+    [10] => Array
+        (
+            [id_option] => 27
+            [name] => EHP 04: Udzielono kredytu
+        )
+
+    [11] => Array
+        (
+            [id_option] => 28
+            [name] => EHP 05: Bank odmówił udzielenia kredytu
+        )
+
+    [12] => Array
+        (
+            [id_option] => 29
+            [name] => EHP 06: Anulowano wniosek kredytowy
+        )
+
+    [13] => Array
+        (
+            [id_option] => 30
+            [name] => EHP 07: Potwierdź dostępność towaru
+        )
+
+    [14] => Array
+        (
+            [id_option] => 39
+            [name] => Leaselink - etap skladania wniosku
+        )
+
+    [15] => Array
+        (
+            [id_option] => 36
+            [name] => LeaseLink - oczekiwanie na płatność
+        )
+
+    [16] => Array
+        (
+            [id_option] => 40
+            [name] => Leaselink - płatność anulowana
+        )
+
+    [17] => Array
+        (
+            [id_option] => 37
+            [name] => Leaselink - płatność przyjęta
+        )
+
+    [18] => Array
+        (
+            [id_option] => 38
+            [name] => Leaselink - umowa podpisana - wyślij FV
+        )
+
+    [19] => Array
+        (
+            [id_option] => 16
+            [name] => Oczekiwanie na płatność (Tpay)
+        )
+
+    [20] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [21] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [22] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [23] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [24] => Array
+        (
+            [id_option] => 14
+            [name] => Płatność ING Lease Now: oczekuje na leasing
+        )
+
+    [25] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [26] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [27] => Array
+        (
+            [id_option] => 17
+            [name] => Płatność zaakceptowana (Tpay)
+        )
+
+    [28] => Array
+        (
+            [id_option] => 41
+            [name] => Wycofane z DHL
+        )
+
+    [29] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [30] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [31] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-03-13 08:48:51] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => Wybierz
+        )
+
+    [1] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [2] => Array
+        (
+            [id_option] => 15
+            [name] => Awaiting Revolut payment
+        )
+
+    [3] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [4] => Array
+        (
+            [id_option] => 18
+            [name] => Błąd płatności (Tpay)
+        )
+
+    [5] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [6] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [7] => Array
+        (
+            [id_option] => 24
+            [name] => EHP 01: Wybrano finansowanie kredytem
+        )
+
+    [8] => Array
+        (
+            [id_option] => 25
+            [name] => EHP 02: oczekiwanie na decyzję Banku
+        )
+
+    [9] => Array
+        (
+            [id_option] => 26
+            [name] => EHP 03: Porzucono wniosek kredytowy
+        )
+
+    [10] => Array
+        (
+            [id_option] => 27
+            [name] => EHP 04: Udzielono kredytu
+        )
+
+    [11] => Array
+        (
+            [id_option] => 28
+            [name] => EHP 05: Bank odmówił udzielenia kredytu
+        )
+
+    [12] => Array
+        (
+            [id_option] => 29
+            [name] => EHP 06: Anulowano wniosek kredytowy
+        )
+
+    [13] => Array
+        (
+            [id_option] => 30
+            [name] => EHP 07: Potwierdź dostępność towaru
+        )
+
+    [14] => Array
+        (
+            [id_option] => 39
+            [name] => Leaselink - etap skladania wniosku
+        )
+
+    [15] => Array
+        (
+            [id_option] => 36
+            [name] => LeaseLink - oczekiwanie na płatność
+        )
+
+    [16] => Array
+        (
+            [id_option] => 40
+            [name] => Leaselink - płatność anulowana
+        )
+
+    [17] => Array
+        (
+            [id_option] => 37
+            [name] => Leaselink - płatność przyjęta
+        )
+
+    [18] => Array
+        (
+            [id_option] => 38
+            [name] => Leaselink - umowa podpisana - wyślij FV
+        )
+
+    [19] => Array
+        (
+            [id_option] => 16
+            [name] => Oczekiwanie na płatność (Tpay)
+        )
+
+    [20] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [21] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [22] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [23] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [24] => Array
+        (
+            [id_option] => 14
+            [name] => Płatność ING Lease Now: oczekuje na leasing
+        )
+
+    [25] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [26] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [27] => Array
+        (
+            [id_option] => 17
+            [name] => Płatność zaakceptowana (Tpay)
+        )
+
+    [28] => Array
+        (
+            [id_option] => 41
+            [name] => Wycofane z DHL
+        )
+
+    [29] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [30] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [31] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-03-13 08:49:04] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => Wybierz
+        )
+
+    [1] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [2] => Array
+        (
+            [id_option] => 15
+            [name] => Awaiting Revolut payment
+        )
+
+    [3] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [4] => Array
+        (
+            [id_option] => 18
+            [name] => Błąd płatności (Tpay)
+        )
+
+    [5] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [6] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [7] => Array
+        (
+            [id_option] => 24
+            [name] => EHP 01: Wybrano finansowanie kredytem
+        )
+
+    [8] => Array
+        (
+            [id_option] => 25
+            [name] => EHP 02: oczekiwanie na decyzję Banku
+        )
+
+    [9] => Array
+        (
+            [id_option] => 26
+            [name] => EHP 03: Porzucono wniosek kredytowy
+        )
+
+    [10] => Array
+        (
+            [id_option] => 27
+            [name] => EHP 04: Udzielono kredytu
+        )
+
+    [11] => Array
+        (
+            [id_option] => 28
+            [name] => EHP 05: Bank odmówił udzielenia kredytu
+        )
+
+    [12] => Array
+        (
+            [id_option] => 29
+            [name] => EHP 06: Anulowano wniosek kredytowy
+        )
+
+    [13] => Array
+        (
+            [id_option] => 30
+            [name] => EHP 07: Potwierdź dostępność towaru
+        )
+
+    [14] => Array
+        (
+            [id_option] => 39
+            [name] => Leaselink - etap skladania wniosku
+        )
+
+    [15] => Array
+        (
+            [id_option] => 36
+            [name] => LeaseLink - oczekiwanie na płatność
+        )
+
+    [16] => Array
+        (
+            [id_option] => 40
+            [name] => Leaselink - płatność anulowana
+        )
+
+    [17] => Array
+        (
+            [id_option] => 37
+            [name] => Leaselink - płatność przyjęta
+        )
+
+    [18] => Array
+        (
+            [id_option] => 38
+            [name] => Leaselink - umowa podpisana - wyślij FV
+        )
+
+    [19] => Array
+        (
+            [id_option] => 16
+            [name] => Oczekiwanie na płatność (Tpay)
+        )
+
+    [20] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [21] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [22] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [23] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [24] => Array
+        (
+            [id_option] => 14
+            [name] => Płatność ING Lease Now: oczekuje na leasing
+        )
+
+    [25] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [26] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [27] => Array
+        (
+            [id_option] => 17
+            [name] => Płatność zaakceptowana (Tpay)
+        )
+
+    [28] => Array
+        (
+            [id_option] => 41
+            [name] => Wycofane z DHL
+        )
+
+    [29] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [30] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [31] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-03-13 08:49:23] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => Wybierz
+        )
+
+    [1] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [2] => Array
+        (
+            [id_option] => 15
+            [name] => Awaiting Revolut payment
+        )
+
+    [3] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [4] => Array
+        (
+            [id_option] => 18
+            [name] => Błąd płatności (Tpay)
+        )
+
+    [5] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [6] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [7] => Array
+        (
+            [id_option] => 24
+            [name] => EHP 01: Wybrano finansowanie kredytem
+        )
+
+    [8] => Array
+        (
+            [id_option] => 25
+            [name] => EHP 02: oczekiwanie na decyzję Banku
+        )
+
+    [9] => Array
+        (
+            [id_option] => 26
+            [name] => EHP 03: Porzucono wniosek kredytowy
+        )
+
+    [10] => Array
+        (
+            [id_option] => 27
+            [name] => EHP 04: Udzielono kredytu
+        )
+
+    [11] => Array
+        (
+            [id_option] => 28
+            [name] => EHP 05: Bank odmówił udzielenia kredytu
+        )
+
+    [12] => Array
+        (
+            [id_option] => 29
+            [name] => EHP 06: Anulowano wniosek kredytowy
+        )
+
+    [13] => Array
+        (
+            [id_option] => 30
+            [name] => EHP 07: Potwierdź dostępność towaru
+        )
+
+    [14] => Array
+        (
+            [id_option] => 39
+            [name] => Leaselink - etap skladania wniosku
+        )
+
+    [15] => Array
+        (
+            [id_option] => 36
+            [name] => LeaseLink - oczekiwanie na płatność
+        )
+
+    [16] => Array
+        (
+            [id_option] => 40
+            [name] => Leaselink - płatność anulowana
+        )
+
+    [17] => Array
+        (
+            [id_option] => 37
+            [name] => Leaselink - płatność przyjęta
+        )
+
+    [18] => Array
+        (
+            [id_option] => 38
+            [name] => Leaselink - umowa podpisana - wyślij FV
+        )
+
+    [19] => Array
+        (
+            [id_option] => 16
+            [name] => Oczekiwanie na płatność (Tpay)
+        )
+
+    [20] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [21] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [22] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [23] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [24] => Array
+        (
+            [id_option] => 14
+            [name] => Płatność ING Lease Now: oczekuje na leasing
+        )
+
+    [25] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [26] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [27] => Array
+        (
+            [id_option] => 17
+            [name] => Płatność zaakceptowana (Tpay)
+        )
+
+    [28] => Array
+        (
+            [id_option] => 41
+            [name] => Wycofane z DHL
+        )
+
+    [29] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [30] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [31] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+
+[2025-07-24 12:39:43] Array
+(
+    [0] => Array
+        (
+            [id_option] => 
+            [name] => Wybierz
+        )
+
+    [1] => Array
+        (
+            [id_option] => 6
+            [name] => Anulowane
+        )
+
+    [2] => Array
+        (
+            [id_option] => 15
+            [name] => Awaiting Revolut payment
+        )
+
+    [3] => Array
+        (
+            [id_option] => 8
+            [name] => Błąd płatności
+        )
+
+    [4] => Array
+        (
+            [id_option] => 18
+            [name] => Błąd płatności (Tpay)
+        )
+
+    [5] => Array
+        (
+            [id_option] => 4
+            [name] => Dostarczane
+        )
+
+    [6] => Array
+        (
+            [id_option] => 5
+            [name] => Dostarczone
+        )
+
+    [7] => Array
+        (
+            [id_option] => 24
+            [name] => EHP 01: Wybrano finansowanie kredytem
+        )
+
+    [8] => Array
+        (
+            [id_option] => 25
+            [name] => EHP 02: oczekiwanie na decyzję Banku
+        )
+
+    [9] => Array
+        (
+            [id_option] => 26
+            [name] => EHP 03: Porzucono wniosek kredytowy
+        )
+
+    [10] => Array
+        (
+            [id_option] => 27
+            [name] => EHP 04: Udzielono kredytu
+        )
+
+    [11] => Array
+        (
+            [id_option] => 28
+            [name] => EHP 05: Bank odmówił udzielenia kredytu
+        )
+
+    [12] => Array
+        (
+            [id_option] => 29
+            [name] => EHP 06: Anulowano wniosek kredytowy
+        )
+
+    [13] => Array
+        (
+            [id_option] => 30
+            [name] => EHP 07: Potwierdź dostępność towaru
+        )
+
+    [14] => Array
+        (
+            [id_option] => 39
+            [name] => Leaselink - etap skladania wniosku
+        )
+
+    [15] => Array
+        (
+            [id_option] => 36
+            [name] => LeaseLink - oczekiwanie na płatność
+        )
+
+    [16] => Array
+        (
+            [id_option] => 40
+            [name] => Leaselink - płatność anulowana
+        )
+
+    [17] => Array
+        (
+            [id_option] => 37
+            [name] => Leaselink - płatność przyjęta
+        )
+
+    [18] => Array
+        (
+            [id_option] => 38
+            [name] => Leaselink - umowa podpisana - wyślij FV
+        )
+
+    [19] => Array
+        (
+            [id_option] => 42
+            [name] => Nowe nieobsłużone
+        )
+
+    [20] => Array
+        (
+            [id_option] => 16
+            [name] => Oczekiwanie na płatność (Tpay)
+        )
+
+    [21] => Array
+        (
+            [id_option] => 1
+            [name] => Oczekiwanie na płatność czekiem
+        )
+
+    [22] => Array
+        (
+            [id_option] => 10
+            [name] => Oczekiwanie na płatność przelewem
+        )
+
+    [23] => Array
+        (
+            [id_option] => 13
+            [name] => Oczekiwanie na płatność przy odbiorze
+        )
+
+    [24] => Array
+        (
+            [id_option] => 3
+            [name] => Przygotowanie w toku
+        )
+
+    [25] => Array
+        (
+            [id_option] => 14
+            [name] => Płatność ING Lease Now: oczekuje na leasing
+        )
+
+    [26] => Array
+        (
+            [id_option] => 11
+            [name] => Płatność przyjęta
+        )
+
+    [27] => Array
+        (
+            [id_option] => 2
+            [name] => Płatność zaakceptowana
+        )
+
+    [28] => Array
+        (
+            [id_option] => 17
+            [name] => Płatność zaakceptowana (Tpay)
+        )
+
+    [29] => Array
+        (
+            [id_option] => 41
+            [name] => Wycofane z DHL
+        )
+
+    [30] => Array
+        (
+            [id_option] => 12
+            [name] => Zamówienie oczekujące (nieopłacone)
+        )
+
+    [31] => Array
+        (
+            [id_option] => 9
+            [name] => Zamówienie oczekujące (opłacone)
+        )
+
+    [32] => Array
+        (
+            [id_option] => 7
+            [name] => Zwróconych pieniędzy
+        )
+
+)
+

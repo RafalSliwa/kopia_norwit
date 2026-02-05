@@ -1,0 +1,5 @@
+[2025-12-09 20:08:16] doctrine.DEBUG: SELECT alias FROM drrk_tpay_blik t WHERE t.user_id = :userId {"userId":0} []
+[2025-12-09 20:08:20] doctrine.DEBUG: SELECT alias FROM drrk_tpay_blik t WHERE t.user_id = :userId {"userId":0} []
+[2025-12-09 20:08:34] doctrine.DEBUG: SELECT alias FROM drrk_tpay_blik t WHERE t.user_id = :userId {"userId":0} []
+[2025-12-09 20:08:37] doctrine.DEBUG: SELECT alias FROM drrk_tpay_blik t WHERE t.user_id = :userId {"userId":0} []
+[2025-12-09 20:08:55] doctrine.DEBUG: SELECT alias FROM drrk_tpay_blik t WHERE t.user_id = :userId {"userId":0} []

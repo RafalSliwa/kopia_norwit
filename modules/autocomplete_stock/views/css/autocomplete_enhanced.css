@@ -1,0 +1,386 @@
+/* dim the entire page when autocomplete is open (desktop) */
+body.astock-overlay-dim::before {
+  content: "";
+  position: fixed;
+  top: 91px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.5);
+  z-index: 1000; /* poniżej menu */
+  pointer-events: auto;
+}
+  /* (optional) disable clicks on the background 
+  body.astock-overlay-dim {
+  pointer-events: none;  ← leave disabled if you want to stop capturing clicks on the background 
+  }*/
+
+#astock-search-fs {
+  display: none !important;
+}
+
+.searchbar-autocomplete {
+  padding: 10px 10px;
+  left: 45% !important;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px !important;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 1200px !important;
+  z-index: 1005 !important; 
+  max-height: 90vh;   /* or 100vh, but usually some space is left */
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch; /* płynny scroll na iOS */
+}
+
+
+/* ====== Highlighted phrase ====== */
+.ui-autocomplete .highlight,
+.ui-autocomplete mark {
+  font-family: lato, sans-serif;
+  font-weight: 700;
+  color: #ffc107;
+  background: transparent;
+}
+
+.products-block,
+.chips-block,
+.manufacturers-block {
+  width: 33.33% !important;
+  padding: 5px 5px !important;
+}
+
+
+.ui-state-disabled.ui-autocomplete-category.autocomplete-section,
+.ui-state-disabled.ui-autocomplete-category.autocomplete-section,
+.ui-state-disabled.ui-autocomplete-category.autocomplete-section{
+  font-family: lato, sans-serif;
+  font-size: 16px !important;
+  opacity: 1;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: .3px;
+  text-transform: uppercase;
+  position: relative;
+  color: #1d1d1d;
+  padding: 10px 16px;
+  line-height: 1;
+  margin: 0;
+      
+  &::after{content: "";
+    display: block;
+    width: 72px;
+    position: absolute;
+    bottom: -1px;
+    left: 16px;
+    border-bottom: 2px solid #ffc107;
+    transition: all .3s ease;
+  }
+
+  &::before{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 16px;        
+    right: 0;        
+    border-bottom: 1px solid #e5e5e5;
+  }
+}
+
+.ui-autocomplete.searchbar-autocomplete li.ui-menu-item {
+  font-size: lato, sans-serif;
+  border-bottom:none !important;
+}
+
+.ui-autocomplete .chip::before {
+  content: "🔍";
+  display: inline-block;
+  margin-right: 6px;
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+img.manufacturer-logo {
+    margin-right: 8px;
+    width: 40px;
+}
+
+.see-all {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin-top: 1rem;
+  padding-top: 1rem; 
+
+  &::before{
+    content: "";
+    position: absolute;
+    top: 0;          
+    left: 16px;
+    right: 16px;
+    border-top: 1px solid #e5e5e5;
+  }
+}
+
+.see-all a.ui-menu-item-wrapper {
+    color: #1d1d1a !important;
+    font-weight: 600 !important;
+    
+  &:hover {
+    background: none !important;
+    font-weight: 600 !important;
+    color: #ffc107 !important;
+  }
+}
+
+/* ====== Recommended products ====== */
+.recommended_products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.recommended_products a.custom-tile {
+  background: white !important;
+  margin-bottom: 15px !important;
+  margin-top: 15px !important;
+  border-radius: 5px !important;
+  border: 1px solid #e5e5e5 !important;
+  width: 200px; /* standard width for regular banners */
+ 
+}
+
+
+.recommended_products a.custom-tile img.custom-image {
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+  display: block;
+   &:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+  }
+}
+
+/* ====== Global banner: full width ====== */
+.recommended_products a.custom-tile.global-banner {
+  border: none !important;
+  flex: 1 1 100%;
+  max-width: 100%;
+}
+
+.ui-menu-item.no-results {
+  font-weight: 600;
+  text-align: center;
+  padding: 16px;
+  color: #1d1d1a;
+  font-size: 16px;
+  line-height: 1.4;
+}
+.ui-menu-item.no-results a.call-us {
+  padding: 0;
+  display: inline-flex;
+  color: #ffc009;
+  font-weight: 600;
+  text-decoration: none;
+}
+.ui-menu-item.no-results a.call-us:hover {
+  text-decoration: underline;
+}
+
+
+
+@media (max-width: 768px) {
+  #astock-search-fs {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    background: #fff;
+    display: none !important;      
+    flex-direction: column;
+  }
+  #astock-search-fs.open {
+    display: flex !important;      
+  }
+  .search-fs-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    background:#fff;
+    display:none;
+    flex-direction:column;
+  }
+  .search-fs-overlay.open { display:flex; }
+
+  /* --- Header --- */
+  .search-fs-header {
+    display:flex; 
+    align-items:center; gap:8px;
+    padding:12px 16px;
+  }
+  .search-fs-close {
+    appearance:none; background:none; border:0;
+    font-size:18px; line-height:1; padding:6px 8px;
+  }
+  .search-fs-input {
+    flex:1; display:flex; align-items:center; gap:8px;
+    background:#f3f4f6; border-radius:10px; padding:8px 12px;
+  }
+  .search-fs-input input {
+    border:0; outline:0; background:transparent; width:100%; font-size:16px;
+  }
+
+  /* --- Tabs --- */
+
+  .search-fs-tabs {
+    display: flex;
+    gap: 18px;
+    padding: 8px 16px 0;
+    position: relative; 
+
+    &::before{
+      content: "";
+        position: absolute;
+        bottom: 0;
+        left: 16px;   
+        right: 16px;    
+        border-bottom: 1px solid #e5e5e5
+    }
+  }
+  
+  .search-fs-tab {
+    padding:10px 0; 
+    font-weight:600;
+    border-bottom:3px solid transparent; color:#1d1d1a;
+    font-size: 16px;
+  }
+  .search-fs-tab.active { border-bottom-color:#111; color:#111; }
+
+  /* --- Body (without its own scroll; scroll only on the results list) --- */
+  .search-fs-body {
+    position: relative;
+    flex: 1;
+    padding: 8px 0 env(safe-area-inset-bottom);
+  }
+  .search-fs-body .searchbar-autocomplete {
+    left: 50% !important;
+  }
+
+  /* results menu in overlay – 1 scrollbar here */
+  .search-fs-body .ui-autocomplete {
+    top: 0 !important;
+    position: absolute;
+    inset: 0;                
+    width: 100% !important;
+    max-height: 100%;
+    overflow-y: auto;        
+    -webkit-overflow-scrolling: touch;
+    border: 0;
+    box-shadow: none;
+    background: #fff;
+    z-index: 10001;
+    padding: 0;
+  }
+
+  /* general jQuery UI cleanup */
+  .search-fs-body .ui-menu { padding: 0; margin: 0; }
+  .search-fs-body .ui-menu .ui-menu-item { margin: 0; }
+  .search-fs-body .ui-menu .ui-menu-item .ui-menu-item-wrapper {
+    display: flex; align-items: center; gap: 10px;
+    padding: 10px 16px;
+    line-height: 1.25;
+    white-space: normal;
+  }
+  .search-fs-body .ui-state-active {
+    background: #f5f5f5 !important;
+    border: 0 !important;
+  }
+
+  /* section headers */
+  .search-fs-body .autocomplete-section {
+    display: none; 
+  }
+
+  /* single-column layout for sections on mobile */
+  .search-fs-body .products-block,
+  .search-fs-body .chips-block,
+  .search-fs-body .custom-block,
+  .search-fs-body .manufacturers-block {width: 100% !important;padding-bottom: 6px !important;}
+
+  .search-fs-body .col-left,
+  .search-fs-body .col-right,
+  .search-fs-body .col-span-2 { width: 100%; }
+
+  /* product thumbnails */
+  .search-fs-body .autocomplete-thumbnail {
+    width: 44px; height: 44px; object-fit: cover;
+    border-radius: 6px; flex: 0 0 auto;
+  }
+  .search-fs-body .product { font-size: 14px; color: #111; }
+
+  /* manufacturers (logo) — anyway hidden by CSS in the overlay below */
+  .search-fs-body .manufacturer-logo {
+    width: 40px; height: 40px; object-fit: contain; border-radius: 4px; background:#fff;
+  }
+  .search-fs-body .manufacturer { font-size: 14px; color:#111; }
+
+  /* category chips */
+  .search-fs-body .chips {
+    padding:5px 5px;
+  }
+
+  .search-fs-body .chip {
+    display: inline-flex; align-items: center; gap: 8px;
+    max-width: 100%;
+    padding: 8px 12px; border: 1px solid #e5e7eb; border-radius: 9999px;
+    background: #fff; color: #111; font-size: 13px; text-decoration: none;
+  }
+  .search-fs-body .chip:hover { background: #f5f5f5; }
+
+ 
+  .search-fs-body .recommended_products.astock-tiles {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 10px; padding: 6px 16px 12px;
+  }
+  .search-fs-body .custom-tile {
+    display: block; border: 1px solid #eee; border-radius: 10px; overflow: hidden;
+    background: #fff; text-decoration: none;
+  }
+  .search-fs-body .custom-tile .custom-image {
+    width: 100%; height: 90px; object-fit: cover; display: block;
+  }
+  .search-fs-body .custom-tile .custom-title {
+    padding: 8px 10px; font-size: 13px; color:#111;
+  }
+  .search-fs-body .custom-tile.global-banner .custom-image { height: 120px; }
+  .search-fs-body .custom-tile.global-banner { grid-column: 1 / -1; }
+
+  
+  .search-fs-body .see-all .ui-menu-item-wrapper {
+    justify-content: center; font-weight: 600; color: #0b5ed7;
+  }
+
+  
+  .search-fs-body .highlight { background: #fffbcc; padding: 0 2px; border-radius: 3px; }
+
+  
+  body.search-fs-lock { overflow: hidden; touch-action: none; }
+
+  /* ===== TAB LOGIC (only in overlay) ===== */
+  /* JS adds classes: .only-products / .only-cats / .hide-on-mobile to appropriate blocks */
+  .search-fs-overlay .hide-on-mobile { display: none !important; }
+  .search-fs-overlay.tab-products .only-cats { display: none !important; }
+  .search-fs-overlay.tab-cats .only-products { display: none !important; }
+
+  .ui-autocomplete:empty { display: none !important; }
+
+  .custom-block.ui-menu-item.only-products {
+    display: none;
+  }
+  li.ui-menu-item.no-results .ui-menu-item-wrapper{
+    display: flex;
+    flex-direction: column;}
+    
+}
+
+

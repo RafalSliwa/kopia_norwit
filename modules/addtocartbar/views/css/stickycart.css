@@ -1,0 +1,97 @@
+/**
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file.
+ * You are not authorized to modify, copy or redistribute this file.
+ * Permissions are reserved by FME Modules.
+ *
+ *  @author    FMM Modules
+ *  @copyright FME Modules 2023
+ *  @license   Single domain
+ */
+.container-fluid {
+    position: fixed;
+    z-index: 100;
+    width: 100% !important;
+    display: none;
+    border-bottom: solid;
+    overflow: hidden;
+}
+.wk_img {
+    width: 100%;
+    margin: .3em;
+    margin-top: 0.3em;
+}
+.wk_price {
+    color: #7a7a7a;
+}
+.qtyy {
+    width: 100%;
+}
+#sticky-variants .product-variants {
+    display: flex;
+}
+#sticky-variants .product-variants-item {
+    margin-left: 5px;
+}
+#stickyImg .mask, #sticky-cart .wishlist-button-add {
+    display: none !important;
+}
+#sticky-cart .product-quantity {
+    display: -webkit-box !important;
+}
+#sticky-variants .product-variants .product-variants-item {
+    margin-top: 0px !important;
+}
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    #sticky-price, #stickyImg .images-container {
+        display: none;
+    }
+    #sticky-variants .product-variants {
+        display: block !important;
+    }
+    #sticky-cart .btn-primary .material-icons {
+        margin-right: 0px !important;
+    }
+    #sticky-cart .btn {
+        font-size: 1.5rem;
+    }
+    #sticky-container {
+        overflow: auto;
+        padding-top: 0px !important;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+    #sticky-price .discount-percentage, #sticky-price .product-discount, #stickyImg .images-container {
+        display: none;
+    }
+    #sticky-comb, #sticky-cart, #sticky-variants {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    #sticky-cart .btn-primary .material-icons {
+        margin-right: 0px !important;
+    }
+    #sticky-variants .product-variants-item {
+        margin-left: 5px;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    #sticky-price .discount-percentage {
+        display: none;
+    }
+    #stickyImg .images-container {
+        display: block;
+    }
+}
+@media only screen and (min-width: 992px) {
+     #sticky-price .product-discount {
+        display: block;
+    }
+}

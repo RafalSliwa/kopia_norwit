@@ -1,0 +1,10 @@
+[:HOOK][INFO------][2025-10-30 07:18:45] LOGS-CLEAR                       ["2025-09-29.log"]
+[:HOOK][INFO------][2025-10-30 07:59:52] ASSOCIATION-DELETE               [product: 1|5688|0] {"hook":"actionObjectProductDeleteAfter"}
+[:HOOK][INFO------][2025-10-30 07:59:53] ASSOCIATION-DELETE               [product: 1|5688|634] {"hook":"actionObjectCombinationDeleteAfter"}
+[:HOOK][INFO------][2025-10-30 08:00:09] ASSOCIATION-DELETE               [product: 1|5686|0] {"hook":"actionObjectProductDeleteAfter"}
+[:HOOK][INFO------][2025-10-30 08:00:16] ASSOCIATION-DELETE               [product: 1|5685|0] {"hook":"actionObjectProductDeleteAfter"}
+[:HOOK][INFO------][2025-10-30 08:00:22] ASSOCIATION-DELETE               [product: 1|5682|0] {"hook":"actionObjectProductDeleteAfter"}
+[:HOOK][INFO------][2025-10-30 08:00:27] ASSOCIATION-DELETE               [product: 1|5683|0] {"hook":"actionObjectProductDeleteAfter"}
+[:HOOK][INFO------][2025-10-30 08:00:31] ASSOCIATION-DELETE               [product: 1|5684|0] {"hook":"actionObjectProductDeleteAfter"}
+[:HOOK][INFO------][2025-10-30 08:00:58] ASSOCIATION-DELETE               [product: 1|5687|0] {"hook":"actionObjectProductDeleteAfter"}
+[:HOOK][INFO------][2025-10-30 08:00:58] ASSOCIATION-DELETE               [product: 1|5687|631] {"hook":"actionObjectCombinationDeleteAfter"}

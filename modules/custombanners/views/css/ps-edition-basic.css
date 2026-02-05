@@ -1,0 +1,61 @@
+#cb [class*=col-] {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#cb .row {
+	margin-left: -5px;
+	margin-right: -5px;
+}
+.cb-wrapper,
+.cb-item,
+.cb-preview,
+.img-holder,
+.info-note,
+.custom-code-content {
+	border-radius: 0;
+}
+.loading-indicator {
+	border-color: transparent #333 transparent #333;
+}
+#growls .growl.growl-notice {
+	background: rgba(114,194,121,.8);
+}
+#growls .growl.growl-error {
+	background: rgba(224,143,149,.8);
+}
+/*
+* Many styles in @prestashopcorp/edition-reskin@0.3.8/dist/back.min.css are harcdoded using !important
+* The only way to override them is to use another !important
+*/
+#cb .btn-default,
+#cb .btn-group,
+#cb input[type="text"],
+#cb .input-group-addon,
+#cb select {
+	border: 1px solid #BBCDD2!important;
+}
+#cb .input-group-addon:last-child {
+	border-left: 0!important;
+}
+#cb .btn-default:hover,
+#cb .btn-default:focus {
+	box-shadow: none!important;
+	border-color: #333!important;
+}
+#cb .btn-group .btn {
+	height: 30px;
+	border: 0!important;
+	margin: 0;
+}
+#cb .btn.blocked {
+	background: #D0DCE0!important;
+	border-color: #D0DCE0!important;
+}
+#cb .o-field.wrong-value input,
+#cb .o-field.wrong-value input:focus {
+	border: 2px solid #E1817B!important;
+}
+#cb .carousel-settings-form {
+	margin-bottom: 10px!important;
+}
+/* since 3.0.1 */

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="padmin" source-language="pl-PL" target-language="pl-PL" datatype="plaintext">
+    <body>
+      <trans-unit id="6005f32a6b0b2eff40beaf1834123d4d">
+        <source>Import settings</source>
+        <target>Ustawienia importu</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="3d09dab11108d94f35b5d551e4a57460">
+        <source>imported to database</source>
+        <target>Zaimportowano do bazy</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="43781db5c40ecc39fd718685594f0956">
+        <source>save</source>
+        <target>zapisz</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="91412465ea9169dfd901dd5e7c96dd99">
+        <source>Upload</source>
+        <target>Załaduj plik</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="58be4de806253a6ee411b6c0c99296c7">
+        <source>Add file</source>
+        <target>Dodaj plik</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="fbb7d71920afdff488c3514f3f99fe7c">
+        <source>Upload File</source>
+        <target>Załaduj plik</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="eb5b1dcfb5c44ec78afe9cd0da5a9193">
+        <source>Uploaded CSV files</source>
+        <target>Wgranie pliki CSV</target>
+        <note>Line: </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: pkobp;
+    src: url(../fonts/pkobp-regular.woff2);
+}
+
+.pkoprice {
+    font-family: pkobp, serif;
+    color: #000;
+}

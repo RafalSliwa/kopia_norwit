@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>easycarousels</name>
+    <displayName><![CDATA[Easy carousels]]></displayName>
+    <version><![CDATA[2.7.7]]></version>
+    <description><![CDATA[Create custom carousels in just a few clicks]]></description>
+    <author><![CDATA[Amazzing]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+</module>

@@ -1,0 +1,25 @@
+Expires: 28 Oct 2026
+Server restriction: norwit.pl,www.norwit.pl,*.norwit.pl,*.local,*.loc,*.localhost,*.test,test.*,dev.*,*.dev,*.dev.*
+
+------ LICENSE FILE DATA -------
+962XWY5VmKjswKHl/ZGz0/samqrXUmhv
+Sr6rZ7O2ac2hP/xXm7EZxvzrgLCvpgQH
+jDxv4JjokZSjeyjd4WjjFPhOZWuI68aE
+y1opPOD+2qtcuL4MkdphP/o2WDCi+2+X
+RgdjZ4Q8Dr+fb1hTAw9fsA5zXGUcTL/3
+72QClyP2BCron6+wBy7+uvazTy3nlLI3
+N8/4qE+X2yOzGu0rkEDPZPcVyyPaTRHc
+JxIhV602jGYiqaAcPiz0pVVvSrNNNqQY
+BTLfHw2trlI/h5W2eoqO15Qr/rmYHz21
+2si68s0zAK7qkzY4e8qqmK9GrlhxAMMD
+csu5gL5zcM2Mi1uR76KPo6Rl26Ea4U6d
+YtPmXH2Khq/GMMX93VE7S4PDjSb819/X
+95fjATE1F4U3qmZ6FtHrACrjWA8snQmg
+7imsYpeoIqffVXbmB5UUGtY7LTZyzrsd
+IrPMhIWgR6Wl8nwxA6BLvvKz4gvq1xe7
+MJoF37FlBkI4Mgtc5Y/rsFO2a2YZOBTf
+QcyJmBXEPuvHDYAxPUD/X80VdcwMQIW1
+iQ0maAxLUvLKxVtUFI4MNNd4DdVUhtHS
+kdxWqrENV/Nun/ikZXwY3HE/AGmRRV4k
+scP/ZBfWclqpXRNaqvnNFYEG
+--------------------------------

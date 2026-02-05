@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="padmin" source-language="pl-PL" target-language="pl-PL" datatype="plaintext">
+    <body>
+      <trans-unit id="709f198b92cae2c034c625e59e735d45">
+        <source>Module will not disable / redirect defined products when product will be out of stock</source>
+        <target>Moduł nie wyłączy lub nie przekieruje produktów kiedy produkty będą out of stock</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="02ec25ecb994900fbd1d6322fc770d0c">
+        <source>Type the name of product and select it from the list, it will be added to list of exclusions.</source>
+        <target>Rozpocznij wyszukiwanie wpisując nazwę produktu i wybierz go z listy.</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="962f2b5bdb8d2624552933fbfc90dec8">
+        <source>If you dont see the search results, try to add missing products to catalog or rebuild search index:</source>
+        <target>Jeżeli nie widzisz wyników wyszukiwania, podejmij próbę dodania brakujących produktów do indeksu i go przebuduj (w ustawieniach wyszukiwania)</target>
+        <note>Line: </note>
+      </trans-unit>
+      <trans-unit id="178b114895e3ef25f459ca8a06136922">
+        <source>search settings</source>
+        <target>ustawienia wyszukiwania</target>
+        <note>Line: </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

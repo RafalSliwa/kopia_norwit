@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title>Potwierdzenie zamówienia</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style type="text/css">
+    /* Reset */
+    body, table, td, p, a, li, blockquote {
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+    }
+    table {
+      border-collapse: collapse;
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+    }
+    img {
+      border: 0;
+      height: auto;
+      outline: none;
+      text-decoration: none;
+    }
+
+    /* Typography */
+    h1, h2, h3 {
+      margin: 0;
+      padding: 0;
+      font-weight: 600;
+      color: #1a1a1a;
+    }
+    p {
+      margin: 0 0 16px 0;
+      line-height: 1.6;
+      color: #4a4a4a;
+    }
+    a {
+      color: #009703;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Layout */
+    .wrapper {
+      width: 100%;
+      background-color: #f4f4f4;
+      padding: 40px 0;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+    }
+
+    /* Header */
+    .header {
+      background: linear-gradient(135deg, #009703 0%, #00b804 100%);
+      padding: 40px 40px 30px;
+      text-align: center;
+    }
+    .header img {
+      max-width: 180px;
+      height: auto;
+    }
+    .success-icon {
+      width: 70px;
+      height: 70px;
+      background-color: rgba(255, 255, 255, 0.2);
+      border-radius: 50%;
+      margin: 20px auto 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .success-icon svg {
+      width: 36px;
+      height: 36px;
+      fill: #ffffff;
+    }
+    .header h1 {
+      color: #ffffff;
+      font-size: 24px;
+      font-weight: 600;
+      margin-top: 10px;
+    }
+    .header p {
+      color: rgba(255, 255, 255, 0.9);
+      font-size: 15px;
+      margin: 8px 0 0;
+    }
+
+    /* Content */
+    .content {
+      padding: 40px;
+    }
+    .greeting {
+      font-size: 20px;
+      color: #1a1a1a;
+      margin-bottom: 8px;
+      font-weight: 600;
+    }
+    .intro-text {
+      color: #666666;
+      font-size: 15px;
+      margin-bottom: 30px;
+    }
+
+    /* Order Info Card */
+    .order-card {
+      background-color: #f8f9fa;
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 30px;
+    }
+    .order-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid #e9ecef;
+    }
+    .order-number {
+      font-size: 13px;
+      color: #666666;
+    }
+    .order-number strong {
+      color: #1a1a1a;
+      font-size: 16px;
+      display: block;
+      margin-top: 4px;
+    }
+    .order-date {
+      text-align: right;
+      font-size: 13px;
+      color: #666666;
+    }
+    .order-status {
+      display: inline-block;
+      background-color: #d4edda;
+      color: #155724;
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    /* Section Title */
+    .section-title {
+      font-size: 16px;
+      font-weight: 600;
+      color: #1a1a1a;
+      margin: 30px 0 16px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #009703;
+      display: inline-block;
+    }
+
+    /* Products Table - Vertical Layout (stacked) */
+    .products-table {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .products-table thead {
+      display: none;
+    }
+    .products-table tbody {
+      display: block;
+    }
+    .products-table tr {
+      display: block;
+      background-color: #f8f9fa;
+      border-radius: 10px;
+      padding: 16px;
+      margin-bottom: 12px;
+    }
+    .products-table td {
+      display: block;
+      padding: 6px 0;
+      font-size: 13px;
+      color: #1a1a1a;
+      border-bottom: 1px solid #e9ecef;
+      text-align: left !important;
+    }
+    .products-table td:last-child {
+      border-bottom: none;
+      font-weight: 700;
+      color: #009703;
+      font-size: 15px;
+      padding-top: 10px;
+    }
+    .products-table td:nth-child(1):before {
+      content: "Indeks";
+      font-size: 11px;
+      font-weight: 600;
+      color: #888888;
+      text-transform: uppercase;
+      display: block;
+      margin-bottom: 2px;
+    }
+    .products-table td:nth-child(2):before {
+      content: "Produkt";
+      font-size: 11px;
+      font-weight: 600;
+      color: #888888;
+      text-transform: uppercase;
+      display: block;
+      margin-bottom: 2px;
+    }
+    .products-table td:nth-child(3):before {
+      content: "Cena";
+      font-size: 11px;
+      font-weight: 600;
+      color: #888888;
+      text-transform: uppercase;
+      display: block;
+      margin-bottom: 2px;
+    }
+    .products-table td:nth-child(4):before {
+      content: "Ilość";
+      font-size: 11px;
+      font-weight: 600;
+      color: #888888;
+      text-transform: uppercase;
+      display: block;
+      margin-bottom: 2px;
+    }
+    .products-table td:nth-child(5):before {
+      content: "Suma";
+      font-size: 11px;
+      font-weight: 600;
+      color: #888888;
+      text-transform: uppercase;
+      display: block;
+      margin-bottom: 2px;
+    }
+
+    /* Summary Table */
+    .summary-table {
+      width: 100%;
+      margin-top: 20px;
+    }
+    .summary-table td {
+      padding: 10px 0;
+      font-size: 14px;
+    }
+    .summary-table .label {
+      color: #666666;
+    }
+    .summary-table .value {
+      text-align: right;
+      color: #1a1a1a;
+      font-weight: 500;
+    }
+    .summary-table .total-row td {
+      padding-top: 16px;
+      border-top: 2px solid #e9ecef;
+      font-size: 18px;
+      font-weight: 700;
+    }
+    .summary-table .total-row .value {
+      color: #009703;
+      font-size: 22px;
+    }
+
+    /* Info Boxes */
+    .info-grid {
+      display: table;
+      width: 100%;
+      margin-top: 30px;
+    }
+    .info-box {
+      display: table-cell;
+      width: 50%;
+      padding: 0 10px;
+      vertical-align: top;
+    }
+    .info-box:first-child {
+      padding-left: 0;
+    }
+    .info-box:last-child {
+      padding-right: 0;
+    }
+    .info-box-inner {
+      background-color: #f8f9fa;
+      border-radius: 10px;
+      padding: 20px;
+      height: 100%;
+    }
+    .info-box-title {
+      font-size: 13px;
+      font-weight: 600;
+      color: #009703;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+    }
+    .info-box-title svg {
+      width: 18px;
+      height: 18px;
+      margin-right: 8px;
+      fill: #009703;
+    }
+    .info-box-content {
+      font-size: 14px;
+      color: #4a4a4a;
+      line-height: 1.6;
+    }
+
+    /* Shipping Box */
+    .shipping-box {
+      background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+      border-radius: 12px;
+      padding: 24px;
+      margin: 30px 0;
+    }
+    .shipping-box-title {
+      font-size: 14px;
+      font-weight: 600;
+      color: #1a1a1a;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+    }
+    .shipping-box-title svg {
+      width: 22px;
+      height: 22px;
+      margin-right: 10px;
+      fill: #009703;
+    }
+    .shipping-detail {
+      display: flex;
+      margin-bottom: 10px;
+    }
+    .shipping-detail:last-child {
+      margin-bottom: 0;
+    }
+    .shipping-label {
+      font-size: 13px;
+      color: #666666;
+      width: 120px;
+      flex-shrink: 0;
+    }
+    .shipping-value {
+      font-size: 13px;
+      color: #1a1a1a;
+      font-weight: 500;
+    }
+
+    /* CTA Button */
+    .cta-section {
+      text-align: center;
+      margin: 35px 0;
+    }
+    .cta-button {
+      display: inline-block;
+      background: linear-gradient(135deg, #009703 0%, #00b804 100%);
+      color: #ffffff !important;
+      padding: 16px 40px;
+      border-radius: 30px;
+      font-size: 15px;
+      font-weight: 600;
+      text-decoration: none;
+      box-shadow: 0 4px 15px rgba(0, 151, 3, 0.3);
+      transition: all 0.3s ease;
+    }
+    .cta-button:hover {
+      box-shadow: 0 6px 20px rgba(0, 151, 3, 0.4);
+      text-decoration: none;
+    }
+
+    /* Help Section */
+    .help-section {
+      background-color: #fff8e6;
+      border-radius: 10px;
+      padding: 20px;
+      margin-top: 30px;
+      text-align: center;
+    }
+    .help-section p {
+      margin: 0;
+      font-size: 14px;
+      color: #856404;
+    }
+    .help-section a {
+      color: #856404;
+      font-weight: 600;
+      text-decoration: underline;
+    }
+
+    /* Footer */
+    .footer {
+      background-color: #1a1a1a;
+      padding: 30px 40px;
+      text-align: center;
+    }
+    .footer-logo {
+      margin-bottom: 15px;
+    }
+    .footer-logo img {
+      max-width: 120px;
+      height: auto;
+      filter: brightness(0) invert(1);
+    }
+    .footer p {
+      color: #999999;
+      font-size: 13px;
+      margin: 0;
+    }
+    .footer a {
+      color: #cccccc;
+    }
+    .social-links {
+      margin: 20px 0;
+    }
+    .social-links a {
+      display: inline-block;
+      margin: 0 8px;
+    }
+    .social-links img {
+      width: 32px;
+      height: 32px;
+      opacity: 0.7;
+      transition: opacity 0.3s;
+    }
+    .social-links img:hover {
+      opacity: 1;
+    }
+
+    /* Responsive */
+    @media only screen and (max-width: 600px) {
+      .wrapper {
+        padding: 20px 15px;
+      }
+      .container {
+        border-radius: 12px;
+      }
+      .header {
+        padding: 30px 25px 25px;
+      }
+      .header h1 {
+        font-size: 20px;
+      }
+      .content {
+        padding: 25px;
+      }
+      .info-grid {
+        display: block;
+      }
+      .info-box {
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin-bottom: 15px;
+      }
+      .products-table th,
+      .products-table td {
+        padding: 10px 8px;
+        font-size: 12px;
+      }
+      .footer {
+        padding: 25px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <table class="container" width="600" cellpadding="0" cellspacing="0">
+      <!-- Header -->
+      <tr>
+        <td class="header">
+          <a href="{shop_url}">
+            <img src="{shop_logo}" alt="{shop_name}">
+          </a>
+          <table width="100%" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center">
+                <div class="success-icon">
+                  <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+                </div>
+              </td>
+            </tr>
+          </table>
+          <h1>Zamówienie przyjęte!</h1>
+          <p>Dziękujemy za zakupy w {shop_name}</p>
+        </td>
+      </tr>
+
+      <!-- Content -->
+      <tr>
+        <td class="content">
+          <!-- Greeting -->
+          <p class="greeting">Witaj {firstname} {lastname},</p>
+          <p class="intro-text">Twoje zamówienie zostało pomyślnie złożone. Poniżej znajdziesz wszystkie szczegóły.</p>
+
+          <!-- Order Card -->
+          <div class="order-card">
+            <table width="100%" cellpadding="0" cellspacing="0">
+              <tr>
+                <td width="50%" valign="top">
+                  <span class="order-number">Numer zamówienia<br><strong>{order_name}</strong></span>
+                </td>
+                <td width="50%" valign="top" align="right">
+                  <span class="order-date">Data złożenia<br><strong>{date}</strong></span>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" style="padding-top: 16px;">
+                  <span class="order-status">✓ Oczekuje na płatność</span>
+                </td>
+              </tr>
+            </table>
+          </div>
+
+          <!-- Products Section -->
+          <h3 class="section-title">Zamówione produkty</h3>
+
+          <table class="products-table" width="100%" cellpadding="0" cellspacing="0">
+            <thead>
+              <tr>
+                <th width="10%">Indeks</th>
+                <th width="45%">Produkt</th>
+                <th width="15%" style="text-align: center;">Cena</th>
+                <th width="15%" style="text-align: right;">Ilość</th>
+                <th width="15%" style="text-align: right;">Suma</th>
+              </tr>
+            </thead>
+            <tbody>
+              {products}
+            </tbody>
+          </table>
+
+          {discounts}
+
+          <!-- Summary -->
+          <table class="summary-table" width="100%" cellpadding="0" cellspacing="0">
+            <tr>
+              <td class="label">Produkty</td>
+              <td class="value">{total_products}</td>
+            </tr>
+            <tr>
+              <td class="label">Rabaty</td>
+              <td class="value">{total_discounts}</td>
+            </tr>
+            <tr>
+              <td class="label">Wysyłka</td>
+              <td class="value">{total_shipping}</td>
+            </tr>
+            <tr>
+              <td class="label">Podatek VAT</td>
+              <td class="value">{total_tax_paid}</td>
+            </tr>
+            <tr class="total-row">
+              <td class="label">Do zapłaty</td>
+              <td class="value">{total_paid}</td>
+            </tr>
+          </table>
+
+          <!-- Shipping Box -->
+          <div class="shipping-box">
+            <div class="shipping-box-title">
+              <svg viewBox="0 0 24 24"><path d="M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2c0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h2v-5l-3-4zM6 18.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm13.5-9l1.96 2.5H17V9.5h2.5zm-1.5 9c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/></svg>
+              Informacje o wysyłce
+            </div>
+            <div class="shipping-detail">
+              <span class="shipping-label">Przewoźnik:</span>
+              <span class="shipping-value">{carrier}</span>
+            </div>
+            <div class="shipping-detail">
+              <span class="shipping-label">Płatność:</span>
+              <span class="shipping-value">{payment}</span>
+            </div>
+            <div class="shipping-detail">
+              <span class="shipping-label">Opakowanie eco:</span>
+              <span class="shipping-value">{recycled_packaging_label}</span>
+            </div>
+          </div>
+
+          <!-- Address Grid -->
+          <table class="info-grid" width="100%" cellpadding="0" cellspacing="0">
+            <tr>
+              <td class="info-box" width="50%" valign="top">
+                <div class="info-box-inner">
+                  <div class="info-box-title">
+                    <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                    Adres dostawy
+                  </div>
+                  <div class="info-box-content">
+                    {delivery_block_html}
+                  </div>
+                </div>
+              </td>
+              <td class="info-box" width="50%" valign="top">
+                <div class="info-box-inner">
+                  <div class="info-box-title">
+                    <svg viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
+                    Adres do faktury
+                  </div>
+                  <div class="info-box-content">
+                    {invoice_block_html}
+                  </div>
+                </div>
+              </td>
+            </tr>
+          </table>
+
+          <!-- CTA Button -->
+          <div class="cta-section">
+            <a href="{history_url}" class="cta-button">
+              Śledź swoje zamówienie
+            </a>
+          </div>
+
+          <!-- Help Section -->
+          <div class="help-section">
+            <p>Masz pytania? <a href="{shop_url}kontakt">Skontaktuj się z nami</a> - chętnie pomożemy!</p>
+          </div>
+
+        </td>
+      </tr>
+
+      <!-- Footer -->
+      <tr>
+        <td class="footer">
+          <div class="footer-logo">
+            <a href="{shop_url}">
+              <img src="{shop_logo}" alt="{shop_name}">
+            </a>
+          </div>
+          <p>© 2024 {shop_name}. Wszelkie prawa zastrzeżone.</p>
+          <p style="margin-top: 10px;">
+            <a href="{shop_url}">Sklep</a> &nbsp;|&nbsp;
+            <a href="{shop_url}content/3-regulamin">Regulamin</a> &nbsp;|&nbsp;
+            <a href="{shop_url}kontakt">Kontakt</a>
+          </p>
+        </td>
+      </tr>
+    </table>
+  </div>
+</body>
+
+</html>
