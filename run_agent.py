@@ -7,8 +7,18 @@ BASE_DIR = Path(__file__).parent
 AGENT_PATH = BASE_DIR / ".github" / "agents" / "Programista.agent.md"
 PROMPT_PATH = BASE_DIR / ".github" / "prompts" / "Prompt.prompt.md"
 DEV_DOCS_URL = "https://devdocs.prestashop-project.org/8/modules/creation/"
+MODEL = os.getenv("OPENAI_MODEL", "gpt-5.1-codex")
 
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+
+CUSTOM_INSTRUCTIONS = """
+Odpowiadaj po polsku, krótko i konkretnie.
+Zawsze podawaj kroki wdrożenia i ewentualne ryzyka.
+Jeśli brakuje danych, zadaj jedno pytanie doprecyzowujące.
+Preferuj PrestaShop 8.x, ale dbaj o zgodność wsteczną z 1.7.x.
+Nie dodawaj hardcoded tekstów — używaj tłumaczeń.
+Podawaj przykłady kodu z komentarzami i ścieżkami plików.
+"""
 
 def fetch_devdocs() -> str:
     resp = requests.get(DEV_DOCS_URL, timeout=15)
@@ -22,11 +32,12 @@ def run_agent(user_input: str) -> str:
     devdocs_snippet = fetch_devdocs()
 
     response = client.chat.completions.create(
-        model="gpt-5.1-codex",
+        model=MODEL,
         messages=[
             {"role": "system", "content": system_prompt},
             {"role": "system", "content": project_prompt},
             {"role": "system", "content": f"DevDocs (skrót):\n{devdocs_snippet}"},
+            {"role": "system", "content": CUSTOM_INSTRUCTIONS},
             {"role": "user", "content": user_input},
         ],
     )
