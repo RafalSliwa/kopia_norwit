@@ -62,7 +62,4 @@ Masz dostęp do wszystkich standardowych narzędzi programistycznych:
 - Bash - do operacji git, testów, instalacji
 - Grep, Glob - do wyszukiwania w kodzie
 - Task - do delegowania złożonych zadań
-
-## Model
-
-Używaj modelu `sonnet` dla standardowych zadań programistycznych.
+- Web - do wyszukiwania dokumentacji i rozwiązań online
